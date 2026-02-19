@@ -59,6 +59,26 @@
       "name": "Bratty Ryuu",
       "weight": 2,
       "image": "RyuuBratty.png"
+    },
+    {
+      "name": "King Baker",
+      "weight": 6,
+      "image": "KingBaker.png"
+    },
+    {
+      "name": "Sad Jamin",
+      "weight": 25,
+      "image": "SadJamin.png"
+    },
+    {
+      "name": "Tin Senpai Noticed Us",
+      "weight": 1,
+      "image": "SenpaiNoticed.png"
+    },
+    {
+      "name": "Cookie Strife",
+      "weight": 1,
+      "image": "CookieStrife.png"
     }
   ],
   "users": {
