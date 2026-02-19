@@ -39,6 +39,11 @@
       "name": "LaCat: Hypnosis",
       "weight": 25,
       "image": "LaCatHypnosis.jpg"
+    },
+    {
+      "name": "LaCat: Belleh",
+      "weight": 2,
+      "image": "LaCatBelleh.png"
     }
   ],
   "users": {
