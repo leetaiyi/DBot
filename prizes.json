@@ -2,7 +2,7 @@
   "prizes": [
     {
       "name": "Ben",
-      "weight": 5,
+      "weight": 200,
       "image": "BenR.png"
     },
     {
@@ -14,12 +14,27 @@
       "name": "?? Ben",
       "weight": 1,
       "image": "BenR3.png"
+    },
+    {
+      "name": "Zelda",
+      "weight": 200,
+      "image": "Zelda.png"
+    },
+    {
+      "name": "Amanda",
+      "weight": 20,
+      "image": "AmandaR.png"
+    },
+    {
+      "name": "Legendary Amanda",
+      "weight": 1,
+      "image": "AmandaL.png"
     }
   ],
   "users": {
     "96408456294064128": {
       "inventory": {
-        "Capt Ben": 4,
+        "Capt Ben": 1,
         "Ben": 1
       },
       "coins": 98,
