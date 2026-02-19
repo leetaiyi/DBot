@@ -146,7 +146,6 @@ def get_gacha_data():
 # =========================
 
 @bot.command()
-@bot.command()
 async def inventory(ctx):
     data, _ = get_gacha_data()
     users = data.get("users", {})
