@@ -51,9 +51,10 @@
       "inventory": {
         "Capt Ben": 1,
         "Ben": 4,
-        "Zelda": 3
+        "Zelda": 3,
+        "LaCat: Wassup": 1
       },
-      "coins": 92,
+      "coins": 91,
       "last_daily": "2026-02-19"
     }
   }
