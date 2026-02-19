@@ -12,7 +12,7 @@
     },
     {
       "name": "?? Ben",
-      "weight": 2,
+      "weight": 5,
       "image": "BenR3.png"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Legendary Amanda",
-      "weight": 2,
+      "weight": 5,
       "image": "AmandaL.png"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "name": "Bratty Ryuu",
-      "weight": 2,
+      "weight": 3,
       "image": "RyuuBratty.png"
     },
     {
@@ -79,6 +79,26 @@
       "name": "Cookie Strife",
       "weight": 1,
       "image": "CookieStrife.png"
+    },
+    {
+      "name": "Tomyris",
+      "weight": 35,
+      "image": "Tomyris.png"
+    },
+    {
+      "name": "Gabbro",
+      "weight": 35,
+      "image": "Gabbro.png"
+    },
+    {
+      "name": "Ollidammara",
+      "weight": 35,
+      "image": "Olly.png"
+    },
+    {
+      "name": "Maru Merak Miss Ma'am Morden",
+      "weight": 35,
+      "image": "Maam.png"
     }
   ],
   "users": {
