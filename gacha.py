@@ -49,6 +49,15 @@ async def ping(ctx):
 async def on_command_error(ctx, error):
     print("Command error:", error)
 
+# Cooldown error
+@bot.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.CommandOnCooldown):
+        await ctx.send(f"⏳ The gacha is busy! Please wait {error.retry_after:.1f} seconds before pulling again.")
+    else:
+        print(error)  # Other errors
+
+
 # =========================
 # GITHUB FUNCTIONS
 # =========================
@@ -73,11 +82,14 @@ def update_gacha_data(new_data, sha):
 
     requests.put(API_URL, headers=headers, json=payload)
 
+
+
 # =========================
 # GACHA COMMAND
 # =========================
 
 @bot.command()
+@commands.cooldown(rate=1, per=10.0, type=commands.BucketType.default)
 async def pull(ctx):
     data, sha = get_gacha_data()
 
