@@ -18,10 +18,12 @@
   ],
   "users": {
     "96408456294064128": {
-      "Capt Ben": 1,
-      "Ben": 1
-    },
-    "coins": 100,
-    "last_daily": "2026-02-18"
+      "inventory": {
+        "Capt Ben": 1,
+        "Ben": 1
+      },
+      "coins": 100,
+      "last_daily": "2026-02-18"
+    }
   }
 }
