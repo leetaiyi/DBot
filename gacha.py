@@ -146,37 +146,41 @@ def get_gacha_data():
 # =========================
 
 @bot.command()
+@bot.command()
 async def inventory(ctx):
     data, _ = get_gacha_data()
-
-    user_id = str(ctx.author.id)
     users = data.get("users", {})
 
-    if user_id not in users or not users[user_id]:
+    user_id = str(ctx.author.id)
+
+    if user_id not in users:
         await ctx.send("You have no pulls yet! Use `!pull` first.")
         return
 
-    user_inventory = users[user_id]
+    user = users[user_id]  # <-- get the user dict
 
     embed = discord.Embed(
         title=f"{ctx.author.display_name}'s Inventory",
         color=discord.Color.blue()
     )
-    embed.add_field(name="Coins", value=user["coins"], inline=False)
 
-    total_pulls = 0
+    # Show coins
+    embed.add_field(name="Coins", value=user.get("coins", 0), inline=False)
 
-    for prize, count in user_inventory.items():
-        embed.add_field(
-            name=prize,
-            value=f"x{count}",
-            inline=False
-        )
-        total_pulls += count
+    inventory = user.get("inventory", {})
 
+    if not inventory:
+        embed.add_field(name="Inventory", value="You have no prizes yet!", inline=False)
+    else:
+        for prize, count in inventory.items():
+            embed.add_field(name=prize, value=f"x{count}", inline=False)
+
+    # Optional: total pulls
+    total_pulls = sum(inventory.values())
     embed.set_footer(text=f"Total Pulls: {total_pulls}")
 
     await ctx.send(embed=embed)
+
 
 @bot.command()
 async def addcoin(ctx, member: discord.Member, amount: int = 1):
