@@ -77,7 +77,6 @@ def update_gacha_data(new_data, sha):
 # =========================
 
 @bot.command()
-@bot.command()
 async def pull(ctx):
     data, sha = get_gacha_data()
 
