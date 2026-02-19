@@ -5,7 +5,7 @@ import base64
 import json
 import random
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 # =========================
 # CONFIG
@@ -18,7 +18,7 @@ REPO_OWNER = "leetaiyi"
 REPO_NAME = "DBot"
 FILE_PATH = "prizes.json"
 
-IMG_PATH = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
+BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
 
 API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}?ref=main"
 
@@ -33,7 +33,8 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 def today_string():
-    return datetime.utcnow().strftime("%Y-%m-%d")
+    return datetime.now(timezone.utc).date().isoformat()
+
 
 @bot.event
 async def on_ready():
@@ -119,9 +120,6 @@ async def pull(ctx):
     inventory[result] = inventory.get(result, 0) + 1
 
     update_gacha_data(data, sha)
-
-    # Build image URL
-    BASE_IMAGE_URL = "https://raw.githubusercontent.com/YOURUSERNAME/YOURREPO/main/images/"
     
     # Find the prize object with the name
     prize_obj = next((p for p in prizes if p["name"] == result), None)
