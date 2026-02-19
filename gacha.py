@@ -103,7 +103,7 @@ async def pull(ctx):
 
     # Check coins
     if user["coins"] <= 0:
-        await ctx.send("❌ You have no coins! Come back tomorrow.")
+        await ctx.send("❌ You have no WMGpeSOs! Come back tomorrow.")
         return
 
     # Deduct coin
@@ -171,7 +171,7 @@ async def inventory(ctx):
     )
 
     # Show coins
-    embed.add_field(name="Coins", value=user.get("coins", 0), inline=False)
+    embed.add_field(name="WMGpeSOs", value=user.get("coins", 0), inline=False)
 
     inventory = user.get("inventory", {})
 
