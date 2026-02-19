@@ -77,6 +77,7 @@ def update_gacha_data(new_data, sha):
 # =========================
 
 @bot.command()
+@bot.command()
 async def pull(ctx):
     data, sha = get_gacha_data()
 
@@ -85,7 +86,7 @@ async def pull(ctx):
 
     user_id = str(ctx.author.id)
 
-    # Create user if not exists
+    # Create user if missing
     if user_id not in users:
         users[user_id] = {
             "inventory": {},
@@ -122,9 +123,17 @@ async def pull(ctx):
 
     # Build image URL
     BASE_IMAGE_URL = "https://raw.githubusercontent.com/YOURUSERNAME/YOURREPO/main/images/"
-    image_file = next(p["image"] for p in prizes if p["name"] == result)
+    
+    # Find the prize object with the name
+    prize_obj = next((p for p in prizes if p["name"] == result), None)
+    if prize_obj is None:
+        await ctx.send(f"Error: prize '{result}' not found in JSON.")
+        return
+
+    image_file = prize_obj["image"]
     image_url = BASE_IMAGE_URL + image_file
 
+    # Send embed
     embed = discord.Embed(
         title="🎰 Gacha Pull!",
         description=f"{ctx.author.mention} pulled **{result}**!\n🪙 Coins left: {user['coins']}",
@@ -133,6 +142,7 @@ async def pull(ctx):
     embed.set_image(url=image_url)
 
     await ctx.send(embed=embed)
+
 
 
 def get_gacha_data():
