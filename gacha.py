@@ -149,7 +149,10 @@ async def pull(ctx):
     rarity_message = ""
     embed_color = discord.Color.gold()
 
-    if weight <= 5:
+    if weight == 1:
+         rarity_message = "🚨🔥🚨🔥🚨 **LUDICRIOUSLY RARE!!!** 🚨🔥🚨🔥🚨"
+        embed_color = discord.Color.gold()       
+    elif weight <= 5:
         rarity_message = "🌟🌟🌟 **ULTRA RARE!!** 🌟🌟🌟"
         embed_color = discord.Color.purple()
     elif weight <= 25:
