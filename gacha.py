@@ -9,12 +9,13 @@ import random
 # CONFIG
 # =========================
 
-BOT_TOKEN = "YOUR_DISCORD_BOT_TOKEN"
-
-GITHUB_TOKEN = "YOUR_GITHUB_PAT"
-REPO_OWNER = "yourusername"
-REPO_NAME = "discord-gacha-data"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+REPO_OWNER = "leetaiyi"
+REPO_NAME = "DBot"
 FILE_PATH = "gacha.json"
+
+IMG_PATH = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
 
 API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}"
 
@@ -79,7 +80,7 @@ async def pull(ctx):
     update_gacha_data(data, sha)
 
     # Get image
-    image_url = next(p["image"] for p in prizes if p["name"] == result)
+    image_url = next(IMG_PATH + p["image"] for p in prizes if p["name"] == result)
 
     embed = discord.Embed(
         title="🎰 Gacha Pull!",
