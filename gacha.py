@@ -143,14 +143,34 @@ async def pull(ctx):
     image_url = BASE_IMAGE_URL + image_file
 
     # Send embed
+    # Determine rarity
+    weight = prize_obj["weight"]
+
+    rarity_message = ""
+    embed_color = discord.Color.gold()
+
+    if weight <= 5:
+        rarity_message = "🌟🌟🌟 **ULTRA RARE!!** 🌟🌟🌟"
+        embed_color = discord.Color.purple()
+    elif weight <= 25:
+        rarity_message = "✨ **RARE!** ✨"
+        embed_color = discord.Color.blue()
+
+    # Build embed
     embed = discord.Embed(
         title="🎰 Gacha Pull!",
-        description=f"{ctx.author.mention} pulled **{result}**!\n🪙 WMGpeSOs left: {user['coins']}",
-        color=discord.Color.gold()
+        description=(
+            f"{ctx.author.mention} pulled **{result}**!\n"
+            f"{rarity_message}\n\n"
+            f"🪙 Coins left: {user['coins']}"
+        ),
+        color=embed_color
     )
+
     embed.set_image(url=image_url)
 
     await ctx.send(embed=embed)
+
 
 
 
