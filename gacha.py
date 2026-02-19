@@ -4,27 +4,45 @@ import requests
 import base64
 import json
 import random
+import os
 
 # =========================
 # CONFIG
 # =========================
+ADMIN_IDS = {"ctl17"}
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 REPO_OWNER = "leetaiyi"
 REPO_NAME = "DBot"
-FILE_PATH = "gacha.json"
+FILE_PATH = "prizes.json"
 
 IMG_PATH = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
 
-API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}"
+API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}?ref=main"
 
 headers = {
     "Authorization": f"Bearer {GITHUB_TOKEN}",
     "Accept": "application/vnd.github+json"
 }
 
-bot = commands.Bot(command_prefix="!", intents=discord.Intents.default())
+intents = discord.Intents.default()
+intents.message_content = True
+
+bot = commands.Bot(command_prefix="!", intents=intents)
+
+@bot.event
+async def on_ready():
+    print(f"Logged in as {bot.user}")
+
+
+@bot.command()
+async def ping(ctx):
+    await ctx.send("Pong!")
+
+@bot.event
+async def on_command_error(ctx, error):
+    print("Command error:", error)
 
 # =========================
 # GITHUB FUNCTIONS
@@ -59,39 +77,126 @@ async def pull(ctx):
     data, sha = get_gacha_data()
 
     prizes = data["prizes"]
-    users = data["users"]
+    users = data.setdefault("users", {})
 
+    user_id = str(ctx.author.id)
+
+    # Create user if not exists
+    if user_id not in users:
+        users[user_id] = {
+            "inventory": {},
+            "coins": 1,
+            "last_daily": today_string()
+        }
+
+    user = users[user_id]
+
+    # Give daily coin if new day
+    if user.get("last_daily") != today_string():
+        user["coins"] += 1
+        user["last_daily"] = today_string()
+
+    # Check coins
+    if user["coins"] <= 0:
+        await ctx.send("❌ You have no coins! Come back tomorrow.")
+        return
+
+    # Deduct coin
+    user["coins"] -= 1
+
+    # Roll gacha
     names = [p["name"] for p in prizes]
     weights = [p["weight"] for p in prizes]
 
     result = random.choices(names, weights=weights, k=1)[0]
 
-    # Update user data
-    user_id = str(ctx.author.id)
-
-    if user_id not in users:
-        users[user_id] = {}
-
-    if result not in users[user_id]:
-        users[user_id][result] = 0
-
-    users[user_id][result] += 1
+    # Update inventory
+    inventory = user.setdefault("inventory", {})
+    inventory[result] = inventory.get(result, 0) + 1
 
     update_gacha_data(data, sha)
 
-    # Get image
-    image_url = next(IMG_PATH + p["image"] for p in prizes if p["name"] == result)
+    # Build image URL
+    BASE_IMAGE_URL = "https://raw.githubusercontent.com/YOURUSERNAME/YOURREPO/main/images/"
+    image_file = next(p["image"] for p in prizes if p["name"] == result)
+    image_url = BASE_IMAGE_URL + image_file
 
     embed = discord.Embed(
         title="🎰 Gacha Pull!",
-        description=f"{ctx.author.mention} pulled **{result}**!",
+        description=f"{ctx.author.mention} pulled **{result}**!\n🪙 Coins left: {user['coins']}",
         color=discord.Color.gold()
     )
-
     embed.set_image(url=image_url)
 
     await ctx.send(embed=embed)
 
+
+def get_gacha_data():
+    r = requests.get(API_URL, headers=headers)
+    print("GitHub response:", r.json())  # <-- ADD THIS
+    data = r.json()
+
+    content = base64.b64decode(data["content"]).decode()
+    return json.loads(content), data["sha"]
+
 # =========================
+
+@bot.command()
+async def inventory(ctx):
+    data, _ = get_gacha_data()
+
+    user_id = str(ctx.author.id)
+    users = data.get("users", {})
+
+    if user_id not in users or not users[user_id]:
+        await ctx.send("You have no pulls yet! Use `!pull` first.")
+        return
+
+    user_inventory = users[user_id]
+
+    embed = discord.Embed(
+        title=f"{ctx.author.display_name}'s Inventory",
+        color=discord.Color.blue()
+    )
+    embed.add_field(name="Coins", value=user["coins"], inline=False)
+
+    total_pulls = 0
+
+    for prize, count in user_inventory.items():
+        embed.add_field(
+            name=prize,
+            value=f"x{count}",
+            inline=False
+        )
+        total_pulls += count
+
+    embed.set_footer(text=f"Total Pulls: {total_pulls}")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def addcoin(ctx, member: discord.Member, amount: int = 1):
+    if ctx.author.id not in ADMIN_IDS:
+        await ctx.send("❌ You don't have permission to use this.")
+        return
+
+    data, sha = get_gacha_data()
+    users = data.setdefault("users", {})
+
+    user_id = str(member.id)
+
+    if user_id not in users:
+        users[user_id] = {
+            "inventory": {},
+            "coins": 0,
+            "last_daily": today_string()
+        }
+
+    users[user_id]["coins"] += amount
+
+    update_gacha_data(data, sha)
+
+    await ctx.send(f"🪙 Gave {amount} coin(s) to {member.mention}.")
+
 
 bot.run(BOT_TOKEN)
