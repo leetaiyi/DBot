@@ -5,6 +5,7 @@ import base64
 import json
 import random
 import os
+from datetime import datetime
 
 # =========================
 # CONFIG
@@ -30,6 +31,9 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
+
+def today_string():
+    return datetime.utcnow().strftime("%Y-%m-%d")
 
 @bot.event
 async def on_ready():
