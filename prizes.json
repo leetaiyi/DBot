@@ -2,7 +2,7 @@
   "prizes": [
     {
       "name": "Ben",
-      "weight": 200,
+      "weight": 80,
       "image": "BenR.png"
     },
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Zelda",
-      "weight": 200,
+      "weight": 80,
       "image": "Zelda.png"
     },
     {
@@ -29,6 +29,16 @@
       "name": "Legendary Amanda",
       "weight": 1,
       "image": "AmandaL.png"
+    },
+    {
+      "name": "LaCat: Wassup",
+      "weight": 70,
+      "image": "LaCatWassup.jpg"
+    },
+    {
+      "name": "LaCat: Hypnosis",
+      "weight": 25,
+      "image": "LaCatHypnosis.jpg"
     }
   ],
   "users": {
