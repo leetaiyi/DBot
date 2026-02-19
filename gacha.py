@@ -162,7 +162,7 @@ async def pull(ctx):
         description=(
             f"{ctx.author.mention} pulled **{result}**!\n"
             f"{rarity_message}\n\n"
-            f"🪙 Coins left: {user['coins']}"
+            f"🪙 WMGpeSOs left: {user['coins']}"
         ),
         color=embed_color
     )
