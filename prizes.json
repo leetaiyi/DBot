@@ -65,10 +65,14 @@
     "96408456294064128": {
       "inventory": {
         "Capt Ben": 1,
-        "Ben": 4,
-        "Zelda": 2
+        "Ben": 15,
+        "Zelda": 20,
+        "LaCat: Wassup": 13,
+        "Amanda": 3,
+        "LaCat: Hypnosis": 2,
+        "LaCat: Belleh": 1
       },
-      "coins": 93,
+      "coins": 45,
       "last_daily": "2026-02-19"
     }
   }
