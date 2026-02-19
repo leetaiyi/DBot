@@ -9,7 +9,7 @@ import os
 # =========================
 # CONFIG
 # =========================
-ADMIN_IDS = {"ctl17"}
+ADMIN_IDS = {96408456294064128}
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
