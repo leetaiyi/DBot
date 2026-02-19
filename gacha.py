@@ -145,7 +145,7 @@ async def pull(ctx):
     # Send embed
     embed = discord.Embed(
         title="🎰 Gacha Pull!",
-        description=f"{ctx.author.mention} pulled **{result}**!\n🪙 Coins left: {user['coins']}",
+        description=f"{ctx.author.mention} pulled **{result}**!\n🪙 WMGpeSOs left: {user['coins']}",
         color=discord.Color.gold()
     )
     embed.set_image(url=image_url)
@@ -222,7 +222,7 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
 
     update_gacha_data(data, sha)
 
-    await ctx.send(f"🪙 Gave {amount} coin(s) to {member.mention}.")
+    await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
 
 
 bot.run(BOT_TOKEN)
