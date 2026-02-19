@@ -2,37 +2,37 @@
   "prizes": [
     {
       "name": "Ben",
-      "weight": 80,
+      "weight": 50,
       "image": "BenR.png"
     },
     {
       "name": "Capt Ben",
-      "weight": 20,
+      "weight": 25,
       "image": "BenR2.png"
     },
     {
       "name": "?? Ben",
-      "weight": 1,
+      "weight": 2,
       "image": "BenR3.png"
     },
     {
       "name": "Zelda",
-      "weight": 80,
+      "weight": 50,
       "image": "Zelda.png"
     },
     {
       "name": "Amanda",
-      "weight": 20,
+      "weight": 25,
       "image": "AmandaR.png"
     },
     {
       "name": "Legendary Amanda",
-      "weight": 1,
+      "weight": 2,
       "image": "AmandaL.png"
     },
     {
       "name": "LaCat: Wassup",
-      "weight": 70,
+      "weight": 50,
       "image": "LaCatWassup.jpg"
     },
     {
@@ -44,6 +44,21 @@
       "name": "LaCat: Belleh",
       "weight": 2,
       "image": "LaCatBelleh.png"
+    },
+    {
+      "name": "Bynx",
+      "weight": 50,
+      "image": "Bynx.png"
+    },
+    {
+      "name": "Sadge Ryuu",
+      "weight": 25,
+      "image": "RyuuSadge.png"
+    },
+    {
+      "name": "Bratty Ryuu",
+      "weight": 2,
+      "image": "RyuuBratty.png"
     }
   ],
   "users": {
