@@ -1,0 +1,20 @@
+{
+  "prizes": [
+    {
+      "name": "Ben",
+      "weight": 5,
+      "image": "https://drive.google.com/file/d/1Aq8RmE7Vbggjm23gjwvXwNWKJwsnXjZ3/view?usp=drive_link"
+    },
+    {
+      "name": "Capt Ben",
+      "weight": 20,
+      "image": "https://drive.google.com/file/d/1oGL3y9U5KZ7hhtYL08xUzUEuUECbqLQf/view?usp=drive_link"
+    },
+    {
+      "name": "?? Ben",
+      "weight": 1,
+      "image": "https://drive.google.com/file/d/1ltgeZq5PrWqEgA5aBeKiyZA7tpFgg_CM/view?usp=drive_link"
+    }
+  ],
+  "users": {}
+}
