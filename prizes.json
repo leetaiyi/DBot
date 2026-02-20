@@ -114,6 +114,13 @@
       },
       "coins": 45,
       "last_daily": "2026-02-19"
+    },
+    "418102912221184001": {
+      "inventory": {
+        "LaCat: Wassup": 1
+      },
+      "coins": 0,
+      "last_daily": "2026-02-20"
     }
   }
 }
