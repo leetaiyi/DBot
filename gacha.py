@@ -130,7 +130,7 @@ async def pull(ctx):
     unowned_prizes = [p for p in prizes if p["name"] not in inventory]
 
     # Pity trigger
-    if user["pity"] >= 5 and unowned_prizes:
+    if user["pity"] >= 7 and unowned_prizes:
         # Force new item
         names = [p["name"] for p in unowned_prizes]
         weights = [p["weight"] for p in unowned_prizes]
