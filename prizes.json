@@ -119,7 +119,8 @@
         "Ollidammara": 1
       },
       "coins": 45,
-      "last_daily": "2026-02-20"
+      "last_daily": "2026-02-20",
+      "pity": 0
     },
     "418102912221184001": {
       "inventory": {
@@ -127,14 +128,16 @@
         "Amanda": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-20"
+      "last_daily": "2026-02-20",
+      "pity": 0
     },
     "156937687515791361": {
       "inventory": {
         "Bynx": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-20"
+      "last_daily": "2026-02-20",
+      "pity": 0
     }
   }
 }

@@ -123,10 +123,33 @@ async def pull(ctx):
     user["coins"] -= 1
 
     # Roll gacha
-    names = [p["name"] for p in prizes]
-    weights = [p["weight"] for p in prizes]
+    inventory = user.setdefault("inventory", {})
+    user["pity"] = user.get("pity", 0) + 1
 
-    result = random.choices(names, weights=weights, k=1)[0]
+    # Find prizes user doesn't own yet
+    unowned_prizes = [p for p in prizes if p["name"] not in inventory]
+
+    # Pity trigger
+    if user["pity"] >= 5 and unowned_prizes:
+        # Force new item
+        names = [p["name"] for p in unowned_prizes]
+        weights = [p["weight"] for p in unowned_prizes]
+
+        result = random.choices(names, weights=weights, k=1)[0]
+        user["pity"] = 0  # Reset pity
+
+        pity_triggered = True
+    else:
+        names = [p["name"] for p in prizes]
+        weights = [p["weight"] for p in prizes]
+
+        result = random.choices(names, weights=weights, k=1)[0]
+
+        # Reset pity if new item obtained naturally
+        if result not in inventory:
+            user["pity"] = 0
+
+        pity_triggered = False
 
     # Update inventory
     inventory = user.setdefault("inventory", {})
