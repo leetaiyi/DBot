@@ -129,11 +129,13 @@ async def pull(ctx):
     # Find prizes user doesn't own yet
     unowned_prizes = [p for p in prizes if p["name"] not in inventory]
 
+    pity_pool = [p for p in unowned_prizes if p["weight"] != 1]
+
     # Pity trigger
-    if user["pity"] >= 7 and unowned_prizes:
+    if user["pity"] >= 7 and pity_pool:
         # Force new item
-        names = [p["name"] for p in unowned_prizes]
-        weights = [p["weight"] for p in unowned_prizes]
+        names = [p["name"] for p in pity_pool]
+        weights = [p["weight"] for p in pity_pool]
 
         result = random.choices(names, weights=weights, k=1)[0]
         user["pity"] = 0  # Reset pity
