@@ -99,6 +99,11 @@
       "name": "Maru Merak Miss Ma'am Morden",
       "weight": 35,
       "image": "Maam.png"
+    },
+    {
+      "name": "Howl",
+      "weight": 50,
+      "image": "Howl.png"
     }
   ],
   "users": {
