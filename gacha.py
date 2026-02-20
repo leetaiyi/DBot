@@ -10,7 +10,8 @@ from datetime import datetime, timezone
 # =========================
 # CONFIG
 # =========================
-ADMIN_IDS = {96408456294064128}
+ADMIN_IDS = {96408456294064128, #ctl
+            156937687515791361} #ben
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
