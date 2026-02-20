@@ -117,9 +117,10 @@
     },
     "418102912221184001": {
       "inventory": {
-        "LaCat: Wassup": 1
+        "LaCat: Wassup": 1,
+        "Amanda": 1
       },
-      "coins": 1,
+      "coins": 0,
       "last_daily": "2026-02-20"
     }
   }
