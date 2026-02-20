@@ -110,10 +110,26 @@
         "LaCat: Wassup": 13,
         "Amanda": 3,
         "LaCat: Hypnosis": 2,
-        "LaCat: Belleh": 1
+        "LaCat: Belleh": 1,
+        "Ollidammara": 1
       },
       "coins": 45,
-      "last_daily": "2026-02-19"
+      "last_daily": "2026-02-20"
+    },
+    "418102912221184001": {
+      "inventory": {
+        "LaCat: Wassup": 1,
+        "Amanda": 1
+      },
+      "coins": 0,
+      "last_daily": "2026-02-20"
+    },
+    "156937687515791361": {
+      "inventory": {
+        "Bynx": 1
+      },
+      "coins": 0,
+      "last_daily": "2026-02-20"
     }
   }
 }
