@@ -104,6 +104,11 @@
       "name": "Howl",
       "weight": 50,
       "image": "Howl.png"
+    },
+    {
+      "name": "ctlPog",
+      "weight": 5000,
+      "image": "CTLpog.gif"
     }
   ],
   "users": {
