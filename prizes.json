@@ -107,7 +107,7 @@
     },
     {
       "name": "ctlPog",
-      "weight": 5000,
+      "weight": 1,
       "image": "CTLpog.gif"
     }
   ],
