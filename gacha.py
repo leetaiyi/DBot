@@ -10,6 +10,9 @@ from datetime import datetime, timezone
 # =========================
 # CONFIG
 # =========================
+ALLOWED_CHANNELS = {1476061562404995213} #Ramajohns #ctl-sandbox
+
+
 ADMIN_IDS = {96408456294064128, #ctl
             156937687515791361} #ben
 
@@ -35,6 +38,10 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 def today_string():
     return datetime.now(timezone.utc).date().isoformat()
+
+@bot.check
+async def globally_block_dms_and_wrong_channels(ctx):
+    return ctx.channel.id in ALLOWED_CHANNELS
 
 
 @bot.event
