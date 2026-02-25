@@ -282,4 +282,10 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
     await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
 
 
+from keep_alive import keep_alive
+import os
+
+keep_alive()
+
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 bot.run(BOT_TOKEN)
