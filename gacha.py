@@ -10,7 +10,8 @@ from datetime import datetime, timezone
 # =========================
 # CONFIG
 # =========================
-ALLOWED_CHANNELS = {1476061562404995213} #Ramajohns #ctl-sandbox
+ALLOWED_CHANNELS = {1476061562404995213, #Ramajohns #ctl-sandbox
+                    1474234316019073064} #WMGSO #gacha-bot
 
 
 ADMIN_IDS = {96408456294064128, #ctl
