@@ -144,6 +144,14 @@
       "coins": 0,
       "last_daily": "2026-02-20",
       "pity": 0
+    },
+    "128668354897510400": {
+      "inventory": {
+        "Tomyris": 1
+      },
+      "coins": 0,
+      "last_daily": "2026-02-25",
+      "pity": 0
     }
   }
 }
