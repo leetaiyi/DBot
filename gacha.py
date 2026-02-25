@@ -6,6 +6,7 @@ import json
 import random
 import os
 from datetime import datetime, timezone
+from keep_alive import keep_alive
 
 # Re-pull code from GitHub
 import os
@@ -83,6 +84,7 @@ async def on_command_error(ctx, error):
 
 def get_gacha_data():
     r = requests.get(API_URL, headers=headers)
+    print("GitHub response:", r.json())  # <-- ADD THIS
     data = r.json()
 
     content = base64.b64decode(data["content"]).decode()
@@ -212,15 +214,6 @@ async def pull(ctx):
     await ctx.send(embed=embed)
 
 
-def get_gacha_data():
-    r = requests.get(API_URL, headers=headers)
-    print("GitHub response:", r.json())  # <-- ADD THIS
-    data = r.json()
-
-    content = base64.b64decode(data["content"]).decode()
-    return json.loads(content), data["sha"]
-
-
 # =========================
 
 
@@ -284,8 +277,6 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
 
     await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
 
-
-from keep_alive import keep_alive
 
 keep_alive()
 
