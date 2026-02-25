@@ -148,11 +148,12 @@
     "128668354897510400": {
       "inventory": {
         "Tomyris": 1,
-        "LaCat: Wassup": 2
+        "LaCat: Wassup": 2,
+        "Ben": 1
       },
-      "coins": 2,
+      "coins": 1,
       "last_daily": "2026-02-25",
-      "pity": 1
+      "pity": 0
     }
   }
 }
