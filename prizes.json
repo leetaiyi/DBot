@@ -161,10 +161,11 @@
         "Sad Jamin": 1,
         "Legendary Amanda": 1,
         "Bynx": 3,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "Sadge Ryuu": 1
       },
       "coins": 38,
-      "last_daily": "2026-02-25",
+      "last_daily": "2026-02-26",
       "pity": 0
     },
     "418102912221184001": {
@@ -233,6 +234,14 @@
         "Willow": 1
       },
       "coins": 0,
+      "last_daily": "2026-02-26",
+      "pity": 0
+    },
+    "143231057158733824": {
+      "inventory": {
+        "Ollidammara": 1
+      },
+      "coins": 4,
       "last_daily": "2026-02-26",
       "pity": 0
     }

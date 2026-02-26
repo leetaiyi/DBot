@@ -18,8 +18,9 @@ os.system("git pull origin main --no-ff")
 # =========================
 ALLOWED_CHANNELS = {
     1476061562404995213,  #Ramajohns #ctl-sandbox
-    1474234316019073064
-}  #WMGSO #gacha-bot
+    1474234316019073064,  #WMGSO #gacha-bot
+    1473837591974645932  #CTLnF #bottest
+}
 
 ADMIN_IDS = {
     96408456294064128,  #ctl
@@ -210,10 +211,9 @@ async def pull(ctx):
         description += "\n🌅 Daily pull used!"
 
     # Build embed
-    embed = discord.Embed(
-        title="🎰 Gacha Pull!",
-        description=description,
-        color=embed_color)
+    embed = discord.Embed(title="🎰 Gacha Pull!",
+                          description=description,
+                          color=embed_color)
 
     embed.set_image(url=image_url)
 
@@ -225,57 +225,77 @@ async def pull(ctx):
 
 @bot.command()
 async def inventory(ctx):
+    import discord
+
     data, _ = get_gacha_data()
 
-    prizes = data["prizes"]
+    prizes = data.get("prizes", [])
     users = data.get("users", {})
 
     user_id = str(ctx.author.id)
 
-    # Map prize name → weight
-    weight_map = {p["name"]: p["weight"] for p in prizes}
-
-    def rarity_rank(prize_name):
-        weight = weight_map.get(prize_name, 9999)
-
-        if weight == 1:
-            tier = 0   # Ludicrous (rarest)
-        elif weight <= 5:
-            tier = 1   # Ultra Rare
-        elif weight <= 25:
-            tier = 2   # Rare
-        else:
-            tier = 3   # Normal
-        return (tier, prize_name.lower())
-
+    # Check if user exists
     if user_id not in users:
         await ctx.send("You have no pulls yet! Use `!pull` first.")
         return
 
-    user = users[user_id]  # <-- get the user dict
+    user = users[user_id]
 
+    inventory = user.get("inventory", {})
+    coins = user.get("coins", 0)
+
+    # Create weight lookup
+    weight_map = {p["name"]: p["weight"] for p in prizes}
+
+    # Create rarity categories
+    categories = {
+        "🔥 Ludicrous": [],
+        "🌟 Ultra Rare": [],
+        "✨ Rare": [],
+        "Common": []
+    }
+
+    # Categorize items
+    for prize, count in inventory.items():
+        weight = weight_map.get(prize, 9999)
+        entry = f"{prize} x{count}"
+
+        if weight == 1:
+            categories["🔥 Ludicrous"].append(entry)
+        elif weight <= 5:
+            categories["🌟 Ultra Rare"].append(entry)
+        elif weight <= 25:
+            categories["✨ Rare"].append(entry)
+        else:
+            categories["Common"].append(entry)
+
+    # Sort alphabetically within each category
+    for category in categories:
+        categories[category].sort()
+
+    # Build embed
     embed = discord.Embed(title=f"{ctx.author.display_name}'s Inventory",
                           color=discord.Color.blue())
 
-    # Show coins
-    embed.add_field(name="WMGpeSOs", value=user.get("coins", 0), inline=False)
+    # Coins field
+    embed.add_field(name="🪙 WMGpeSos", value=str(coins), inline=False)
 
-    inventory = user.get("inventory", {})
+    # Add each category if it has items
+    has_items = False
+    for category, items in categories.items():
+        if items:
+            embed.add_field(name=category,
+                            value="\n".join(items),
+                            inline=False)
+            has_items = True
 
-    if not inventory:
+    # If empty inventory
+    if not has_items:
         embed.add_field(name="Inventory",
                         value="You have no prizes yet!",
                         inline=False)
-    else:
-        sorted_inventory = sorted(
-            inventory.items(),
-            key=lambda item: rarity_rank(item[0])
-        )
 
-        for prize, count in sorted_inventory:
-            embed.add_field(name=prize, value=f"x{count}", inline=False)
-
-    # Optional: total pulls
+    # Total pulls
     total_pulls = sum(inventory.values())
     embed.set_footer(text=f"Total Pulls: {total_pulls}")
 
