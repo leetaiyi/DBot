@@ -121,6 +121,11 @@
       "image": "Artemis.png"
     },
     {
+      "name": "Artemis Dee",
+      "weight": 25,
+      "image": "ArtemisW.png"
+    },
+    {
       "name": "HONK!!",
       "weight": 5,
       "image": "HONK.png"
