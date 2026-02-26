@@ -18,8 +18,9 @@ os.system("git pull origin main --no-ff")
 # =========================
 ALLOWED_CHANNELS = {
     1476061562404995213,  #Ramajohns #ctl-sandbox
-    1474234316019073064
-}  #WMGSO #gacha-bot
+    1474234316019073064,  #WMGSO #gacha-bot
+    1473837591974645932  #CTLnF #bottest
+}
 
 ADMIN_IDS = {
     96408456294064128,  #ctl
@@ -210,10 +211,9 @@ async def pull(ctx):
         description += "\n🌅 Daily pull used!"
 
     # Build embed
-    embed = discord.Embed(
-        title="🎰 Gacha Pull!",
-        description=description,
-        color=embed_color)
+    embed = discord.Embed(title="🎰 Gacha Pull!",
+                          description=description,
+                          color=embed_color)
 
     embed.set_image(url=image_url)
 
@@ -239,13 +239,13 @@ async def inventory(ctx):
         weight = weight_map.get(prize_name, 9999)
 
         if weight == 1:
-            tier = 0   # Ludicrous (rarest)
+            tier = 0  # Ludicrous (rarest)
         elif weight <= 5:
-            tier = 1   # Ultra Rare
+            tier = 1  # Ultra Rare
         elif weight <= 25:
-            tier = 2   # Rare
+            tier = 2  # Rare
         else:
-            tier = 3   # Normal
+            tier = 3  # Normal
         return (tier, prize_name.lower())
 
     if user_id not in users:
@@ -267,10 +267,8 @@ async def inventory(ctx):
                         value="You have no prizes yet!",
                         inline=False)
     else:
-        sorted_inventory = sorted(
-            inventory.items(),
-            key=lambda item: rarity_rank(item[0])
-        )
+        sorted_inventory = sorted(inventory.items(),
+                                  key=lambda item: rarity_rank(item[0]))
 
         for prize, count in sorted_inventory:
             embed.add_field(name=prize, value=f"x{count}", inline=False)
