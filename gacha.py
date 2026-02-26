@@ -6,16 +6,25 @@ import json
 import random
 import os
 from datetime import datetime, timezone
+from keep_alive import keep_alive
+
+# Re-pull code from GitHub
+import os
+
+os.system("git pull origin main --no-ff")
 
 # =========================
 # CONFIG
 # =========================
-ALLOWED_CHANNELS = {1476061562404995213, #Ramajohns #ctl-sandbox
-                    1474234316019073064} #WMGSO #gacha-bot
+ALLOWED_CHANNELS = {
+    1476061562404995213,  #Ramajohns #ctl-sandbox
+    1474234316019073064
+}  #WMGSO #gacha-bot
 
-
-ADMIN_IDS = {96408456294064128, #ctl
-            156937687515791361} #ben
+ADMIN_IDS = {
+    96408456294064128,  #ctl
+    156937687515791361
+}  #ben
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -37,8 +46,10 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
+
 def today_string():
     return datetime.now(timezone.utc).date().isoformat()
+
 
 @bot.check
 async def globally_block_dms_and_wrong_channels(ctx):
@@ -54,15 +65,14 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send("Pong!")
 
-@bot.event
-async def on_command_error(ctx, error):
-    print("Command error:", error)
 
 # Cooldown error
 @bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandOnCooldown):
-        await ctx.send(f"⏳ The gacha is busy! Please wait {error.retry_after:.1f} seconds before pulling again.")
+        await ctx.send(
+            f"⏳ The gacha is busy! Please wait {error.retry_after:.1f} seconds before pulling again."
+        )
     else:
         print(error)  # Other errors
 
@@ -71,31 +81,29 @@ async def on_command_error(ctx, error):
 # GITHUB FUNCTIONS
 # =========================
 
+
 def get_gacha_data():
     r = requests.get(API_URL, headers=headers)
+    print("GitHub response:", r.json())  # <-- ADD THIS
     data = r.json()
 
     content = base64.b64decode(data["content"]).decode()
     return json.loads(content), data["sha"]
 
-def update_gacha_data(new_data, sha):
-    encoded = base64.b64encode(
-        json.dumps(new_data, indent=2).encode()
-    ).decode()
 
-    payload = {
-        "message": "Update gacha pulls",
-        "content": encoded,
-        "sha": sha
-    }
+def update_gacha_data(new_data, sha):
+    encoded = base64.b64encode(json.dumps(new_data,
+                                          indent=2).encode()).decode()
+
+    payload = {"message": "Update gacha pulls", "content": encoded, "sha": sha}
 
     requests.put(API_URL, headers=headers, json=payload)
-
 
 
 # =========================
 # GACHA COMMAND
 # =========================
+
 
 @bot.command()
 @commands.cooldown(rate=1, per=10.0, type=commands.BucketType.default)
@@ -166,7 +174,7 @@ async def pull(ctx):
     inventory[result] = inventory.get(result, 0) + 1
 
     update_gacha_data(data, sha)
-    
+
     # Find the prize object with the name
     prize_obj = next((p for p in prizes if p["name"] == result), None)
     if prize_obj is None:
@@ -196,30 +204,18 @@ async def pull(ctx):
     # Build embed
     embed = discord.Embed(
         title="🎰 Gacha Pull!",
-        description=(
-            f"{ctx.author.mention} pulled **{result}**!\n"
-            f"{rarity_message}\n\n"
-            f"🪙 WMGpeSOs left: {user['coins']}"
-        ),
-        color=embed_color
-    )
+        description=(f"{ctx.author.mention} pulled **{result}**!\n"
+                     f"{rarity_message}\n\n"
+                     f"🪙 WMGpeSOs left: {user['coins']}"),
+        color=embed_color)
 
     embed.set_image(url=image_url)
 
     await ctx.send(embed=embed)
 
 
-
-
-def get_gacha_data():
-    r = requests.get(API_URL, headers=headers)
-    print("GitHub response:", r.json())  # <-- ADD THIS
-    data = r.json()
-
-    content = base64.b64decode(data["content"]).decode()
-    return json.loads(content), data["sha"]
-
 # =========================
+
 
 @bot.command()
 async def inventory(ctx):
@@ -234,10 +230,8 @@ async def inventory(ctx):
 
     user = users[user_id]  # <-- get the user dict
 
-    embed = discord.Embed(
-        title=f"{ctx.author.display_name}'s Inventory",
-        color=discord.Color.blue()
-    )
+    embed = discord.Embed(title=f"{ctx.author.display_name}'s Inventory",
+                          color=discord.Color.blue())
 
     # Show coins
     embed.add_field(name="WMGpeSOs", value=user.get("coins", 0), inline=False)
@@ -245,7 +239,9 @@ async def inventory(ctx):
     inventory = user.get("inventory", {})
 
     if not inventory:
-        embed.add_field(name="Inventory", value="You have no prizes yet!", inline=False)
+        embed.add_field(name="Inventory",
+                        value="You have no prizes yet!",
+                        inline=False)
     else:
         for prize, count in inventory.items():
             embed.add_field(name=prize, value=f"x{count}", inline=False)
@@ -281,9 +277,6 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
 
     await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
 
-
-from keep_alive import keep_alive
-import os
 
 keep_alive()
 
