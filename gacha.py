@@ -252,7 +252,43 @@ async def inventory(ctx):
         await ctx.send("You have no pulls yet! Use `!pull` first.")
         return
 
-    user = users[user_id]  # <-- get the user dict
+    user = users.get(user_id)
+
+    if not user or not user.get("inventory"):
+        await ctx.send("📦 Your inventory is empty.")
+        return
+
+    inventory = user["inventory"]
+
+    # Build weight lookup
+    weight_map = {p["name"]: p["weight"] for p in prizes}
+
+    # Create rarity categories
+    categories = {
+        "🔥 Ludicrous": [],
+        "🌟 Ultra Rare": [],
+        "✨ Rare": [],
+        "Common": []
+    }
+
+    # Categorize items
+    for prize, count in inventory.items():
+        weight = weight_map.get(prize, 9999)
+
+        entry = f"{prize} x{count}"
+
+        if weight == 1:
+            categories["🔥 Ludicrous"].append(entry)
+        elif weight <= 5:
+            categories["🌟 Ultra Rare"].append(entry)
+        elif weight <= 25:
+            categories["✨ Rare"].append(entry)
+        else:
+            categories["Common"].append(entry)
+
+    # Sort alphabetically within each category
+    for category in categories:
+        categories[category].sort()
 
     embed = discord.Embed(title=f"{ctx.author.display_name}'s Inventory",
                           color=discord.Color.blue())
@@ -273,7 +309,7 @@ async def inventory(ctx):
         for prize, count in sorted_inventory:
             embed.add_field(name=prize, value=f"x{count}", inline=False)
 
-    # Optional: total pulls
+    # Total pulls
     total_pulls = sum(inventory.values())
     embed.set_footer(text=f"Total Pulls: {total_pulls}")
 
