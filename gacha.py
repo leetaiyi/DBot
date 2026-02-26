@@ -225,42 +225,26 @@ async def pull(ctx):
 
 @bot.command()
 async def inventory(ctx):
+    import discord
+
     data, _ = get_gacha_data()
 
-    prizes = data["prizes"]
+    prizes = data.get("prizes", [])
     users = data.get("users", {})
 
     user_id = str(ctx.author.id)
 
-    # Map prize name → weight
-    weight_map = {p["name"]: p["weight"] for p in prizes}
-
-    def rarity_rank(prize_name):
-        weight = weight_map.get(prize_name, 9999)
-
-        if weight == 1:
-            tier = 0  # Ludicrous (rarest)
-        elif weight <= 5:
-            tier = 1  # Ultra Rare
-        elif weight <= 25:
-            tier = 2  # Rare
-        else:
-            tier = 3  # Normal
-        return (tier, prize_name.lower())
-
+    # Check if user exists
     if user_id not in users:
         await ctx.send("You have no pulls yet! Use `!pull` first.")
         return
 
-    user = users.get(user_id)
+    user = users[user_id]
 
-    if not user or not user.get("inventory"):
-        await ctx.send("📦 Your inventory is empty.")
-        return
+    inventory = user.get("inventory", {})
+    coins = user.get("coins", 0)
 
-    inventory = user["inventory"]
-
-    # Build weight lookup
+    # Create weight lookup
     weight_map = {p["name"]: p["weight"] for p in prizes}
 
     # Create rarity categories
@@ -274,7 +258,6 @@ async def inventory(ctx):
     # Categorize items
     for prize, count in inventory.items():
         weight = weight_map.get(prize, 9999)
-
         entry = f"{prize} x{count}"
 
         if weight == 1:
@@ -290,24 +273,27 @@ async def inventory(ctx):
     for category in categories:
         categories[category].sort()
 
+    # Build embed
     embed = discord.Embed(title=f"{ctx.author.display_name}'s Inventory",
                           color=discord.Color.blue())
 
-    # Show coins
-    embed.add_field(name="WMGpeSOs", value=user.get("coins", 0), inline=False)
+    # Coins field
+    embed.add_field(name="🪙 WMGpeSos", value=str(coins), inline=False)
 
-    inventory = user.get("inventory", {})
+    # Add each category if it has items
+    has_items = False
+    for category, items in categories.items():
+        if items:
+            embed.add_field(name=category,
+                            value="\n".join(items),
+                            inline=False)
+            has_items = True
 
-    if not inventory:
+    # If empty inventory
+    if not has_items:
         embed.add_field(name="Inventory",
                         value="You have no prizes yet!",
                         inline=False)
-    else:
-        sorted_inventory = sorted(inventory.items(),
-                                  key=lambda item: rarity_rank(item[0]))
-
-        for prize, count in sorted_inventory:
-            embed.add_field(name=prize, value=f"x{count}", inline=False)
 
     # Total pulls
     total_pulls = sum(inventory.values())
