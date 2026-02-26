@@ -200,12 +200,15 @@
       "inventory": {
         "Sad Jamin": 1,
         "Sadge Ryuu": 1,
-        "Bynx": 2,
-        "Ben": 1,
+        "Bynx": 3,
+        "Ben": 2,
         "Amanda": 2,
-        "Zelda": 1
+        "Zelda": 1,
+        "LaCat: Hypnosis": 1,
+        "Willow": 1,
+        "Gabbro": 1
       },
-      "coins": 5,
+      "coins": 0,
       "last_daily": "2026-02-26",
       "pity": 0
     },
