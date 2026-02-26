@@ -226,9 +226,27 @@ async def pull(ctx):
 @bot.command()
 async def inventory(ctx):
     data, _ = get_gacha_data()
+
+    prizes = data["prizes"]
     users = data.get("users", {})
 
     user_id = str(ctx.author.id)
+
+    # Map prize name → weight
+    weight_map = {p["name"]: p["weight"] for p in prizes}
+
+    def rarity_rank(prize_name):
+        weight = weight_map.get(prize_name, 9999)
+
+        if weight == 1:
+            tier = 0   # Ludicrous (rarest)
+        elif weight <= 5:
+            tier = 1   # Ultra Rare
+        elif weight <= 25:
+            tier = 2   # Rare
+        else:
+            tier = 3   # Normal
+        return (tier, prize_name.lower())
 
     if user_id not in users:
         await ctx.send("You have no pulls yet! Use `!pull` first.")
@@ -249,7 +267,12 @@ async def inventory(ctx):
                         value="You have no prizes yet!",
                         inline=False)
     else:
-        for prize, count in inventory.items():
+        sorted_inventory = sorted(
+            inventory.items(),
+            key=lambda item: rarity_rank(item[0])
+        )
+
+        for prize, count in sorted_inventory:
             embed.add_field(name=prize, value=f"x{count}", inline=False)
 
     # Optional: total pulls
