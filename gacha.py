@@ -125,10 +125,13 @@ async def pull(ctx):
 
     user = users[user_id]
 
+    daily_coin_used = False
+
     # Give daily coin if new day
     if user.get("last_daily") != today_string():
         user["coins"] += 1
         user["last_daily"] = today_string()
+        daily_coin_used = True
 
     # Check coins
     if user["coins"] <= 0:
@@ -201,12 +204,15 @@ async def pull(ctx):
         rarity_message = "✨ **RARE!** ✨"
         embed_color = discord.Color.blue()
 
+    description = f"{ctx.author.mention} pulled **{result}**!\n{rarity_message}\n\n🪙 Coins left: {user['coins']}"
+
+    if daily_coin_used:
+        description += "\n🌅 Daily pull used!"
+
     # Build embed
     embed = discord.Embed(
         title="🎰 Gacha Pull!",
-        description=(f"{ctx.author.mention} pulled **{result}**!\n"
-                     f"{rarity_message}\n\n"
-                     f"🪙 WMGpeSOs left: {user['coins']}"),
+        description=description,
         color=embed_color)
 
     embed.set_image(url=image_url)
