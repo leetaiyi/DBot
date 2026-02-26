@@ -109,6 +109,11 @@
       "name": "ctlPog",
       "weight": 1,
       "image": "CTLpog.gif"
+    },
+    {
+      "name": "Bellygoon Nova",
+      "weight": 5,
+      "image": "NovaBelly.jpg"
     }
   ],
   "users": {
