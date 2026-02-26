@@ -204,11 +204,12 @@
         "Ben": 2,
         "Amanda": 2,
         "Zelda": 1,
-        "LaCat: Hypnosis": 1
+        "LaCat: Hypnosis": 1,
+        "Willow": 1
       },
-      "coins": 2,
+      "coins": 1,
       "last_daily": "2026-02-26",
-      "pity": 1
+      "pity": 0
     },
     "370264626971017244": {
       "inventory": {
