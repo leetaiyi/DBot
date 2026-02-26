@@ -129,6 +129,21 @@
       "name": "HONK!!",
       "weight": 5,
       "image": "HONK.png"
+    },
+    {
+      "name": "Willow",
+      "weight": 50,
+      "image": "Willow.png"
+    },
+    {
+      "name": "Willow Snuggle",
+      "weight": 25,
+      "image": "WillowS.png"
+    },
+    {
+      "name": "Willow Belly",
+      "weight": 5,
+      "image": "WillowB.png"
     }
   ],
   "users": {
