@@ -114,6 +114,16 @@
       "name": "Bellygoon Nova",
       "weight": 5,
       "image": "NovaBelly.jpg"
+    },
+    {
+      "name": "A Wild Artemis",
+      "weight": 50,
+      "image": "Artemis.png"
+    },
+    {
+      "name": "HONK!!",
+      "weight": 5,
+      "image": "HONK.png"
     }
   ],
   "users": {
