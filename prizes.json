@@ -144,6 +144,11 @@
       "name": "Willow Belly",
       "weight": 5,
       "image": "WillowB.png"
+    },
+    {
+      "name": "Masabone",
+      "weight": 5,
+      "image": "Masabone.jpg"
     }
   ],
   "users": {
