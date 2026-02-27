@@ -243,13 +243,13 @@
     },
     "143231057158733824": {
       "inventory": {
-        "Ollidammara": 1,
+        "Ollidammara": 2,
         "Artemis Dee": 1,
         "Willow": 1
       },
-      "coins": 3,
+      "coins": 2,
       "last_daily": "2026-02-27",
-      "pity": 0
+      "pity": 1
     }
   }
 }
