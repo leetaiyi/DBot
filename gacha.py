@@ -89,6 +89,31 @@ async def on_command_error(ctx, error):
         print(error)  # Other errors
 
 
+# Pause function
+paused_until = None
+
+
+def is_paused():
+    global paused_until
+    if paused_until is None:
+        return False
+
+    return datetime.now(UTC) < paused_until
+
+
+@bot.check
+async def global_pause_check(ctx):
+    if paused_until is None:
+        return True
+
+    if datetime.now(UTC) >= paused_until:
+        return True
+
+    unix = int(paused_until.timestamp())
+    await ctx.send(f"⏸️ Bot is paused. Resumes <t:{unix}:R>")
+    return False
+
+
 # =========================
 # GITHUB FUNCTIONS
 # =========================
@@ -345,6 +370,31 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
     update_gacha_data(data, sha)
 
     await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
+
+
+@bot.command()
+@commands.has_permissions(administrator=True)
+async def pause(ctx, minutes: int):
+    global paused_until
+
+    if minutes <= 0:
+        await ctx.send("❌ Minutes must be positive.")
+        return
+
+    paused_until = datetime.now(UTC) + timedelta(minutes=minutes)
+
+    unix = int(paused_until.timestamp())
+
+    await ctx.send(f"⏸️ Bot paused for **{minutes} minutes**.\n"
+                   f"Resumes <t:{unix}:R>")
+
+
+@bot.command()
+@commands.has_permissions(administrator=True)
+async def resume(ctx):
+    global paused_until
+    paused_until = None
+    await ctx.send("▶️ Bot resumed.")
 
 
 keep_alive()
