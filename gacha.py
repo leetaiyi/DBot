@@ -191,8 +191,8 @@ async def pull(ctx):
     if user["coins"] <= 0:
         next_reset = next_midnight_unix()
 
-        await ctx.send(f"❌ You have no coins!\n"
-                       f"⏳ Next coin <t:{next_reset}:R>")
+        await ctx.send(f"❌ You have no WMGpeSOs!\n"
+                       f"⏳ Next daily <t:{next_reset}:R>")
         return
 
     # Deduct coin
