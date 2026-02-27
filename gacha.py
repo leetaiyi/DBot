@@ -5,7 +5,7 @@ import base64
 import json
 import random
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, UTC, timedelta
 from keep_alive import keep_alive
 
 # Re-pull code from GitHub
@@ -24,8 +24,8 @@ ALLOWED_CHANNELS = {
 
 ADMIN_IDS = {
     96408456294064128,  #ctl
-    156937687515791361
-}  #ben
+    156937687515791361  #ben
+}
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -48,6 +48,15 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
+
+
+def next_midnight_unix():
+    now = datetime.now(UTC)
+    next_midnight = (now + timedelta(days=1)).replace(hour=0,
+                                                      minute=0,
+                                                      second=0,
+                                                      microsecond=0)
+    return int(next_midnight.timestamp())
 
 
 def today_string():
@@ -144,7 +153,10 @@ async def pull(ctx):
 
     # Check coins
     if user["coins"] <= 0:
-        await ctx.send("❌ You have no WMGpeSOs! Come back tomorrow.")
+        next_reset = next_midnight_unix()
+
+        await ctx.send(f"❌ You have no coins!\n"
+                       f"⏳ Next coin <t:{next_reset}:R>")
         return
 
     # Deduct coin
