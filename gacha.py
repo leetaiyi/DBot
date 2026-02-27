@@ -5,7 +5,7 @@ import base64
 import json
 import random
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, UTC, timedelta
 from keep_alive import keep_alive
 
 # Re-pull code from GitHub
@@ -24,8 +24,8 @@ ALLOWED_CHANNELS = {
 
 ADMIN_IDS = {
     96408456294064128,  #ctl
-    156937687515791361
-}  #ben
+    156937687515791361  #ben
+}
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -48,6 +48,15 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
+
+
+def next_midnight_unix():
+    now = datetime.now(UTC)
+    next_midnight = (now + timedelta(days=1)).replace(hour=0,
+                                                      minute=0,
+                                                      second=0,
+                                                      microsecond=0)
+    return int(next_midnight.timestamp())
 
 
 def today_string():
@@ -78,6 +87,41 @@ async def on_command_error(ctx, error):
         )
     else:
         print(error)  # Other errors
+
+
+# Pause function
+paused_until = None
+
+
+def is_paused():
+    global paused_until
+    if paused_until is None:
+        return False
+
+    return datetime.now(UTC) < paused_until
+
+
+@bot.check
+async def global_pause_check(ctx):
+    global paused_until
+
+    # Always allow resume command
+    if ctx.command and ctx.command.name == "resume":
+        return True
+
+    # If not paused, allow commands
+    if paused_until is None:
+        return True
+
+    # If pause expired, clear it and allow commands
+    if datetime.now(UTC) >= paused_until:
+        paused_until = None
+        return True
+
+    # Otherwise block
+    unix = int(paused_until.timestamp())
+    await ctx.send(f"⏸️ Bot is paused. Resumes <t:{unix}:R>")
+    return False
 
 
 # =========================
@@ -123,8 +167,8 @@ async def pull(ctx):
         users[user_id] = {
             "coins": 5,  # starter bonus
             "inventory": {},
-            "last_coin_date": today_string(),
-            "pity_counter": 0,
+            "last_daily": today_string(),
+            "pity": 0,
             "pulls": 0
         }
 
@@ -144,7 +188,10 @@ async def pull(ctx):
 
     # Check coins
     if user["coins"] <= 0:
-        await ctx.send("❌ You have no WMGpeSOs! Come back tomorrow.")
+        next_reset = next_midnight_unix()
+
+        await ctx.send(f"❌ You have no WMGpeSOs!\n"
+                       f"⏳ Next daily <t:{next_reset}:R>")
         return
 
     # Deduct coin
@@ -168,7 +215,6 @@ async def pull(ctx):
         result = random.choices(names, weights=weights, k=1)[0]
         user["pity"] = 0  # Reset pity
 
-        pity_triggered = True
     else:
         names = [p["name"] for p in prizes]
         weights = [p["weight"] for p in prizes]
@@ -178,8 +224,6 @@ async def pull(ctx):
         # Reset pity if new item obtained naturally
         if result not in inventory:
             user["pity"] = 0
-
-        pity_triggered = False
 
     # Update inventory
     inventory = user.setdefault("inventory", {})
@@ -325,7 +369,8 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
         users[user_id] = {
             "inventory": {},
             "coins": 0,
-            "last_daily": today_string()
+            "last_daily": today_string(),
+            "pity": 0
         }
 
     users[user_id]["coins"] += amount
@@ -333,6 +378,31 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
     update_gacha_data(data, sha)
 
     await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
+
+
+@bot.command()
+@commands.has_permissions(administrator=True)
+async def pause(ctx, minutes: int):
+    global paused_until
+
+    if minutes <= 0:
+        await ctx.send("❌ Minutes must be positive.")
+        return
+
+    paused_until = datetime.now(UTC) + timedelta(minutes=minutes)
+
+    unix = int(paused_until.timestamp())
+
+    await ctx.send(f"⏸️ Bot paused for **{minutes} minutes**.\n"
+                   f"Resumes <t:{unix}:R>")
+
+
+@bot.command()
+@commands.has_permissions(administrator=True)
+async def resume(ctx):
+    global paused_until
+    paused_until = None
+    await ctx.send("▶️ Bot resumed.")
 
 
 keep_alive()
