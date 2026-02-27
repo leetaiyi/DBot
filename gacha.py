@@ -102,13 +102,24 @@ def is_paused():
 
 
 @bot.check
+@bot.check
 async def global_pause_check(ctx):
+    global paused_until
+
+    # Always allow resume command
+    if ctx.command and ctx.command.name == "resume":
+        return True
+
+    # If not paused, allow commands
     if paused_until is None:
         return True
 
+    # If pause expired, clear it and allow commands
     if datetime.now(UTC) >= paused_until:
+        paused_until = None
         return True
 
+    # Otherwise block
     unix = int(paused_until.timestamp())
     await ctx.send(f"⏸️ Bot is paused. Resumes <t:{unix}:R>")
     return False
