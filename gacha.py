@@ -132,8 +132,8 @@ async def pull(ctx):
         users[user_id] = {
             "coins": 5,  # starter bonus
             "inventory": {},
-            "last_coin_date": today_string(),
-            "pity_counter": 0,
+            "last_daily": today_string(),
+            "pity": 0,
             "pulls": 0
         }
 
