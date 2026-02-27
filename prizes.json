@@ -253,12 +253,13 @@
       "pity": 1
     },
     "413140313297911818": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Willow Snuggle": 1,
         "Gabbro": 1,
         "Ben": 1,
-        "Howl": 1
+        "Howl": 1,
+        "Artemis Dee": 1
       },
       "pulls": 0,
       "last_daily": "2026-02-27",
