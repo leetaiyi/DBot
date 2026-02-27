@@ -251,6 +251,17 @@
       "coins": 2,
       "last_daily": "2026-02-27",
       "pity": 1
+    },
+    "413140313297911818": {
+      "coins": 5,
+      "inventory": {
+        "Willow Snuggle": 1
+      },
+      "last_coin_date": "2026-02-27",
+      "pity_counter": 0,
+      "pulls": 0,
+      "last_daily": "2026-02-27",
+      "pity": 0
     }
   }
 }
