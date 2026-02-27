@@ -162,10 +162,11 @@
         "Legendary Amanda": 1,
         "Bynx": 3,
         "Gabbro": 1,
-        "Sadge Ryuu": 1
+        "Sadge Ryuu": 1,
+        "A Wild Artemis": 1
       },
       "coins": 38,
-      "last_daily": "2026-02-26",
+      "last_daily": "2026-02-27",
       "pity": 0
     },
     "418102912221184001": {
@@ -188,14 +189,15 @@
     "128668354897510400": {
       "inventory": {
         "Tomyris": 1,
-        "LaCat: Wassup": 2,
+        "LaCat: Wassup": 3,
         "Ben": 1,
         "Ollidammara": 1,
-        "Maru Merak Miss Ma'am Morden": 1
+        "Maru Merak Miss Ma'am Morden": 1,
+        "HONK!!": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-22",
-      "pity": 0
+      "last_daily": "2026-02-27",
+      "pity": 1
     },
     "136653169118806017": {
       "inventory": {
@@ -207,10 +209,11 @@
         "Zelda": 1,
         "LaCat: Hypnosis": 1,
         "Willow": 1,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "Artemis Dee": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-26",
+      "last_daily": "2026-02-27",
       "pity": 0
     },
     "370264626971017244": {
@@ -223,27 +226,31 @@
     },
     "353724574220812288": {
       "inventory": {
-        "Sadge Ryuu": 1
+        "Sadge Ryuu": 1,
+        "LaCat: Belleh": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-26",
+      "last_daily": "2026-02-27",
       "pity": 0
     },
     "161268369746690048": {
       "inventory": {
-        "Willow": 1
+        "Willow": 1,
+        "Howl": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-26",
+      "last_daily": "2026-02-27",
       "pity": 0
     },
     "143231057158733824": {
       "inventory": {
-        "Ollidammara": 1
+        "Ollidammara": 2,
+        "Artemis Dee": 1,
+        "Willow": 1
       },
-      "coins": 4,
-      "last_daily": "2026-02-26",
-      "pity": 0
+      "coins": 2,
+      "last_daily": "2026-02-27",
+      "pity": 1
     }
   }
 }
