@@ -102,7 +102,6 @@ def is_paused():
 
 
 @bot.check
-@bot.check
 async def global_pause_check(ctx):
     global paused_until
 
@@ -216,7 +215,6 @@ async def pull(ctx):
         result = random.choices(names, weights=weights, k=1)[0]
         user["pity"] = 0  # Reset pity
 
-        pity_triggered = True
     else:
         names = [p["name"] for p in prizes]
         weights = [p["weight"] for p in prizes]
@@ -226,8 +224,6 @@ async def pull(ctx):
         # Reset pity if new item obtained naturally
         if result not in inventory:
             user["pity"] = 0
-
-        pity_triggered = False
 
     # Update inventory
     inventory = user.setdefault("inventory", {})
@@ -373,7 +369,8 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
         users[user_id] = {
             "inventory": {},
             "coins": 0,
-            "last_daily": today_string()
+            "last_daily": today_string(),
+            "pity": 0
         }
 
     users[user_id]["coins"] += amount
