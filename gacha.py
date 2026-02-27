@@ -33,6 +33,8 @@ REPO_OWNER = "leetaiyi"
 REPO_NAME = "DBot"
 FILE_PATH = "prizes.json"
 
+PITY_LIM = 5
+
 BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
 
 API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}?ref=main"
@@ -116,13 +118,19 @@ async def pull(ctx):
 
     user_id = str(ctx.author.id)
 
-    # Create user if missing
+    # FIRST TIME USER — give starter coins
     if user_id not in users:
         users[user_id] = {
+            "coins": 5,  # starter bonus
             "inventory": {},
-            "coins": 1,
-            "last_daily": today_string()
+            "last_coin_date": today_string(),
+            "pity_counter": 0,
+            "pulls": 0
         }
+
+        await ctx.send(
+            f"🎁 Welcome {ctx.author.mention}! You received **5 starter WMGpeSOs!**"
+        )
 
     user = users[user_id]
 
@@ -152,7 +160,7 @@ async def pull(ctx):
     pity_pool = [p for p in unowned_prizes if p["weight"] != 1]
 
     # Pity trigger
-    if user["pity"] >= 7 and pity_pool:
+    if user["pity"] >= PITY_LIM and pity_pool:
         # Force new item
         names = [p["name"] for p in pity_pool]
         weights = [p["weight"] for p in pity_pool]
