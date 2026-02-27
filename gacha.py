@@ -116,13 +116,19 @@ async def pull(ctx):
 
     user_id = str(ctx.author.id)
 
-    # Create user if missing
+    # FIRST TIME USER — give starter coins
     if user_id not in users:
         users[user_id] = {
+            "coins": 5,  # starter bonus
             "inventory": {},
-            "coins": 1,
-            "last_daily": today_string()
+            "last_coin_date": today_string(),
+            "pity_counter": 0,
+            "pulls": 0
         }
+
+        await ctx.send(
+            f"🎁 Welcome {ctx.author.mention}! You received **5 starter WMGpeSOs!**"
+        )
 
     user = users[user_id]
 
