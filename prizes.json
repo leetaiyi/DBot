@@ -310,12 +310,13 @@
       "pulls": 0
     },
     "184110334334730240": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "HONK!!": 1,
         "Tomyris": 1,
         "Howl": 1,
-        "LaCat: Wassup": 1
+        "LaCat: Wassup": 1,
+        "Ollidammara": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
