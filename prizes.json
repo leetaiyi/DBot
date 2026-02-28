@@ -445,10 +445,11 @@
       "pulls": 0
     },
     "370310581716254723": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Bynx": 1,
-        "Ben": 1
+        "Ben": 1,
+        "LaCat: Hypnosis": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
