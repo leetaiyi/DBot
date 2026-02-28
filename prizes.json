@@ -335,10 +335,11 @@
       "pulls": 0
     },
     "201094207857754112": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "LaCat: Wassup": 1,
-        "Amanda": 1
+        "Amanda": 1,
+        "Willow": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
