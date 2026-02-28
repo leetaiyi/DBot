@@ -523,13 +523,14 @@
       "pulls": 0
     },
     "484481393632608276": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Zelda": 2,
-        "LaCat: Hypnosis": 1
+        "LaCat: Hypnosis": 1,
+        "David": 1
       },
       "last_daily": "2026-02-28",
-      "pity": 1,
+      "pity": 0,
       "pulls": 0
     },
     "954136279296118885": {
