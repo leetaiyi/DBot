@@ -288,6 +288,15 @@
       "last_daily": "2026-02-28",
       "pity": 0,
       "pulls": 0
+    },
+    "1091788251775369256": {
+      "coins": 4,
+      "inventory": {
+        "Zelda": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
     }
   }
 }
