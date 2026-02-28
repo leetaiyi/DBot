@@ -292,12 +292,13 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Zelda": 1,
         "Ben": 1,
         "Maru Merak Miss Ma'am Morden": 1,
-        "Willow Snuggle": 1
+        "Willow Snuggle": 1,
+        "LaCat: Wassup": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
