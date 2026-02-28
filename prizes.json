@@ -300,9 +300,10 @@
       "pulls": 0
     },
     "400744536239898625": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
-        "Sad Jamin": 1
+        "Sad Jamin": 1,
+        "Bynx": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
