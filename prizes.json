@@ -426,11 +426,12 @@
       "pulls": 0
     },
     "418107361786331138": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
-        "Sad Jamin": 1
+        "Sad Jamin": 1,
+        "LaCat: Wassup": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
