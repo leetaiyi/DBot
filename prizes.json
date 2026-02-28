@@ -468,10 +468,11 @@
       "pulls": 0
     },
     "429690196276019231": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Gabbro": 1,
-        "Sad Jamin": 1
+        "Sad Jamin": 1,
+        "Ollidammara": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
