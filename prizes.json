@@ -425,9 +425,10 @@
       "pulls": 0
     },
     "418107361786331138": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
-        "?? Ben": 1
+        "?? Ben": 1,
+        "HONK!!": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
