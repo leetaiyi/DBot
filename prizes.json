@@ -270,6 +270,15 @@
       "pulls": 0,
       "last_daily": "2026-02-27",
       "pity": 0
+    },
+    "125459449023299584": {
+      "coins": 4,
+      "inventory": {
+        "Artemis Dee": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
     }
   }
 }
