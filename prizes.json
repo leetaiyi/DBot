@@ -604,11 +604,12 @@
       "pulls": 0
     },
     "641043636041285656": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Live Gloriously!": 1,
         "Ollidammara": 1,
-        "Batta": 1
+        "Batta": 1,
+        "Gabbro": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
