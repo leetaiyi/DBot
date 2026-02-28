@@ -177,18 +177,23 @@
     "418102912221184001": {
       "inventory": {
         "LaCat: Wassup": 1,
-        "Amanda": 1
+        "Amanda": 1,
+        "Willow": 1,
+        "Bynx": 1,
+        "Sad Jamin": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-20",
+      "last_daily": "2026-02-28",
       "pity": 0
     },
     "156937687515791361": {
       "inventory": {
-        "Bynx": 1
+        "Bynx": 1,
+        "LaCat: Wassup": 1,
+        "Gabbro": 1
       },
-      "coins": 0,
-      "last_daily": "2026-02-20",
+      "coins": 2,
+      "last_daily": "2026-02-28",
       "pity": 0
     },
     "128668354897510400": {
@@ -197,12 +202,12 @@
         "LaCat: Wassup": 3,
         "Ben": 1,
         "Ollidammara": 1,
-        "Maru Merak Miss Ma'am Morden": 1,
+        "Maru Merak Miss Ma'am Morden": 2,
         "HONK!!": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-27",
-      "pity": 1
+      "last_daily": "2026-02-28",
+      "pity": 2
     },
     "136653169118806017": {
       "inventory": {
@@ -241,10 +246,11 @@
     "161268369746690048": {
       "inventory": {
         "Willow": 1,
-        "Howl": 1
+        "Howl": 1,
+        "Maru Merak Miss Ma'am Morden": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-27",
+      "last_daily": "2026-02-28",
       "pity": 0
     },
     "143231057158733824": {
@@ -270,6 +276,225 @@
       "pulls": 0,
       "last_daily": "2026-02-27",
       "pity": 0
+    },
+    "125459449023299584": {
+      "coins": 0,
+      "inventory": {
+        "Artemis Dee": 1,
+        "LaCat: Wassup": 1,
+        "Zelda": 1,
+        "A Wild Artemis": 1,
+        "Gabbro": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "277552214342631424": {
+      "coins": 4,
+      "inventory": {
+        "A Wild Artemis": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "1091788251775369256": {
+      "coins": 0,
+      "inventory": {
+        "Zelda": 1,
+        "Ben": 1,
+        "Maru Merak Miss Ma'am Morden": 1,
+        "Willow Snuggle": 1,
+        "LaCat: Wassup": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "400744536239898625": {
+      "coins": 1,
+      "inventory": {
+        "Sad Jamin": 1,
+        "Bynx": 1,
+        "Artemis Dee": 1,
+        "Zelda": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "184110334334730240": {
+      "coins": 0,
+      "inventory": {
+        "HONK!!": 1,
+        "Tomyris": 1,
+        "Howl": 1,
+        "LaCat: Wassup": 1,
+        "Ollidammara": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "292070419341639681": {
+      "coins": 0,
+      "inventory": {
+        "Bynx": 3,
+        "Sad Jamin": 1,
+        "Howl": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 1,
+      "pulls": 0
+    },
+    "201094207857754112": {
+      "coins": 0,
+      "inventory": {
+        "LaCat: Wassup": 1,
+        "Amanda": 1,
+        "Willow": 2,
+        "Gabbro": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "234795442221744130": {
+      "coins": 3,
+      "inventory": {
+        "Sad Jamin": 1,
+        "Sadge Ryuu": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "129076967633977344": {
+      "coins": 0,
+      "inventory": {
+        "Willow Snuggle": 1,
+        "LaCat: Wassup": 1,
+        "Ollidammara": 1,
+        "Artemis Dee": 1,
+        "Sadge Ryuu": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "495738703835168772": {
+      "coins": 2,
+      "inventory": {
+        "LaCat: Wassup": 1,
+        "?? Ben": 1,
+        "Capt Ben": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "690973798102597705": {
+      "coins": 4,
+      "inventory": {
+        "Maru Merak Miss Ma'am Morden": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "316002379537317899": {
+      "coins": 2,
+      "inventory": {
+        "Artemis Dee": 1,
+        "Sad Jamin": 1,
+        "LaCat: Hypnosis": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "484481393632608276": {
+      "coins": 3,
+      "inventory": {
+        "Zelda": 1,
+        "LaCat: Hypnosis": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "954136279296118885": {
+      "coins": 0,
+      "inventory": {
+        "Bynx": 2,
+        "LaCat: Wassup": 1,
+        "LaCat: Hypnosis": 1,
+        "Ollidammara": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "418107361786331138": {
+      "coins": 0,
+      "inventory": {
+        "?? Ben": 1,
+        "HONK!!": 1,
+        "Sad Jamin": 1,
+        "LaCat: Wassup": 1,
+        "Howl": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "370310581716254723": {
+      "coins": 0,
+      "inventory": {
+        "Bynx": 1,
+        "Ben": 1,
+        "LaCat: Hypnosis": 1,
+        "Amanda": 1,
+        "Willow": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "339576678902923274": {
+      "coins": 4,
+      "inventory": {
+        "LaCat: Hypnosis": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "429690196276019231": {
+      "coins": 0,
+      "inventory": {
+        "Gabbro": 1,
+        "Sad Jamin": 2,
+        "Ollidammara": 1,
+        "Zelda": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "361679054341931009": {
+      "coins": 0,
+      "inventory": {
+        "Amanda": 1,
+        "LaCat: Wassup": 1,
+        "Tomyris": 1,
+        "Zelda": 1,
+        "Sadge Ryuu": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
     }
   }
 }
