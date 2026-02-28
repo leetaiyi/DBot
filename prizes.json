@@ -315,6 +315,15 @@
       "last_daily": "2026-02-28",
       "pity": 0,
       "pulls": 0
+    },
+    "292070419341639681": {
+      "coins": 4,
+      "inventory": {
+        "Bynx": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
     }
   }
 }
