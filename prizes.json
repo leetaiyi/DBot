@@ -82,22 +82,22 @@
     },
     {
       "name": "Tomyris",
-      "weight": 35,
+      "weight": 40,
       "image": "Tomyris.png"
     },
     {
       "name": "Gabbro",
-      "weight": 35,
+      "weight": 40,
       "image": "Gabbro.png"
     },
     {
       "name": "Ollidammara",
-      "weight": 35,
+      "weight": 40,
       "image": "Olly.png"
     },
     {
       "name": "Maru Merak Miss Ma'am Morden",
-      "weight": 35,
+      "weight": 40,
       "image": "Maam.png"
     },
     {
@@ -149,6 +149,106 @@
       "name": "Masabone",
       "weight": 5,
       "image": "Masabone.jpg"
+    },
+    {
+      "name": "Ivan",
+      "weight": 40,
+      "image": "Ivan.jpg"
+    },
+    {
+      "name": "Maleficent",
+      "weight": 40,
+      "image": "Maleficent.jpg"
+    },
+    {
+      "name": "Flash",
+      "weight": 40,
+      "image": "Flash.jpg"
+    },
+    {
+      "name": "Oreo",
+      "weight": 40,
+      "image": "Oreo.jpg"
+    },
+    {
+      "name": "Mishka",
+      "weight": 50,
+      "image": "Mishka.jpg"
+    },
+    {
+      "name": "Batta",
+      "weight": 50,
+      "image": "Batta.jpg"
+    },
+    {
+      "name": "Kazoo David",
+      "weight": 25,
+      "image": "Rare_David.jpg"
+    },
+    {
+      "name": "David",
+      "weight": 50,
+      "image": "Common_David.jpg"
+    },
+    {
+      "name": "Barely Legal John",
+      "weight": 5,
+      "image": "JohnY.jpg"
+    },
+    {
+      "name": "John and Albino water monitor lizard",
+      "weight": 25,
+      "image": "JohnLizard.jpg"
+    },
+    {
+      "name": "Betty",
+      "weight": 50,
+      "image": "Betty.jpg"
+    },
+    {
+      "name": "Amadeus",
+      "weight": 50,
+      "image": "Amadeus.JPEG"
+    },
+    {
+      "name": "Listening to Rehearsal Recordings",
+      "weight": 5,
+      "image": "Horse_a.jpg"
+    },
+    {
+      "name": "Live Gloriously!",
+      "weight": 50,
+      "image": "JonKennedy.jpg"
+    },
+    {
+      "name": "Duet of the Fates",
+      "weight": 5,
+      "image": "JonJedi.jpg"
+    },
+    {
+      "name": "Objection!",
+      "weight": 25,
+      "image": "JonObjection.jpg"
+    },
+    {
+      "name": "Ellie as Moonmoon",
+      "weight": 25,
+      "image": "EllieMoon.jpg"
+    },
+    {
+      "name": "Nova Fangly",
+      "weight": 25,
+      "image": "NovaFangly.jpg"
+    },
+    {
+      "name": "IDDOG",
+      "weight": 25,
+      "image": "IDDOG.jpg"
+    },
+    {
+      "name": "Korok Couple",
+      "weight": 5,
+      "image": "KorokCouple.jpg"
     }
   ],
   "users": {
