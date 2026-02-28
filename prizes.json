@@ -572,12 +572,13 @@
       "pulls": 0
     },
     "339576678902923274": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
         "Live Gloriously!": 1,
-        "Sadge Ryuu": 1
+        "Sadge Ryuu": 1,
+        "Howl": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
