@@ -421,12 +421,13 @@
       "pulls": 0
     },
     "954136279296118885": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
-        "Bynx": 2
+        "Bynx": 2,
+        "LaCat: Wassup": 1
       },
       "last_daily": "2026-02-28",
-      "pity": 1,
+      "pity": 0,
       "pulls": 0
     },
     "418107361786331138": {
