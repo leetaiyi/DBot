@@ -257,7 +257,7 @@ async def pull(ctx):
         rarity_message = "✨ **RARE!** ✨"
         embed_color = discord.Color.blue()
 
-    description = f"{ctx.author.mention} pulled **{result}**!\n{rarity_message}\n\n🪙 Coins left: {user['coins']}"
+    description = f"{ctx.author.mention} pulled **{result}**!\n{rarity_message}\n\n🪙 WMGpeSOs left: {user['coins']}"
 
     if daily_coin_used:
         description += "\n🌅 Daily pull used!"
