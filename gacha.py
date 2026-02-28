@@ -330,7 +330,7 @@ async def inventory(ctx):
                           color=discord.Color.blue())
 
     # Coins field
-    embed.add_field(name="🪙 WMGpeSos", value=str(coins), inline=False)
+    embed.add_field(name="🪙 WMGpeSOs", value=str(coins), inline=False)
 
     # Add each category if it has items
     has_items = False
