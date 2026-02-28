@@ -353,11 +353,12 @@
       "pulls": 0
     },
     "129076967633977344": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Willow Snuggle": 1,
         "LaCat: Wassup": 1,
-        "Ollidammara": 1
+        "Ollidammara": 1,
+        "Artemis Dee": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
