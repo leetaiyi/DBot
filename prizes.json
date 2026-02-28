@@ -466,6 +466,15 @@
       "last_daily": "2026-02-28",
       "pity": 0,
       "pulls": 0
+    },
+    "429690196276019231": {
+      "coins": 4,
+      "inventory": {
+        "Gabbro": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
     }
   }
 }
