@@ -619,10 +619,11 @@
       "pulls": 0
     },
     "221288694835838986": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Flash": 1,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "Maleficent": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
