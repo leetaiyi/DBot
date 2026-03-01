@@ -249,6 +249,26 @@
       "name": "Korok Couple",
       "weight": 5,
       "image": "KorokCouple.jpg"
+    },
+    {
+      "name": "Belly Flash",
+      "weight": 5,
+      "image": "FlashBelly.jpg"
+    },
+    {
+      "name": "Carbon",
+      "weight": 50,
+      "image": "Carbon.jpg"
+    },
+    {
+      "name": "Carbon Eyes",
+      "weight": 5,
+      "image": "CarbonE.jpg"
+    },
+    {
+      "name": "CTLbot",
+      "weight": 1,
+      "image": "CTLbot.jpg"
     }
   ],
   "users": {
