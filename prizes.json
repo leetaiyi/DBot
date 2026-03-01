@@ -249,6 +249,26 @@
       "name": "Korok Couple",
       "weight": 5,
       "image": "KorokCouple.jpg"
+    },
+    {
+      "name": "Belly Flash",
+      "weight": 5,
+      "image": "FlashBelly.jpg"
+    },
+    {
+      "name": "Carbon",
+      "weight": 50,
+      "image": "Carbon.jpg"
+    },
+    {
+      "name": "Carbon Eyes",
+      "weight": 5,
+      "image": "CarbonE.jpg"
+    },
+    {
+      "name": "CTLbot",
+      "weight": 1,
+      "image": "CTLbot.jpg"
     }
   ],
   "users": {
@@ -280,10 +300,11 @@
         "Amanda": 1,
         "Willow": 1,
         "Bynx": 1,
-        "Sad Jamin": 1
+        "Sad Jamin": 1,
+        "Ivan": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0
     },
     "156937687515791361": {
@@ -292,7 +313,7 @@
         "LaCat: Wassup": 1,
         "Gabbro": 1
       },
-      "coins": 2,
+      "coins": 3,
       "last_daily": "2026-02-28",
       "pity": 0
     },
@@ -319,12 +340,13 @@
         "Zelda": 1,
         "LaCat: Hypnosis": 1,
         "Willow": 1,
-        "Gabbro": 1,
-        "Artemis Dee": 1
+        "Gabbro": 2,
+        "Artemis Dee": 1,
+        "Maru Merak Miss Ma'am Morden": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-27",
-      "pity": 0
+      "last_daily": "2026-03-01",
+      "pity": 1
     },
     "370264626971017244": {
       "inventory": {
@@ -337,10 +359,11 @@
     "353724574220812288": {
       "inventory": {
         "Sadge Ryuu": 1,
-        "LaCat: Belleh": 1
+        "LaCat: Belleh": 1,
+        "Live Gloriously!": 1
       },
       "coins": 0,
-      "last_daily": "2026-02-27",
+      "last_daily": "2026-02-28",
       "pity": 0
     },
     "161268369746690048": {
@@ -382,12 +405,12 @@
       "inventory": {
         "Artemis Dee": 1,
         "LaCat: Wassup": 1,
-        "Zelda": 1,
+        "Zelda": 2,
         "A Wild Artemis": 1,
         "Gabbro": 1
       },
-      "last_daily": "2026-02-28",
-      "pity": 0,
+      "last_daily": "2026-03-01",
+      "pity": 1,
       "pulls": 0
     },
     "277552214342631424": {
@@ -406,21 +429,24 @@
         "Ben": 1,
         "Maru Merak Miss Ma'am Morden": 1,
         "Willow Snuggle": 1,
-        "LaCat: Wassup": 1
+        "LaCat: Wassup": 1,
+        "Tomyris": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 1,
         "Artemis Dee": 1,
-        "Zelda": 1
+        "Zelda": 1,
+        "LaCat: Hypnosis": 1,
+        "Amanda": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
@@ -442,10 +468,11 @@
       "inventory": {
         "Bynx": 3,
         "Sad Jamin": 1,
-        "Howl": 1
+        "Howl": 1,
+        "Objection!": 1
       },
-      "last_daily": "2026-02-28",
-      "pity": 1,
+      "last_daily": "2026-03-01",
+      "pity": 0,
       "pulls": 0
     },
     "201094207857754112": {
@@ -454,19 +481,24 @@
         "LaCat: Wassup": 1,
         "Amanda": 1,
         "Willow": 2,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "Oreo": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
     "234795442221744130": {
-      "coins": 3,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
-        "Sadge Ryuu": 1
+        "Sadge Ryuu": 1,
+        "Objection!": 1,
+        "Willow Snuggle": 1,
+        "IDDOG": 1,
+        "Amanda": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
@@ -477,48 +509,58 @@
         "LaCat: Wassup": 1,
         "Ollidammara": 1,
         "Artemis Dee": 1,
-        "Sadge Ryuu": 1
+        "Sadge Ryuu": 1,
+        "Maleficent": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
     "495738703835168772": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "LaCat: Wassup": 1,
         "?? Ben": 1,
-        "Capt Ben": 1
+        "Capt Ben": 1,
+        "Gabbro": 1,
+        "A Wild Artemis": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
     "690973798102597705": {
-      "coins": 4,
+      "coins": 0,
       "inventory": {
-        "Maru Merak Miss Ma'am Morden": 1
+        "Maru Merak Miss Ma'am Morden": 1,
+        "LaCat: Belleh": 1,
+        "Nova Fangly": 1,
+        "Flash": 1,
+        "Howl": 1,
+        "Tomyris": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
     "316002379537317899": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Artemis Dee": 1,
         "Sad Jamin": 1,
-        "LaCat: Hypnosis": 1
+        "LaCat: Hypnosis": 1,
+        "Maleficent": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
       "pulls": 0
     },
     "484481393632608276": {
-      "coins": 3,
+      "coins": 1,
       "inventory": {
-        "Zelda": 1,
-        "LaCat: Hypnosis": 1
+        "Zelda": 2,
+        "LaCat: Hypnosis": 1,
+        "David": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
@@ -527,13 +569,13 @@
     "954136279296118885": {
       "coins": 0,
       "inventory": {
-        "Bynx": 2,
+        "Bynx": 3,
         "LaCat: Wassup": 1,
         "LaCat: Hypnosis": 1,
         "Ollidammara": 1
       },
-      "last_daily": "2026-02-28",
-      "pity": 0,
+      "last_daily": "2026-03-01",
+      "pity": 1,
       "pulls": 0
     },
     "418107361786331138": {
@@ -543,9 +585,10 @@
         "HONK!!": 1,
         "Sad Jamin": 1,
         "LaCat: Wassup": 1,
-        "Howl": 1
+        "Howl": 1,
+        "Batta": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
@@ -556,16 +599,21 @@
         "Ben": 1,
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
-        "Willow": 1
+        "Willow": 1,
+        "Live Gloriously!": 1
       },
-      "last_daily": "2026-02-28",
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     },
     "339576678902923274": {
-      "coins": 4,
+      "coins": 0,
       "inventory": {
-        "LaCat: Hypnosis": 1
+        "LaCat: Hypnosis": 1,
+        "Amanda": 1,
+        "Live Gloriously!": 1,
+        "Sadge Ryuu": 1,
+        "Howl": 1
       },
       "last_daily": "2026-02-28",
       "pity": 0,
@@ -593,6 +641,45 @@
         "Sadge Ryuu": 1
       },
       "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "641043636041285656": {
+      "coins": 0,
+      "inventory": {
+        "Live Gloriously!": 1,
+        "Ollidammara": 1,
+        "Batta": 1,
+        "Gabbro": 1,
+        "Amanda": 1
+      },
+      "last_daily": "2026-02-28",
+      "pity": 0,
+      "pulls": 0
+    },
+    "221288694835838986": {
+      "coins": 0,
+      "inventory": {
+        "Flash": 1,
+        "Gabbro": 1,
+        "Maleficent": 1,
+        "Ellie as Moonmoon": 1,
+        "Bynx": 1,
+        "Betty": 1
+      },
+      "last_daily": "2026-03-01",
+      "pity": 0,
+      "pulls": 0
+    },
+    "543627458583199764": {
+      "coins": 2,
+      "inventory": {
+        "Maleficent": 1,
+        "Capt Ben": 1,
+        "Artemis Dee": 1,
+        "A Wild Artemis": 1
+      },
+      "last_daily": "2026-03-01",
       "pity": 0,
       "pulls": 0
     }
