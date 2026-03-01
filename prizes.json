@@ -681,12 +681,13 @@
       "pulls": 0
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 1,
         "Capt Ben": 1,
         "Artemis Dee": 1,
-        "A Wild Artemis": 1
+        "A Wild Artemis": 1,
+        "Belly Flash": 1
       },
       "last_daily": "2026-03-01",
       "pity": 0,
