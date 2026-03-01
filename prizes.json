@@ -469,13 +469,14 @@
       "pulls": 0
     },
     "234795442221744130": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Sadge Ryuu": 1,
         "Objection!": 1,
         "Willow Snuggle": 1,
-        "IDDOG": 1
+        "IDDOG": 1,
+        "Amanda": 1
       },
       "last_daily": "2026-03-01",
       "pity": 0,
