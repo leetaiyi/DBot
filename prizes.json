@@ -269,6 +269,11 @@
       "name": "CTLbot",
       "weight": 1,
       "image": "CTLbot.jpg"
+    },
+    {
+      "name": "Cerberus",
+      "weight": 50,
+      "image": "Cerberus.jpg"
     }
   ],
   "users": {
