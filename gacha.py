@@ -329,6 +329,14 @@ async def inventory(ctx):
     embed = discord.Embed(title=f"{ctx.author.display_name}'s Inventory",
                           color=discord.Color.blue())
 
+    # Daily message
+    if user.get("last_daily") != today_string():
+        embed.add_field(
+            name="🎁 Daily WMGpeSO Available!",
+            value="Use `!pull` to claim your free daily pull.",
+            inline=False
+        )
+
     # Coins field
     embed.add_field(name="🪙 WMGpeSOs", value=str(coins), inline=False)
 
