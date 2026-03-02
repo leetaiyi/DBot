@@ -740,9 +740,10 @@
       "pulls": 0
     },
     "400332909753663488": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
-        "Mishka": 1
+        "Mishka": 1,
+        "Amanda": 1
       },
       "last_daily": "2026-03-02",
       "pity": 0,
