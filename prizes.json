@@ -740,11 +740,12 @@
       "pulls": 0
     },
     "400332909753663488": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Mishka": 1,
         "Amanda": 1,
-        "A Wild Artemis": 1
+        "A Wild Artemis": 1,
+        "Willow": 1
       },
       "last_daily": "2026-03-02",
       "pity": 0,
