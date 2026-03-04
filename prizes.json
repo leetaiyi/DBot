@@ -304,7 +304,7 @@
   "users": {
     "96408456294064128": {
       "inventory": {
-        "Capt Ben": 1,
+        "Capt Ben": 2,
         "Ben": 15,
         "Zelda": 20,
         "LaCat: Wassup": 14,
@@ -312,17 +312,25 @@
         "LaCat: Hypnosis": 2,
         "LaCat: Belleh": 1,
         "Ollidammara": 1,
-        "Howl": 2,
+        "Howl": 3,
         "Sad Jamin": 1,
         "Legendary Amanda": 1,
         "Bynx": 3,
         "Gabbro": 1,
         "Sadge Ryuu": 1,
-        "A Wild Artemis": 2
+        "A Wild Artemis": 2,
+        "Ellie as Moonmoon": 1,
+        "IDDOG": 1,
+        "Cerberus": 1,
+        "David": 1,
+        "Bilbo Bee": 1,
+        "Mishka": 1,
+        "Willow": 1,
+        "Carbon": 1
       },
-      "coins": 0,
-      "last_daily": "2026-02-02",
-      "pity": 2
+      "coins": 990,
+      "last_daily": "2026-03-04",
+      "pity": 0
     },
     "418102912221184001": {
       "inventory": {
