@@ -207,8 +207,13 @@
     },
     {
       "name": "Amadeus",
-      "weight": 50,
+      "weight": 40,
       "image": "Amadeus.JPEG"
+    },
+    {
+      "name": "Amadeus2",
+      "weight": 40,
+      "image": "Amadeus2.png"
     },
     {
       "name": "Listening to Rehearsal Recordings",
@@ -251,6 +256,11 @@
       "image": "KorokCouple.jpg"
     },
     {
+      "name": "Rose",
+      "weight": 50,
+      "image": "Rose.png"
+    },
+    {
       "name": "Belly Flash",
       "weight": 5,
       "image": "FlashBelly.jpg"
@@ -259,6 +269,11 @@
       "name": "Carbon",
       "weight": 50,
       "image": "Carbon.png"
+    },
+    {
+      "name": "Pianist Carbon",
+      "weight": 25,
+      "image": "CarbonPiano.jpg"
     },
     {
       "name": "Carbon Eyes",
