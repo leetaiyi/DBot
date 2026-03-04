@@ -274,6 +274,31 @@
       "name": "Cerberus",
       "weight": 50,
       "image": "Cerberus.jpg"
+    },
+    {
+      "name": "Morpheus",
+      "weight": 50,
+      "image": "Morpheus.jpg"
+    },
+    {
+      "name": "Bilbo Bee",
+      "weight": 25,
+      "image": "BeeBilbo.png"
+    },
+    {
+      "name": "Coconut!",
+      "weight": 50,
+      "image": "Coconut.jpg"
+    },
+    {
+      "name": "Morpheus!!!!!!",
+      "weight": 1,
+      "image": "MorphSpin.gif"
+    },
+    {
+      "name": "Are You Dragon Tales?",
+      "weight": 5,
+      "image": "AreYouDragonTales.jpg"
     }
   ],
   "users": {
