@@ -206,8 +206,21 @@ async def pull(ctx):
 
     pity_pool = [p for p in unowned_prizes if p["weight"] != 1]
 
-    # Pity trigger
-    if user["pity"] >= PITY_LIM and pity_pool:
+    # Check blessing
+    if user.get("blessed"):
+        # Only allow weight <= 5
+        names = [p["name"] for p in prizes if p["weight"] <= 5]
+        weights = [p["weight"] for p in names]
+
+        result_obj = random.choices(names, weights=weights, k=1)[0]
+        result = result_obj["name"]
+
+        user["blessed"] = False  # consume blessing
+
+        if result not in inventory:
+            user["pity"] = 0
+    elif user["pity"] >= PITY_LIM and pity_pool:
+        # Pity trigger
         # Force new item
         names = [p["name"] for p in pity_pool]
         weights = [p["weight"] for p in pity_pool]
@@ -331,11 +344,9 @@ async def inventory(ctx):
 
     # Daily message
     if user.get("last_daily") != today_string():
-        embed.add_field(
-            name="🎁 Daily WMGpeSO Available!",
-            value="Use `!pull` to claim your free daily pull.",
-            inline=False
-        )
+        embed.add_field(name="🎁 Daily WMGpeSO Available!",
+                        value="Use `!pull` to claim your free daily pull.",
+                        inline=False)
 
     # Coins field
     embed.add_field(name="🪙 WMGpeSOs", value=str(coins), inline=False)
@@ -411,6 +422,35 @@ async def resume(ctx):
     global paused_until
     paused_until = None
     await ctx.send("▶️ Bot resumed.")
+
+
+@bot.command()
+async def bless(ctx, member: discord.Member):
+    if ctx.author.id not in ADMIN_IDS:
+        await ctx.send("❌ You cannot bless.")
+        return
+
+    data, sha = get_gacha_data()
+    users = data.setdefault("users", {})
+
+    user_id = str(member.id)
+
+    if user_id not in users:
+        users[user_id] = {
+            "coins": 0,
+            "inventory": {},
+            "last_daily": None,
+            "pity_counter": 0,
+            "pulls": 0
+        }
+
+    users[user_id]["blessed"] = True
+
+    update_gacha_data(data, sha)
+
+    await ctx.send(
+        f"✨ {member.mention} has been **blessed**! Their next pull will be Ultra Rare or better."
+    )
 
 
 keep_alive()
