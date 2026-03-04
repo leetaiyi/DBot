@@ -33,7 +33,7 @@ REPO_OWNER = "leetaiyi"
 REPO_NAME = "DBot"
 FILE_PATH = "prizes.json"
 
-PITY_LIM = 5
+PITY_LIM = 3
 
 BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
 
