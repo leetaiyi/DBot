@@ -312,7 +312,7 @@
         "LaCat: Hypnosis": 2,
         "LaCat: Belleh": 1,
         "Ollidammara": 1,
-        "Howl": 2,
+        "Howl": 3,
         "Sad Jamin": 1,
         "Legendary Amanda": 1,
         "Bynx": 3,
@@ -324,9 +324,9 @@
         "Cerberus": 1,
         "David": 1
       },
-      "coins": 996,
+      "coins": 995,
       "last_daily": "2026-03-04",
-      "pity": 0
+      "pity": 1
     },
     "418102912221184001": {
       "inventory": {
