@@ -355,11 +355,13 @@
         "LaCat: Wassup": 2,
         "Gabbro": 1,
         "Batta": 1,
-        "A Wild Artemis": 1
+        "A Wild Artemis": 1,
+        "Oreo": 1,
+        "Ben": 1
       },
-      "coins": 2,
+      "coins": 0,
       "last_daily": "2026-03-04",
-      "pity": 1
+      "pity": 0
     },
     "128668354897510400": {
       "inventory": {
@@ -492,9 +494,10 @@
         "Willow Snuggle": 1,
         "LaCat: Wassup": 1,
         "Tomyris": 1,
-        "Howl": 1
+        "Howl": 1,
+        "Live Gloriously!": 1
       },
-      "last_daily": "2026-03-02",
+      "last_daily": "2026-03-04",
       "pity": 0,
       "pulls": 0
     },
@@ -571,9 +574,10 @@
         "Amanda": 1,
         "Mishka": 1,
         "Betty": 1,
-        "Ollidammara": 1
+        "Ollidammara": 1,
+        "Coconut!": 1
       },
-      "last_daily": "2026-03-03",
+      "last_daily": "2026-03-04",
       "pity": 0,
       "pulls": 0
     },
@@ -601,10 +605,11 @@
         "?? Ben": 1,
         "Capt Ben": 2,
         "Gabbro": 1,
-        "A Wild Artemis": 1
+        "A Wild Artemis": 1,
+        "Coconut!": 1
       },
-      "last_daily": "2026-03-01",
-      "pity": 1,
+      "last_daily": "2026-03-04",
+      "pity": 0,
       "pulls": 0
     },
     "690973798102597705": {
@@ -616,9 +621,10 @@
         "Flash": 1,
         "Howl": 1,
         "Tomyris": 1,
-        "Objection!": 1
+        "Objection!": 1,
+        "Zelda": 1
       },
-      "last_daily": "2026-03-02",
+      "last_daily": "2026-03-04",
       "pity": 0,
       "pulls": 0
     },
@@ -629,9 +635,10 @@
         "Sad Jamin": 1,
         "LaCat: Hypnosis": 1,
         "Maleficent": 1,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "Tomyris": 1
       },
-      "last_daily": "2026-03-01",
+      "last_daily": "2026-03-04",
       "pity": 0,
       "pulls": 0
     },
@@ -765,7 +772,7 @@
       "pulls": 0
     },
     "543627458583199764": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Maleficent": 1,
         "Capt Ben": 1,
@@ -773,7 +780,8 @@
         "A Wild Artemis": 1,
         "Belly Flash": 1,
         "Gabbro": 1,
-        "Howl": 1
+        "Howl": 1,
+        "Sadge Ryuu": 1
       },
       "last_daily": "2026-03-04",
       "pity": 0,
