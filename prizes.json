@@ -304,7 +304,7 @@
   "users": {
     "96408456294064128": {
       "inventory": {
-        "Capt Ben": 1,
+        "Capt Ben": 2,
         "Ben": 15,
         "Zelda": 20,
         "LaCat: Wassup": 14,
@@ -324,9 +324,9 @@
         "Cerberus": 1,
         "David": 1
       },
-      "coins": 995,
+      "coins": 994,
       "last_daily": "2026-03-04",
-      "pity": 1
+      "pity": 2
     },
     "418102912221184001": {
       "inventory": {
