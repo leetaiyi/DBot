@@ -392,14 +392,14 @@
         "Ollidammara": 1,
         "Maru Merak Miss Ma'am Morden": 2,
         "HONK!!": 1,
-        "Maleficent": 1,
+        "Maleficent": 2,
         "Betty": 1,
         "Kazoo David": 1,
         "David": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-04",
-      "pity": 0
+      "last_daily": "2026-03-05",
+      "pity": 1
     },
     "136653169118806017": {
       "inventory": {
@@ -437,10 +437,11 @@
         "Live Gloriously!": 1,
         "David": 1,
         "Gabbro": 1,
-        "Oreo": 1
+        "Oreo": 1,
+        "Ivan": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-03",
+      "last_daily": "2026-03-05",
       "pity": 0
     },
     "161268369746690048": {
@@ -450,10 +451,11 @@
         "Maru Merak Miss Ma'am Morden": 1,
         "HONK!!": 1,
         "Maleficent": 1,
-        "Ollidammara": 1
+        "Ollidammara": 1,
+        "Bynx": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-04",
+      "last_daily": "2026-03-05",
       "pity": 0
     },
     "143231057158733824": {
@@ -787,15 +789,15 @@
       "inventory": {
         "Flash": 1,
         "Gabbro": 1,
-        "Maleficent": 2,
+        "Maleficent": 3,
         "Ellie as Moonmoon": 1,
         "Bynx": 1,
         "Betty": 1,
         "A Wild Artemis": 1,
         "Ivan": 1
       },
-      "last_daily": "2026-03-04",
-      "pity": 0,
+      "last_daily": "2026-03-05",
+      "pity": 1,
       "pulls": 0
     },
     "543627458583199764": {
@@ -854,6 +856,15 @@
         "Capt Ben": 1
       },
       "last_daily": "2026-03-03",
+      "pity": 0,
+      "pulls": 0
+    },
+    "268534866193285122": {
+      "coins": 4,
+      "inventory": {
+        "Rose": 1
+      },
+      "last_daily": "2026-03-05",
       "pity": 0,
       "pulls": 0
     }
