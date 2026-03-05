@@ -314,6 +314,11 @@
       "name": "Are You Dragon Tales?",
       "weight": 5,
       "image": "AreYouDragonTales.jpg"
+    },
+    {
+      "name": "Percy",
+      "weight": 40,
+      "image": "Percy.jpg"
     }
   ],
   "users": {
