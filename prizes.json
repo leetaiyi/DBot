@@ -349,12 +349,13 @@
         "Carbon": 1,
         "Amadeus": 1,
         "Live Gloriously!": 1,
-        "Flash": 1
+        "Flash": 1,
+        "?? Ben": 1
       },
-      "coins": 985,
+      "coins": 984,
       "last_daily": "2026-03-06",
-      "pity": 1,
-      "blessed": true
+      "pity": 0,
+      "blessed": false
     },
     "418102912221184001": {
       "inventory": {
