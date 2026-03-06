@@ -348,11 +348,12 @@
         "Willow": 1,
         "Carbon": 1,
         "Amadeus": 1,
-        "Live Gloriously!": 1
+        "Live Gloriously!": 1,
+        "Flash": 1
       },
-      "coins": 987,
+      "coins": 986,
       "last_daily": "2026-03-06",
-      "pity": 2,
+      "pity": 0,
       "blessed": false
     },
     "418102912221184001": {
