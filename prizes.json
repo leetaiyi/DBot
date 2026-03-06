@@ -340,7 +340,7 @@
         "Sadge Ryuu": 1,
         "A Wild Artemis": 2,
         "Ellie as Moonmoon": 1,
-        "IDDOG": 1,
+        "IDDOG": 2,
         "Cerberus": 1,
         "David": 1,
         "Bilbo Bee": 1,
@@ -351,9 +351,10 @@
         "Live Gloriously!": 1,
         "Flash": 1
       },
-      "coins": 986,
+      "coins": 985,
       "last_daily": "2026-03-06",
-      "pity": 0
+      "pity": 1,
+      "blessed": false
     },
     "418102912221184001": {
       "inventory": {
