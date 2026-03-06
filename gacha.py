@@ -201,6 +201,10 @@ async def pull(ctx):
     inventory = user.setdefault("inventory", {})
     user["pity"] = user.get("pity", 0) + 1
 
+    # Ensure blessed exists
+    if "blessed" not in user:
+        user["blessed"] = False
+
     # Check blessing
     if user["blessed"]:
         # Only allow weight <= 5
