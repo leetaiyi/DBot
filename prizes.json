@@ -654,14 +654,15 @@
       "inventory": {
         "LaCat: Wassup": 1,
         "?? Ben": 1,
-        "Capt Ben": 2,
+        "Capt Ben": 3,
         "Gabbro": 1,
         "A Wild Artemis": 1,
         "Coconut!": 1
       },
-      "last_daily": "2026-03-04",
-      "pity": 0,
-      "pulls": 0
+      "last_daily": "2026-03-06",
+      "pity": 1,
+      "pulls": 0,
+      "blessed": false
     },
     "690973798102597705": {
       "coins": 0,
