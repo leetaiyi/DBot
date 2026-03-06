@@ -226,6 +226,14 @@ async def pull(ctx):
     
             result = random.choices(names, weights=weights, k=1)[0]
             user["pity"] = 0  # Reset pity
+        else:
+            names = [p["name"] for p in prizes]
+            weights = [p["weight"] for p in prizes]
+
+            result = random.choices(names, weights=weights, k=1)[0]
+            # Reset pity if new item obtained naturally
+            if result not in inventory:
+                user["pity"] = 0
 
     else:
         names = [p["name"] for p in prizes]
