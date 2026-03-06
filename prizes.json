@@ -902,6 +902,16 @@
       "last_daily": "2026-03-06",
       "pity": 0,
       "pulls": 0
+    },
+    "536316763562967040": {
+      "coins": 4,
+      "inventory": {
+        "Carbon": 1
+      },
+      "last_daily": "2026-03-06",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
