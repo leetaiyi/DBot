@@ -271,7 +271,7 @@
       "image": "Carbon.png"
     },
     {
-      "name": "Pianist Carbon",
+      "name": "Keyboard Carbon",
       "weight": 25,
       "image": "CarbonPiano.jpg"
     },
@@ -609,7 +609,7 @@
         "Betty": 1,
         "Ollidammara": 1,
         "Coconut!": 1,
-        "Pianist Carbon": 1,
+        "Keyboard Carbon": 1,
         "Bynx": 1
       },
       "last_daily": "2026-03-06",
@@ -720,7 +720,7 @@
         "Cerberus": 2,
         "Ivan": 1,
         "Willow": 1,
-        "Pianist Carbon": 1
+        "Keyboard Carbon": 1
       },
       "last_daily": "2026-03-06",
       "pity": 0,
