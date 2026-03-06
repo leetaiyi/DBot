@@ -912,6 +912,16 @@
       "pity": 0,
       "pulls": 0,
       "blessed": false
+    },
+    "744714502414532729": {
+      "coins": 4,
+      "inventory": {
+        "Live Gloriously!": 1
+      },
+      "last_daily": "2026-03-06",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
