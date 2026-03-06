@@ -351,7 +351,8 @@
       },
       "coins": 989,
       "last_daily": "2026-03-04",
-      "pity": 0
+      "pity": 0,
+      "blessed": true
     },
     "418102912221184001": {
       "inventory": {
@@ -396,11 +397,12 @@
         "Maleficent": 2,
         "Betty": 1,
         "Kazoo David": 1,
-        "David": 1
+        "David": 1,
+        "Masabone": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-05",
-      "pity": 1
+      "last_daily": "2026-03-06",
+      "pity": 0
     },
     "136653169118806017": {
       "inventory": {
@@ -455,10 +457,11 @@
         "HONK!!": 1,
         "Maleficent": 1,
         "Ollidammara": 1,
-        "Bynx": 1
+        "Bynx": 1,
+        "David": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-05",
+      "last_daily": "2026-03-06",
       "pity": 0
     },
     "143231057158733824": {
@@ -556,9 +559,10 @@
         "Ollidammara": 1,
         "Ellie as Moonmoon": 1,
         "Cerberus": 1,
-        "Flash": 1
+        "Flash": 1,
+        "David": 1
       },
-      "last_daily": "2026-03-05",
+      "last_daily": "2026-03-06",
       "pity": 0,
       "pulls": 0
     },

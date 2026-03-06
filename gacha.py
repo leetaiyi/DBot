@@ -201,32 +201,39 @@ async def pull(ctx):
     inventory = user.setdefault("inventory", {})
     user["pity"] = user.get("pity", 0) + 1
 
-    # Find prizes user doesn't own yet
-    unowned_prizes = [p for p in prizes if p["name"] not in inventory]
-
-    pity_pool = [p for p in unowned_prizes if p["weight"] != 1]
-
     # Check blessing
-    if user.get("blessed"):
+    if user["blessed"]:
         # Only allow weight <= 5
         names = [p["name"] for p in prizes if p["weight"] <= 5]
         weights = [p["weight"] for p in names]
 
-        result_obj = random.choices(names, weights=weights, k=1)[0]
-        result = result_obj["name"]
+        result = random.choices(names, weights=weights, k=1)[0]
 
         user["blessed"] = False  # consume blessing
 
         if result not in inventory:
             user["pity"] = 0
-    elif user["pity"] >= PITY_LIM and pity_pool:
-        # Pity trigger
-        # Force new item
-        names = [p["name"] for p in pity_pool]
-        weights = [p["weight"] for p in pity_pool]
+    elif user["pity"] >= PITY_LIM:
+        # Find prizes user doesn't own yet
+        unowned_prizes = [p for p in prizes if p["name"] not in inventory]
 
-        result = random.choices(names, weights=weights, k=1)[0]
-        user["pity"] = 0  # Reset pity
+        pity_pool = [p for p in unowned_prizes if p["weight"] != 1]
+        if pity_pool:
+            # Pity trigger
+            # Force new item
+            names = [p["name"] for p in pity_pool]
+            weights = [p["weight"] for p in pity_pool]
+
+            result = random.choices(names, weights=weights, k=1)[0]
+            user["pity"] = 0  # Reset pity
+        else:
+            names = [p["name"] for p in prizes]
+            weights = [p["weight"] for p in prizes]
+
+            result = random.choices(names, weights=weights, k=1)[0]
+            # Reset pity if new item obtained naturally
+            if result not in inventory:
+                user["pity"] = 0
 
     else:
         names = [p["name"] for p in prizes]
