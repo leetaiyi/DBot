@@ -334,7 +334,7 @@
         "Ollidammara": 1,
         "Howl": 3,
         "Sad Jamin": 1,
-        "Legendary Amanda": 1,
+        "Legendary Amanda": 2,
         "Bynx": 3,
         "Gabbro": 1,
         "Sadge Ryuu": 1,
@@ -352,10 +352,10 @@
         "Flash": 1,
         "?? Ben": 1
       },
-      "coins": 984,
+      "coins": 983,
       "last_daily": "2026-03-06",
-      "pity": 0,
-      "blessed": true
+      "pity": 1,
+      "blessed": false
     },
     "418102912221184001": {
       "inventory": {
