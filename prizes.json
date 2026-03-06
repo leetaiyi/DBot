@@ -887,9 +887,10 @@
       "pulls": 0
     },
     "197570896636936202": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
-        "Percy": 1
+        "Percy": 1,
+        "LaCat: Wassup": 1
       },
       "last_daily": "2026-03-06",
       "pity": 0,
