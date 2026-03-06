@@ -926,6 +926,16 @@
       "pity": 0,
       "pulls": 0,
       "blessed": false
+    },
+    "217089341913038848": {
+      "coins": 4,
+      "inventory": {
+        "Maru Merak Miss Ma'am Morden": 1
+      },
+      "last_daily": "2026-03-06",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
