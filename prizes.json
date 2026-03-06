@@ -326,7 +326,7 @@
       "inventory": {
         "Capt Ben": 2,
         "Ben": 15,
-        "Zelda": 20,
+        "Zelda": 21,
         "LaCat: Wassup": 14,
         "Amanda": 3,
         "LaCat: Hypnosis": 2,
@@ -350,9 +350,9 @@
         "Amadeus": 1,
         "Live Gloriously!": 1
       },
-      "coins": 989,
+      "coins": 988,
       "last_daily": "2026-03-06",
-      "pity": 0,
+      "pity": 1,
       "blessed": false
     },
     "418102912221184001": {
