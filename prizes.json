@@ -350,12 +350,13 @@
         "Amadeus": 1,
         "Live Gloriously!": 1,
         "Flash": 1,
-        "?? Ben": 1
+        "?? Ben": 1,
+        "Bratty Ryuu": 1
       },
-      "coins": 983,
+      "coins": 982,
       "last_daily": "2026-03-06",
-      "pity": 1,
-      "blessed": true
+      "pity": 0,
+      "blessed": false
     },
     "418102912221184001": {
       "inventory": {
