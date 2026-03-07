@@ -578,11 +578,13 @@
         "Ellie as Moonmoon": 1,
         "Cerberus": 1,
         "Flash": 1,
-        "David": 1
+        "David": 1,
+        "LaCat: Hypnosis": 1
       },
-      "last_daily": "2026-03-06",
+      "last_daily": "2026-03-07",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "292070419341639681": {
       "coins": 0,
