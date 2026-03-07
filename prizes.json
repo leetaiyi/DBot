@@ -542,11 +542,13 @@
         "Tomyris": 1,
         "Howl": 1,
         "Live Gloriously!": 1,
-        "Carbon": 1
+        "Carbon": 1,
+        "A Wild Artemis": 1
       },
-      "last_daily": "2026-03-05",
+      "last_daily": "2026-03-07",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "400744536239898625": {
       "coins": 0,
