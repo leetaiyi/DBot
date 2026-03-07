@@ -606,11 +606,13 @@
         "Cerberus": 1,
         "Capt Ben": 1,
         "Nova Fangly": 1,
-        "Bynx": 1
+        "Bynx": 1,
+        "Morpheus": 1
       },
-      "last_daily": "2026-03-06",
+      "last_daily": "2026-03-07",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "234795442221744130": {
       "coins": 0,
