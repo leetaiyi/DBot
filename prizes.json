@@ -741,14 +741,15 @@
         "LaCat: Wassup": 1,
         "Howl": 1,
         "Batta": 1,
-        "Cerberus": 2,
+        "Cerberus": 3,
         "Ivan": 1,
         "Willow": 1,
         "Keyboard Carbon": 1
       },
-      "last_daily": "2026-03-06",
-      "pity": 0,
-      "pulls": 0
+      "last_daily": "2026-03-07",
+      "pity": 1,
+      "pulls": 0,
+      "blessed": false
     },
     "370310581716254723": {
       "coins": 0,
