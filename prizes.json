@@ -725,11 +725,13 @@
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
         "David": 1,
-        "Bynx": 1
+        "Bynx": 1,
+        "Coconut!": 1
       },
-      "last_daily": "2026-03-06",
+      "last_daily": "2026-03-07",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "954136279296118885": {
       "coins": 1,
