@@ -589,11 +589,13 @@
         "Ollidammara": 1,
         "Betty": 1,
         "John and Albino water monitor lizard": 1,
-        "A Wild Artemis": 1
+        "A Wild Artemis": 1,
+        "Mishka": 1
       },
-      "last_daily": "2026-03-06",
+      "last_daily": "2026-03-07",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "201094207857754112": {
       "coins": 0,
