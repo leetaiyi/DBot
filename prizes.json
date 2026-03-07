@@ -369,11 +369,13 @@
         "Oreo": 1,
         "Artemis Dee": 1,
         "Batta": 1,
-        "Maleficent": 1
+        "Maleficent": 1,
+        "A Wild Artemis": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-06",
-      "pity": 1
+      "last_daily": "2026-03-07",
+      "pity": 0,
+      "blessed": false
     },
     "156937687515791361": {
       "inventory": {
