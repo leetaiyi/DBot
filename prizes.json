@@ -739,7 +739,7 @@
       "blessed": false
     },
     "954136279296118885": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 3,
         "LaCat: Wassup": 2,
@@ -748,7 +748,8 @@
         "Nova Fangly": 1,
         "Cerberus": 1,
         "Tomyris": 1,
-        "Betty": 1
+        "Betty": 1,
+        "Willow Snuggle": 1
       },
       "last_daily": "2026-03-07",
       "pity": 0,
