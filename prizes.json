@@ -319,6 +319,11 @@
       "name": "Percy",
       "weight": 40,
       "image": "Percy.jpg"
+    },
+    {
+      "name": "Bella",
+      "weight": 40,
+      "image": "Bella.png"
     }
   ],
   "users": {
