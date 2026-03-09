@@ -201,11 +201,17 @@ async def pull(ctx):
     inventory = user.setdefault("inventory", {})
     user["pity"] = user.get("pity", 0) + 1
 
+    # Ensure blessed exists
+    if "blessed" not in user:
+        user["blessed"] = False
+
     # Check blessing
     if user["blessed"]:
         # Only allow weight <= 5
-        names = [p["name"] for p in prizes if p["weight"] <= 5]
-        weights = [p["weight"] for p in names]
+        blessed_prizes = [p for p in prizes if p["weight"] <= 5]
+
+        names = [p["name"] for p in blessed_prizes]
+        weights = [p["weight"] for p in blessed_prizes]
 
         result = random.choices(names, weights=weights, k=1)[0]
 
