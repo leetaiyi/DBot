@@ -775,7 +775,7 @@
       "inventory": {
         "Artemis Dee": 1,
         "Sad Jamin": 2,
-        "LaCat: Hypnosis": 1,
+        "LaCat: Hypnosis": 2,
         "Maleficent": 1,
         "Gabbro": 1,
         "Tomyris": 1,
@@ -783,8 +783,8 @@
         "Batta": 1,
         "Morpheus": 1
       },
-      "last_daily": "2026-03-09",
-      "pity": 0,
+      "last_daily": "2026-03-10",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
