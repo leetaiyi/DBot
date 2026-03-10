@@ -1014,14 +1014,15 @@
       "pulls": 0
     },
     "197570896636936202": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Percy": 1,
         "LaCat: Wassup": 1,
         "Oreo": 1,
         "Flash": 1,
         "Objection!": 1,
-        "Cerberus": 1
+        "Cerberus": 1,
+        "Nova: The Absurd Beast": 1
       },
       "last_daily": "2026-03-10",
       "pity": 0,
