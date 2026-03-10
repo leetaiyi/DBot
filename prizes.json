@@ -344,6 +344,11 @@
       "name": "GengArtemis",
       "weight": 5,
       "image": "GengArtemis.png"
+    },
+    {
+      "name": "AdaMario",
+      "weight": 5,
+      "image": "AdaMario.jpg"
     }
   ],
   "users": {
