@@ -533,10 +533,11 @@
         "Flash": 1,
         "IDDOG": 1,
         "Ollidammara": 1,
-        "Cerberus": 1
+        "Cerberus": 1,
+        "David": 1
       },
-      "last_daily": "2026-03-09",
-      "pity": 1,
+      "last_daily": "2026-03-10",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
