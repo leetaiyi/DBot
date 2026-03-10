@@ -324,6 +324,26 @@
       "name": "Bella",
       "weight": 40,
       "image": "Bella.png"
+    },
+    {
+      "name": "Ebi",
+      "weight": 40,
+      "image": "Ebi.jpg"
+    },
+    {
+      "name": "Sake",
+      "weight": 40,
+      "image": "Sake.jpg"
+    },
+    {
+      "name": "Sake+Ebi",
+      "weight": 25,
+      "image": "EbiSake.jpg"
+    },
+    {
+      "name": "GengArtemis",
+      "weight": 5,
+      "image": "GengArtemis.png"
     }
   ],
   "users": {
