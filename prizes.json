@@ -875,11 +875,13 @@
         "Live Gloriously!": 1,
         "LaCat: Wassup": 1,
         "Artemis Dee": 1,
-        "Betty": 1
+        "Betty": 1,
+        "Mishka": 1
       },
-      "last_daily": "2026-03-06",
+      "last_daily": "2026-03-12",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "339576678902923274": {
       "coins": 0,
