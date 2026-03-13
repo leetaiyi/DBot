@@ -876,7 +876,7 @@
     "370310581716254723": {
       "coins": 0,
       "inventory": {
-        "Bynx": 1,
+        "Bynx": 2,
         "Ben": 1,
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
@@ -887,8 +887,8 @@
         "Betty": 1,
         "Mishka": 1
       },
-      "last_daily": "2026-03-12",
-      "pity": 0,
+      "last_daily": "2026-03-13",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
