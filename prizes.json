@@ -656,7 +656,7 @@
     "292070419341639681": {
       "coins": 0,
       "inventory": {
-        "Bynx": 3,
+        "Bynx": 4,
         "Sad Jamin": 1,
         "Howl": 1,
         "Objection!": 2,
@@ -669,8 +669,8 @@
         "LaCat: Hypnosis": 1,
         "Rose": 1
       },
-      "last_daily": "2026-03-12",
-      "pity": 0,
+      "last_daily": "2026-03-13",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
