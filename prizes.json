@@ -493,7 +493,7 @@
         "LaCat: Belleh": 1,
         "Live Gloriously!": 1,
         "David": 2,
-        "Gabbro": 1,
+        "Gabbro": 2,
         "Oreo": 1,
         "Ivan": 1,
         "LaCat: Wassup": 1,
@@ -501,8 +501,8 @@
         "Artemis Dee": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-10",
-      "pity": 0,
+      "last_daily": "2026-03-13",
+      "pity": 1,
       "blessed": false
     },
     "161268369746690048": {
