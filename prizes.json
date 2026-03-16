@@ -567,7 +567,7 @@
         "Howl": 1,
         "Betty": 1,
         "Amanda": 1,
-        "Flash": 1,
+        "Flash": 2,
         "IDDOG": 1,
         "Ollidammara": 1,
         "Cerberus": 1,
@@ -578,8 +578,8 @@
         "Sake": 1,
         "Willow": 1
       },
-      "last_daily": "2026-03-15",
-      "pity": 0,
+      "last_daily": "2026-03-16",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
