@@ -972,7 +972,7 @@
       "inventory": {
         "Live Gloriously!": 1,
         "Ollidammara": 1,
-        "Batta": 1,
+        "Batta": 2,
         "Gabbro": 1,
         "Amanda": 1,
         "Kazoo David": 1,
@@ -983,8 +983,8 @@
         "Betty": 1,
         "Carbon": 1
       },
-      "last_daily": "2026-03-14",
-      "pity": 0,
+      "last_daily": "2026-03-16",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
