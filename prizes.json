@@ -413,7 +413,7 @@
     },
     "156937687515791361": {
       "inventory": {
-        "Bynx": 2,
+        "Bynx": 3,
         "LaCat: Wassup": 2,
         "Gabbro": 1,
         "Batta": 1,
@@ -427,8 +427,8 @@
         "Ellie as Moonmoon": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-14",
-      "pity": 0,
+      "last_daily": "2026-03-16",
+      "pity": 1,
       "blessed": false
     },
     "128668354897510400": {
