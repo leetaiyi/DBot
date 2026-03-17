@@ -1054,11 +1054,13 @@
     "247912247496540160": {
       "coins": 4,
       "inventory": {
-        "Artemis Dee": 1
+        "Artemis Dee": 1,
+        "Kazoo David": 1
       },
-      "last_daily": "2026-03-02",
+      "last_daily": "2026-03-17",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "743276168316190795": {
       "coins": 0,
