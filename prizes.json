@@ -732,7 +732,7 @@
         "IDDOG": 1,
         "Amanda": 1,
         "Mishka": 1,
-        "Betty": 1,
+        "Betty": 2,
         "Ollidammara": 1,
         "Coconut!": 1,
         "Keyboard Carbon": 1,
@@ -745,8 +745,8 @@
         "Sake": 1,
         "Cerberus": 1
       },
-      "last_daily": "2026-03-15",
-      "pity": 0,
+      "last_daily": "2026-03-17",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
