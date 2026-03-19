@@ -1084,16 +1084,16 @@
       "blessed": false
     },
     "247912247496540160": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
-        "Artemis Dee": 1,
+        "Artemis Dee": 2,
         "Kazoo David": 1,
         "Objection!": 1,
         "Belly Flash": 1,
         "Gabbro": 1
       },
       "last_daily": "2026-03-19",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
