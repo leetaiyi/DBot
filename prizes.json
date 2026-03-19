@@ -349,6 +349,11 @@
       "name": "AdaMario",
       "weight": 5,
       "image": "AdaMario.jpg"
+    },
+    {
+      "name": "Sawyer",
+      "weight": 40,
+      "image": "Sawyer.png"
     }
   ],
   "users": {
