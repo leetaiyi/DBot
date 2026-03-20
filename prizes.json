@@ -539,7 +539,7 @@
         "Bynx": 1,
         "David": 1,
         "Ben": 1,
-        "Cerberus": 1,
+        "Cerberus": 2,
         "Kazoo David": 1,
         "Ebi": 1,
         "Sake": 1,
@@ -547,8 +547,8 @@
         "Mishka": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-19",
-      "pity": 0,
+      "last_daily": "2026-03-20",
+      "pity": 1,
       "blessed": false
     },
     "143231057158733824": {
