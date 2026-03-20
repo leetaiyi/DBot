@@ -702,7 +702,7 @@
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 1,
-        "Howl": 1,
+        "Howl": 2,
         "Objection!": 2,
         "Ollidammara": 2,
         "Betty": 2,
@@ -717,8 +717,8 @@
         "Maleficent": 1,
         "Batta": 1
       },
-      "last_daily": "2026-03-19",
-      "pity": 0,
+      "last_daily": "2026-03-20",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
