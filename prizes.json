@@ -930,7 +930,7 @@
         "?? Ben": 1,
         "HONK!!": 1,
         "Sad Jamin": 1,
-        "LaCat: Wassup": 2,
+        "LaCat: Wassup": 3,
         "Howl": 1,
         "Batta": 1,
         "Cerberus": 3,
@@ -949,8 +949,8 @@
         "Amanda": 1,
         "Sake+Ebi": 1
       },
-      "last_daily": "2026-03-20",
-      "pity": 0,
+      "last_daily": "2026-03-21",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
