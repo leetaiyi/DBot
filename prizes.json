@@ -785,10 +785,11 @@
         "Sake": 1,
         "Cerberus": 1,
         "Ben": 1,
-        "Howl": 1
+        "Howl": 1,
+        "Willow": 1
       },
-      "last_daily": "2026-03-20",
-      "pity": 1,
+      "last_daily": "2026-03-22",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
