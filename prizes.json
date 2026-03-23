@@ -932,10 +932,11 @@
         "Duet of the Fates": 1,
         "Amadeus": 2,
         "David": 1,
-        "A Wild Artemis": 1
+        "A Wild Artemis": 1,
+        "IDDOG": 1
       },
-      "last_daily": "2026-03-22",
-      "pity": 1,
+      "last_daily": "2026-03-23",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
