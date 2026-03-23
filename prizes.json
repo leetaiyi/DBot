@@ -354,6 +354,11 @@
       "name": "Sawyer",
       "weight": 40,
       "image": "Sawyer.png"
+    },
+    {
+      "name": "Polly",
+      "weight": 50,
+      "image": "Sawyer.png"
     }
   ],
   "users": {
