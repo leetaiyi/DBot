@@ -1199,11 +1199,13 @@
     "232315422924341253": {
       "coins": 4,
       "inventory": {
-        "Capt Ben": 1
+        "Capt Ben": 1,
+        "Ivan": 1
       },
-      "last_daily": "2026-03-03",
+      "last_daily": "2026-03-24",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "268534866193285122": {
       "coins": 4,
