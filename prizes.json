@@ -893,10 +893,11 @@
         "IDDOG": 1,
         "Cerberus": 1,
         "A Wild Artemis": 2,
-        "Bilbo Bee": 1
+        "Bilbo Bee": 1,
+        "Willow": 1
       },
-      "last_daily": "2026-03-24",
-      "pity": 2,
+      "last_daily": "2026-03-25",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
