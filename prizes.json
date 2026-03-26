@@ -808,7 +808,7 @@
       "inventory": {
         "Willow Snuggle": 1,
         "LaCat: Wassup": 1,
-        "Ollidammara": 1,
+        "Ollidammara": 2,
         "Artemis Dee": 1,
         "Sadge Ryuu": 1,
         "Maleficent": 3,
@@ -831,8 +831,8 @@
         "Ebi": 1,
         "Rose": 1
       },
-      "last_daily": "2026-03-22",
-      "pity": 0,
+      "last_daily": "2026-03-26",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
