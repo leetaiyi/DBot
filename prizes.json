@@ -897,7 +897,7 @@
       "coins": 1,
       "inventory": {
         "Artemis Dee": 1,
-        "Sad Jamin": 2,
+        "Sad Jamin": 3,
         "LaCat: Hypnosis": 2,
         "Maleficent": 2,
         "Gabbro": 1,
@@ -909,8 +909,8 @@
         "Bilbo Bee": 1,
         "Betty": 1
       },
-      "last_daily": "2026-03-20",
-      "pity": 0,
+      "last_daily": "2026-03-27",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
