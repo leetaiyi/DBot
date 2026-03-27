@@ -431,7 +431,7 @@
     },
     "156937687515791361": {
       "inventory": {
-        "Bynx": 3,
+        "Bynx": 4,
         "LaCat: Wassup": 2,
         "Gabbro": 1,
         "Batta": 1,
@@ -447,8 +447,8 @@
         "Coconut!": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-20",
-      "pity": 0,
+      "last_daily": "2026-03-27",
+      "pity": 1,
       "blessed": false
     },
     "128668354897510400": {
