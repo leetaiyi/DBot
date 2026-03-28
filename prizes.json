@@ -811,10 +811,11 @@
         "Cerberus": 1,
         "Ben": 1,
         "Howl": 1,
-        "Willow": 1
+        "Willow": 1,
+        "Polly": 1
       },
-      "last_daily": "2026-03-26",
-      "pity": 2,
+      "last_daily": "2026-03-28",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
