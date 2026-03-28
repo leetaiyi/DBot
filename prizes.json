@@ -1220,9 +1220,10 @@
       "coins": 4,
       "inventory": {
         "Capt Ben": 1,
-        "Willow": 1
+        "Willow": 1,
+        "Carbon": 1
       },
-      "last_daily": "2026-03-27",
+      "last_daily": "2026-03-28",
       "pity": 0,
       "pulls": 0,
       "blessed": false
