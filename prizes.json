@@ -1218,11 +1218,12 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
         "Capt Ben": 1,
         "Willow": 1,
-        "Carbon": 1
+        "Carbon": 1,
+        "Ebi": 1
       },
       "last_daily": "2026-03-28",
       "pity": 0,
