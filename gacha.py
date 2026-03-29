@@ -11,8 +11,6 @@ from keep_alive import keep_alive
 # Re-pull code from GitHub
 import os
 
-os.system("git pull origin main --no-ff")
-
 # =========================
 # CONFIG
 # =========================
@@ -37,10 +35,10 @@ PITY_LIM = 3
 
 BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
 
-API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}?ref=main"
+API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}?ref=data"
 
 headers = {
-    "Authorization": f"Bearer {GITHUB_TOKEN}",
+    "Authorization": f"token {GITHUB_TOKEN}",
     "Accept": "application/vnd.github+json"
 }
 
@@ -131,8 +129,11 @@ async def global_pause_check(ctx):
 
 def get_gacha_data():
     r = requests.get(API_URL, headers=headers)
-    print("GitHub response:", r.json())  # <-- ADD THIS
     data = r.json()
+
+    if "content" not in data:
+        print("GitHub ERROR:", data)
+        raise Exception("Failed to fetch gacha data")
 
     content = base64.b64decode(data["content"]).decode()
     return json.loads(content), data["sha"]
@@ -142,8 +143,12 @@ def update_gacha_data(new_data, sha):
     encoded = base64.b64encode(json.dumps(new_data,
                                           indent=2).encode()).decode()
 
-    payload = {"message": "Update gacha pulls", "content": encoded, "sha": sha}
-
+    payload = {
+        "message": "Update gacha pulls",
+        "content": encoded,
+        "sha": sha,
+        "branch": "data"
+}
     requests.put(API_URL, headers=headers, json=payload)
 
 
