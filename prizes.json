@@ -371,11 +371,11 @@
         "Amanda": 4,
         "LaCat: Hypnosis": 2,
         "LaCat: Belleh": 1,
-        "Ollidammara": 1,
+        "Ollidammara": 2,
         "Howl": 3,
         "Sad Jamin": 1,
         "Legendary Amanda": 2,
-        "Bynx": 3,
+        "Bynx": 4,
         "Gabbro": 1,
         "Sadge Ryuu": 1,
         "A Wild Artemis": 2,
@@ -391,10 +391,12 @@
         "Live Gloriously!": 1,
         "Flash": 1,
         "?? Ben": 1,
-        "Bratty Ryuu": 1
+        "Bratty Ryuu": 1,
+        "Maru Merak Miss Ma'am Morden": 1,
+        "Maleficent": 1
       },
-      "coins": 982,
-      "last_daily": "2026-03-06",
+      "coins": 980,
+      "last_daily": "2026-03-29",
       "pity": 0,
       "blessed": false
     },
@@ -419,16 +421,20 @@
         "Bella": 1,
         "Tomyris": 1,
         "Masabone": 1,
-        "Sake+Ebi": 1
+        "Sake+Ebi": 1,
+        "Zelda": 1,
+        "Ellie as Moonmoon": 1,
+        "Korok Couple": 1,
+        "Polly": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-22",
+      "last_daily": "2026-03-29",
       "pity": 0,
       "blessed": false
     },
     "156937687515791361": {
       "inventory": {
-        "Bynx": 3,
+        "Bynx": 4,
         "LaCat: Wassup": 2,
         "Gabbro": 1,
         "Batta": 1,
@@ -444,8 +450,8 @@
         "Coconut!": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-20",
-      "pity": 0,
+      "last_daily": "2026-03-27",
+      "pity": 1,
       "blessed": false
     },
     "128668354897510400": {
@@ -471,11 +477,12 @@
         "Ivan": 1,
         "Bynx": 1,
         "Carbon": 1,
-        "Willow Belly": 1
+        "Willow Belly": 1,
+        "Cerberus": 2
       },
       "coins": 0,
-      "last_daily": "2026-03-21",
-      "pity": 0,
+      "last_daily": "2026-03-27",
+      "pity": 1,
       "blessed": false
     },
     "136653169118806017": {
@@ -499,14 +506,16 @@
         "Amadeus": 1,
         "Howl": 1,
         "Betty": 1,
-        "Tomyris": 1,
+        "Tomyris": 2,
         "Morpheus": 1,
         "Sake+Ebi": 1,
-        "Mishka": 1
+        "Mishka": 1,
+        "Live Gloriously!": 1,
+        "Sake": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-22",
-      "pity": 1,
+      "last_daily": "2026-03-27",
+      "pity": 0,
       "blessed": false
     },
     "370264626971017244": {
@@ -531,11 +540,13 @@
         "Artemis Dee": 1,
         "Legendary Amanda": 1,
         "Sake+Ebi": 1,
-        "Ollidammara": 1
+        "Ollidammara": 1,
+        "Amadeus": 1,
+        "Amanda": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-21",
-      "pity": 2,
+      "last_daily": "2026-03-28",
+      "pity": 0,
       "blessed": false
     },
     "161268369746690048": {
@@ -547,7 +558,7 @@
         "Maleficent": 2,
         "Ollidammara": 1,
         "Bynx": 1,
-        "David": 1,
+        "David": 2,
         "Ben": 1,
         "Cerberus": 2,
         "Kazoo David": 1,
@@ -556,11 +567,12 @@
         "Ivan": 1,
         "Mishka": 1,
         "Batta": 1,
-        "LaCat: Hypnosis": 1
+        "LaCat: Hypnosis": 1,
+        "Amadeus2": 1
       },
       "coins": 0,
-      "last_daily": "2026-03-22",
-      "pity": 0,
+      "last_daily": "2026-03-27",
+      "pity": 1,
       "blessed": false
     },
     "143231057158733824": {
@@ -596,7 +608,7 @@
         "Zelda": 2,
         "A Wild Artemis": 1,
         "Gabbro": 3,
-        "Howl": 1,
+        "Howl": 2,
         "Betty": 1,
         "Amanda": 1,
         "Flash": 2,
@@ -611,11 +623,13 @@
         "Willow": 1,
         "Kazoo David": 1,
         "Maleficent": 2,
-        "Rose": 1,
+        "Rose": 2,
         "Morpheus": 1,
-        "Amadeus2": 1
+        "Amadeus2": 1,
+        "Tomyris": 1,
+        "Bilbo Bee": 1
       },
-      "last_daily": "2026-03-23",
+      "last_daily": "2026-03-29",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -650,10 +664,13 @@
         "Objection!": 1,
         "Betty": 1,
         "LaCat: Hypnosis": 1,
-        "Sawyer": 1
+        "Sawyer": 1,
+        "Percy": 1,
+        "Sake+Ebi": 1,
+        "Mishka": 1
       },
-      "last_daily": "2026-03-23",
-      "pity": 1,
+      "last_daily": "2026-03-29",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
@@ -681,9 +698,13 @@
         "Rose": 1,
         "Nova: The Absurd Beast": 1,
         "Sake": 1,
-        "Amadeus2": 1
+        "Amadeus2": 1,
+        "Gabbro": 1,
+        "Bilbo Bee": 1,
+        "Ivan": 1,
+        "Nova Fangly": 1
       },
-      "last_daily": "2026-03-22",
+      "last_daily": "2026-03-29",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -692,7 +713,7 @@
       "coins": 0,
       "inventory": {
         "HONK!!": 1,
-        "Tomyris": 2,
+        "Tomyris": 3,
         "Howl": 1,
         "LaCat: Wassup": 2,
         "Ollidammara": 1,
@@ -712,10 +733,12 @@
         "Bynx": 1,
         "Maru Merak Miss Ma'am Morden": 1,
         "Amanda": 1,
-        "Rose": 1
+        "Rose": 1,
+        "Nova Fangly": 1,
+        "Betty": 1
       },
-      "last_daily": "2026-03-22",
-      "pity": 2,
+      "last_daily": "2026-03-27",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
@@ -725,12 +748,12 @@
         "Bynx": 4,
         "Sad Jamin": 1,
         "Howl": 2,
-        "Objection!": 2,
+        "Objection!": 3,
         "Ollidammara": 2,
         "Betty": 2,
         "John and Albino water monitor lizard": 1,
         "A Wild Artemis": 2,
-        "Mishka": 1,
+        "Mishka": 2,
         "Percy": 1,
         "LaCat: Hypnosis": 2,
         "Rose": 1,
@@ -738,9 +761,11 @@
         "Ivan": 1,
         "Maleficent": 1,
         "Batta": 1,
-        "Ebi": 1
+        "Ebi": 1,
+        "Gabbro": 1,
+        "Flash": 1
       },
-      "last_daily": "2026-03-22",
+      "last_daily": "2026-03-29",
       "pity": 1,
       "pulls": 0,
       "blessed": false
@@ -778,13 +803,13 @@
         "IDDOG": 1,
         "Amanda": 1,
         "Mishka": 1,
-        "Betty": 2,
+        "Betty": 3,
         "Ollidammara": 1,
         "Coconut!": 1,
         "Keyboard Carbon": 1,
         "Bynx": 2,
         "A Wild Artemis": 1,
-        "Amadeus": 1,
+        "Amadeus": 2,
         "Rose": 1,
         "Percy": 1,
         "Ebi": 1,
@@ -792,9 +817,10 @@
         "Cerberus": 1,
         "Ben": 1,
         "Howl": 1,
-        "Willow": 1
+        "Willow": 1,
+        "Polly": 1
       },
-      "last_daily": "2026-03-22",
+      "last_daily": "2026-03-28",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -804,7 +830,7 @@
       "inventory": {
         "Willow Snuggle": 1,
         "LaCat: Wassup": 1,
-        "Ollidammara": 1,
+        "Ollidammara": 2,
         "Artemis Dee": 1,
         "Sadge Ryuu": 1,
         "Maleficent": 3,
@@ -825,10 +851,12 @@
         "Cookie Strife": 1,
         "Sake": 1,
         "Ebi": 1,
-        "Rose": 1
+        "Rose": 2,
+        "AdaMario": 1,
+        "Nova Fangly": 1
       },
-      "last_daily": "2026-03-22",
-      "pity": 0,
+      "last_daily": "2026-03-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
@@ -871,9 +899,12 @@
         "IDDOG": 1,
         "Cerberus": 1,
         "A Wild Artemis": 1,
-        "Bilbo Bee": 1
+        "Bilbo Bee": 2,
+        "Morpheus": 1,
+        "HONK!!": 1,
+        "Are You Dragon Tales?": 1
       },
-      "last_daily": "2026-03-22",
+      "last_daily": "2026-03-29",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -882,7 +913,7 @@
       "coins": 1,
       "inventory": {
         "Artemis Dee": 1,
-        "Sad Jamin": 2,
+        "Sad Jamin": 3,
         "LaCat: Hypnosis": 2,
         "Maleficent": 2,
         "Gabbro": 1,
@@ -892,9 +923,10 @@
         "Morpheus": 1,
         "Ivan": 1,
         "Bilbo Bee": 1,
-        "Betty": 1
+        "Betty": 1,
+        "Bella": 1
       },
-      "last_daily": "2026-03-20",
+      "last_daily": "2026-03-28",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -938,9 +970,13 @@
         "Amadeus": 2,
         "David": 1,
         "A Wild Artemis": 1,
-        "IDDOG": 1
+        "IDDOG": 1,
+        "Bilbo Bee": 1,
+        "Maru Merak Miss Ma'am Morden": 1,
+        "Ebi": 1,
+        "Bella": 1
       },
-      "last_daily": "2026-03-23",
+      "last_daily": "2026-03-28",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -959,20 +995,21 @@
         "Willow": 1,
         "Keyboard Carbon": 1,
         "Bynx": 2,
-        "Morpheus": 1,
+        "Morpheus": 2,
         "Amadeus": 1,
         "Rose": 1,
         "Artemis Dee": 1,
-        "Sake": 1,
+        "Sake": 2,
         "Flash": 1,
         "Willow Belly": 1,
-        "IDDOG": 1,
+        "IDDOG": 2,
         "Amanda": 1,
         "Sake+Ebi": 1,
-        "Betty": 1
+        "Betty": 1,
+        "Sawyer": 1
       },
-      "last_daily": "2026-03-22",
-      "pity": 0,
+      "last_daily": "2026-03-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
@@ -984,14 +1021,15 @@
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
         "Willow": 1,
-        "Live Gloriously!": 1,
+        "Live Gloriously!": 2,
         "LaCat: Wassup": 1,
         "Artemis Dee": 1,
         "Betty": 1,
         "Mishka": 1,
-        "Coconut!": 1
+        "Coconut!": 1,
+        "Rose": 1
       },
-      "last_daily": "2026-03-20",
+      "last_daily": "2026-03-28",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -1007,13 +1045,14 @@
         "Mishka": 1,
         "Ben": 1,
         "Gabbro": 2,
-        "Tomyris": 1,
+        "Tomyris": 2,
         "Bella": 1,
         "Sawyer": 1,
-        "Ivan": 1
+        "Ivan": 1,
+        "Willow Snuggle": 1
       },
-      "last_daily": "2026-03-22",
-      "pity": 0,
+      "last_daily": "2026-03-27",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
@@ -1041,11 +1080,13 @@
         "Zelda": 1,
         "Sadge Ryuu": 1,
         "Maru Merak Miss Ma'am Morden": 1,
-        "Ivan": 1
+        "Ivan": 1,
+        "Coconut!": 1
       },
-      "last_daily": "2026-03-02",
+      "last_daily": "2026-03-27",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "641043636041285656": {
       "coins": 0,
@@ -1057,7 +1098,7 @@
         "Amanda": 1,
         "Kazoo David": 1,
         "John and Albino water monitor lizard": 1,
-        "Maru Merak Miss Ma'am Morden": 1,
+        "Maru Merak Miss Ma'am Morden": 2,
         "David": 1,
         "Capt Ben": 1,
         "Betty": 1,
@@ -1066,8 +1107,8 @@
         "Tin Senpai Noticed Us": 1,
         "Mishka": 1
       },
-      "last_daily": "2026-03-22",
-      "pity": 0,
+      "last_daily": "2026-03-28",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
@@ -1084,7 +1125,7 @@
         "Ivan": 1,
         "Ollidammara": 1,
         "Oreo": 1,
-        "Willow": 1,
+        "Willow": 2,
         "Carbon": 1,
         "Rose": 1,
         "Artemis Dee": 2,
@@ -1094,10 +1135,13 @@
         "HONK!!": 1,
         "Howl": 1,
         "Ben": 1,
-        "Amadeus": 1
+        "Amadeus": 1,
+        "Sake+Ebi": 1,
+        "John and Albino water monitor lizard": 1,
+        "IDDOG": 1
       },
-      "last_daily": "2026-03-23",
-      "pity": 1,
+      "last_daily": "2026-03-28",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
@@ -1107,7 +1151,7 @@
         "Maleficent": 1,
         "Capt Ben": 2,
         "Artemis Dee": 1,
-        "A Wild Artemis": 1,
+        "A Wild Artemis": 2,
         "Belly Flash": 1,
         "Gabbro": 1,
         "Howl": 1,
@@ -1123,9 +1167,12 @@
         "Betty": 1,
         "LaCat: Wassup": 1,
         "Sawyer": 1,
-        "Objection!": 1
+        "Objection!": 1,
+        "Willow Snuggle": 1,
+        "LaCat: Hypnosis": 1,
+        "Korok Couple": 1
       },
-      "last_daily": "2026-03-22",
+      "last_daily": "2026-03-28",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -1168,20 +1215,26 @@
         "Mishka": 1,
         "Amanda": 2,
         "A Wild Artemis": 1,
-        "Willow": 1
+        "Willow": 1,
+        "LaCat: Hypnosis": 1
       },
-      "last_daily": "2026-03-02",
-      "pity": 1,
-      "pulls": 0
+      "last_daily": "2026-03-26",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     },
     "232315422924341253": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
-        "Capt Ben": 1
+        "Capt Ben": 1,
+        "Willow": 1,
+        "Carbon": 1,
+        "Ebi": 1
       },
-      "last_daily": "2026-03-03",
+      "last_daily": "2026-03-28",
       "pity": 0,
-      "pulls": 0
+      "pulls": 0,
+      "blessed": false
     },
     "268534866193285122": {
       "coins": 4,
@@ -1206,9 +1259,10 @@
         "John and Albino water monitor lizard": 1,
         "A Wild Artemis": 1,
         "Masabone": 1,
-        "Maru Merak Miss Ma'am Morden": 1
+        "Maru Merak Miss Ma'am Morden": 1,
+        "Mishka": 1
       },
-      "last_daily": "2026-03-22",
+      "last_daily": "2026-03-27",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -1224,15 +1278,19 @@
       "blessed": false
     },
     "744714502414532729": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
         "Live Gloriously!": 1,
         "Batta": 1,
         "Willow": 1,
         "Nova: The Absurd Beast": 1,
-        "Maru Merak Miss Ma'am Morden": 1
+        "Maru Merak Miss Ma'am Morden": 1,
+        "Amadeus": 1,
+        "Polly": 1,
+        "Ben": 1,
+        "Willow Snuggle": 1
       },
-      "last_daily": "2026-03-21",
+      "last_daily": "2026-03-28",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -1242,9 +1300,12 @@
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 1,
         "Kazoo David": 1,
-        "Flash": 1
+        "Flash": 1,
+        "Howl": 1,
+        "Zelda": 1,
+        "Bynx": 1
       },
-      "last_daily": "2026-03-19",
+      "last_daily": "2026-03-27",
       "pity": 0,
       "pulls": 0,
       "blessed": false
