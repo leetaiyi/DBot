@@ -769,10 +769,11 @@
         "Batta": 1,
         "Ebi": 1,
         "Gabbro": 1,
-        "Flash": 1
+        "Flash": 1,
+        "Korok Couple": 1
       },
-      "last_daily": "2026-03-29",
-      "pity": 1,
+      "last_daily": "2026-03-30",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
