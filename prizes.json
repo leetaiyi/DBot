@@ -837,7 +837,7 @@
       "coins": 0,
       "inventory": {
         "Willow Snuggle": 1,
-        "LaCat: Wassup": 1,
+        "LaCat: Wassup": 2,
         "Ollidammara": 2,
         "Artemis Dee": 1,
         "Sadge Ryuu": 1,
@@ -863,8 +863,8 @@
         "AdaMario": 1,
         "Nova Fangly": 1
       },
-      "last_daily": "2026-03-29",
-      "pity": 1,
+      "last_daily": "2026-03-30",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
