@@ -33,7 +33,7 @@ FILE_PATH = "prizes.json"
 
 PITY_LIM = 3
 
-BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
+BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/data/WM%20Gacha/"
 
 API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}?ref=data"
 
