@@ -536,7 +536,7 @@ async def achievements(ctx):
                 for req in items:
                     if not check_item_group(inventory, req):
                         if isinstance(req, list):
-                            missing.append(f"({'/'.join(req)})")
+                            missing.append(req[0])
                         else:
                             missing.append(req)
 
