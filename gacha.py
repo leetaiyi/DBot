@@ -521,7 +521,11 @@ async def achievements(ctx):
         complete = is_complete(inventory, items)
         progress, total = count_progress(inventory, items)
 
-        # 🔒 Hide rare achievements
+        # Skip achievements with zero progress
+        if progress == 0:
+            continue
+
+        # Hide rare achievements unless complete
         if rarity != "common" and not complete:
             display_name = "❓ Hidden Achievement"
             value = "???"
@@ -531,7 +535,6 @@ async def achievements(ctx):
             if complete:
                 value = "✅ Completed!"
             else:
-                # Optional: show missing items
                 missing = []
                 for req in items:
                     if not check_item_group(inventory, req):
@@ -544,8 +547,11 @@ async def achievements(ctx):
 
         embed.add_field(name=display_name, value=value, inline=False)
 
+    if len(embed.fields) == 0:
+        embed.description = "No achievements in progress yet. Start pulling! 🎰"
+
     await ctx.send(embed=embed)
-    
+
 
 keep_alive()
 
