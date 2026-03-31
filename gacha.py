@@ -29,13 +29,16 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 REPO_OWNER = "leetaiyi"
 REPO_NAME = "DBot"
-FILE_PATH = "prizes.json"
 
 PITY_LIM = 3
 
 BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/data/WM%20Gacha/"
 
-API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}?ref=data"
+PRIZES_PATH = "prizes.json"
+USERS_PATH = "users.json"
+
+PRIZES_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{PRIZES_PATH}?ref=data"
+USERS_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{USERS_PATH}?ref=data"
 
 headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
@@ -122,34 +125,52 @@ async def global_pause_check(ctx):
     return False
 
 
+def check_item_group(inventory, requirement):
+    if isinstance(requirement, list):
+        return any(item in inventory for item in requirement)
+    return requirement in inventory
+
+
+def count_progress(inventory, items):
+    progress = sum(check_item_group(inventory, r) for r in items)
+    return progress, len(items)
+
+
+def is_complete(inventory, items):
+    return all(check_item_group(inventory, r) for r in items)
+
+
 # =========================
 # GITHUB FUNCTIONS
 # =========================
 
 
-def get_gacha_data():
-    r = requests.get(API_URL, headers=headers)
+def get_file(url):
+    r = requests.get(url, headers=headers)
     data = r.json()
 
     if "content" not in data:
         print("GitHub ERROR:", data)
-        raise Exception("Failed to fetch gacha data")
+        raise Exception("Failed to fetch file")
 
     content = base64.b64decode(data["content"]).decode()
     return json.loads(content), data["sha"]
 
 
-def update_gacha_data(new_data, sha):
-    encoded = base64.b64encode(json.dumps(new_data,
-                                          indent=2).encode()).decode()
+def update_file(url, new_data, sha):
+    encoded = base64.b64encode(json.dumps(new_data, indent=2).encode()).decode()
 
     payload = {
-        "message": "Update gacha pulls",
+        "message": "Update data",
         "content": encoded,
         "sha": sha,
         "branch": "data"
-}
-    requests.put(API_URL, headers=headers, json=payload)
+    }
+
+    r = requests.put(url, headers=headers, json=payload)
+
+    if r.status_code != 200:
+        print("Update failed:", r.json())
 
 
 # =========================
@@ -160,10 +181,11 @@ def update_gacha_data(new_data, sha):
 @bot.command()
 @commands.cooldown(rate=1, per=10.0, type=commands.BucketType.default)
 async def pull(ctx):
-    data, sha = get_gacha_data()
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, user_sha = get_file(USERS_URL)
 
-    prizes = data["prizes"]
-    users = data.setdefault("users", {})
+    prizes = prize_data["prizes"]
+    users = user_data.setdefault("users", {})
 
     user_id = str(ctx.author.id)
 
@@ -260,7 +282,7 @@ async def pull(ctx):
     inventory = user.setdefault("inventory", {})
     inventory[result] = inventory.get(result, 0) + 1
 
-    update_gacha_data(data, sha)
+    update_file(USERS_URL, user_data, user_sha)
 
     # Find the prize object with the name
     prize_obj = next((p for p in prizes if p["name"] == result), None)
@@ -308,12 +330,12 @@ async def pull(ctx):
 
 @bot.command()
 async def inventory(ctx):
-    import discord
 
-    data, _ = get_gacha_data()
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, _ = get_file(USERS_URL)
 
-    prizes = data.get("prizes", [])
-    users = data.get("users", {})
+    prizes = prize_data["prizes"]
+    users = user_data.get("users", {})
 
     user_id = str(ctx.author.id)
 
@@ -397,8 +419,8 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
         await ctx.send("❌ You don't have permission to use this.")
         return
 
-    data, sha = get_gacha_data()
-    users = data.setdefault("users", {})
+    user_data, user_sha = get_file(USERS_URL)
+    users = user_data.setdefault("users", {})
 
     user_id = str(member.id)
 
@@ -412,7 +434,7 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
 
     users[user_id]["coins"] += amount
 
-    update_gacha_data(data, sha)
+    update_file(USERS_URL, user_data, user_sha)
 
     await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
 
@@ -448,8 +470,8 @@ async def bless(ctx, member: discord.Member):
         await ctx.send("❌ You cannot bless.")
         return
 
-    data, sha = get_gacha_data()
-    users = data.setdefault("users", {})
+    user_data, user_sha = get_file(USERS_URL)
+    users = user_data.setdefault("users", {})
 
     user_id = str(member.id)
 
@@ -464,11 +486,71 @@ async def bless(ctx, member: discord.Member):
 
     users[user_id]["blessed"] = True
 
-    update_gacha_data(data, sha)
+    update_file(USERS_URL, user_data, user_sha)
 
     await ctx.send(
         f"✨ {member.mention} has been **blessed**! Their next pull will be Ultra Rare or better."
     )
+
+
+@bot.command()
+async def achievements(ctx):
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, _ = get_file(USERS_URL)
+
+    achievements = prize_data.get("achievements", {})
+    users = user_data.get("users", {})
+
+    user_id = str(ctx.author.id)
+
+    if user_id not in users:
+        await ctx.send("You have no progress yet! Use `!pull` first.")
+        return
+
+    inventory = users[user_id].get("inventory", {})
+
+    embed = discord.Embed(
+        title=f"{ctx.author.display_name}'s Achievements",
+        color=discord.Color.dark_gold()
+    )
+
+    for name, info in achievements.items():
+        items = info["items"]
+        rarity = info.get("rarity", "common")
+
+        complete = is_complete(inventory, items)
+        progress, total = count_progress(inventory, items)
+
+        # Skip achievements with zero progress
+        if progress == 0:
+            continue
+
+        # Hide rare achievements unless complete
+        if rarity != "common" and not complete:
+            display_name = "❓ Hidden Achievement"
+            value = "???"
+        else:
+            display_name = name
+
+            if complete:
+                value = "✅ Completed!"
+            else:
+                missing = []
+                for req in items:
+                    if not check_item_group(inventory, req):
+                        if isinstance(req, list):
+                            missing.append(req[0])
+                        else:
+                            missing.append(req)
+
+                value = f"Progress: {progress}/{total}\nMissing: {', '.join(missing)}"
+
+        embed.add_field(name=display_name, value=value, inline=False)
+
+    if len(embed.fields) == 0:
+        embed.description = "No achievements in progress yet. Start pulling! 🎰"
+
+    await ctx.send(embed=embed)
 
 
 keep_alive()
