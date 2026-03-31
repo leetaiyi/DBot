@@ -125,6 +125,21 @@ async def global_pause_check(ctx):
     return False
 
 
+def check_item_group(inventory, requirement):
+    if isinstance(requirement, list):
+        return any(item in inventory for item in requirement)
+    return requirement in inventory
+
+
+def count_progress(inventory, items):
+    progress = sum(check_item_group(inventory, r) for r in items)
+    return progress, len(items)
+
+
+def is_complete(inventory, items):
+    return all(check_item_group(inventory, r) for r in items)
+
+
 # =========================
 # GITHUB FUNCTIONS
 # =========================
@@ -477,6 +492,60 @@ async def bless(ctx, member: discord.Member):
         f"✨ {member.mention} has been **blessed**! Their next pull will be Ultra Rare or better."
     )
 
+
+@bot.command()
+async def achievements(ctx):
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, _ = get_file(USERS_URL)
+
+    achievements = prize_data.get("achievements", {})
+    users = user_data.get("users", {})
+
+    user_id = str(ctx.author.id)
+
+    if user_id not in users:
+        await ctx.send("You have no progress yet! Use `!pull` first.")
+        return
+
+    inventory = users[user_id].get("inventory", {})
+
+    embed = discord.Embed(
+        title=f"{ctx.author.display_name}'s Achievements",
+        color=discord.Color.dark_gold()
+    )
+
+    for name, info in achievements.items():
+        items = info["items"]
+        rarity = info.get("rarity", "common")
+
+        complete = is_complete(inventory, items)
+        progress, total = count_progress(inventory, items)
+
+        # 🔒 Hide rare achievements
+        if rarity != "common" and not complete:
+            display_name = "❓ Hidden Achievement"
+            value = "???"
+        else:
+            display_name = name
+
+            if complete:
+                value = "✅ Completed!"
+            else:
+                # Optional: show missing items
+                missing = []
+                for req in items:
+                    if not check_item_group(inventory, req):
+                        if isinstance(req, list):
+                            missing.append(f"({'/'.join(req)})")
+                        else:
+                            missing.append(req)
+
+                value = f"Progress: {progress}/{total}\nMissing: {', '.join(missing)}"
+
+        embed.add_field(name=display_name, value=value, inline=False)
+
+    await ctx.send(embed=embed)
+    
 
 keep_alive()
 
