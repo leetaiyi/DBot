@@ -687,7 +687,7 @@
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 2,
-        "Artemis Dee": 1,
+        "Artemis Dee": 2,
         "Zelda": 1,
         "LaCat: Hypnosis": 2,
         "Amanda": 2,
@@ -712,8 +712,8 @@
         "Ivan": 1,
         "Nova Fangly": 1
       },
-      "last_daily": "2026-03-30",
-      "pity": 1,
+      "last_daily": "2026-03-31",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
