@@ -360,5 +360,38 @@
       "weight": 50,
       "image": "Polly.png"
     }
-  ]
+  ],
+  "achievements": {
+    "Catbus Family": {
+      "items": [
+        "Maru Merak Miss Ma'am Morden",
+        "Ollidammara",
+        "Howl",
+        "Gabbro",
+        "Morpheus"
+      ],
+      "rarity": "common"
+    },
+    "Voids": {
+      "items": [
+        "Morpheus", 
+        ["Amadeus","Amadeus2"],
+        ["Carbon","Keyboard Carbon", "Carbon Eyes"],
+        ["LaCat: Wassup", "LaCat: Hypnosis", "LaCat: Belleh"],
+        ["Artemis", "Artemis Dee"],
+        "Maleficent",
+        "Ollidammara"
+      ],
+      "rarity": "common"
+    },
+    "Nova The Goon": {
+      "items": [
+        "Cerberus",
+        "Nova Fangly",
+        "IDDOG",
+        "Nova: The Absurd Beast"
+      ],
+    "rarity": "rare"
+    }
+  }
 }
