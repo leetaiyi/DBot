@@ -29,13 +29,16 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 REPO_OWNER = "leetaiyi"
 REPO_NAME = "DBot"
-FILE_PATH = "prizes.json"
 
 PITY_LIM = 3
 
 BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
 
-API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}?ref=data"
+PRIZES_PATH = "prizes.json"
+USERS_PATH = "users.json"
+
+PRIZES_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{PRIZES_PATH}?ref=data"
+USERS_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{USERS_PATH}?ref=data"
 
 headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
@@ -127,29 +130,32 @@ async def global_pause_check(ctx):
 # =========================
 
 
-def get_gacha_data():
-    r = requests.get(API_URL, headers=headers)
+def get_file(url):
+    r = requests.get(url, headers=headers)
     data = r.json()
 
     if "content" not in data:
         print("GitHub ERROR:", data)
-        raise Exception("Failed to fetch gacha data")
+        raise Exception("Failed to fetch file")
 
     content = base64.b64decode(data["content"]).decode()
     return json.loads(content), data["sha"]
 
 
-def update_gacha_data(new_data, sha):
-    encoded = base64.b64encode(json.dumps(new_data,
-                                          indent=2).encode()).decode()
+def update_file(url, new_data, sha):
+    encoded = base64.b64encode(json.dumps(new_data, indent=2).encode()).decode()
 
     payload = {
-        "message": "Update gacha pulls",
+        "message": "Update data",
         "content": encoded,
         "sha": sha,
         "branch": "data"
-}
-    requests.put(API_URL, headers=headers, json=payload)
+    }
+
+    r = requests.put(url, headers=headers, json=payload)
+
+    if r.status_code != 200:
+        print("Update failed:", r.json())
 
 
 # =========================
@@ -160,10 +166,11 @@ def update_gacha_data(new_data, sha):
 @bot.command()
 @commands.cooldown(rate=1, per=10.0, type=commands.BucketType.default)
 async def pull(ctx):
-    data, sha = get_gacha_data()
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, user_sha = get_file(USERS_URL)
 
-    prizes = data["prizes"]
-    users = data.setdefault("users", {})
+    prizes = prize_data["prizes"]
+    users = user_data.setdefault("users", {})
 
     user_id = str(ctx.author.id)
 
@@ -260,7 +267,7 @@ async def pull(ctx):
     inventory = user.setdefault("inventory", {})
     inventory[result] = inventory.get(result, 0) + 1
 
-    update_gacha_data(data, sha)
+    update_file(USERS_URL, user_data, user_sha)
 
     # Find the prize object with the name
     prize_obj = next((p for p in prizes if p["name"] == result), None)
@@ -308,12 +315,12 @@ async def pull(ctx):
 
 @bot.command()
 async def inventory(ctx):
-    import discord
 
-    data, _ = get_gacha_data()
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, _ = get_file(USERS_URL)
 
-    prizes = data.get("prizes", [])
-    users = data.get("users", {})
+    prizes = prize_data["prizes"]
+    users = user_data.get("users", {})
 
     user_id = str(ctx.author.id)
 
@@ -397,8 +404,8 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
         await ctx.send("❌ You don't have permission to use this.")
         return
 
-    data, sha = get_gacha_data()
-    users = data.setdefault("users", {})
+    user_data, user_sha = get_file(USERS_URL)
+    users = user_data.setdefault("users", {})
 
     user_id = str(member.id)
 
@@ -412,7 +419,7 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
 
     users[user_id]["coins"] += amount
 
-    update_gacha_data(data, sha)
+    update_file(USERS_URL, user_data, user_sha)
 
     await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
 
@@ -448,8 +455,8 @@ async def bless(ctx, member: discord.Member):
         await ctx.send("❌ You cannot bless.")
         return
 
-    data, sha = get_gacha_data()
-    users = data.setdefault("users", {})
+    user_data, user_sha = get_file(USERS_URL)
+    users = user_data.setdefault("users", {})
 
     user_id = str(member.id)
 
@@ -464,7 +471,7 @@ async def bless(ctx, member: discord.Member):
 
     users[user_id]["blessed"] = True
 
-    update_gacha_data(data, sha)
+    update_file(USERS_URL, user_data, user_sha)
 
     await ctx.send(
         f"✨ {member.mention} has been **blessed**! Their next pull will be Ultra Rare or better."
