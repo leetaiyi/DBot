@@ -17,7 +17,7 @@
     },
     {
       "name": "Zelda",
-      "weight": 50,
+      "weight": 40,
       "image": "Zelda.png"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "name": "LaCat: Wassup",
-      "weight": 45,
+      "weight": 40,
       "image": "LaCatWassup.jpg"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "Bynx",
-      "weight": 50,
+      "weight": 40,
       "image": "Bynx.png"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "name": "King Baker",
-      "weight": 6,
+      "weight": 17,
       "image": "KingBaker.png"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "name": "Howl",
-      "weight": 50,
+      "weight": 40,
       "image": "Howl.png"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "name": "A Wild Artemis",
-      "weight": 50,
+      "weight": 40,
       "image": "Artemis.png"
     },
     {
@@ -132,7 +132,7 @@
     },
     {
       "name": "Willow",
-      "weight": 50,
+      "weight": 40,
       "image": "Willow.png"
     },
     {
@@ -172,12 +172,12 @@
     },
     {
       "name": "Mishka",
-      "weight": 50,
+      "weight": 40,
       "image": "Mishka.jpg"
     },
     {
       "name": "Batta",
-      "weight": 50,
+      "weight": 40,
       "image": "Batta.jpg"
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "name": "Barely Legal John",
-      "weight": 3,
+      "weight": 4,
       "image": "JohnY.jpg"
     },
     {
@@ -202,7 +202,7 @@
     },
     {
       "name": "Betty",
-      "weight": 50,
+      "weight": 40,
       "image": "Betty.jpg"
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "name": "Duet of the Fates",
-      "weight": 5,
+      "weight": 4,
       "image": "JonJedi.jpg"
     },
     {
@@ -252,12 +252,12 @@
     },
     {
       "name": "Korok Couple",
-      "weight": 5,
+      "weight": 4,
       "image": "KorokCouple.jpg"
     },
     {
       "name": "Rose",
-      "weight": 50,
+      "weight": 40,
       "image": "Rose.png"
     },
     {
@@ -267,7 +267,7 @@
     },
     {
       "name": "Carbon",
-      "weight": 50,
+      "weight": 40,
       "image": "Carbon.png"
     },
     {
@@ -287,12 +287,12 @@
     },
     {
       "name": "Cerberus",
-      "weight": 50,
+      "weight": 40,
       "image": "Cerberus.jpg"
     },
     {
       "name": "Morpheus",
-      "weight": 50,
+      "weight": 40,
       "image": "Morpheus.jpg"
     },
     {
@@ -312,7 +312,7 @@
     },
     {
       "name": "Are You Dragon Tales?",
-      "weight": 5,
+      "weight": 4,
       "image": "AreYouDragonTales.jpg"
     },
     {
@@ -347,7 +347,7 @@
     },
     {
       "name": "AdaMario",
-      "weight": 5,
+      "weight": 4,
       "image": "AdaMario.jpg"
     },
     {
@@ -357,7 +357,7 @@
     },
     {
       "name": "Polly",
-      "weight": 50,
+      "weight": 40,
       "image": "Polly.png"
     }
   ],
