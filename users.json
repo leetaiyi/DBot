@@ -475,10 +475,11 @@
         "Ben": 1,
         "Howl": 1,
         "Willow": 1,
-        "Polly": 1
+        "Polly": 1,
+        "!Someone is Addicted to Gacha!": 1
       },
-      "last_daily": "2026-03-31",
-      "pity": 2,
+      "last_daily": "2026-04-01",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
