@@ -967,7 +967,7 @@
       "blessed": false
     },
     "744714502414532729": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
         "Live Gloriously!": 1,
         "Batta": 1,
@@ -978,11 +978,11 @@
         "Polly": 1,
         "Ben": 1,
         "Willow Snuggle": 1,
-        "Flash": 1,
+        "Flash": 2,
         "Percy": 1
       },
       "last_daily": "2026-04-02",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
