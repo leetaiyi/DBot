@@ -327,7 +327,7 @@
       "blessed": false
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 2,
@@ -355,7 +355,8 @@
         "Bilbo Bee": 1,
         "Ivan": 1,
         "Nova Fangly": 1,
-        "Tomyris": 1
+        "Tomyris": 1,
+        "Morpheus": 1
       },
       "last_daily": "2026-04-02",
       "pity": 0,
