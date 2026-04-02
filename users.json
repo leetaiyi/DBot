@@ -368,7 +368,7 @@
       "coins": 1,
       "inventory": {
         "HONK!!": 1,
-        "Tomyris": 3,
+        "Tomyris": 4,
         "Howl": 1,
         "LaCat: Wassup": 2,
         "Ollidammara": 1,
@@ -393,8 +393,8 @@
         "Betty": 1,
         "Artemis Dee": 1
       },
-      "last_daily": "2026-04-01",
-      "pity": 0,
+      "last_daily": "2026-04-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
