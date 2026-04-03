@@ -489,7 +489,7 @@
       "blessed": false
     },
     "129076967633977344": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Willow Snuggle": 1,
         "LaCat: Wassup": 2,
@@ -518,7 +518,8 @@
         "AdaMario": 1,
         "Nova Fangly": 1,
         "Keyboard Carbon": 1,
-        "Willow Belly": 1
+        "Willow Belly": 1,
+        "Morpheus": 1
       },
       "last_daily": "2026-04-03",
       "pity": 0,
