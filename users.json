@@ -295,7 +295,7 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Zelda": 1,
         "Ben": 2,
@@ -308,7 +308,7 @@
         "Carbon": 3,
         "A Wild Artemis": 1,
         "Bilbo Bee": 1,
-        "Amadeus": 1,
+        "Amadeus": 2,
         "Ellie as Moonmoon": 1,
         "Bynx": 2,
         "Capt Ben": 1,
@@ -324,7 +324,7 @@
         "Ivan": 1
       },
       "last_daily": "2026-04-03",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
