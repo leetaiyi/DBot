@@ -405,7 +405,7 @@
       "coins": 0,
       "inventory": {
         "Bynx": 4,
-        "Sad Jamin": 1,
+        "Sad Jamin": 2,
         "Howl": 2,
         "Objection!": 3,
         "Ollidammara": 2,
@@ -428,8 +428,8 @@
         "David": 1,
         "Sadge Ryuu": 1
       },
-      "last_daily": "2026-04-02",
-      "pity": 0,
+      "last_daily": "2026-04-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
