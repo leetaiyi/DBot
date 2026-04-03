@@ -259,7 +259,7 @@
         "Howl": 2,
         "Betty": 1,
         "Amanda": 1,
-        "Flash": 2,
+        "Flash": 3,
         "IDDOG": 1,
         "Ollidammara": 1,
         "Cerberus": 1,
@@ -280,8 +280,8 @@
         "Bynx": 1,
         "Batta": 1
       },
-      "last_daily": "2026-04-02",
-      "pity": 0,
+      "last_daily": "2026-04-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
