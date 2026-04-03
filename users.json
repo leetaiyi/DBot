@@ -177,7 +177,7 @@
         "LaCat: Belleh": 1,
         "Live Gloriously!": 1,
         "David": 2,
-        "Gabbro": 2,
+        "Gabbro": 3,
         "Oreo": 2,
         "Ivan": 1,
         "LaCat: Wassup": 1,
@@ -192,8 +192,8 @@
         "Willow Snuggle": 1
       },
       "coins": 0,
-      "last_daily": "2026-04-01",
-      "pity": 0,
+      "last_daily": "2026-04-03",
+      "pity": 1,
       "blessed": false
     },
     "161268369746690048": {
