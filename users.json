@@ -204,7 +204,7 @@
         "HONK!!": 1,
         "Maleficent": 2,
         "Ollidammara": 1,
-        "Bynx": 1,
+        "Bynx": 2,
         "David": 2,
         "Ben": 1,
         "Cerberus": 2,
@@ -220,8 +220,8 @@
         "A Wild Artemis": 1
       },
       "coins": 0,
-      "last_daily": "2026-04-01",
-      "pity": 0,
+      "last_daily": "2026-04-03",
+      "pity": 1,
       "blessed": false
     },
     "143231057158733824": {
