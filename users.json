@@ -125,11 +125,12 @@
         "Carbon": 1,
         "Willow Belly": 1,
         "Cerberus": 2,
-        "Zelda": 1
+        "Zelda": 1,
+        "IDDOG": 1
       },
       "coins": 1,
-      "last_daily": "2026-04-04",
-      "pity": 2,
+      "last_daily": "2026-04-05",
+      "pity": 0,
       "blessed": false
     },
     "136653169118806017": {
