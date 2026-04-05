@@ -348,7 +348,7 @@
         "Willow": 1,
         "Willow Snuggle": 2,
         "Flash": 1,
-        "Batta": 1,
+        "Batta": 2,
         "Bella": 2,
         "Percy": 1,
         "A Wild Artemis": 1,
@@ -367,8 +367,8 @@
         "Ollidammara": 1,
         "Masabone": 1
       },
-      "last_daily": "2026-04-04",
-      "pity": 0,
+      "last_daily": "2026-04-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
