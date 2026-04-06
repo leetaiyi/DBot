@@ -587,10 +587,11 @@
         "Capt Ben": 1,
         "Amadeus": 1,
         "Amadeus2": 1,
-        "Carbon": 1
+        "Carbon": 1,
+        "David": 1
       },
-      "last_daily": "2026-04-05",
-      "pity": 1,
+      "last_daily": "2026-04-06",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
