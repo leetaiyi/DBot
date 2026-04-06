@@ -837,7 +837,7 @@
         "HONK!!": 1,
         "Howl": 1,
         "Ben": 1,
-        "Amadeus": 1,
+        "Amadeus": 2,
         "Sake+Ebi": 1,
         "John and Albino water monitor lizard": 1,
         "IDDOG": 1,
@@ -847,8 +847,8 @@
         "Sake": 1,
         "Mishka": 1
       },
-      "last_daily": "2026-04-05",
-      "pity": 0,
+      "last_daily": "2026-04-06",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
