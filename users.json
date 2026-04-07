@@ -906,7 +906,7 @@
       "coins": 0,
       "inventory": {
         "Artemis Dee": 2,
-        "Kazoo David": 2,
+        "Kazoo David": 3,
         "Objection!": 1,
         "Belly Flash": 1,
         "Gabbro": 1,
@@ -920,8 +920,8 @@
         "Sawyer": 1,
         "Listening to Rehearsal Recordings": 1
       },
-      "last_daily": "2026-04-06",
-      "pity": 0,
+      "last_daily": "2026-04-07",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
