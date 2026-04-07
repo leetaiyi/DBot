@@ -359,27 +359,42 @@
       "name": "Polly",
       "weight": 40,
       "image": "Polly.png"
+    },
+    {
+      "name": "Benjamin (bandana)",
+      "weight": 40,
+      "image": "Benjamin.png"
+    },
+    {
+      "name": "Leia (apples)",
+      "weight": 40,
+      "image": "Leia.png"
+    },
+    {
+      "name": "Furiosa blesses you with wealth",
+      "weight": 5,
+      "image": "Furiosa.gif"
     }
   ],
   "achievements": {
     "Catbus Family": {
       "items": [
-        "Maru Merak Miss Ma'am Morden",
-        "Ollidammara",
-        "Howl",
         "Gabbro",
-        "Morpheus"
+        "Howl",
+        "Maru Merak Miss Ma'am Morden",
+        "Morpheus",
+        "Ollidammara"
       ],
       "rarity": "common"
     },
     "Voids": {
       "items": [
-        "Morpheus", 
-        ["Amadeus","Amadeus2"],
+        ["Amadeus","Amadeus2"], 
+        ["Artemis", "Artemis Dee"],
         ["Carbon","Keyboard Carbon", "Carbon Eyes"],
         ["LaCat: Wassup", "LaCat: Hypnosis", "LaCat: Belleh"],
-        ["Artemis", "Artemis Dee"],
         "Maleficent",
+        "Morpheus",
         "Ollidammara"
       ],
       "rarity": "common"
@@ -398,6 +413,23 @@
         "Coconut",
         "John and Albino water monitor lizard",
         "Duet of the Fates"
+      ],
+    "rarity": "rare"
+    },
+    "Bellies": {
+      "items": [
+        "Belly Flash",
+        "LaCat: Belleh",
+        "Nova: The Absurd Beast",
+        "Willow Belly"
+      ],
+    "rarity": "rare"
+    },
+    "Cursed Humans": {
+      "items": [
+        "AdaMario",
+        "Barely Legal John",
+        "Listening to Rehearsal Recordings"
       ],
     "rarity": "rare"
     }
