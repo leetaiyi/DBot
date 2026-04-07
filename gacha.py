@@ -552,6 +552,10 @@ async def achievements(ctx):
 
     await ctx.send(embed=embed)
 
+@bot.command()
+async def acheivements(ctx):
+    await ctx.send("I before E except after C")
+
 
 keep_alive()
 
