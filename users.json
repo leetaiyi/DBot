@@ -960,7 +960,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
         "Capt Ben": 1,
         "Willow": 1,
@@ -969,7 +969,8 @@
         "Tomyris": 1,
         "Percy": 1,
         "David": 1,
-        "Batta": 1
+        "Batta": 1,
+        "Flash": 1
       },
       "last_daily": "2026-04-07",
       "pity": 0,
