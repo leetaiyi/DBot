@@ -437,7 +437,7 @@
         "Batta": 1,
         "Ebi": 1,
         "Gabbro": 1,
-        "Flash": 1,
+        "Flash": 2,
         "Korok Couple": 1,
         "Kazoo David": 1,
         "David": 1,
@@ -445,8 +445,8 @@
         "Amadeus": 1,
         "Bilbo Bee": 1
       },
-      "last_daily": "2026-04-06",
-      "pity": 0,
+      "last_daily": "2026-04-07",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
