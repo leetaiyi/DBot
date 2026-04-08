@@ -936,7 +936,7 @@
       "coins": 0,
       "inventory": {
         "LaCat: Wassup": 1,
-        "Batta": 1,
+        "Batta": 2,
         "Sadge Ryuu": 1,
         "Bynx": 2,
         "Maleficent": 1,
@@ -944,8 +944,8 @@
         "Coconut!": 1,
         "Willow": 1
       },
-      "last_daily": "2026-04-02",
-      "pity": 0,
+      "last_daily": "2026-04-08",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
