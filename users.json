@@ -617,7 +617,7 @@
     "316002379537317899": {
       "coins": 2,
       "inventory": {
-        "Artemis Dee": 1,
+        "Artemis Dee": 2,
         "Sad Jamin": 3,
         "LaCat: Hypnosis": 2,
         "Maleficent": 2,
@@ -634,8 +634,8 @@
         "Ollidammara": 1,
         "Sawyer": 1
       },
-      "last_daily": "2026-04-05",
-      "pity": 0,
+      "last_daily": "2026-04-09",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
