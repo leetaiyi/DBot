@@ -399,23 +399,6 @@
       ],
       "rarity": "common"
     },
-    "Nova The Goon": {
-      "items": [
-        "Cerberus",
-        "Nova Fangly",
-        "IDDOG",
-        "Nova: The Absurd Beast"
-      ],
-    "rarity": "rare"
-    },
-    "Vacation Time": {
-      "items": [
-        "Coconut",
-        "John and Albino water monitor lizard",
-        "Duet of the Fates"
-      ],
-    "rarity": "rare"
-    },
     "Bellies": {
       "items": [
         "Belly Flash",
@@ -430,6 +413,23 @@
         "AdaMario",
         "Barely Legal John",
         "Listening to Rehearsal Recordings"
+      ],
+    "rarity": "rare"
+    },
+    "Nova The Goon": {
+      "items": [
+        "Cerberus",
+        "Nova Fangly",
+        "IDDOG",
+        "Nova: The Absurd Beast"
+      ],
+    "rarity": "rare"
+    },
+    "Vacation Time": {
+      "items": [
+        "Coconut",
+        "John and Albino water monitor lizard",
+        "Duet of the Fates"
       ],
     "rarity": "rare"
     }
