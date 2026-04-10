@@ -982,7 +982,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Capt Ben": 1,
         "Willow": 1,
@@ -995,7 +995,8 @@
         "Flash": 1,
         "Sadge Ryuu": 1,
         "Ollidammara": 1,
-        "Howl": 1
+        "Howl": 1,
+        "IDDOG": 1
       },
       "last_daily": "2026-04-10",
       "pity": 0,
