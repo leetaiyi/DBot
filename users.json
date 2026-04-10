@@ -715,7 +715,7 @@
         "Bynx": 2,
         "Morpheus": 2,
         "Amadeus": 1,
-        "Rose": 1,
+        "Rose": 2,
         "Artemis Dee": 1,
         "Sake": 2,
         "Flash": 1,
@@ -731,8 +731,8 @@
         "Coconut!": 2,
         "Zelda": 1
       },
-      "last_daily": "2026-04-09",
-      "pity": 0,
+      "last_daily": "2026-04-10",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
