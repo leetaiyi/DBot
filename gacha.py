@@ -528,7 +528,14 @@ async def achievements(ctx):
         # Hide rare achievements unless complete
         if rarity != "common" and not complete:
             display_name = "❓ Hidden Achievement"
-            value = "???"
+            owned = []
+            for req in items:
+                if not check_item_group(inventory, req):
+                    if isinstance(req, list):
+                        owned.append(req)
+
+            value = f"Obtained: {', '.join(owned)}"
+
         else:
             display_name = name
 
