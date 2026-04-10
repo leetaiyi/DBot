@@ -267,7 +267,7 @@
       "inventory": {
         "Artemis Dee": 1,
         "LaCat: Wassup": 2,
-        "Zelda": 2,
+        "Zelda": 3,
         "A Wild Artemis": 1,
         "Gabbro": 3,
         "Howl": 2,
@@ -298,8 +298,8 @@
         "Ivan": 1,
         "Willow Snuggle": 1
       },
-      "last_daily": "2026-04-09",
-      "pity": 0,
+      "last_daily": "2026-04-10",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
