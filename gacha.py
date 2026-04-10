@@ -530,9 +530,8 @@ async def achievements(ctx):
             display_name = "❓ Hidden Achievement"
             owned = []
             for req in items:
-                if not check_item_group(inventory, req):
-                    if isinstance(req, list):
-                        owned.append(req)
+                if check_item_group(inventory, req):
+                    owned.append(req)
 
             value = f"Obtained: {', '.join(owned)}"
 
