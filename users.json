@@ -700,10 +700,11 @@
         "Polly": 1,
         "Amadeus2": 1,
         "Ivan": 1,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "Carbon": 1
       },
-      "last_daily": "2026-04-10",
-      "pity": 1,
+      "last_daily": "2026-04-11",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
