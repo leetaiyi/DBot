@@ -938,7 +938,7 @@
         "Gabbro": 1,
         "Tomyris": 1,
         "Zelda": 1,
-        "Rose": 1,
+        "Rose": 2,
         "Willow Belly": 1,
         "Ivan": 1,
         "Are You Dragon Tales?": 1,
@@ -949,8 +949,8 @@
         "Flash": 1,
         "John and Albino water monitor lizard": 1
       },
-      "last_daily": "2026-04-10",
-      "pity": 0,
+      "last_daily": "2026-04-11",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
