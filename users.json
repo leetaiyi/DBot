@@ -553,7 +553,7 @@
         "Capt Ben": 1,
         "Cookie Strife": 1,
         "Sake": 2,
-        "Ebi": 1,
+        "Ebi": 2,
         "Rose": 2,
         "AdaMario": 1,
         "Nova Fangly": 1,
@@ -563,8 +563,8 @@
         "Amadeus2": 1,
         "Sawyer": 1
       },
-      "last_daily": "2026-04-10",
-      "pity": 0,
+      "last_daily": "2026-04-11",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
