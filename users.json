@@ -601,7 +601,7 @@
         "Flash": 2,
         "Howl": 1,
         "Tomyris": 2,
-        "Objection!": 1,
+        "Objection!": 2,
         "Zelda": 2,
         "Gabbro": 2,
         "Coconut!": 1,
@@ -629,8 +629,8 @@
         "Oreo": 1,
         "Maleficent": 1
       },
-      "last_daily": "2026-04-11",
-      "pity": 0,
+      "last_daily": "2026-04-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
