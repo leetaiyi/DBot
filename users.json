@@ -679,14 +679,14 @@
       "blessed": false
     },
     "954136279296118885": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Bynx": 3,
         "LaCat: Wassup": 2,
         "LaCat: Hypnosis": 1,
         "Ollidammara": 1,
         "Nova Fangly": 3,
-        "Cerberus": 2,
+        "Cerberus": 3,
         "Tomyris": 2,
         "Betty": 1,
         "Willow Snuggle": 3,
@@ -715,7 +715,7 @@
         "Carbon": 1
       },
       "last_daily": "2026-04-12",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
