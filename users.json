@@ -1114,10 +1114,11 @@
         "Bilbo Bee": 1,
         "Amanda": 1,
         "Betty": 1,
-        "Morpheus": 1
+        "Morpheus": 1,
+        "Bella": 1
       },
-      "last_daily": "2026-04-11",
-      "pity": 1,
+      "last_daily": "2026-04-12",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     }
