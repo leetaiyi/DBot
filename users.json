@@ -635,10 +635,11 @@
         "Carbon": 1,
         "David": 1,
         "Oreo": 1,
-        "Maleficent": 1
+        "Maleficent": 1,
+        "Sawyer": 1
       },
-      "last_daily": "2026-04-12",
-      "pity": 1,
+      "last_daily": "2026-04-14",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
