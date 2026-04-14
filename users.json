@@ -410,7 +410,7 @@
       "coins": 0,
       "inventory": {
         "HONK!!": 1,
-        "Tomyris": 4,
+        "Tomyris": 5,
         "Howl": 1,
         "LaCat: Wassup": 2,
         "Ollidammara": 1,
@@ -440,8 +440,8 @@
         "Bratty Ryuu": 1,
         "Maleficent": 1
       },
-      "last_daily": "2026-04-13",
-      "pity": 1,
+      "last_daily": "2026-04-14",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
