@@ -131,7 +131,7 @@
         "Ivan": 2,
         "Bynx": 1,
         "Carbon": 1,
-        "Willow Belly": 1,
+        "Willow Belly": 2,
         "Cerberus": 3,
         "Zelda": 1,
         "IDDOG": 1,
@@ -141,8 +141,8 @@
         "CTLbot": 1
       },
       "coins": 0,
-      "last_daily": "2026-04-14",
-      "pity": 0,
+      "last_daily": "2026-04-15",
+      "pity": 1,
       "blessed": false
     },
     "136653169118806017": {
