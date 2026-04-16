@@ -759,7 +759,7 @@
         "Keyboard Carbon": 1,
         "Bynx": 2,
         "Morpheus": 2,
-        "Amadeus": 1,
+        "Amadeus": 2,
         "Rose": 2,
         "Artemis Dee": 1,
         "Sake": 2,
@@ -779,8 +779,8 @@
         "John and Albino water monitor lizard": 1,
         "Live Gloriously!": 1
       },
-      "last_daily": "2026-04-15",
-      "pity": 0,
+      "last_daily": "2026-04-16",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
