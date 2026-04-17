@@ -740,10 +740,11 @@
         "Ivan": 1,
         "Gabbro": 1,
         "Carbon": 1,
-        "Percy": 1
+        "Percy": 1,
+        "Zelda": 1
       },
-      "last_daily": "2026-04-15",
-      "pity": 1,
+      "last_daily": "2026-04-17",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
