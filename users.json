@@ -164,7 +164,7 @@
         "A Wild Artemis": 2,
         "Cerberus": 1,
         "Oreo": 2,
-        "Carbon": 1,
+        "Carbon": 2,
         "Amadeus2": 1,
         "Amadeus": 1,
         "Howl": 1,
@@ -184,8 +184,8 @@
         "Flash": 1
       },
       "coins": 0,
-      "last_daily": "2026-04-17",
-      "pity": 0,
+      "last_daily": "2026-04-18",
+      "pity": 1,
       "blessed": false
     },
     "370264626971017244": {
