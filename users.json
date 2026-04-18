@@ -717,7 +717,7 @@
       "inventory": {
         "Bynx": 3,
         "LaCat: Wassup": 2,
-        "LaCat: Hypnosis": 1,
+        "LaCat: Hypnosis": 2,
         "Ollidammara": 1,
         "Nova Fangly": 3,
         "Cerberus": 3,
@@ -750,8 +750,8 @@
         "Percy": 1,
         "Zelda": 1
       },
-      "last_daily": "2026-04-17",
-      "pity": 0,
+      "last_daily": "2026-04-18",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
