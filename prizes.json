@@ -399,6 +399,24 @@
       ],
       "rarity": "common"
     },
+    "Bellies": {
+      "items": [
+        "Belly Flash",
+        "LaCat: Belleh",
+        "Nova: The Absurd Beast",
+        "Willow Belly"
+      ],
+    "rarity": "common"
+    },
+    "Cursed Humans": {
+      "items": [
+        "?? Ben",
+        "AdaMario",
+        "Barely Legal John",
+        "Listening to Rehearsal Recordings"
+      ],
+    "rarity": "rare"
+    },
     "Nova The Goon": {
       "items": [
         "Cerberus",
@@ -413,23 +431,6 @@
         "Coconut",
         "John and Albino water monitor lizard",
         "Duet of the Fates"
-      ],
-    "rarity": "rare"
-    },
-    "Bellies": {
-      "items": [
-        "Belly Flash",
-        "LaCat: Belleh",
-        "Nova: The Absurd Beast",
-        "Willow Belly"
-      ],
-    "rarity": "common"
-    },
-    "Cursed Humans": {
-      "items": [
-        "AdaMario",
-        "Barely Legal John",
-        "Listening to Rehearsal Recordings"
       ],
     "rarity": "rare"
     }
