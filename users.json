@@ -1187,7 +1187,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 1,
         "Kazoo David": 1,
@@ -1203,7 +1203,7 @@
         "Morpheus": 3,
         "Bella": 2,
         "LaCat: Hypnosis": 1,
-        "Oreo": 1,
+        "Oreo": 2,
         "Polly": 1,
         "Ivan": 1,
         "Belly Flash": 1,
@@ -1212,7 +1212,7 @@
         "Ellie as Moonmoon": 1
       },
       "last_daily": "2026-04-20",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     }
