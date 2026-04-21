@@ -374,6 +374,11 @@
       "name": "Furiosa blesses you with wealth",
       "weight": 5,
       "image": "Furiosa.gif"
+    },
+    {
+      "name": "GMRA Winner!",
+      "weight": 1,
+      "image": "GMRAwin.jpg"
     }
   ],
   "achievements": {
