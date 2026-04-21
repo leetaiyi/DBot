@@ -410,7 +410,7 @@
         "Amadeus2": 1,
         "Gabbro": 1,
         "Bilbo Bee": 2,
-        "Ivan": 1,
+        "Ivan": 2,
         "Nova Fangly": 2,
         "Tomyris": 2,
         "Morpheus": 1,
@@ -424,8 +424,8 @@
         "Carbon": 1,
         "Betty": 1
       },
-      "last_daily": "2026-04-20",
-      "pity": 0,
+      "last_daily": "2026-04-21",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
