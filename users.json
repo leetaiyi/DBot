@@ -695,7 +695,7 @@
         "Gabbro": 1,
         "Tomyris": 1,
         "Coconut!": 1,
-        "Batta": 1,
+        "Batta": 2,
         "Morpheus": 1,
         "Ivan": 1,
         "Bilbo Bee": 1,
@@ -706,8 +706,8 @@
         "Sawyer": 1,
         "Sake+Ebi": 1
       },
-      "last_daily": "2026-04-13",
-      "pity": 0,
+      "last_daily": "2026-04-22",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
