@@ -661,7 +661,7 @@
         "LaCat: Wassup": 1,
         "Bynx": 2,
         "IDDOG": 1,
-        "Cerberus": 1,
+        "Cerberus": 2,
         "A Wild Artemis": 1,
         "Bilbo Bee": 2,
         "Morpheus": 1,
@@ -681,8 +681,8 @@
         "Keyboard Carbon": 1,
         "Mishka": 1
       },
-      "last_daily": "2026-04-21",
-      "pity": 0,
+      "last_daily": "2026-04-22",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
