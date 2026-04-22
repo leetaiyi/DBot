@@ -52,7 +52,7 @@
         "Oreo": 2,
         "Artemis Dee": 1,
         "Batta": 1,
-        "Maleficent": 3,
+        "Maleficent": 4,
         "A Wild Artemis": 2,
         "Mishka": 2,
         "Flash": 3,
@@ -81,8 +81,8 @@
         "Cerberus": 1
       },
       "coins": 0,
-      "last_daily": "2026-04-21",
-      "pity": 0,
+      "last_daily": "2026-04-22",
+      "pity": 1,
       "blessed": false
     },
     "156937687515791361": {
