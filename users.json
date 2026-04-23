@@ -999,7 +999,7 @@
       "inventory": {
         "Maleficent": 1,
         "Capt Ben": 2,
-        "Artemis Dee": 2,
+        "Artemis Dee": 3,
         "A Wild Artemis": 2,
         "Belly Flash": 1,
         "Gabbro": 1,
@@ -1035,8 +1035,8 @@
         "IDDOG": 1,
         "Duet of the Fates": 1
       },
-      "last_daily": "2026-04-22",
-      "pity": 0,
+      "last_daily": "2026-04-23",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
