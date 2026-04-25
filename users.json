@@ -54,7 +54,7 @@
         "Batta": 1,
         "Maleficent": 4,
         "A Wild Artemis": 2,
-        "Mishka": 2,
+        "Mishka": 3,
         "Flash": 3,
         "Percy": 2,
         "David": 3,
@@ -82,8 +82,8 @@
         "Ebi": 1
       },
       "coins": 0,
-      "last_daily": "2026-04-24",
-      "pity": 0,
+      "last_daily": "2026-04-25",
+      "pity": 1,
       "blessed": false
     },
     "156937687515791361": {
