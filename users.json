@@ -961,7 +961,7 @@
       "blessed": false
     },
     "221288694835838986": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Flash": 2,
         "Gabbro": 1,
@@ -1001,10 +1001,11 @@
         "Amadeus2": 1,
         "Leia (apples)": 1,
         "Cerberus": 1,
-        "Zelda": 1
+        "Zelda": 1,
+        "Batta": 1
       },
       "last_daily": "2026-04-25",
-      "pity": 2,
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
