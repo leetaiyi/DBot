@@ -1247,7 +1247,7 @@
         "Ben": 1,
         "Maleficent": 1,
         "Bilbo Bee": 1,
-        "Amanda": 1,
+        "Amanda": 2,
         "Betty": 1,
         "Morpheus": 3,
         "Bella": 2,
@@ -1264,8 +1264,8 @@
         "Leia (apples)": 1,
         "David": 1
       },
-      "last_daily": "2026-04-24",
-      "pity": 0,
+      "last_daily": "2026-04-25",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     }
