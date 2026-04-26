@@ -379,6 +379,11 @@
       "name": "GMRA Winner!",
       "weight": 1,
       "image": "GMRAwin.jpg"
+    },
+    {
+      "name": "Kitchen Cat",
+      "weight": 40,
+      "image": "KitchenCat.png"
     }
   ],
   "achievements": {
@@ -389,6 +394,16 @@
         "Maru Merak Miss Ma'am Morden",
         "Morpheus",
         "Ollidammara"
+      ],
+      "rarity": "common"
+    },
+    "The LuxemBieles": {
+      "items": [
+        ["Flash","Belly Flash"],
+        "Ivan",
+        "Kitchen Cat",
+        "Maleficent",
+        "Oreo"
       ],
       "rarity": "common"
     },
@@ -433,7 +448,7 @@
     },
     "Vacation Time": {
       "items": [
-        "Coconut",
+        "Coconut!",
         "John and Albino water monitor lizard",
         "Duet of the Fates"
       ],
