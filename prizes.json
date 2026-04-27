@@ -384,6 +384,16 @@
       "name": "Kitchen Cat",
       "weight": 40,
       "image": "KitchenCat.png"
+    },
+    {
+      "name": "Loki Loodelally",
+      "weight": 30,
+      "image": "Loki.jpg"
+    },
+    {
+      "name": "Bigger litterbox pls",
+      "weight": 17,
+      "image": "LokiLitter.png"
     }
   ],
   "achievements": {
