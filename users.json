@@ -733,10 +733,11 @@
         "Zelda": 1,
         "Ollidammara": 1,
         "Sawyer": 1,
-        "Sake+Ebi": 1
+        "Sake+Ebi": 1,
+        "Ebi": 1
       },
-      "last_daily": "2026-04-24",
-      "pity": 2,
+      "last_daily": "2026-04-27",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
