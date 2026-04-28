@@ -1239,7 +1239,7 @@
     "744714502414532729": {
       "coins": 2,
       "inventory": {
-        "Live Gloriously!": 1,
+        "Live Gloriously!": 2,
         "Batta": 2,
         "Willow": 1,
         "Nova: The Absurd Beast": 1,
@@ -1265,8 +1265,8 @@
         "Sad Jamin": 1,
         "LaCat: Hypnosis": 1
       },
-      "last_daily": "2026-04-26",
-      "pity": 1,
+      "last_daily": "2026-04-28",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
