@@ -465,7 +465,7 @@
         "David": 1,
         "LaCat: Hypnosis": 2,
         "Gabbro": 2,
-        "Percy": 1,
+        "Percy": 2,
         "Mishka": 1,
         "Ben": 3,
         "Live Gloriously!": 2,
@@ -493,8 +493,8 @@
         "Polly": 1,
         "Belly Flash": 1
       },
-      "last_daily": "2026-04-28",
-      "pity": 0,
+      "last_daily": "2026-04-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
