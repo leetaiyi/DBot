@@ -801,7 +801,7 @@
         "Amadeus2": 1,
         "Ivan": 1,
         "Gabbro": 1,
-        "Carbon": 1,
+        "Carbon": 2,
         "Percy": 1,
         "Zelda": 1,
         "GengArtemis": 1,
@@ -809,8 +809,8 @@
         "Sawyer": 1,
         "John and Albino water monitor lizard": 1
       },
-      "last_daily": "2026-04-28",
-      "pity": 0,
+      "last_daily": "2026-04-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
