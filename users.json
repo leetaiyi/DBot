@@ -620,7 +620,7 @@
         "Amadeus": 1,
         "Oreo": 1,
         "Kazoo David": 2,
-        "Cerberus": 3,
+        "Cerberus": 4,
         "Carbon": 2,
         "Bella": 1,
         "Flash": 1,
@@ -648,8 +648,8 @@
         "Polly": 1,
         "Amanda": 1
       },
-      "last_daily": "2026-04-28",
-      "pity": 0,
+      "last_daily": "2026-04-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
