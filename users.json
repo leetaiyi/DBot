@@ -1246,7 +1246,7 @@
       "blessed": false
     },
     "744714502414532729": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Live Gloriously!": 2,
         "Batta": 2,
@@ -1272,11 +1272,11 @@
         "Carbon Eyes": 1,
         "Benjamin (bandana)": 1,
         "Sad Jamin": 1,
-        "LaCat: Hypnosis": 1,
+        "LaCat: Hypnosis": 2,
         "Sawyer": 1
       },
       "last_daily": "2026-04-29",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
