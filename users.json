@@ -144,7 +144,7 @@
         "Carbon": 1,
         "Willow Belly": 2,
         "Cerberus": 3,
-        "Zelda": 1,
+        "Zelda": 2,
         "IDDOG": 3,
         "Polly": 2,
         "Mishka": 1,
@@ -156,8 +156,8 @@
         "Benjamin (bandana)": 1
       },
       "coins": 0,
-      "last_daily": "2026-04-29",
-      "pity": 0,
+      "last_daily": "2026-04-30",
+      "pity": 1,
       "blessed": false
     },
     "136653169118806017": {
