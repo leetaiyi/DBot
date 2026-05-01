@@ -480,7 +480,7 @@
         "Batta": 1,
         "Bella": 1,
         "Sake+Ebi": 2,
-        "Bynx": 3,
+        "Bynx": 4,
         "Maru Merak Miss Ma'am Morden": 1,
         "Amanda": 1,
         "Rose": 2,
@@ -502,8 +502,8 @@
         "Belly Flash": 1,
         "Willow Belly": 1
       },
-      "last_daily": "2026-04-30",
-      "pity": 0,
+      "last_daily": "2026-05-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
