@@ -702,7 +702,7 @@
         "Rose": 2,
         "Sake": 2,
         "Sake+Ebi": 1,
-        "LaCat: Wassup": 1,
+        "LaCat: Wassup": 2,
         "Bynx": 2,
         "IDDOG": 1,
         "Cerberus": 2,
@@ -730,8 +730,8 @@
         "John and Albino water monitor lizard": 1,
         "Artemis Dee": 1
       },
-      "last_daily": "2026-04-30",
-      "pity": 0,
+      "last_daily": "2026-05-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
