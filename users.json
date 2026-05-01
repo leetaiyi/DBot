@@ -530,7 +530,7 @@
         "Flash": 2,
         "Korok Couple": 1,
         "Kazoo David": 2,
-        "David": 2,
+        "David": 3,
         "Sadge Ryuu": 1,
         "Amadeus": 1,
         "Bilbo Bee": 1,
@@ -547,8 +547,8 @@
         "Capt Ben": 1,
         "Live Gloriously!": 1
       },
-      "last_daily": "2026-04-30",
-      "pity": 0,
+      "last_daily": "2026-05-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
