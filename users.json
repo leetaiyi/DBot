@@ -430,7 +430,7 @@
         "Willow Snuggle": 2,
         "Flash": 1,
         "Batta": 3,
-        "Bella": 3,
+        "Bella": 4,
         "Percy": 2,
         "A Wild Artemis": 3,
         "Ben": 2,
@@ -460,8 +460,8 @@
         "Are You Dragon Tales?": 1,
         "Live Gloriously!": 1
       },
-      "last_daily": "2026-05-02",
-      "pity": 0,
+      "last_daily": "2026-05-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
