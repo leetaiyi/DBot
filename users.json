@@ -869,7 +869,7 @@
         "Betty": 1,
         "Sawyer": 1,
         "Tomyris": 1,
-        "Amadeus2": 1,
+        "Amadeus2": 2,
         "Kazoo David": 2,
         "Coconut!": 2,
         "Zelda": 2,
@@ -885,8 +885,8 @@
         "Bella": 1,
         "Carbon": 1
       },
-      "last_daily": "2026-05-02",
-      "pity": 0,
+      "last_daily": "2026-05-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
