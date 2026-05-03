@@ -802,7 +802,7 @@
         "LaCat: Hypnosis": 2,
         "Ollidammara": 1,
         "Nova Fangly": 4,
-        "Cerberus": 3,
+        "Cerberus": 4,
         "Tomyris": 3,
         "Betty": 2,
         "Willow Snuggle": 3,
@@ -837,8 +837,8 @@
         "John and Albino water monitor lizard": 1,
         "Loki Loodelally": 1
       },
-      "last_daily": "2026-05-01",
-      "pity": 0,
+      "last_daily": "2026-05-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
