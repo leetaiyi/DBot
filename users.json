@@ -1352,6 +1352,16 @@
       "pity": 1,
       "pulls": 0,
       "blessed": false
+    },
+    "181899217919279104": {
+      "coins": 4,
+      "inventory": {
+        "Loki Loodelally": 1
+      },
+      "last_daily": "2026-05-03",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
