@@ -384,7 +384,7 @@
         "LaCat: Wassup": 1,
         "Tomyris": 2,
         "Howl": 2,
-        "Live Gloriously!": 2,
+        "Live Gloriously!": 3,
         "Carbon": 3,
         "A Wild Artemis": 1,
         "Bilbo Bee": 1,
@@ -411,8 +411,8 @@
         "Benjamin (bandana)": 1,
         "Keyboard Carbon": 1
       },
-      "last_daily": "2026-05-03",
-      "pity": 0,
+      "last_daily": "2026-05-04",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
