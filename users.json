@@ -1149,7 +1149,7 @@
     "247912247496540160": {
       "coins": 0,
       "inventory": {
-        "Artemis Dee": 2,
+        "Artemis Dee": 3,
         "Kazoo David": 3,
         "Objection!": 1,
         "Belly Flash": 1,
@@ -1181,8 +1181,8 @@
         "LaCat: Wassup": 1,
         "Batta": 1
       },
-      "last_daily": "2026-05-04",
-      "pity": 0,
+      "last_daily": "2026-05-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
