@@ -647,7 +647,7 @@
         "Sadge Ryuu": 1,
         "Maleficent": 4,
         "Mishka": 1,
-        "Bynx": 2,
+        "Bynx": 3,
         "Ivan": 3,
         "Betty": 1,
         "Amadeus": 1,
@@ -684,8 +684,8 @@
         "Willow": 1,
         "Gabbro": 1
       },
-      "last_daily": "2026-05-03",
-      "pity": 0,
+      "last_daily": "2026-05-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
