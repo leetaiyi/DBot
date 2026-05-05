@@ -399,6 +399,16 @@
       "name": "Achelois",
       "weight": 40,
       "image": "Achelois.png"
+    },
+    {
+      "name": "Noodle",
+      "weight": 40,
+      "image": "Noodle.jpg"
+    },
+    {
+      "name": "Noodle plays Pokémon",
+      "weight": 25,
+      "image": "NoodleCards.jpg"
     }
   ],
   "achievements": {
