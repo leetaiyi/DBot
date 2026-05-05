@@ -1358,7 +1358,7 @@
         "Betty": 1,
         "Morpheus": 3,
         "Bella": 2,
-        "LaCat: Hypnosis": 1,
+        "LaCat: Hypnosis": 2,
         "Oreo": 3,
         "Polly": 1,
         "Ivan": 1,
@@ -1376,8 +1376,8 @@
         "Batta": 1,
         "A Wild Artemis": 1
       },
-      "last_daily": "2026-05-04",
-      "pity": 0,
+      "last_daily": "2026-05-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
