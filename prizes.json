@@ -394,6 +394,11 @@
       "name": "Bigger litterbox pls",
       "weight": 17,
       "image": "LokiLitter.png"
+    },
+    {
+      "name": "Achelois",
+      "weight": 40,
+      "image": "Achelois.png"
     }
   ],
   "achievements": {
