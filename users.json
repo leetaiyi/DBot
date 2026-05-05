@@ -510,7 +510,7 @@
         "Bratty Ryuu": 1,
         "Maleficent": 1,
         "Objection!": 1,
-        "Zelda": 1,
+        "Zelda": 2,
         "Amadeus": 1,
         "Ivan": 1,
         "Sake": 1,
@@ -521,8 +521,8 @@
         "A Wild Artemis": 1,
         "Kitchen Cat": 1
       },
-      "last_daily": "2026-05-04",
-      "pity": 0,
+      "last_daily": "2026-05-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
@@ -1035,9 +1035,10 @@
         "Percy": 1,
         "Tomyris": 1,
         "Maleficent": 1,
-        "Amadeus2": 1
+        "Amadeus2": 1,
+        "Oreo": 1
       },
-      "last_daily": "2026-05-03",
+      "last_daily": "2026-05-05",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -1137,19 +1138,19 @@
         "Duet of the Fates": 2,
         "Ellie as Moonmoon": 1,
         "Carbon": 1,
-        "Maru Merak Miss Ma'am Morden": 1,
+        "Maru Merak Miss Ma'am Morden": 2,
         "Leia (apples)": 2,
         "Bynx": 1
       },
-      "last_daily": "2026-05-04",
-      "pity": 1,
+      "last_daily": "2026-05-05",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
     "247912247496540160": {
       "coins": 0,
       "inventory": {
-        "Artemis Dee": 2,
+        "Artemis Dee": 3,
         "Kazoo David": 3,
         "Objection!": 1,
         "Belly Flash": 1,
@@ -1181,8 +1182,8 @@
         "LaCat: Wassup": 1,
         "Batta": 1
       },
-      "last_daily": "2026-05-04",
-      "pity": 0,
+      "last_daily": "2026-05-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
@@ -1252,9 +1253,10 @@
         "Morpheus": 2,
         "Amadeus2": 1,
         "Polly": 1,
-        "Artemis Dee": 1
+        "Artemis Dee": 1,
+        "Mishka": 1
       },
-      "last_daily": "2026-05-04",
+      "last_daily": "2026-05-05",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -1326,7 +1328,7 @@
         "Bilbo Bee": 1,
         "Ivan": 2,
         "LaCat: Belleh": 1,
-        "LaCat: Wassup": 1,
+        "LaCat: Wassup": 2,
         "Cerberus": 1,
         "Rose": 2,
         "Sake+Ebi": 1,
@@ -1338,8 +1340,8 @@
         "GengArtemis": 1,
         "Gabbro": 2
       },
-      "last_daily": "2026-05-04",
-      "pity": 1,
+      "last_daily": "2026-05-05",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
