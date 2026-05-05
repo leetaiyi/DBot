@@ -864,7 +864,7 @@
         "HONK!!": 1,
         "Sad Jamin": 1,
         "LaCat: Wassup": 3,
-        "Howl": 1,
+        "Howl": 2,
         "Batta": 2,
         "Cerberus": 3,
         "Ivan": 1,
@@ -901,8 +901,8 @@
         "Carbon": 1,
         "GengArtemis": 1
       },
-      "last_daily": "2026-05-04",
-      "pity": 0,
+      "last_daily": "2026-05-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
