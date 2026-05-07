@@ -329,7 +329,7 @@
         "LaCat: Wassup": 2,
         "Zelda": 3,
         "A Wild Artemis": 1,
-        "Gabbro": 3,
+        "Gabbro": 4,
         "Howl": 2,
         "Betty": 1,
         "Amanda": 1,
@@ -372,8 +372,8 @@
         "Kitchen Cat": 1,
         "Amadeus": 1
       },
-      "last_daily": "2026-05-06",
-      "pity": 0,
+      "last_daily": "2026-05-07",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
