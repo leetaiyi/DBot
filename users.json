@@ -488,7 +488,7 @@
       "blessed": false
     },
     "184110334334730240": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "HONK!!": 1,
         "Tomyris": 6,
@@ -531,10 +531,11 @@
         "Willow Belly": 1,
         "A Wild Artemis": 1,
         "Kitchen Cat": 1,
-        "Morpheus": 1
+        "Morpheus": 1,
+        "King Baker": 1
       },
       "last_daily": "2026-05-08",
-      "pity": 1,
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
