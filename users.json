@@ -491,7 +491,7 @@
       "coins": 0,
       "inventory": {
         "HONK!!": 1,
-        "Tomyris": 5,
+        "Tomyris": 6,
         "Howl": 2,
         "LaCat: Wassup": 3,
         "Ollidammara": 1,
@@ -533,8 +533,8 @@
         "Kitchen Cat": 1,
         "Morpheus": 1
       },
-      "last_daily": "2026-05-07",
-      "pity": 0,
+      "last_daily": "2026-05-08",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
