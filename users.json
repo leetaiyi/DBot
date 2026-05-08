@@ -837,7 +837,7 @@
         "Nova Fangly": 4,
         "Cerberus": 4,
         "Tomyris": 3,
-        "Betty": 2,
+        "Betty": 3,
         "Willow Snuggle": 3,
         "Keyboard Carbon": 2,
         "Oreo": 2,
@@ -872,8 +872,8 @@
         "King Baker": 1,
         "Furiosa blesses you with wealth": 1
       },
-      "last_daily": "2026-05-07",
-      "pity": 0,
+      "last_daily": "2026-05-08",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
