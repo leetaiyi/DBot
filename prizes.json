@@ -374,6 +374,41 @@
       "name": "Furiosa blesses you with wealth",
       "weight": 5,
       "image": "Furiosa.gif"
+    },
+    {
+      "name": "GMRA Winner!",
+      "weight": 1,
+      "image": "GMRAwin.jpg"
+    },
+    {
+      "name": "Kitchen Cat",
+      "weight": 40,
+      "image": "KitchenCat.png"
+    },
+    {
+      "name": "Loki Loodelally",
+      "weight": 30,
+      "image": "Loki.jpg"
+    },
+    {
+      "name": "Bigger litterbox pls",
+      "weight": 17,
+      "image": "LokiLitter.png"
+    },
+    {
+      "name": "Achelois",
+      "weight": 40,
+      "image": "Achelois.png"
+    },
+    {
+      "name": "Noodle",
+      "weight": 40,
+      "image": "Noodle.jpg"
+    },
+    {
+      "name": "Noodle plays Pokémon",
+      "weight": 25,
+      "image": "NoodleCards.jpg"
     }
   ],
   "achievements": {
@@ -387,12 +422,22 @@
       ],
       "rarity": "common"
     },
+    "The LuxenBieles": {
+      "items": [
+        ["Flash","Belly Flash"],
+        "Ivan",
+        "Kitchen Cat",
+        "Maleficent",
+        "Oreo"
+      ],
+      "rarity": "common"
+    },
     "Voids": {
       "items": [
         ["Amadeus","Amadeus2"], 
-        ["Artemis", "Artemis Dee"],
+        ["Artemis", "A Wild Artemis", "Artemis Dee"],
         ["Carbon","Keyboard Carbon", "Carbon Eyes"],
-        ["LaCat: Wassup", "LaCat: Hypnosis", "LaCat: Belleh"],
+        ["LaCat","LaCat: Wassup", "LaCat: Hypnosis", "LaCat: Belleh"],
         "Maleficent",
         "Morpheus",
         "Ollidammara"
@@ -428,7 +473,7 @@
     },
     "Vacation Time": {
       "items": [
-        "Coconut",
+        "Coconut!",
         "John and Albino water monitor lizard",
         "Duet of the Fates"
       ],
