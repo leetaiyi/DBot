@@ -328,7 +328,7 @@
     "125459449023299584": {
       "coins": 0,
       "inventory": {
-        "Artemis Dee": 1,
+        "Artemis Dee": 2,
         "LaCat: Wassup": 2,
         "Zelda": 3,
         "A Wild Artemis": 1,
@@ -375,8 +375,8 @@
         "Kitchen Cat": 1,
         "Amadeus": 1
       },
-      "last_daily": "2026-05-07",
-      "pity": 1,
+      "last_daily": "2026-05-08",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
