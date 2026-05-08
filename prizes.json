@@ -422,6 +422,18 @@
       ],
       "rarity": "common"
     },
+    "Forever Vacuuming": {
+      "items": [
+        ["Artemis", "A Wild Artemis", "Artemis Dee"],
+        ["Ebi", "Ebi+Sake"],
+        ["Loki", "Loki Loodelally", "Bigger litterbox pls"],
+        "Rose",
+        ["Sake", "Ebi+Sake"],
+        "Tomyris",
+        "Zelda"
+      ],
+      "rarity": "common"
+    },
     "The LuxenBieles": {
       "items": [
         ["Flash","Belly Flash"],
@@ -452,6 +464,18 @@
         "Willow Belly"
       ],
     "rarity": "common"
+    },
+    "The B's": {
+      "items": [
+        "Batta",
+        "King Baker",
+        "Bella",
+        "Benjamin (bandana)",
+        "Betty",
+        "Bilbo Bee",
+        "Bynx"
+      ],
+    "rarity": "rare"
     },
     "Cursed Humans": {
       "items": [
