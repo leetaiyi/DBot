@@ -545,7 +545,7 @@
       "blessed": false
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
@@ -578,7 +578,7 @@
         "HONK!!": 2,
         "Willow": 1,
         "Ellie as Moonmoon": 1,
-        "Bella": 1,
+        "Bella": 2,
         "Morpheus": 1,
         "Polly": 1,
         "Coconut!": 1,
@@ -590,7 +590,7 @@
         "Ben": 1
       },
       "last_daily": "2026-05-09",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
