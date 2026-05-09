@@ -1403,7 +1403,7 @@
         "Betty": 1,
         "Morpheus": 3,
         "Bella": 2,
-        "LaCat: Hypnosis": 2,
+        "LaCat: Hypnosis": 3,
         "Oreo": 3,
         "Polly": 1,
         "Ivan": 1,
@@ -1423,8 +1423,8 @@
         "Cerberus": 1,
         "Benjamin (bandana)": 1
       },
-      "last_daily": "2026-05-08",
-      "pity": 0,
+      "last_daily": "2026-05-09",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
