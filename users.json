@@ -390,7 +390,7 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Zelda": 2,
         "Ben": 2,
@@ -426,10 +426,11 @@
         "Benjamin (bandana)": 1,
         "Keyboard Carbon": 1,
         "Polly": 1,
-        "Kitchen Cat": 1
+        "Kitchen Cat": 1,
+        "Sake": 1
       },
       "last_daily": "2026-05-09",
-      "pity": 2,
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
