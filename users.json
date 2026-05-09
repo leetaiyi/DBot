@@ -1436,6 +1436,12 @@
       "pity": 0,
       "pulls": 0,
       "blessed": false
+    },
+    "135485256147927042": {
+      "inventory": {},
+      "coins": 1,
+      "last_daily": "2026-05-09",
+      "pity": 0
     }
   }
 }
