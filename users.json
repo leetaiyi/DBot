@@ -1132,7 +1132,7 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 1,
         "Capt Ben": 2,
@@ -1179,7 +1179,8 @@
         "Barely Legal John": 1,
         "Kitchen Cat": 1,
         "Ivan": 1,
-        "Ben": 1
+        "Ben": 1,
+        "Rose": 1
       },
       "last_daily": "2026-05-09",
       "pity": 0,
