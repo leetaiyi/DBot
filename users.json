@@ -1303,7 +1303,7 @@
         "Oreo": 1,
         "Bilbo Bee": 1,
         "Gabbro": 1,
-        "Nova Fangly": 1,
+        "Nova Fangly": 2,
         "Keyboard Carbon": 1,
         "Morpheus": 2,
         "Amadeus2": 1,
@@ -1313,8 +1313,8 @@
         "Achelois": 1,
         "King Baker": 1
       },
-      "last_daily": "2026-05-09",
-      "pity": 0,
+      "last_daily": "2026-05-10",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
