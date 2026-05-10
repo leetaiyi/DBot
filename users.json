@@ -1059,7 +1059,7 @@
       "coins": 0,
       "inventory": {
         "Live Gloriously!": 1,
-        "Ollidammara": 1,
+        "Ollidammara": 2,
         "Batta": 2,
         "Gabbro": 1,
         "Amanda": 1,
@@ -1084,8 +1084,8 @@
         "Oreo": 1,
         "Achelois": 1
       },
-      "last_daily": "2026-05-09",
-      "pity": 0,
+      "last_daily": "2026-05-10",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
