@@ -419,7 +419,7 @@
         "Objection!": 2,
         "Betty": 1,
         "LaCat: Hypnosis": 1,
-        "Sawyer": 2,
+        "Sawyer": 3,
         "Percy": 1,
         "Sake+Ebi": 1,
         "Mishka": 2,
@@ -438,8 +438,8 @@
         "Kitchen Cat": 1,
         "Sake": 1
       },
-      "last_daily": "2026-05-09",
-      "pity": 0,
+      "last_daily": "2026-05-11",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
