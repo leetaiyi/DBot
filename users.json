@@ -761,7 +761,7 @@
         "IDDOG": 1,
         "Cerberus": 2,
         "A Wild Artemis": 1,
-        "Bilbo Bee": 2,
+        "Bilbo Bee": 3,
         "Morpheus": 2,
         "HONK!!": 1,
         "Are You Dragon Tales?": 1,
@@ -789,8 +789,8 @@
         "Live Gloriously!": 1,
         "Amanda": 1
       },
-      "last_daily": "2026-05-10",
-      "pity": 0,
+      "last_daily": "2026-05-11",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
