@@ -159,7 +159,7 @@
         "Cerberus": 3,
         "Zelda": 2,
         "IDDOG": 3,
-        "Polly": 3,
+        "Polly": 4,
         "Mishka": 1,
         "Willow Snuggle": 1,
         "CTLbot": 1,
@@ -173,8 +173,8 @@
         "Leia (apples)": 1
       },
       "coins": 0,
-      "last_daily": "2026-05-09",
-      "pity": 0,
+      "last_daily": "2026-05-11",
+      "pity": 1,
       "blessed": false
     },
     "136653169118806017": {
