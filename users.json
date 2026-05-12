@@ -459,7 +459,7 @@
         "LaCat: Wassup": 1,
         "Willow": 1,
         "Willow Snuggle": 2,
-        "Flash": 1,
+        "Flash": 2,
         "Batta": 3,
         "Bella": 4,
         "Percy": 2,
@@ -495,8 +495,8 @@
         "Achelois": 1,
         "Loki Loodelally": 1
       },
-      "last_daily": "2026-05-11",
-      "pity": 1,
+      "last_daily": "2026-05-12",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
