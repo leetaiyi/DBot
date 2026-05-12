@@ -1099,7 +1099,7 @@
       "coins": 2,
       "inventory": {
         "Flash": 2,
-        "Gabbro": 1,
+        "Gabbro": 2,
         "Maleficent": 3,
         "Ellie as Moonmoon": 2,
         "Bynx": 4,
@@ -1146,8 +1146,8 @@
         "Achelois": 1,
         "Polly": 1
       },
-      "last_daily": "2026-05-11",
-      "pity": 0,
+      "last_daily": "2026-05-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
