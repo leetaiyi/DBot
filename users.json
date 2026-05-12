@@ -358,7 +358,7 @@
         "Kazoo David": 1,
         "Maleficent": 2,
         "Rose": 3,
-        "Morpheus": 2,
+        "Morpheus": 3,
         "Amadeus2": 1,
         "Tomyris": 2,
         "Bilbo Bee": 2,
@@ -386,8 +386,8 @@
         "Korok Couple": 1,
         "Duet of the Fates": 1
       },
-      "last_daily": "2026-05-11",
-      "pity": 0,
+      "last_daily": "2026-05-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
