@@ -459,7 +459,7 @@
         "Zelda": 1,
         "LaCat: Hypnosis": 3,
         "Amanda": 2,
-        "Oreo": 2,
+        "Oreo": 3,
         "Howl": 2,
         "LaCat: Wassup": 1,
         "Willow": 1,
@@ -501,8 +501,8 @@
         "Loki Loodelally": 1,
         "Sawyer": 1
       },
-      "last_daily": "2026-05-13",
-      "pity": 0,
+      "last_daily": "2026-05-14",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
