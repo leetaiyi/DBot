@@ -701,7 +701,7 @@
         "Zelda": 1,
         "Capt Ben": 2,
         "Cookie Strife": 1,
-        "Sake": 2,
+        "Sake": 3,
         "Ebi": 2,
         "Rose": 3,
         "AdaMario": 1,
@@ -728,8 +728,8 @@
         "Batta": 1,
         "Bilbo Bee": 1
       },
-      "last_daily": "2026-05-13",
-      "pity": 0,
+      "last_daily": "2026-05-14",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
