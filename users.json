@@ -932,7 +932,7 @@
         "Amadeus": 2,
         "Rose": 2,
         "Artemis Dee": 1,
-        "Sake": 2,
+        "Sake": 3,
         "Flash": 1,
         "Willow Belly": 1,
         "IDDOG": 3,
@@ -964,8 +964,8 @@
         "Willow Snuggle": 1,
         "Sadge Ryuu": 1
       },
-      "last_daily": "2026-05-14",
-      "pity": 0,
+      "last_daily": "2026-05-15",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
