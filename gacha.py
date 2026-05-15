@@ -562,6 +562,55 @@ async def achievements(ctx):
 async def acheivements(ctx):
     await ctx.send("I before E except after C")
 
+@bot.command()
+async def redeem(ctx, *, achievement_name):
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, user_sha = get_file(USERS_URL)
+
+    achievements = prize_data.get("achievements", {})
+    users = user_data.setdefault("users", {})
+
+    user_id = str(ctx.author.id)
+
+    if user_id not in users:
+        await ctx.send("You have no inventory yet.")
+        return
+
+    if achievement_name not in achievements:
+        await ctx.send("❌ Achievement not found.")
+        return
+
+    achievement = achievements[achievement_name]
+
+    inventory = users[user_id].setdefault("inventory", {})
+    claims = users[user_id].setdefault("achievement_claims", {})
+
+    items = achievement["items"]
+    reward = achievement.get("reward")
+
+    if reward is None:
+        await ctx.send("❌ This achievement doesn't have a reward yet. (Help suggest one)")
+        return
+
+    max_claims = achievement_max_claims(inventory, items)
+    already_claimed = claims.get(achievement_name, 0)
+
+    if already_claimed >= max_claims:
+        await ctx.send("❌ You do not currently qualify for another redemption.")
+        return
+
+    # Give reward
+    inventory[reward] = inventory.get(reward, 0) + 1
+
+    # Track claim
+    claims[achievement_name] = already_claimed + 1
+
+    update_file(USERS_URL, user_data, user_sha)
+
+    await ctx.send(
+        f"🎁 {ctx.author.mention} redeemed **{achievement_name}** and received **{reward}**!"
+    )
+
 
 keep_alive()
 
