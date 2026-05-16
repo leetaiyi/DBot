@@ -1523,6 +1523,16 @@
       "last_daily": "2026-05-16",
       "pity": 2,
       "blessed": false
+    },
+    "346044943795617792": {
+      "coins": 4,
+      "inventory": {
+        "Live Gloriously!": 1
+      },
+      "last_daily": "2026-05-16",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
