@@ -1525,10 +1525,11 @@
       "blessed": false
     },
     "346044943795617792": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Live Gloriously!": 1,
-        "Leia (apples)": 1
+        "Leia (apples)": 1,
+        "Willow": 1
       },
       "last_daily": "2026-05-16",
       "pity": 0,
