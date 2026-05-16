@@ -1466,7 +1466,7 @@
         "Bilbo Bee": 1,
         "Amanda": 2,
         "Betty": 1,
-        "Morpheus": 3,
+        "Morpheus": 4,
         "Bella": 2,
         "LaCat: Hypnosis": 4,
         "Oreo": 3,
@@ -1492,8 +1492,8 @@
         "Objection!": 1,
         "Ebi": 1
       },
-      "last_daily": "2026-05-15",
-      "pity": 0,
+      "last_daily": "2026-05-16",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
