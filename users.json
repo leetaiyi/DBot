@@ -818,10 +818,10 @@
       "blessed": false
     },
     "316002379537317899": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Artemis Dee": 3,
-        "Sad Jamin": 3,
+        "Sad Jamin": 4,
         "LaCat: Hypnosis": 2,
         "Maleficent": 2,
         "Gabbro": 1,
@@ -842,7 +842,7 @@
         "Percy": 1
       },
       "last_daily": "2026-05-16",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
