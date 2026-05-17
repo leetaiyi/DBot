@@ -710,7 +710,7 @@
         "Zelda": 1,
         "Capt Ben": 2,
         "Cookie Strife": 1,
-        "Sake": 3,
+        "Sake": 4,
         "Ebi": 2,
         "Rose": 3,
         "AdaMario": 1,
@@ -738,8 +738,8 @@
         "Bilbo Bee": 1,
         "LaCat: Hypnosis": 1
       },
-      "last_daily": "2026-05-16",
-      "pity": 0,
+      "last_daily": "2026-05-17",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
