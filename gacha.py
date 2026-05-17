@@ -102,6 +102,28 @@ def is_paused():
     return datetime.now(UTC) < paused_until
 
 
+# Achievement helpers
+def effective_item_count(inventory, claims_used, requirement):
+    if isinstance(requirement, list):
+        return max(
+            inventory.get(item, 0) - claims_used
+            for item in requirement
+        )
+
+    return inventory.get(requirement, 0) - claims_used
+
+def achievement_remaining_progress(inventory, claims_used, items):
+    counts = [
+        max(0, effective_item_count(inventory, claims_used, req))
+        for req in items
+    ]
+
+    completed_parts = sum(c > 0 for c in counts)
+
+    return completed_parts, len(items), min(counts)
+
+
+
 @bot.check
 async def global_pause_check(ctx):
     global paused_until
@@ -336,6 +358,7 @@ async def inventory(ctx):
 
     prizes = prize_data["prizes"]
     users = user_data.get("users", {})
+    claims = user.setdefault("achievement_claims", {})
 
     user_id = str(ctx.author.id)
 
@@ -348,6 +371,7 @@ async def inventory(ctx):
 
     inventory = user.get("inventory", {})
     coins = user.get("coins", 0)
+    claims = user.get("achievement_claims", {})
 
     # Create weight lookup
     weight_map = {p["name"]: p["weight"] for p in prizes}
@@ -405,6 +429,21 @@ async def inventory(ctx):
         embed.add_field(name="Inventory",
                         value="You have no prizes yet!",
                         inline=False)
+
+    # Achievement redemptions
+    if claims:
+        achievement_lines = []
+
+        for achievement_name, count in sorted(claims.items()):
+            if count > 0:
+                achievement_lines.append(f"{achievement_name} x{count}")
+
+        if achievement_lines:
+            embed.add_field(
+                name="🏆 Achievements",
+                value="\n".join(achievement_lines),
+                inline=False
+            )
 
     # Total pulls
     total_pulls = sum(inventory.values())
@@ -558,9 +597,105 @@ async def achievements(ctx):
 
     await ctx.send(embed=embed)
 
+
 @bot.command()
 async def acheivements(ctx):
     await ctx.send("I before E except after C")
+
+
+@bot.command()
+async def redeem(ctx, *, achievement_name):
+    # Load files
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, user_sha = get_file(USERS_URL)
+
+    achievements = prize_data.get("achievements", {})
+    users = user_data.setdefault("users", {})
+
+    user_id = str(ctx.author.id)
+
+    # User check
+    if user_id not in users:
+        await ctx.send("❌ You have no inventory yet.")
+        return
+
+    # Achievement exists?
+    if achievement_name not in achievements:
+        await ctx.send("❌ Achievement not found.")
+        return
+
+    achievement = achievements[achievement_name]
+
+    inventory = users[user_id].setdefault("inventory", {})
+    claims = users[user_id].setdefault("achievement_claims", {})
+
+    items = achievement["items"]
+
+    # Reward structure
+    reward = achievement.get("reward")
+
+    if reward is None:
+        await ctx.send("❌ This achievement has no reward configured. (Help suggest one)")
+        return
+
+    reward_name = reward["name"]
+    reward_image = reward["image"]
+
+    # Number already redeemed
+    claimed_count = claims.get(achievement_name, 0)
+
+    # Compute redeemability
+    effective_counts = []
+
+    for req in items:
+
+        # Any-of group
+        if isinstance(req, list):
+
+            remaining = max(
+                inventory.get(item, 0) - claimed_count
+                for item in req
+            )
+
+        else:
+            remaining = inventory.get(req, 0) - claimed_count
+
+        effective_counts.append(max(0, remaining))
+
+    redeemable = min(effective_counts)
+
+    # Must have a full redeemable set
+    if redeemable <= 0:
+        await ctx.send(
+            "❌ You do not currently have a full redeemable set."
+        )
+        return
+
+    # Grant reward
+    inventory[reward_name] = inventory.get(reward_name, 0) + 1
+
+    # Track redemption
+    claims[achievement_name] = claimed_count + 1
+
+    # Save
+    update_file(USERS_URL, user_data, user_sha)
+
+    # Embed
+    image_url = BASE_IMAGE_URL + reward_image
+
+    embed = discord.Embed(
+        title="🏆 Achievement Redeemed!",
+        description=(
+            f"{ctx.author.mention} redeemed "
+            f"**{achievement_name}**!\n\n"
+            f"🎁 Received **{reward_name}**!"
+        ),
+        color=discord.Color.dark_gold()
+    )
+
+    embed.set_image(url=image_url)
+
+    await ctx.send(embed=embed)
 
 
 keep_alive()
