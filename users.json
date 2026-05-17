@@ -1197,7 +1197,7 @@
       "coins": 1,
       "inventory": {
         "Maleficent": 1,
-        "Capt Ben": 2,
+        "Capt Ben": 3,
         "Artemis Dee": 3,
         "A Wild Artemis": 2,
         "Belly Flash": 1,
@@ -1246,8 +1246,8 @@
         "King Baker": 1,
         "Achelois": 1
       },
-      "last_daily": "2026-05-16",
-      "pity": 1,
+      "last_daily": "2026-05-17",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
