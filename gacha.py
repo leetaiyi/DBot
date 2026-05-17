@@ -358,7 +358,6 @@ async def inventory(ctx):
 
     prizes = prize_data["prizes"]
     users = user_data.get("users", {})
-    claims = user.setdefault("achievement_claims", {})
 
     user_id = str(ctx.author.id)
 
@@ -368,6 +367,7 @@ async def inventory(ctx):
         return
 
     user = users[user_id]
+    claims = user.setdefault("achievement_claims", {})
 
     inventory = user.get("inventory", {})
     coins = user.get("coins", 0)
