@@ -420,7 +420,9 @@
         "Morpheus",
         "Ollidammara"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "reward": "CatbusFamily.jpg"
+      }
     },
     "Forever Vacuuming": {
       "items": [
@@ -442,7 +444,8 @@
         "Maleficent",
         "Oreo"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "reward": "LuxemBieles.jpg"
     },
     "Voids": {
       "items": [
