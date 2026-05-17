@@ -32,7 +32,7 @@ REPO_NAME = "DBot"
 
 PITY_LIM = 3
 
-BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/"
+BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/data/WM%20Gacha/"
 
 PRIZES_PATH = "prizes.json"
 USERS_PATH = "users.json"
@@ -528,7 +528,13 @@ async def achievements(ctx):
         # Hide rare achievements unless complete
         if rarity != "common" and not complete:
             display_name = "❓ Hidden Achievement"
-            value = "???"
+            owned = []
+            for req in items:
+                if check_item_group(inventory, req):
+                    owned.append(req)
+
+            value = f"Obtained: {', '.join(owned)}"
+
         else:
             display_name = name
 
@@ -551,6 +557,59 @@ async def achievements(ctx):
         embed.description = "No achievements in progress yet. Start pulling! 🎰"
 
     await ctx.send(embed=embed)
+
+@bot.command()
+async def acheivements(ctx):
+    await ctx.send("I before E except after C")
+
+@bot.command()
+async def redeem(ctx, *, achievement_name):
+    prize_data, _ = get_file(PRIZES_URL)
+    user_data, user_sha = get_file(USERS_URL)
+
+    achievements = prize_data.get("achievements", {})
+    users = user_data.setdefault("users", {})
+
+    user_id = str(ctx.author.id)
+
+    if user_id not in users:
+        await ctx.send("You have no inventory yet.")
+        return
+
+    if achievement_name not in achievements:
+        await ctx.send("❌ Achievement not found.")
+        return
+
+    achievement = achievements[achievement_name]
+
+    inventory = users[user_id].setdefault("inventory", {})
+    claims = users[user_id].setdefault("achievement_claims", {})
+
+    items = achievement["items"]
+    reward = achievement.get("reward")
+
+    if reward is None:
+        await ctx.send("❌ This achievement doesn't have a reward yet. (Help suggest one)")
+        return
+
+    max_claims = achievement_max_claims(inventory, items)
+    already_claimed = claims.get(achievement_name, 0)
+
+    if already_claimed >= max_claims:
+        await ctx.send("❌ You do not currently qualify for another redemption.")
+        return
+
+    # Give reward
+    inventory[reward] = inventory.get(reward, 0) + 1
+
+    # Track claim
+    claims[achievement_name] = already_claimed + 1
+
+    update_file(USERS_URL, user_data, user_sha)
+
+    await ctx.send(
+        f"🎁 {ctx.author.mention} redeemed **{achievement_name}** and received **{reward}**!"
+    )
 
 
 keep_alive()
