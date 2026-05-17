@@ -42,7 +42,10 @@
       "coins": 970,
       "last_daily": "2026-05-17",
       "pity": 1,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "Catbus Family": 1
+      }
     },
     "418102912221184001": {
       "inventory": {
