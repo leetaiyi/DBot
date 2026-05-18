@@ -1258,10 +1258,11 @@
         "Ben": 1,
         "Rose": 1,
         "King Baker": 1,
-        "Achelois": 1
+        "Achelois": 1,
+        "David": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 2,
+      "last_daily": "2026-05-18",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
