@@ -1348,7 +1348,7 @@
       "coins": 2,
       "inventory": {
         "Capt Ben": 1,
-        "Willow": 1,
+        "Willow": 2,
         "Carbon": 1,
         "Ebi": 1,
         "Tomyris": 2,
@@ -1386,8 +1386,8 @@
         "Cookie Strife": 1,
         "Noodle": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 0,
+      "last_daily": "2026-05-18",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
