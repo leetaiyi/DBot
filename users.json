@@ -1445,7 +1445,7 @@
       "inventory": {
         "Live Gloriously!": 2,
         "Batta": 2,
-        "Willow": 2,
+        "Willow": 3,
         "Nova: The Absurd Beast": 1,
         "Maru Merak Miss Ma'am Morden": 2,
         "Amadeus": 2,
@@ -1478,8 +1478,8 @@
         "Keyboard Carbon": 1,
         "Loki Loodelally": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 0,
+      "last_daily": "2026-05-18",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
