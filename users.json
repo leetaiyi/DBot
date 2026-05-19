@@ -1231,7 +1231,7 @@
         "Coconut!": 1,
         "Tomyris": 2,
         "Batta": 2,
-        "Nova Fangly": 2,
+        "Nova Fangly": 3,
         "Amadeus": 3,
         "Betty": 2,
         "LaCat: Wassup": 1,
@@ -1268,8 +1268,8 @@
         "Achelois": 1,
         "David": 1
       },
-      "last_daily": "2026-05-18",
-      "pity": 0,
+      "last_daily": "2026-05-19",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
