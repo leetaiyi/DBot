@@ -967,7 +967,7 @@
         "Sad Jamin": 1,
         "LaCat: Wassup": 3,
         "Howl": 2,
-        "Batta": 2,
+        "Batta": 3,
         "Cerberus": 3,
         "Ivan": 1,
         "Willow": 2,
@@ -1011,8 +1011,8 @@
         "Gabbro": 1,
         "David": 1
       },
-      "last_daily": "2026-05-19",
-      "pity": 0,
+      "last_daily": "2026-05-20",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
