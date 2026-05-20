@@ -1311,7 +1311,7 @@
         "Ollidammara": 1,
         "Amadeus": 1,
         "Howl": 2,
-        "Masabone": 1,
+        "Masabone": 2,
         "Keyboard Carbon": 1,
         "Maleficent": 2,
         "Kitchen Cat": 1,
@@ -1326,8 +1326,8 @@
         "Bilbo Bee": 1,
         "Sake": 1
       },
-      "last_daily": "2026-05-19",
-      "pity": 0,
+      "last_daily": "2026-05-20",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
