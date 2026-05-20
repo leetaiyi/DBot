@@ -410,7 +410,10 @@
       "last_daily": "2026-05-20",
       "pity": 1,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "The LuxenBieles": 1
+      }
     },
     "277552214342631424": {
       "coins": 4,
