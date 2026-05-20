@@ -1516,7 +1516,7 @@
         "Bynx": 1,
         "Ben": 1,
         "Maleficent": 1,
-        "Bilbo Bee": 1,
+        "Bilbo Bee": 2,
         "Amanda": 2,
         "Betty": 1,
         "Morpheus": 4,
@@ -1547,8 +1547,8 @@
         "Loki Loodelally": 1,
         "Artemis Dee": 1
       },
-      "last_daily": "2026-05-19",
-      "pity": 0,
+      "last_daily": "2026-05-20",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
