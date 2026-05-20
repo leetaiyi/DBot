@@ -457,10 +457,11 @@
         "Kitchen Cat": 1,
         "Sake": 2,
         "IDDOG": 1,
-        "Flash": 1
+        "Flash": 1,
+        "Batta": 1
       },
-      "last_daily": "2026-05-18",
-      "pity": 1,
+      "last_daily": "2026-05-20",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
