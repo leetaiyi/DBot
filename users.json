@@ -1403,7 +1403,7 @@
         "Sake": 1,
         "Sad Jamin": 1,
         "Amanda": 1,
-        "Sawyer": 2,
+        "Sawyer": 3,
         "Oreo": 2,
         "Bilbo Bee": 1,
         "Gabbro": 1,
@@ -1422,8 +1422,8 @@
         "Noodle": 1,
         "Bella": 1
       },
-      "last_daily": "2026-05-20",
-      "pity": 0,
+      "last_daily": "2026-05-21",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
