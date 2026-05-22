@@ -1342,10 +1342,11 @@
         "Mishka": 1,
         "Capt Ben": 1,
         "Bilbo Bee": 2,
-        "Sake": 1
+        "Sake": 1,
+        "Carbon": 1
       },
-      "last_daily": "2026-05-21",
-      "pity": 2,
+      "last_daily": "2026-05-22",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
