@@ -1163,7 +1163,7 @@
         "Bynx": 1,
         "Percy": 2,
         "Tomyris": 2,
-        "Maleficent": 2,
+        "Maleficent": 3,
         "Amadeus2": 1,
         "Oreo": 2,
         "Achelois": 1,
@@ -1173,8 +1173,8 @@
         "LaCat: Wassup": 2,
         "Noodle": 1
       },
-      "last_daily": "2026-05-21",
-      "pity": 0,
+      "last_daily": "2026-05-22",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
