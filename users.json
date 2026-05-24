@@ -79,7 +79,7 @@
         "Gabbro": 1,
         "Sake": 1,
         "Barely Legal John": 1,
-        "Maru Merak Miss Ma'am Morden": 2,
+        "Maru Merak Miss Ma'am Morden": 3,
         "Leia (apples)": 5,
         "Amadeus": 2,
         "Carbon": 1,
@@ -102,8 +102,8 @@
         "Willow Snuggle": 1
       },
       "coins": 0,
-      "last_daily": "2026-05-23",
-      "pity": 0,
+      "last_daily": "2026-05-24",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
