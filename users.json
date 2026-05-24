@@ -923,7 +923,7 @@
     "954136279296118885": {
       "coins": 2,
       "inventory": {
-        "Bynx": 3,
+        "Bynx": 4,
         "LaCat: Wassup": 2,
         "LaCat: Hypnosis": 2,
         "Ollidammara": 1,
@@ -970,8 +970,8 @@
         "Noodle": 1,
         "Willow Belly": 1
       },
-      "last_daily": "2026-05-23",
-      "pity": 0,
+      "last_daily": "2026-05-24",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
