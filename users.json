@@ -1520,7 +1520,7 @@
         "Bilbo Bee": 1,
         "Ivan": 2,
         "LaCat: Belleh": 1,
-        "LaCat: Wassup": 2,
+        "LaCat: Wassup": 3,
         "Cerberus": 1,
         "Rose": 2,
         "Sake+Ebi": 1,
@@ -1540,8 +1540,8 @@
         "Mishka": 1,
         "Amadeus2": 1
       },
-      "last_daily": "2026-05-22",
-      "pity": 0,
+      "last_daily": "2026-05-24",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
