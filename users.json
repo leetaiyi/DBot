@@ -1427,7 +1427,7 @@
         "Gabbro": 1,
         "Nova Fangly": 2,
         "Keyboard Carbon": 1,
-        "Morpheus": 2,
+        "Morpheus": 3,
         "Amadeus2": 1,
         "Polly": 1,
         "Artemis Dee": 1,
@@ -1441,8 +1441,8 @@
         "Bella": 1,
         "Belly Flash": 1
       },
-      "last_daily": "2026-05-23",
-      "pity": 0,
+      "last_daily": "2026-05-24",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
