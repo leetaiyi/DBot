@@ -44,7 +44,7 @@
       "pity": 2,
       "blessed": false,
       "achievement_claims": {
-        "Catbus Family": 0
+        "Catbus Family": 1
       }
     },
     "418102912221184001": {
@@ -65,11 +65,11 @@
         "Percy": 2,
         "David": 4,
         "Sadge Ryuu": 1,
-        "Bella": 1,
+        "Bella": 2,
         "Tomyris": 3,
         "Masabone": 1,
         "Sake+Ebi": 1,
-        "Zelda": 3,
+        "Zelda": 4,
         "Ellie as Moonmoon": 1,
         "Korok Couple": 1,
         "Polly": 2,
@@ -79,8 +79,8 @@
         "Gabbro": 1,
         "Sake": 1,
         "Barely Legal John": 1,
-        "Maru Merak Miss Ma'am Morden": 2,
-        "Leia (apples)": 4,
+        "Maru Merak Miss Ma'am Morden": 3,
+        "Leia (apples)": 5,
         "Amadeus": 2,
         "Carbon": 1,
         "Bratty Ryuu": 1,
@@ -96,12 +96,18 @@
         "Kazoo David": 1,
         "Objection!": 1,
         "Achelois": 1,
-        "Legendary Amanda": 1
+        "Legendary Amanda": 1,
+        "Bigger litterbox pls": 1,
+        "Kitchen Cat": 1,
+        "Willow Snuggle": 1
       },
       "coins": 0,
-      "last_daily": "2026-05-17",
-      "pity": 2,
-      "blessed": false
+      "last_daily": "2026-05-24",
+      "pity": 1,
+      "blessed": false,
+      "achievement_claims": {
+        "The LuxenBieles": 1
+      }
     },
     "156937687515791361": {
       "inventory": {
@@ -131,14 +137,14 @@
         "Flash": 2,
         "Tomyris": 1,
         "Amanda": 1,
-        "Willow": 1,
+        "Willow": 2,
         "Maru Merak Miss Ma'am Morden": 1,
         "Mishka": 1,
         "Benjamin (bandana)": 1
       },
       "coins": 0,
-      "last_daily": "2026-05-16",
-      "pity": 0,
+      "last_daily": "2026-05-19",
+      "pity": 1,
       "blessed": false
     },
     "128668354897510400": {
@@ -353,7 +359,7 @@
         "Artemis Dee": 2,
         "LaCat: Wassup": 2,
         "Zelda": 3,
-        "A Wild Artemis": 1,
+        "A Wild Artemis": 2,
         "Gabbro": 4,
         "Howl": 2,
         "Betty": 1,
@@ -370,7 +376,7 @@
         "Willow": 1,
         "Kazoo David": 1,
         "Maleficent": 2,
-        "Rose": 3,
+        "Rose": 4,
         "Morpheus": 3,
         "Amadeus2": 1,
         "Tomyris": 3,
@@ -381,7 +387,7 @@
         "Sawyer": 2,
         "Percy": 2,
         "Ivan": 2,
-        "Willow Snuggle": 2,
+        "Willow Snuggle": 3,
         "LaCat: Hypnosis": 1,
         "Nova Fangly": 1,
         "Carbon Eyes": 1,
@@ -399,12 +405,19 @@
         "Korok Couple": 1,
         "Duet of the Fates": 1,
         "Loki Loodelally": 1,
-        "Ellie as Moonmoon": 1
+        "Ellie as Moonmoon": 1,
+        "Legendary Amanda": 1,
+        "Coconut!": 1,
+        "Keyboard Carbon": 1
       },
-      "last_daily": "2026-05-17",
+      "last_daily": "2026-05-23",
       "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "The LuxenBieles": 1,
+        "Catbus Family": 1
+      }
     },
     "277552214342631424": {
       "coins": 4,
@@ -418,7 +431,7 @@
     "1091788251775369256": {
       "coins": 0,
       "inventory": {
-        "Zelda": 2,
+        "Zelda": 3,
         "Ben": 2,
         "Maru Merak Miss Ma'am Morden": 2,
         "Willow Snuggle": 2,
@@ -455,9 +468,10 @@
         "Kitchen Cat": 1,
         "Sake": 2,
         "IDDOG": 1,
-        "Flash": 1
+        "Flash": 1,
+        "Batta": 1
       },
-      "last_daily": "2026-05-17",
+      "last_daily": "2026-05-20",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -469,16 +483,16 @@
         "Bynx": 3,
         "Artemis Dee": 2,
         "Zelda": 1,
-        "LaCat: Hypnosis": 3,
+        "LaCat: Hypnosis": 4,
         "Amanda": 2,
         "Oreo": 3,
         "Howl": 2,
         "LaCat: Wassup": 1,
         "Willow": 1,
-        "Willow Snuggle": 2,
+        "Willow Snuggle": 3,
         "Flash": 2,
         "Batta": 3,
-        "Bella": 4,
+        "Bella": 5,
         "Percy": 2,
         "A Wild Artemis": 3,
         "Ben": 2,
@@ -513,12 +527,17 @@
         "Loki Loodelally": 1,
         "Sawyer": 1,
         "Cerberus": 1,
-        "Maleficent": 1
+        "Maleficent": 2,
+        "Noodle": 1,
+        "David": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 0,
+      "last_daily": "2026-05-23",
+      "pity": 1,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "The LuxenBieles": 1
+      }
     },
     "184110334334730240": {
       "coins": 0,
@@ -530,13 +549,13 @@
         "Ollidammara": 1,
         "Ellie as Moonmoon": 4,
         "Cerberus": 2,
-        "Flash": 2,
+        "Flash": 3,
         "David": 2,
         "LaCat: Hypnosis": 2,
         "Gabbro": 2,
         "Percy": 2,
         "Mishka": 1,
-        "Ben": 3,
+        "Ben": 4,
         "Live Gloriously!": 2,
         "Batta": 1,
         "Bella": 1,
@@ -559,7 +578,7 @@
         "Ivan": 1,
         "Sake": 1,
         "Ebi": 1,
-        "Polly": 1,
+        "Polly": 2,
         "Belly Flash": 1,
         "Willow Belly": 1,
         "A Wild Artemis": 1,
@@ -568,12 +587,18 @@
         "King Baker": 1,
         "IDDOG": 1,
         "Amadeus2": 1,
-        "John and Albino water monitor lizard": 1
+        "John and Albino water monitor lizard": 1,
+        "Sawyer": 1,
+        "Willow": 1,
+        "Leia (apples)": 1
       },
-      "last_daily": "2026-05-15",
-      "pity": 1,
+      "last_daily": "2026-05-23",
+      "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "Catbus Family": 1
+      }
     },
     "292070419341639681": {
       "coins": 0,
@@ -594,7 +619,7 @@
         "Ivan": 2,
         "Maleficent": 1,
         "Batta": 1,
-        "Ebi": 2,
+        "Ebi": 3,
         "Gabbro": 2,
         "Flash": 2,
         "Korok Couple": 1,
@@ -605,29 +630,35 @@
         "Bilbo Bee": 1,
         "Nova Fangly": 1,
         "Sawyer": 2,
-        "LaCat: Wassup": 3,
+        "LaCat: Wassup": 4,
         "HONK!!": 2,
         "Willow": 1,
         "Ellie as Moonmoon": 1,
         "Bella": 2,
         "Morpheus": 1,
         "Polly": 2,
-        "Coconut!": 1,
+        "Coconut!": 2,
         "Capt Ben": 1,
         "Live Gloriously!": 1,
         "Maru Merak Miss Ma'am Morden": 1,
         "Benjamin (bandana)": 2,
-        "Oreo": 1,
+        "Oreo": 2,
         "Ben": 1,
         "Leia (apples)": 1,
         "Kitchen Cat": 1,
         "Bratty Ryuu": 1,
-        "Amadeus2": 1
+        "Amadeus2": 1,
+        "Achelois": 2,
+        "Loki Loodelally": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 0,
+      "last_daily": "2026-05-24",
+      "pity": 1,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "The LuxenBieles": 1,
+        "Catbus Family": 1
+      }
     },
     "201094207857754112": {
       "coins": 0,
@@ -698,7 +729,7 @@
       "coins": 0,
       "inventory": {
         "Willow Snuggle": 1,
-        "LaCat: Wassup": 3,
+        "LaCat: Wassup": 4,
         "Ollidammara": 3,
         "Artemis Dee": 1,
         "Sadge Ryuu": 1,
@@ -710,9 +741,9 @@
         "Amadeus": 2,
         "Oreo": 1,
         "Kazoo David": 2,
-        "Cerberus": 4,
+        "Cerberus": 5,
         "Carbon": 3,
-        "Bella": 1,
+        "Bella": 2,
         "Flash": 3,
         "Ellie as Moonmoon": 1,
         "Zelda": 1,
@@ -728,7 +759,7 @@
         "Morpheus": 1,
         "Amadeus2": 1,
         "Sawyer": 1,
-        "Benjamin (bandana)": 1,
+        "Benjamin (bandana)": 2,
         "Barely Legal John": 1,
         "Coconut!": 1,
         "Maru Merak Miss Ma'am Morden": 2,
@@ -744,9 +775,11 @@
         "A Wild Artemis": 1,
         "Batta": 1,
         "Bilbo Bee": 1,
-        "LaCat: Hypnosis": 1
+        "LaCat: Hypnosis": 1,
+        "Howl": 1,
+        "Furiosa blesses you with wealth": 1
       },
-      "last_daily": "2026-05-17",
+      "last_daily": "2026-05-23",
       "pity": 1,
       "pulls": 0,
       "blessed": false
@@ -761,9 +794,10 @@
         "A Wild Artemis": 1,
         "Coconut!": 1,
         "Betty": 1,
-        "Live Gloriously!": 1
+        "Live Gloriously!": 1,
+        "Mishka": 1
       },
-      "last_daily": "2026-04-25",
+      "last_daily": "2026-05-20",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -778,15 +812,15 @@
         "Howl": 1,
         "Tomyris": 2,
         "Objection!": 2,
-        "Zelda": 2,
+        "Zelda": 3,
         "Gabbro": 2,
         "Coconut!": 1,
         "Bratty Ryuu": 1,
         "Percy": 2,
         "Rose": 2,
         "Sake": 2,
-        "Sake+Ebi": 1,
-        "LaCat: Wassup": 2,
+        "Sake+Ebi": 2,
+        "LaCat: Wassup": 3,
         "Bynx": 2,
         "IDDOG": 1,
         "Cerberus": 2,
@@ -808,8 +842,8 @@
         "Sad Jamin": 1,
         "Keyboard Carbon": 1,
         "Mishka": 1,
-        "Ollidammara": 1,
-        "Benjamin (bandana)": 1,
+        "Ollidammara": 2,
+        "Benjamin (bandana)": 2,
         "Willow": 1,
         "John and Albino water monitor lizard": 1,
         "Artemis Dee": 1,
@@ -820,12 +854,17 @@
         "Amanda": 1,
         "Bella": 1,
         "Ebi": 1,
-        "Noodle plays Pok\u00e9mon": 1
+        "Noodle plays Pok\u00e9mon": 1,
+        "Bigger litterbox pls": 1,
+        "Ellie as Moonmoon": 1
       },
-      "last_daily": "2026-05-16",
-      "pity": 0,
+      "last_daily": "2026-05-23",
+      "pity": 1,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "Catbus Family": 1
+      }
     },
     "316002379537317899": {
       "coins": 1,
@@ -849,10 +888,11 @@
         "Sake+Ebi": 1,
         "Ebi": 1,
         "David": 1,
-        "Percy": 1
+        "Percy": 1,
+        "Belly Flash": 1
       },
-      "last_daily": "2026-05-16",
-      "pity": 1,
+      "last_daily": "2026-05-18",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
@@ -924,9 +964,11 @@
         "Furiosa blesses you with wealth": 1,
         "Benjamin (bandana)": 1,
         "Leia (apples)": 1,
-        "Kitchen Cat": 1
+        "Kitchen Cat": 1,
+        "Noodle": 1,
+        "Willow Belly": 1
       },
-      "last_daily": "2026-05-17",
+      "last_daily": "2026-05-23",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -939,7 +981,7 @@
         "Sad Jamin": 1,
         "LaCat: Wassup": 3,
         "Howl": 2,
-        "Batta": 2,
+        "Batta": 3,
         "Cerberus": 3,
         "Ivan": 1,
         "Willow": 2,
@@ -959,9 +1001,9 @@
         "Sawyer": 1,
         "Tomyris": 1,
         "Amadeus2": 3,
-        "Kazoo David": 2,
+        "Kazoo David": 3,
         "Coconut!": 2,
-        "Zelda": 3,
+        "Zelda": 4,
         "Maleficent": 3,
         "John and Albino water monitor lizard": 2,
         "Live Gloriously!": 1,
@@ -980,10 +1022,12 @@
         "Achelois": 1,
         "Willow Snuggle": 1,
         "Sadge Ryuu": 1,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "David": 1,
+        "Bigger litterbox pls": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 1,
+      "last_daily": "2026-05-23",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
@@ -1044,7 +1088,7 @@
         "Belly Flash": 1,
         "Morpheus": 1,
         "Maru Merak Miss Ma'am Morden": 1,
-        "David": 2,
+        "David": 3,
         "Bigger litterbox pls": 1,
         "Carbon": 1,
         "Objection!": 1,
@@ -1054,10 +1098,11 @@
         "Sad Jamin": 1,
         "Oreo": 1,
         "Cerberus": 1,
-        "Percy": 1
+        "Percy": 1,
+        "Achelois": 2
       },
-      "last_daily": "2026-05-17",
-      "pity": 0,
+      "last_daily": "2026-05-22",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
@@ -1069,7 +1114,7 @@
         "Ollidammara": 1,
         "Zelda": 1,
         "Kazoo David": 1,
-        "David": 1,
+        "David": 2,
         "Howl": 1,
         "Maleficent": 1,
         "Artemis Dee": 1,
@@ -1080,8 +1125,8 @@
         "Flash": 1,
         "Oreo": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 0,
+      "last_daily": "2026-05-22",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
@@ -1125,18 +1170,19 @@
         "LaCat: Hypnosis": 1,
         "Bynx": 1,
         "Percy": 2,
-        "Tomyris": 1,
-        "Maleficent": 2,
+        "Tomyris": 2,
+        "Maleficent": 3,
         "Amadeus2": 1,
         "Oreo": 2,
         "Achelois": 1,
         "Kitchen Cat": 1,
         "Flash": 1,
         "Bella": 1,
-        "LaCat: Wassup": 1
+        "LaCat: Wassup": 2,
+        "Noodle": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 0,
+      "last_daily": "2026-05-22",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
@@ -1155,7 +1201,7 @@
         "Oreo": 2,
         "Willow": 3,
         "Carbon": 1,
-        "Rose": 2,
+        "Rose": 3,
         "Artemis Dee": 2,
         "Masabone": 1,
         "Ebi": 2,
@@ -1188,12 +1234,14 @@
         "David": 2,
         "Carbon Eyes": 1,
         "Tomyris": 1,
-        "Achelois": 2,
+        "Achelois": 3,
         "Polly": 1,
-        "Coconut!": 2,
-        "Nova Fangly": 1
+        "Coconut!": 3,
+        "Nova Fangly": 2,
+        "Live Gloriously!": 1,
+        "Noodle": 1
       },
-      "last_daily": "2026-05-17",
+      "last_daily": "2026-05-23",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -1215,7 +1263,7 @@
         "Coconut!": 1,
         "Tomyris": 2,
         "Batta": 2,
-        "Nova Fangly": 2,
+        "Nova Fangly": 3,
         "Amadeus": 3,
         "Betty": 2,
         "LaCat: Wassup": 1,
@@ -1228,7 +1276,7 @@
         "Amadeus2": 1,
         "Live Gloriously!": 3,
         "Keyboard Carbon": 1,
-        "Ebi": 1,
+        "Ebi": 2,
         "Cerberus": 1,
         "Willow": 1,
         "Sake": 3,
@@ -1244,17 +1292,23 @@
         "Leia (apples)": 2,
         "Bynx": 1,
         "Barely Legal John": 1,
-        "Kitchen Cat": 1,
+        "Kitchen Cat": 2,
         "Ivan": 1,
         "Ben": 1,
         "Rose": 1,
         "King Baker": 1,
-        "Achelois": 1
+        "Achelois": 1,
+        "David": 1,
+        "Ollidammara": 1,
+        "HONK!!": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 2,
+      "last_daily": "2026-05-23",
+      "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "Catbus Family": 1
+      }
     },
     "247912247496540160": {
       "coins": 0,
@@ -1283,7 +1337,7 @@
         "Ollidammara": 1,
         "Amadeus": 1,
         "Howl": 2,
-        "Masabone": 1,
+        "Masabone": 2,
         "Keyboard Carbon": 1,
         "Maleficent": 2,
         "Kitchen Cat": 1,
@@ -1291,16 +1345,22 @@
         "LaCat: Wassup": 1,
         "Batta": 1,
         "IDDOG": 1,
-        "Ben": 1,
+        "Ben": 2,
         "Barely Legal John": 1,
         "Mishka": 1,
         "Capt Ben": 1,
-        "Bilbo Bee": 1
+        "Bilbo Bee": 2,
+        "Sake": 1,
+        "Carbon": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 1,
+      "last_daily": "2026-05-22",
+      "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "Catbus Family": 1,
+        "The LuxenBieles": 1
+      }
     },
     "743276168316190795": {
       "coins": 0,
@@ -1339,7 +1399,7 @@
       "coins": 2,
       "inventory": {
         "Capt Ben": 1,
-        "Willow": 1,
+        "Willow": 2,
         "Carbon": 1,
         "Ebi": 1,
         "Tomyris": 2,
@@ -1351,7 +1411,7 @@
         "Ollidammara": 1,
         "Howl": 2,
         "IDDOG": 2,
-        "Sake+Ebi": 1,
+        "Sake+Ebi": 2,
         "Ben": 2,
         "A Wild Artemis": 3,
         "Bynx": 1,
@@ -1359,7 +1419,7 @@
         "Sake": 1,
         "Sad Jamin": 1,
         "Amanda": 1,
-        "Sawyer": 1,
+        "Sawyer": 3,
         "Oreo": 2,
         "Bilbo Bee": 1,
         "Gabbro": 1,
@@ -1375,12 +1435,17 @@
         "Rose": 1,
         "Maru Merak Miss Ma'am Morden": 1,
         "Cookie Strife": 1,
-        "Noodle": 1
+        "Noodle": 1,
+        "Bella": 1,
+        "Belly Flash": 1
       },
-      "last_daily": "2026-05-17",
+      "last_daily": "2026-05-23",
       "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "Catbus Family": 1
+      }
     },
     "268534866193285122": {
       "coins": 4,
@@ -1435,7 +1500,7 @@
       "inventory": {
         "Live Gloriously!": 2,
         "Batta": 2,
-        "Willow": 2,
+        "Willow": 3,
         "Nova: The Absurd Beast": 1,
         "Maru Merak Miss Ma'am Morden": 2,
         "Amadeus": 2,
@@ -1446,7 +1511,7 @@
         "Percy": 1,
         "Kazoo David": 2,
         "Ebi": 2,
-        "Zelda": 1,
+        "Zelda": 2,
         "Bilbo Bee": 1,
         "Ivan": 2,
         "LaCat: Belleh": 1,
@@ -1466,9 +1531,11 @@
         "Coconut!": 1,
         "Carbon": 1,
         "Keyboard Carbon": 1,
-        "Loki Loodelally": 1
+        "Loki Loodelally": 1,
+        "Mishka": 1,
+        "Amadeus2": 1
       },
-      "last_daily": "2026-05-17",
+      "last_daily": "2026-05-22",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -1484,7 +1551,7 @@
         "Bynx": 1,
         "Ben": 1,
         "Maleficent": 1,
-        "Bilbo Bee": 1,
+        "Bilbo Bee": 2,
         "Amanda": 2,
         "Betty": 1,
         "Morpheus": 4,
@@ -1496,7 +1563,7 @@
         "Belly Flash": 1,
         "Capt Ben": 1,
         "Rose": 1,
-        "Ellie as Moonmoon": 1,
+        "Ellie as Moonmoon": 2,
         "LaCat: Belleh": 1,
         "Sawyer": 2,
         "Leia (apples)": 1,
@@ -1511,10 +1578,13 @@
         "IDDOG": 1,
         "Noodle plays Pok\u00e9mon": 1,
         "Objection!": 1,
-        "Ebi": 2
+        "Ebi": 2,
+        "Loki Loodelally": 1,
+        "Artemis Dee": 1,
+        "Willow Snuggle": 1
       },
-      "last_daily": "2026-05-17",
-      "pity": 2,
+      "last_daily": "2026-05-22",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
@@ -1533,13 +1603,18 @@
         "Amadeus": 1,
         "LaCat: Hypnosis": 1,
         "Live Gloriously!": 2,
-        "Artemis Dee": 1,
+        "Artemis Dee": 2,
         "Noodle plays Pok\u00e9mon": 2,
         "Noodle": 1,
-        "Nova Fangly": 1
+        "Nova Fangly": 1,
+        "Bella": 1,
+        "Rose": 1,
+        "Polly": 1,
+        "Zelda": 1,
+        "Bratty Ryuu": 1
       },
       "coins": 0,
-      "last_daily": "2026-05-17",
+      "last_daily": "2026-05-23",
       "pity": 0,
       "blessed": false
     },
