@@ -1344,7 +1344,7 @@
         "Ollidammara": 1,
         "Amadeus": 1,
         "Howl": 2,
-        "Masabone": 2,
+        "Masabone": 3,
         "Keyboard Carbon": 1,
         "Maleficent": 2,
         "Kitchen Cat": 1,
@@ -1360,8 +1360,8 @@
         "Sake": 1,
         "Carbon": 1
       },
-      "last_daily": "2026-05-22",
-      "pity": 0,
+      "last_daily": "2026-05-25",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
