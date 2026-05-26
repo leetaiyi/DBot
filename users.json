@@ -781,10 +781,11 @@
         "Bilbo Bee": 1,
         "LaCat: Hypnosis": 2,
         "Howl": 1,
-        "Furiosa blesses you with wealth": 1
+        "Furiosa blesses you with wealth": 1,
+        "Are You Dragon Tales?": 1
       },
-      "last_daily": "2026-05-25",
-      "pity": 2,
+      "last_daily": "2026-05-26",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
