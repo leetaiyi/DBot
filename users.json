@@ -1576,7 +1576,7 @@
         "LaCat: Hypnosis": 4,
         "Oreo": 3,
         "Polly": 2,
-        "Ivan": 1,
+        "Ivan": 2,
         "Belly Flash": 1,
         "Capt Ben": 1,
         "Rose": 1,
@@ -1602,8 +1602,8 @@
         "Amadeus2": 1,
         "King Baker": 1
       },
-      "last_daily": "2026-05-26",
-      "pity": 0,
+      "last_daily": "2026-05-27",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
