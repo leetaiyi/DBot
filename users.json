@@ -844,7 +844,7 @@
         "Batta": 1,
         "Capt Ben": 1,
         "Amadeus": 1,
-        "Amadeus2": 1,
+        "Amadeus2": 2,
         "Carbon": 3,
         "David": 2,
         "Oreo": 1,
@@ -870,8 +870,8 @@
         "Ellie as Moonmoon": 1,
         "Ben": 1
       },
-      "last_daily": "2026-05-26",
-      "pity": 1,
+      "last_daily": "2026-05-28",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
