@@ -899,7 +899,7 @@
         "Bilbo Bee": 1,
         "Betty": 2,
         "Bella": 1,
-        "Zelda": 1,
+        "Zelda": 2,
         "Ollidammara": 1,
         "Sawyer": 1,
         "Sake+Ebi": 1,
@@ -908,8 +908,8 @@
         "Percy": 1,
         "Belly Flash": 1
       },
-      "last_daily": "2026-05-18",
-      "pity": 0,
+      "last_daily": "2026-05-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
