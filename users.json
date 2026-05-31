@@ -1596,7 +1596,7 @@
         "LaCat: Hypnosis": 4,
         "Oreo": 3,
         "Polly": 2,
-        "Ivan": 2,
+        "Ivan": 3,
         "Belly Flash": 1,
         "Capt Ben": 1,
         "Rose": 1,
@@ -1624,8 +1624,8 @@
         "Keyboard Carbon": 1,
         "Sake": 1
       },
-      "last_daily": "2026-05-30",
-      "pity": 0,
+      "last_daily": "2026-05-31",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
