@@ -403,7 +403,7 @@
         "Mishka": 1,
         "Furiosa blesses you with wealth": 1,
         "Benjamin (bandana)": 2,
-        "King Baker": 2,
+        "King Baker": 3,
         "Capt Ben": 2,
         "Kitchen Cat": 1,
         "Amadeus": 1,
@@ -418,8 +418,8 @@
         "Objection!": 1,
         "Noodle": 1
       },
-      "last_daily": "2026-05-31",
-      "pity": 0,
+      "last_daily": "2026-06-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
