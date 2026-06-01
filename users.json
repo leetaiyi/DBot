@@ -1090,10 +1090,11 @@
         "Percy": 1,
         "Sawyer": 1,
         "David": 2,
-        "Capt Ben": 1
+        "Capt Ben": 1,
+        "Ebi": 1
       },
-      "last_daily": "2026-05-29",
-      "pity": 2,
+      "last_daily": "2026-06-01",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
