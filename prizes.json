@@ -409,6 +409,21 @@
       "name": "Noodle plays Pokémon",
       "weight": 25,
       "image": "NoodleCards.jpg"
+    },
+    {
+      "name": "YO!",
+      "weight": 40,
+      "image": "Yo.jpg"
+    },
+    {
+      "name": "Santa Murphy",
+      "weight": 40,
+      "image": "SantaMurphy.jpg"
+    },
+    {
+      "name": "Snow Kiss",
+      "weight": 25,
+      "image": "SnowKiss.jpg"
     }
   ],
   "achievements": {
