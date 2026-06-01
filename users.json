@@ -865,7 +865,7 @@
         "David": 2,
         "Oreo": 1,
         "Maleficent": 2,
-        "Sawyer": 2,
+        "Sawyer": 3,
         "Sad Jamin": 1,
         "Keyboard Carbon": 1,
         "Mishka": 2,
@@ -888,8 +888,8 @@
         "Willow Snuggle": 1,
         "LaCat: Hypnosis": 1
       },
-      "last_daily": "2026-05-31",
-      "pity": 0,
+      "last_daily": "2026-06-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
