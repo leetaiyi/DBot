@@ -996,10 +996,11 @@
         "Kitchen Cat": 1,
         "Noodle": 1,
         "Willow Belly": 1,
-        "Morpheus": 1
+        "Morpheus": 1,
+        "Willow": 1
       },
-      "last_daily": "2026-05-31",
-      "pity": 1,
+      "last_daily": "2026-06-01",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
