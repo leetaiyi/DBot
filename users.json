@@ -758,7 +758,7 @@
         "Mishka": 2,
         "Bynx": 3,
         "Ivan": 4,
-        "Betty": 1,
+        "Betty": 2,
         "Amadeus": 2,
         "Oreo": 1,
         "Kazoo David": 2,
@@ -803,8 +803,8 @@
         "Noodle": 1,
         "Achelois": 1
       },
-      "last_daily": "2026-05-31",
-      "pity": 1,
+      "last_daily": "2026-06-01",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
