@@ -497,7 +497,7 @@
         "Amanda": 2,
         "Oreo": 3,
         "Howl": 2,
-        "LaCat: Wassup": 1,
+        "LaCat: Wassup": 2,
         "Willow": 1,
         "Willow Snuggle": 4,
         "Flash": 2,
@@ -546,8 +546,8 @@
         "Mishka": 1,
         "Sake+Ebi": 1
       },
-      "last_daily": "2026-06-01",
-      "pity": 0,
+      "last_daily": "2026-06-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
