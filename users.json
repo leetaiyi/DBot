@@ -864,7 +864,7 @@
         "Capt Ben": 1,
         "Amadeus": 1,
         "Amadeus2": 2,
-        "Carbon": 3,
+        "Carbon": 4,
         "David": 2,
         "Oreo": 1,
         "Maleficent": 2,
@@ -891,8 +891,8 @@
         "Willow Snuggle": 1,
         "LaCat: Hypnosis": 1
       },
-      "last_daily": "2026-06-01",
-      "pity": 1,
+      "last_daily": "2026-06-02",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
