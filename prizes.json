@@ -520,6 +520,15 @@
         "Duet of the Fates"
       ],
     "rarity": "rare"
+    },
+    "Willow the Sand Guardian": {
+      "items": [
+        "Willow",
+        "Willow Snuggle",
+        "Willow Belly"
+      ],
+    "rarity": "rare",
+      "reward": "WillowSand.png"
     }
   }
 }
