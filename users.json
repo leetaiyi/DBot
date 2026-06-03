@@ -1236,7 +1236,7 @@
       "inventory": {
         "Flash": 2,
         "Gabbro": 2,
-        "Maleficent": 3,
+        "Maleficent": 4,
         "Ellie as Moonmoon": 2,
         "Bynx": 5,
         "Betty": 4,
@@ -1289,8 +1289,8 @@
         "GMRA Winner!": 1,
         "Loki Loodelally": 1
       },
-      "last_daily": "2026-06-02",
-      "pity": 0,
+      "last_daily": "2026-06-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
