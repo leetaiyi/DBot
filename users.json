@@ -1485,7 +1485,7 @@
         "Bilbo Bee": 1,
         "Gabbro": 1,
         "Nova Fangly": 2,
-        "Keyboard Carbon": 1,
+        "Keyboard Carbon": 2,
         "Morpheus": 4,
         "Amadeus2": 3,
         "Polly": 1,
@@ -1506,8 +1506,8 @@
         "Loki Loodelally": 1,
         "Betty": 1
       },
-      "last_daily": "2026-06-03",
-      "pity": 0,
+      "last_daily": "2026-06-04",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
