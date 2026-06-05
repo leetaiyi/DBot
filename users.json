@@ -1350,7 +1350,7 @@
         "Bynx": 1,
         "Barely Legal John": 1,
         "Kitchen Cat": 2,
-        "Ivan": 1,
+        "Ivan": 2,
         "Ben": 1,
         "Rose": 1,
         "King Baker": 1,
@@ -1364,8 +1364,8 @@
         "Zelda": 1,
         "YO!": 1
       },
-      "last_daily": "2026-06-04",
-      "pity": 0,
+      "last_daily": "2026-06-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
