@@ -571,7 +571,7 @@
         "HONK!!": 1,
         "Tomyris": 6,
         "Howl": 2,
-        "LaCat: Wassup": 3,
+        "LaCat: Wassup": 4,
         "Ollidammara": 1,
         "Ellie as Moonmoon": 4,
         "Cerberus": 3,
@@ -623,8 +623,8 @@
         "Noodle plays Pok\u00e9mon": 1,
         "Noodle": 1
       },
-      "last_daily": "2026-06-05",
-      "pity": 0,
+      "last_daily": "2026-06-06",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
