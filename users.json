@@ -1634,7 +1634,7 @@
         "Zelda": 1,
         "Bynx": 1,
         "Ben": 1,
-        "Maleficent": 1,
+        "Maleficent": 2,
         "Bilbo Bee": 2,
         "Amanda": 2,
         "Betty": 1,
@@ -1675,8 +1675,8 @@
         "Kitchen Cat": 1,
         "Snow Kiss": 1
       },
-      "last_daily": "2026-06-05",
-      "pity": 0,
+      "last_daily": "2026-06-06",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
