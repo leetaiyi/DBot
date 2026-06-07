@@ -787,7 +787,7 @@
         "Zelda": 1,
         "Capt Ben": 2,
         "Cookie Strife": 1,
-        "Sake": 5,
+        "Sake": 6,
         "Ebi": 2,
         "Rose": 3,
         "AdaMario": 1,
@@ -822,8 +822,8 @@
         "Percy": 1,
         "Kitchen Cat": 1
       },
-      "last_daily": "2026-06-06",
-      "pity": 1,
+      "last_daily": "2026-06-07",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
