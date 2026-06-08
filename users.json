@@ -1711,7 +1711,7 @@
         "Noodle plays Pok\u00e9mon": 2,
         "Noodle": 3,
         "Nova Fangly": 1,
-        "Bella": 1,
+        "Bella": 2,
         "Rose": 2,
         "Polly": 2,
         "Zelda": 1,
@@ -1728,8 +1728,8 @@
         "A Wild Artemis": 1
       },
       "coins": 0,
-      "last_daily": "2026-06-07",
-      "pity": 1,
+      "last_daily": "2026-06-08",
+      "pity": 2,
       "blessed": false
     },
     "346044943795617792": {
