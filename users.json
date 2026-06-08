@@ -1040,7 +1040,7 @@
         "Batta": 3,
         "Cerberus": 3,
         "Ivan": 1,
-        "Willow": 2,
+        "Willow": 3,
         "Keyboard Carbon": 1,
         "Bynx": 2,
         "Morpheus": 3,
@@ -1087,8 +1087,8 @@
         "Santa Murphy": 1,
         "Ollidammara": 1
       },
-      "last_daily": "2026-06-06",
-      "pity": 0,
+      "last_daily": "2026-06-08",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
