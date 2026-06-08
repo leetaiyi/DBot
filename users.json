@@ -865,7 +865,7 @@
         "Coconut!": 1,
         "Bratty Ryuu": 1,
         "Percy": 2,
-        "Rose": 2,
+        "Rose": 3,
         "Sake": 2,
         "Sake+Ebi": 2,
         "LaCat: Wassup": 3,
@@ -912,8 +912,8 @@
         "YO!": 1,
         "Belly Flash": 1
       },
-      "last_daily": "2026-06-07",
-      "pity": 0,
+      "last_daily": "2026-06-08",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
