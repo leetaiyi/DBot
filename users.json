@@ -1238,7 +1238,7 @@
         "Morpheus": 1,
         "Bilbo Bee": 1,
         "LaCat: Hypnosis": 1,
-        "Bynx": 1,
+        "Bynx": 2,
         "Percy": 2,
         "Tomyris": 2,
         "Maleficent": 3,
@@ -1253,8 +1253,8 @@
         "Coconut!": 1,
         "Sake": 1
       },
-      "last_daily": "2026-06-06",
-      "pity": 0,
+      "last_daily": "2026-06-08",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
