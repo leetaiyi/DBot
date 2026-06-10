@@ -1759,6 +1759,16 @@
       "pity": 0,
       "pulls": 0,
       "blessed": false
+    },
+    "680946623127355494": {
+      "coins": 4,
+      "inventory": {
+        "Bynx": 1
+      },
+      "last_daily": "2026-06-10",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
