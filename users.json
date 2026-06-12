@@ -552,7 +552,7 @@
         "Loki Loodelally": 1,
         "Sawyer": 1,
         "Cerberus": 1,
-        "Maleficent": 2,
+        "Maleficent": 3,
         "Noodle": 2,
         "David": 1,
         "?? Ben": 2,
@@ -565,8 +565,8 @@
         "Leia (apples)": 1,
         "Polly": 1
       },
-      "last_daily": "2026-06-11",
-      "pity": 0,
+      "last_daily": "2026-06-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
