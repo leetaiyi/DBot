@@ -1056,7 +1056,7 @@
         "HONK!!": 1,
         "Sad Jamin": 1,
         "LaCat: Wassup": 3,
-        "Howl": 2,
+        "Howl": 3,
         "Batta": 3,
         "Cerberus": 3,
         "Ivan": 1,
@@ -1108,8 +1108,8 @@
         "Ollidammara": 1,
         "Ellie as Moonmoon": 1
       },
-      "last_daily": "2026-06-11",
-      "pity": 0,
+      "last_daily": "2026-06-13",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
