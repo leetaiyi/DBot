@@ -1111,7 +1111,10 @@
       "last_daily": "2026-06-13",
       "pity": 1,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "achievement_claims": {
+        "Catbus Family": 1
+      }
     },
     "370310581716254723": {
       "coins": 0,
