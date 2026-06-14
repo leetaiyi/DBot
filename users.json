@@ -60,7 +60,7 @@
         "Batta": 1,
         "Maleficent": 4,
         "A Wild Artemis": 2,
-        "Mishka": 3,
+        "Mishka": 4,
         "Flash": 3,
         "Percy": 2,
         "David": 4,
@@ -110,8 +110,8 @@
         "Benjamin (bandana)": 1
       },
       "coins": 0,
-      "last_daily": "2026-06-13",
-      "pity": 0,
+      "last_daily": "2026-06-14",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
