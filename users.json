@@ -1386,7 +1386,7 @@
         "Ebi": 2,
         "Cerberus": 2,
         "Willow": 2,
-        "Sake": 4,
+        "Sake": 5,
         "Sad Jamin": 1,
         "Morpheus": 2,
         "Percy": 2,
@@ -1418,8 +1418,8 @@
         "Noodle": 1,
         "Oreo": 1
       },
-      "last_daily": "2026-06-15",
-      "pity": 1,
+      "last_daily": "2026-06-16",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
