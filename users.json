@@ -472,7 +472,7 @@
         "Capt Ben": 1,
         "Objection!": 2,
         "Betty": 1,
-        "LaCat: Hypnosis": 1,
+        "LaCat: Hypnosis": 2,
         "Sawyer": 3,
         "Percy": 1,
         "Sake+Ebi": 1,
@@ -499,8 +499,8 @@
         "Bella": 1,
         "Nova Fangly": 1
       },
-      "last_daily": "2026-06-11",
-      "pity": 0,
+      "last_daily": "2026-06-16",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     },
