@@ -901,7 +901,7 @@
         "Batta": 1,
         "Capt Ben": 1,
         "Amadeus": 1,
-        "Amadeus2": 2,
+        "Amadeus2": 3,
         "Carbon": 4,
         "David": 2,
         "Oreo": 2,
@@ -934,8 +934,8 @@
         "Loki Loodelally": 1,
         "Achelois": 1
       },
-      "last_daily": "2026-06-14",
-      "pity": 0,
+      "last_daily": "2026-06-17",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
