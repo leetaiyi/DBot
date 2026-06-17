@@ -50,7 +50,7 @@
     "418102912221184001": {
       "inventory": {
         "LaCat: Wassup": 4,
-        "Amanda": 1,
+        "Amanda": 2,
         "Willow": 1,
         "Bynx": 1,
         "Sad Jamin": 1,
@@ -111,8 +111,8 @@
         "King Baker": 1
       },
       "coins": 0,
-      "last_daily": "2026-06-16",
-      "pity": 0,
+      "last_daily": "2026-06-17",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
