@@ -1765,7 +1765,7 @@
     },
     "135485256147927042": {
       "inventory": {
-        "Amadeus": 1,
+        "Amadeus": 2,
         "LaCat: Hypnosis": 1,
         "Live Gloriously!": 2,
         "Artemis Dee": 3,
@@ -1796,8 +1796,8 @@
         "Mishka": 1
       },
       "coins": 0,
-      "last_daily": "2026-06-17",
-      "pity": 0,
+      "last_daily": "2026-06-18",
+      "pity": 1,
       "blessed": false
     },
     "346044943795617792": {
