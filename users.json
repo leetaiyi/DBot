@@ -57,7 +57,7 @@
         "Ivan": 2,
         "Oreo": 3,
         "Artemis Dee": 2,
-        "Batta": 1,
+        "Batta": 2,
         "Maleficent": 4,
         "A Wild Artemis": 2,
         "Mishka": 5,
@@ -111,8 +111,8 @@
         "King Baker": 1
       },
       "coins": 0,
-      "last_daily": "2026-06-17",
-      "pity": 1,
+      "last_daily": "2026-06-18",
+      "pity": 2,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
