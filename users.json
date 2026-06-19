@@ -946,7 +946,7 @@
       }
     },
     "316002379537317899": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Artemis Dee": 3,
         "Sad Jamin": 4,
@@ -969,7 +969,8 @@
         "David": 1,
         "Percy": 1,
         "Belly Flash": 1,
-        "Maru Merak Miss Ma'am Morden": 1
+        "Maru Merak Miss Ma'am Morden": 1,
+        "Nova Fangly": 1
       },
       "last_daily": "2026-06-19",
       "pity": 0,
