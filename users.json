@@ -87,7 +87,7 @@
         "Cerberus": 1,
         "Ebi": 1,
         "Coconut!": 2,
-        "Loki Loodelally": 2,
+        "Loki Loodelally": 3,
         "Sawyer": 2,
         "Morpheus": 1,
         "Howl": 2,
@@ -112,8 +112,8 @@
         "Carbon Eyes": 1
       },
       "coins": 0,
-      "last_daily": "2026-06-19",
-      "pity": 0,
+      "last_daily": "2026-06-20",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
