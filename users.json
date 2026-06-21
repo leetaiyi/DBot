@@ -560,7 +560,7 @@
         "Sawyer": 1,
         "Cerberus": 1,
         "Maleficent": 3,
-        "Noodle": 2,
+        "Noodle": 3,
         "David": 1,
         "?? Ben": 2,
         "Maru Merak Miss Ma'am Morden": 3,
@@ -575,8 +575,8 @@
         "HONK!!": 1,
         "Benjamin (bandana)": 1
       },
-      "last_daily": "2026-06-20",
-      "pity": 0,
+      "last_daily": "2026-06-21",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
