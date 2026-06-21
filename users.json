@@ -677,7 +677,7 @@
         "Batta": 1,
         "Ebi": 4,
         "Gabbro": 3,
-        "Flash": 2,
+        "Flash": 3,
         "Korok Couple": 1,
         "Kazoo David": 4,
         "David": 4,
@@ -717,8 +717,8 @@
         "Sake": 1,
         "Bigger litterbox pls": 1
       },
-      "last_daily": "2026-06-20",
-      "pity": 0,
+      "last_daily": "2026-06-21",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
