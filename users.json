@@ -626,7 +626,7 @@
         "Ivan": 1,
         "Sake": 1,
         "Ebi": 2,
-        "Polly": 2,
+        "Polly": 3,
         "Belly Flash": 1,
         "Willow Belly": 1,
         "A Wild Artemis": 2,
@@ -651,8 +651,8 @@
         "Loki Loodelally": 1,
         "YO!": 1
       },
-      "last_daily": "2026-06-22",
-      "pity": 0,
+      "last_daily": "2026-06-23",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
