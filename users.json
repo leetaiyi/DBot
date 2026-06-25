@@ -904,7 +904,7 @@
         "LaCat: Wassup": 3,
         "Bynx": 2,
         "IDDOG": 2,
-        "Cerberus": 2,
+        "Cerberus": 3,
         "A Wild Artemis": 2,
         "Bilbo Bee": 3,
         "Morpheus": 2,
@@ -949,8 +949,8 @@
         "Santa Murphy": 1,
         "Polly": 1
       },
-      "last_daily": "2026-06-24",
-      "pity": 1,
+      "last_daily": "2026-06-25",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
