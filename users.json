@@ -384,7 +384,7 @@
         "Amanda": 1,
         "Flash": 3,
         "IDDOG": 1,
-        "Ollidammara": 2,
+        "Ollidammara": 3,
         "Cerberus": 1,
         "David": 1,
         "Oreo": 1,
@@ -440,8 +440,8 @@
         "YO!": 1,
         "Carbon": 1
       },
-      "last_daily": "2026-06-24",
-      "pity": 1,
+      "last_daily": "2026-06-25",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
