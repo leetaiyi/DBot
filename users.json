@@ -1578,7 +1578,7 @@
     "232315422924341253": {
       "coins": 2,
       "inventory": {
-        "Capt Ben": 1,
+        "Capt Ben": 2,
         "Willow": 2,
         "Carbon": 1,
         "Ebi": 3,
@@ -1635,8 +1635,8 @@
         "Zelda": 1,
         "Bigger litterbox pls": 1
       },
-      "last_daily": "2026-06-27",
-      "pity": 0,
+      "last_daily": "2026-06-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
