@@ -1491,7 +1491,7 @@
         "Ivan": 1,
         "Are You Dragon Tales?": 1,
         "Maru Merak Miss Ma'am Morden": 1,
-        "Sawyer": 2,
+        "Sawyer": 3,
         "Listening to Rehearsal Recordings": 1,
         "Polly": 3,
         "Flash": 3,
@@ -1530,8 +1530,8 @@
         "A Wild Artemis": 1,
         "Betty": 1
       },
-      "last_daily": "2026-06-28",
-      "pity": 0,
+      "last_daily": "2026-06-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
