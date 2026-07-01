@@ -1866,7 +1866,7 @@
         "Willow Snuggle": 1,
         "Benjamin (bandana)": 1,
         "Maru Merak Miss Ma'am Morden": 2,
-        "Flash": 2,
+        "Flash": 3,
         "GMRA Winner!": 1,
         "Keyboard Carbon": 1,
         "Mishka": 1,
@@ -1878,8 +1878,8 @@
         "Carbon": 1
       },
       "coins": 0,
-      "last_daily": "2026-06-30",
-      "pity": 0,
+      "last_daily": "2026-07-01",
+      "pity": 1,
       "blessed": false
     },
     "346044943795617792": {
