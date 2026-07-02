@@ -1075,7 +1075,7 @@
         "Polly": 1,
         "Amadeus2": 2,
         "Ivan": 1,
-        "Gabbro": 2,
+        "Gabbro": 3,
         "Carbon": 2,
         "Percy": 1,
         "Zelda": 1,
@@ -1100,8 +1100,8 @@
         "Achelois": 1,
         "Listening to Rehearsal Recordings": 1
       },
-      "last_daily": "2026-07-01",
-      "pity": 1,
+      "last_daily": "2026-07-02",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
