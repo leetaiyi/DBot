@@ -424,6 +424,11 @@
       "name": "Snow Kiss",
       "weight": 25,
       "image": "SnowKiss.jpg"
+    },
+    {
+      "name": "Destruction and the Birds",
+      "weight": 4,
+      "image": "dfbirds.gif"
     }
   ],
   "achievements": {
