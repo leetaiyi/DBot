@@ -516,7 +516,8 @@
         "IDDOG",
         "Nova: The Absurd Beast"
       ],
-    "rarity": "rare"
+    "rarity": "rare",
+    "reward": "NovaPuppy.png"
     },
     "Vacation Time": {
       "items": [
