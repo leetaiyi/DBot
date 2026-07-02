@@ -1782,7 +1782,7 @@
         "Amanda": 2,
         "Betty": 1,
         "Morpheus": 4,
-        "Bella": 2,
+        "Bella": 3,
         "LaCat: Hypnosis": 4,
         "Oreo": 4,
         "Polly": 3,
@@ -1828,8 +1828,8 @@
         "Sadge Ryuu": 1,
         "Tomyris": 1
       },
-      "last_daily": "2026-07-01",
-      "pity": 0,
+      "last_daily": "2026-07-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
