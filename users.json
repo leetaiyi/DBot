@@ -685,7 +685,7 @@
         "Mishka": 3,
         "Percy": 1,
         "LaCat: Hypnosis": 3,
-        "Rose": 2,
+        "Rose": 3,
         "Carbon": 2,
         "Ivan": 3,
         "Maleficent": 1,
@@ -736,8 +736,8 @@
         "Cerberus": 1,
         "Belly Flash": 1
       },
-      "last_daily": "2026-06-30",
-      "pity": 0,
+      "last_daily": "2026-07-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
