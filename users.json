@@ -1859,7 +1859,7 @@
         "Amadeus": 3,
         "LaCat: Hypnosis": 1,
         "Live Gloriously!": 2,
-        "Artemis Dee": 3,
+        "Artemis Dee": 4,
         "Noodle plays Pok\u00e9mon": 2,
         "Noodle": 3,
         "Nova Fangly": 1,
@@ -1894,8 +1894,8 @@
         "Coconut!": 1
       },
       "coins": 0,
-      "last_daily": "2026-07-03",
-      "pity": 0,
+      "last_daily": "2026-07-04",
+      "pity": 1,
       "blessed": false
     },
     "346044943795617792": {
