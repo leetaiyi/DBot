@@ -382,7 +382,7 @@
         "Zelda": 3,
         "A Wild Artemis": 3,
         "Gabbro": 4,
-        "Howl": 2,
+        "Howl": 3,
         "Betty": 1,
         "Amanda": 1,
         "Flash": 4,
@@ -447,8 +447,8 @@
         "Ben": 1,
         "Bratty Ryuu": 1
       },
-      "last_daily": "2026-07-03",
-      "pity": 0,
+      "last_daily": "2026-07-04",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
