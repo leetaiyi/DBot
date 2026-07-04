@@ -58,7 +58,7 @@
         "Oreo": 3,
         "Artemis Dee": 2,
         "Batta": 2,
-        "Maleficent": 4,
+        "Maleficent": 5,
         "A Wild Artemis": 2,
         "Mishka": 5,
         "Flash": 3,
@@ -117,8 +117,8 @@
         "Belly Flash": 1
       },
       "coins": 0,
-      "last_daily": "2026-07-03",
-      "pity": 0,
+      "last_daily": "2026-07-04",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
