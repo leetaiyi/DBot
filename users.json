@@ -1749,7 +1749,7 @@
       "coins": 0,
       "inventory": {
         "Live Gloriously!": 2,
-        "Batta": 2,
+        "Batta": 3,
         "Willow": 3,
         "Nova: The Absurd Beast": 1,
         "Maru Merak Miss Ma'am Morden": 2,
@@ -1798,8 +1798,8 @@
         "Noodle plays Pok\u00e9mon": 1,
         "Listening to Rehearsal Recordings": 1
       },
-      "last_daily": "2026-07-08",
-      "pity": 1,
+      "last_daily": "2026-07-10",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
