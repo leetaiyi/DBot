@@ -1075,7 +1075,7 @@
     "954136279296118885": {
       "coins": 2,
       "inventory": {
-        "Bynx": 5,
+        "Bynx": 6,
         "LaCat: Wassup": 2,
         "LaCat: Hypnosis": 4,
         "Ollidammara": 1,
@@ -1133,8 +1133,8 @@
         "Flash": 1,
         "Coconut!": 1
       },
-      "last_daily": "2026-07-11",
-      "pity": 1,
+      "last_daily": "2026-07-12",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
