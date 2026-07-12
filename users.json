@@ -1571,7 +1571,7 @@
         "Capt Ben": 1,
         "Bilbo Bee": 2,
         "Sake": 1,
-        "Carbon": 1,
+        "Carbon": 2,
         "Bella": 1,
         "Willow": 2,
         "Nova Fangly": 1,
@@ -1589,8 +1589,8 @@
         "Willow Snuggle": 1,
         "HONK!!": 1
       },
-      "last_daily": "2026-07-11",
-      "pity": 0,
+      "last_daily": "2026-07-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
