@@ -1972,11 +1972,12 @@
       "blessed": false
     },
     "107314125410934784": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Loki Loodelally": 1,
         "Ben": 1,
-        "Willow": 1
+        "Willow": 1,
+        "Artemis Dee": 1
       },
       "last_daily": "2026-07-12",
       "pity": 0,
