@@ -401,7 +401,7 @@
         "Kazoo David": 1,
         "Maleficent": 2,
         "Rose": 4,
-        "Morpheus": 4,
+        "Morpheus": 5,
         "Amadeus2": 3,
         "Tomyris": 4,
         "Bilbo Bee": 2,
@@ -453,8 +453,8 @@
         "Belly Flash": 1,
         "Bigger litterbox pls": 1
       },
-      "last_daily": "2026-07-12",
-      "pity": 0,
+      "last_daily": "2026-07-13",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
