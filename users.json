@@ -61,7 +61,7 @@
         "Maleficent": 5,
         "A Wild Artemis": 2,
         "Mishka": 5,
-        "Flash": 3,
+        "Flash": 4,
         "Percy": 3,
         "David": 4,
         "Sadge Ryuu": 2,
@@ -120,8 +120,8 @@
         "Santa Murphy": 1
       },
       "coins": 0,
-      "last_daily": "2026-07-12",
-      "pity": 0,
+      "last_daily": "2026-07-13",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
