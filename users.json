@@ -947,7 +947,7 @@
         "Percy": 3,
         "Rose": 3,
         "Sake": 2,
-        "Sake+Ebi": 2,
+        "Sake+Ebi": 3,
         "LaCat: Wassup": 3,
         "Bynx": 2,
         "IDDOG": 2,
@@ -1002,8 +1002,8 @@
         "Carbon Eyes": 1,
         "Masabone": 1
       },
-      "last_daily": "2026-07-12",
-      "pity": 0,
+      "last_daily": "2026-07-14",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
