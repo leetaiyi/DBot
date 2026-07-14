@@ -1499,7 +1499,7 @@
         "Leia (apples)": 3,
         "Bynx": 2,
         "Barely Legal John": 1,
-        "Kitchen Cat": 2,
+        "Kitchen Cat": 3,
         "Ivan": 5,
         "Ben": 1,
         "Rose": 1,
@@ -1528,8 +1528,8 @@
         "Destruction and the Birds": 1,
         "Santa Murphy": 1
       },
-      "last_daily": "2026-07-13",
-      "pity": 0,
+      "last_daily": "2026-07-14",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
