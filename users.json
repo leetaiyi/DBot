@@ -1997,10 +1997,11 @@
         "Ben": 1,
         "Willow": 1,
         "Artemis Dee": 2,
-        "David": 1
+        "David": 1,
+        "Mishka": 1
       },
-      "last_daily": "2026-07-14",
-      "pity": 1,
+      "last_daily": "2026-07-15",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     }
