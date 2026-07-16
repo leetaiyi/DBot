@@ -1082,10 +1082,11 @@
         "Maleficent": 1,
         "Mishka": 1,
         "Rose": 1,
-        "Ivan": 2
+        "Ivan": 2,
+        "Sawyer": 1
       },
-      "last_daily": "2026-07-15",
-      "pity": 1,
+      "last_daily": "2026-07-16",
+      "pity": 0,
       "pulls": 0,
       "blessed": false
     },
