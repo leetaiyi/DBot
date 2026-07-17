@@ -713,7 +713,7 @@
         "Rose": 3,
         "Carbon": 2,
         "Ivan": 4,
-        "Maleficent": 1,
+        "Maleficent": 2,
         "Batta": 1,
         "Ebi": 4,
         "Gabbro": 4,
@@ -766,8 +766,8 @@
         "IDDOG": 1,
         "AdaMario": 1
       },
-      "last_daily": "2026-07-16",
-      "pity": 0,
+      "last_daily": "2026-07-17",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
