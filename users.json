@@ -597,7 +597,7 @@
         "YO!": 1,
         "HONK!!": 1,
         "Benjamin (bandana)": 1,
-        "Kazoo David": 2,
+        "Kazoo David": 3,
         "Santa Murphy": 1,
         "Snow Kiss": 2,
         "IDDOG": 1,
@@ -607,8 +607,8 @@
         "Duet of the Fates": 1,
         "Korok Couple": 1
       },
-      "last_daily": "2026-07-16",
-      "pity": 0,
+      "last_daily": "2026-07-17",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
