@@ -1668,7 +1668,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 2,
@@ -1706,7 +1706,7 @@
         "King Baker": 1,
         "Rose": 1,
         "Maru Merak Miss Ma'am Morden": 1,
-        "Cookie Strife": 1,
+        "Cookie Strife": 2,
         "Noodle": 2,
         "Bella": 1,
         "Belly Flash": 1,
@@ -1735,7 +1735,7 @@
         "YO!": 1
       },
       "last_daily": "2026-07-19",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
