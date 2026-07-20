@@ -549,7 +549,7 @@
         "Willow": 1,
         "Willow Snuggle": 4,
         "Flash": 2,
-        "Batta": 4,
+        "Batta": 5,
         "Bella": 5,
         "Percy": 3,
         "A Wild Artemis": 3,
@@ -611,8 +611,8 @@
         "Korok Couple": 1,
         "Willow Belly": 1
       },
-      "last_daily": "2026-07-19",
-      "pity": 0,
+      "last_daily": "2026-07-20",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
