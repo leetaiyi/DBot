@@ -1489,7 +1489,7 @@
     "543627458583199764": {
       "coins": 1,
       "inventory": {
-        "Maleficent": 1,
+        "Maleficent": 2,
         "Capt Ben": 3,
         "Artemis Dee": 3,
         "A Wild Artemis": 3,
@@ -1563,8 +1563,8 @@
         "?? Ben": 1,
         "Masabone": 1
       },
-      "last_daily": "2026-07-21",
-      "pity": 1,
+      "last_daily": "2026-07-22",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
