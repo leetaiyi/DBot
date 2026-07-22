@@ -58,7 +58,7 @@
         "Oreo": 3,
         "Artemis Dee": 3,
         "Batta": 2,
-        "Maleficent": 5,
+        "Maleficent": 6,
         "A Wild Artemis": 2,
         "Mishka": 5,
         "Flash": 5,
@@ -123,8 +123,8 @@
         "LaCat: Hypnosis": 1
       },
       "coins": 0,
-      "last_daily": "2026-07-21",
-      "pity": 0,
+      "last_daily": "2026-07-22",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
