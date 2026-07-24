@@ -1203,7 +1203,7 @@
         "IDDOG": 4,
         "Amanda": 1,
         "Sake+Ebi": 1,
-        "Betty": 2,
+        "Betty": 3,
         "Sawyer": 1,
         "Tomyris": 2,
         "Amadeus2": 3,
@@ -1251,8 +1251,8 @@
         "King Baker": 1,
         "Snow Kiss": 1
       },
-      "last_daily": "2026-07-23",
-      "pity": 0,
+      "last_daily": "2026-07-24",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
