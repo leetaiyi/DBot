@@ -2051,7 +2051,7 @@
       "inventory": {
         "Loki Loodelally": 1,
         "Ben": 2,
-        "Willow": 1,
+        "Willow": 2,
         "Artemis Dee": 2,
         "David": 1,
         "Mishka": 1,
@@ -2064,8 +2064,8 @@
         "AdaMario": 1,
         "Ellie as Moonmoon": 1
       },
-      "last_daily": "2026-07-25",
-      "pity": 0,
+      "last_daily": "2026-07-26",
+      "pity": 1,
       "pulls": 0,
       "blessed": false
     }
