@@ -1157,7 +1157,7 @@
         "King Baker": 1,
         "Furiosa blesses you with wealth": 1,
         "Benjamin (bandana)": 2,
-        "Leia (apples)": 1,
+        "Leia (apples)": 2,
         "Kitchen Cat": 1,
         "Noodle": 2,
         "Willow Belly": 1,
@@ -1176,8 +1176,8 @@
         "Snow Kiss": 1,
         "Objection!": 1
       },
-      "last_daily": "2026-07-25",
-      "pity": 0,
+      "last_daily": "2026-07-26",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
