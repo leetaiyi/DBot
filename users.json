@@ -21,7 +21,7 @@
         "IDDOG": 2,
         "Cerberus": 1,
         "David": 1,
-        "Bilbo Bee": 1,
+        "Bilbo Bee": 2,
         "Mishka": 1,
         "Willow": 1,
         "Amadeus": 1,
@@ -40,9 +40,9 @@
         "Morpheus": 1,
         "Objection!": 1
       },
-      "coins": 969,
+      "coins": 968,
       "last_daily": "2026-07-29",
-      "pity": 0,
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "Catbus Family": 1
