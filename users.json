@@ -993,7 +993,7 @@
         "HONK!!": 1,
         "Are You Dragon Tales?": 1,
         "Betty": 2,
-        "Batta": 2,
+        "Batta": 3,
         "Capt Ben": 1,
         "Amadeus": 1,
         "Amadeus2": 3,
@@ -1042,8 +1042,8 @@
         "Furiosa blesses you with wealth": 1,
         "Legendary Amanda": 1
       },
-      "last_daily": "2026-07-29",
-      "pity": 0,
+      "last_daily": "2026-07-30",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
