@@ -123,11 +123,12 @@
         "GengArtemis": 1,
         "LaCat: Hypnosis": 2,
         "Willow Belly": 1,
-        "Duet of the Fates": 1
+        "Duet of the Fates": 1,
+        "Furiosa blesses you with wealth": 1
       },
       "coins": 0,
-      "last_daily": "2026-07-29",
-      "pity": 2,
+      "last_daily": "2026-07-30",
+      "pity": 0,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
