@@ -40,7 +40,7 @@
         "Morpheus": 1,
         "Objection!": 1
       },
-      "coins": 969,
+      "coins": 970,
       "last_daily": "2026-07-29",
       "pity": 1,
       "blessed": false,
@@ -54,7 +54,7 @@
           2,
           0
         ],
-        "completed": false
+        "completed": true
       }
     },
     "418102912221184001": {
