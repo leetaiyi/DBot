@@ -737,14 +737,14 @@ QUESTION_TEXT = {
         f"What major key has {abs(k[2])} "
         f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
         if k[2] > 0 else
-        f"What major key has {k[2]} "
+        f"What major key has {abs(k[2])} "
         f"{'flat' if k[2] == 1 else 'flats'}?"
     ),
     (2, 1): lambda k: (
         f"What relative minor has {abs(k[2])} "
         f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
         if k[2] >= 0 else
-        f"What relative minor has {k[2]} "
+        f"What relative minor has {abs(k[2])} "
         f"{'flat' if k[2] == 1 else 'flats'}?"
     )
 }
@@ -802,7 +802,7 @@ async def quiz(ctx):
     await ctx.send(
         f"**Daily Music Theory Quiz**\n\n"
         f"{prompt}\n\n"
-        f"Reply using `!answer <answer>`."
+        f"Reply using `!answer <answer>`. Examples: !answer Cb or !answer f#"
     )
 
 
