@@ -409,6 +409,26 @@
       "name": "Noodle plays Pokémon",
       "weight": 25,
       "image": "NoodleCards.jpg"
+    },
+    {
+      "name": "YO!",
+      "weight": 40,
+      "image": "Yo.jpg"
+    },
+    {
+      "name": "Santa Murphy",
+      "weight": 40,
+      "image": "SantaMurphy.jpg"
+    },
+    {
+      "name": "Snow Kiss",
+      "weight": 25,
+      "image": "SnowKiss.jpg"
+    },
+    {
+      "name": "Destruction and the Birds",
+      "weight": 4,
+      "image": "dfbirds.gif"
     }
   ],
   "achievements": {
@@ -420,8 +440,9 @@
         "Morpheus",
         "Ollidammara"
       ],
-      "rarity": "common"
-    },
+      "rarity": "common",
+      "reward": "CatbusFamily.jpg"
+      },
     "Forever Vacuuming": {
       "items": [
         ["Artemis", "A Wild Artemis", "Artemis Dee"],
@@ -432,7 +453,8 @@
         "Tomyris",
         "Zelda"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "reward": "Vacuum.jpg"
     },
     "The LuxenBieles": {
       "items": [
@@ -442,7 +464,8 @@
         "Maleficent",
         "Oreo"
       ],
-      "rarity": "common"
+      "rarity": "common",
+      "reward": "LuxemBieles.jpg"
     },
     "Voids": {
       "items": [
@@ -475,7 +498,8 @@
         "Bilbo Bee",
         "Bynx"
       ],
-    "rarity": "rare"
+    "rarity": "rare",
+    "reward": "Bisdvx.gif"
     },
     "Cursed Humans": {
       "items": [
@@ -493,7 +517,8 @@
         "IDDOG",
         "Nova: The Absurd Beast"
       ],
-    "rarity": "rare"
+    "rarity": "rare",
+    "reward": "NovaPuppy.png"
     },
     "Vacation Time": {
       "items": [
@@ -502,6 +527,15 @@
         "Duet of the Fates"
       ],
     "rarity": "rare"
+    },
+    "Willow the Sand Guardian": {
+      "items": [
+        "Willow",
+        "Willow Snuggle",
+        "Willow Belly"
+      ],
+    "rarity": "rare",
+      "reward": "WillowSand.png"
     }
   }
 }
