@@ -40,12 +40,21 @@
         "Morpheus": 1,
         "Objection!": 1
       },
-      "coins": 968,
+      "coins": 969,
       "last_daily": "2026-07-29",
       "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "Catbus Family": 1
+      },
+      "daily_quiz": {
+        "date": "2026-07-31",
+        "key_index": 11,
+        "question": [
+          1,
+          2
+        ],
+        "completed": true
       }
     },
     "418102912221184001": {
