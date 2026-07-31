@@ -808,7 +808,7 @@ async def quiz(ctx):
     await ctx.send(
         f"**Daily Music Theory Quiz**\n\n"
         f"{prompt}\n\n"
-        f"Reply using `!answer <answer>`."
+        f"Reply using `!answer <answer>`. Examples: !answer Cb or !answer f#"
     )
 
 
