@@ -781,7 +781,7 @@ async def quiz(ctx):
             prompt = QUESTION_TEXT[(reference, asked)](key)
 
             await ctx.send(
-                f"🎼 **You already have today's quiz:**\n\n{prompt}"
+                f"**You already have today's quiz:**\n\n{prompt}"
             )
         return
 
@@ -806,7 +806,7 @@ async def quiz(ctx):
     prompt = QUESTION_TEXT[(reference, asked)](key)
 
     await ctx.send(
-        f"🎼 **Daily Music Theory Quiz**\n\n"
+        f"**Daily Music Theory Quiz**\n\n"
         f"{prompt}\n\n"
         f"Reply using `!answer <answer>`."
     )
