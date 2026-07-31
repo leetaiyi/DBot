@@ -2061,7 +2061,16 @@
       "coins": 0,
       "last_daily": "2026-07-31",
       "pity": 0,
-      "blessed": false
+      "blessed": false,
+      "daily_quiz": {
+        "date": "2026-07-31",
+        "key_index": 9,
+        "question": [
+          0,
+          1
+        ],
+        "completed": false
+      }
     },
     "346044943795617792": {
       "coins": 0,
