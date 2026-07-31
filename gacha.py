@@ -742,14 +742,14 @@ QUESTION_TEXT = {
     (2, 0): lambda k: (
         f"What major key has {abs(k[2])} "
         f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
-        if k[2] < 0 else
+        if k[2] > 0 else
         f"What major key has {k[2]} "
         f"{'flat' if k[2] == 1 else 'flats'}?"
     ),
     (2, 1): lambda k: (
         f"What relative minor has {abs(k[2])} "
         f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
-        if k[2] < 0 else
+        if k[2] >= 0 else
         f"What relative minor has {k[2]} "
         f"{'flat' if k[2] == 1 else 'flats'}?"
     )
