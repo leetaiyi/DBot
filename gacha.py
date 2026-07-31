@@ -728,13 +728,13 @@ QUESTION_TEXT = {
     (0, 1): lambda k: f"What is the relative minor of {k[0]} major?",
     (1, 0): lambda k: f"What is the relative major of {k[1]} minor?",
     (0, 2): lambda k: (
-        f"How many {'sharps' if k[2] < 0 else 'flats'} "
+        f"How many {'sharps' if k[2] > 0 else 'flats'} "
         f"does {k[0]} major have?"
         if k[2] != 0
         else f"How many accidentals does {k[0]} major have?"
     ),
     (1, 2): lambda k: (
-        f"How many {'sharps' if k[2] < 0 else 'flats'} "
+        f"How many {'sharps' if k[2] >= 0 else 'flats'} "
         f"does {k[1]} minor have?"
         if k[2] != 0
         else f"How many accidentals does {k[1]} minor have?"
