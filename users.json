@@ -46,15 +46,6 @@
       "blessed": false,
       "achievement_claims": {
         "Catbus Family": 1
-      },
-      "daily_quiz": {
-        "date": "2026-07-31",
-        "key_index": 11,
-        "question": [
-          1,
-          2
-        ],
-        "completed": true
       }
     },
     "418102912221184001": {
