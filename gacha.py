@@ -722,13 +722,13 @@ QUESTION_TEXT = {
     (0, 1): lambda k: f"What is the relative minor of {k[0]} major?",
     (1, 0): lambda k: f"What is the relative major of {k[1]} minor?",
     (0, 2): lambda k: (
-        f"How many {'sharps' if k[2] < 0 else 'flats'} "
+        f"How many {'sharps' if k[2] > 0 else 'flats'} "
         f"does {k[0]} major have?"
         if k[2] != 0
         else f"How many accidentals does {k[0]} major have?"
     ),
     (1, 2): lambda k: (
-        f"How many {'sharps' if k[2] < 0 else 'flats'} "
+        f"How many {'sharps' if k[2] >= 0 else 'flats'} "
         f"does {k[1]} minor have?"
         if k[2] != 0
         else f"How many accidentals does {k[1]} minor have?"
@@ -736,14 +736,14 @@ QUESTION_TEXT = {
     (2, 0): lambda k: (
         f"What major key has {abs(k[2])} "
         f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
-        if k[2] < 0 else
+        if k[2] > 0 else
         f"What major key has {k[2]} "
         f"{'flat' if k[2] == 1 else 'flats'}?"
     ),
     (2, 1): lambda k: (
         f"What relative minor has {abs(k[2])} "
         f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
-        if k[2] < 0 else
+        if k[2] >= 0 else
         f"What relative minor has {k[2]} "
         f"{'flat' if k[2] == 1 else 'flats'}?"
     )
@@ -775,7 +775,7 @@ async def quiz(ctx):
             prompt = QUESTION_TEXT[(reference, asked)](key)
 
             await ctx.send(
-                f"🎼 **You already have today's quiz:**\n\n{prompt}"
+                f"**You already have today's quiz:**\n\n{prompt}"
             )
         return
 
@@ -800,7 +800,7 @@ async def quiz(ctx):
     prompt = QUESTION_TEXT[(reference, asked)](key)
 
     await ctx.send(
-        f"🎼 **Daily Music Theory Quiz**\n\n"
+        f"**Daily Music Theory Quiz**\n\n"
         f"{prompt}\n\n"
         f"Reply using `!answer <answer>`."
     )
