@@ -551,6 +551,15 @@
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
+      },
+      "daily_quiz": {
+        "date": "2026-08-01",
+        "key_index": 11,
+        "question": [
+          2,
+          0
+        ],
+        "completed": false
       }
     },
     "400744536239898625": {
