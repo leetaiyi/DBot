@@ -1094,6 +1094,15 @@
         "The LuxenBieles": 1,
         "The B's": 1,
         "Nova The Goon": 1
+      },
+      "daily_quiz": {
+        "date": "2026-08-01",
+        "key_index": 1,
+        "question": [
+          2,
+          0
+        ],
+        "completed": false
       }
     },
     "316002379537317899": {
