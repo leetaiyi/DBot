@@ -1583,7 +1583,7 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 2,
         "Capt Ben": 3,
@@ -1596,7 +1596,7 @@
         "Flash": 2,
         "Mishka": 3,
         "Bilbo Bee": 1,
-        "Coconut!": 2,
+        "Coconut!": 3,
         "Tomyris": 2,
         "Batta": 2,
         "Nova Fangly": 3,
@@ -1664,7 +1664,7 @@
         "GengArtemis": 1
       },
       "last_daily": "2026-08-01",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
