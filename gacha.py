@@ -745,7 +745,7 @@ QUESTION_TEXT = {
         f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
         if k[2] >= 0 else
         f"What minor key has {abs(k[2])} "
-        f"{'flat' if k[2] == 1 else 'flats'}?"
+        f"{'flat' if abs(k[2]) == 1 else 'flats'}?"
     )
 }
 
