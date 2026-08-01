@@ -1170,7 +1170,16 @@
       "last_daily": "2026-07-21",
       "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "daily_quiz": {
+        "date": "2026-08-01",
+        "key_index": 9,
+        "question": [
+          2,
+          1
+        ],
+        "completed": false
+      }
     },
     "954136279296118885": {
       "coins": 2,
