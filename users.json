@@ -417,7 +417,7 @@
         "Flash": 4,
         "IDDOG": 1,
         "Ollidammara": 3,
-        "Cerberus": 1,
+        "Cerberus": 2,
         "David": 1,
         "Oreo": 1,
         "Live Gloriously!": 3,
@@ -485,8 +485,8 @@
         "Listening to Rehearsal Recordings": 1,
         "Masabone": 1
       },
-      "last_daily": "2026-07-31",
-      "pity": 0,
+      "last_daily": "2026-08-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
