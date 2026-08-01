@@ -2097,7 +2097,7 @@
         "Objection!": 1,
         "Betty": 1
       },
-      "coins": 0,
+      "coins": 1,
       "last_daily": "2026-08-01",
       "pity": 1,
       "blessed": false,
@@ -2108,7 +2108,7 @@
           0,
           1
         ],
-        "completed": false
+        "completed": true
       }
     },
     "346044943795617792": {
