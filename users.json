@@ -1007,7 +1007,7 @@
       "blessed": false
     },
     "690973798102597705": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 5,
         "LaCat: Belleh": 1,
@@ -1102,7 +1102,7 @@
           2,
           0
         ],
-        "completed": false
+        "completed": true
       }
     },
     "316002379537317899": {
