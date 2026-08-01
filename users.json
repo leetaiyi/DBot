@@ -1139,7 +1139,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1178,7 +1178,7 @@
           2,
           1
         ],
-        "completed": false
+        "completed": true
       }
     },
     "954136279296118885": {
