@@ -1316,6 +1316,15 @@
         "Catbus Family": 1,
         "Forever Vacuuming": 1,
         "Willow the Sand Guardian": 1
+      },
+      "daily_quiz": {
+        "date": "2026-08-01",
+        "key_index": 12,
+        "question": [
+          1,
+          2
+        ],
+        "completed": false
       }
     },
     "370310581716254723": {
