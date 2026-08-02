@@ -845,13 +845,13 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-01",
-        "key_index": 0,
+        "date": "2026-08-02",
+        "key_index": 13,
         "question": [
           2,
-          1
+          0
         ],
-        "completed": true
+        "completed": false
       }
     },
     "201094207857754112": {
