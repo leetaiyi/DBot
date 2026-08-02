@@ -1265,6 +1265,15 @@
       "blessed": false,
       "achievement_claims": {
         "Willow the Sand Guardian": 1
+      },
+      "daily_quiz": {
+        "date": "2026-08-02",
+        "key_index": 12,
+        "question": [
+          1,
+          0
+        ],
+        "completed": false
       }
     },
     "418107361786331138": {
