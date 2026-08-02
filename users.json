@@ -1653,7 +1653,7 @@
         "Ben": 1,
         "Rose": 1,
         "King Baker": 1,
-        "Achelois": 1,
+        "Achelois": 2,
         "David": 2,
         "Ollidammara": 1,
         "HONK!!": 1,
@@ -1683,8 +1683,8 @@
         "AdaMario": 1,
         "GengArtemis": 1
       },
-      "last_daily": "2026-08-01",
-      "pity": 1,
+      "last_daily": "2026-08-02",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
