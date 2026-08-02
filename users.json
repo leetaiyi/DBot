@@ -494,6 +494,15 @@
         "The LuxenBieles": 1,
         "Catbus Family": 1,
         "Willow the Sand Guardian": 1
+      },
+      "daily_quiz": {
+        "date": "2026-08-02",
+        "key_index": 13,
+        "question": [
+          1,
+          0
+        ],
+        "completed": false
       }
     },
     "277552214342631424": {
