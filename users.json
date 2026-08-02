@@ -136,7 +136,7 @@
         "Furiosa blesses you with wealth": 2,
         "Destruction and the Birds": 1
       },
-      "coins": 0,
+      "coins": 1,
       "last_daily": "2026-08-02",
       "pity": 1,
       "blessed": false,
@@ -150,7 +150,7 @@
           0,
           2
         ],
-        "completed": false
+        "completed": true
       }
     },
     "156937687515791361": {
