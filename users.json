@@ -144,11 +144,11 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-08-01",
-        "key_index": 3,
+        "date": "2026-08-02",
+        "key_index": 5,
         "question": [
-          1,
-          0
+          0,
+          2
         ],
         "completed": false
       }
