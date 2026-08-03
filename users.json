@@ -1296,7 +1296,7 @@
         "Rose": 4,
         "Artemis Dee": 1,
         "Sake": 3,
-        "Flash": 1,
+        "Flash": 2,
         "Willow Belly": 1,
         "IDDOG": 4,
         "Amanda": 1,
@@ -1352,8 +1352,8 @@
         "Legendary Amanda": 1,
         "Furiosa blesses you with wealth": 1
       },
-      "last_daily": "2026-08-02",
-      "pity": 0,
+      "last_daily": "2026-08-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
