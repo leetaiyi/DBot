@@ -1608,7 +1608,7 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 1,
+      "coins": 2,
       "inventory": {
         "Maleficent": 2,
         "Capt Ben": 3,
@@ -1705,7 +1705,7 @@
           2,
           0
         ],
-        "completed": false
+        "completed": true
       }
     },
     "247912247496540160": {
