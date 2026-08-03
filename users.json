@@ -1699,13 +1699,13 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-01",
-        "key_index": 9,
+        "date": "2026-08-03",
+        "key_index": 4,
         "question": [
-          1,
+          2,
           0
         ],
-        "completed": true
+        "completed": false
       }
     },
     "247912247496540160": {
