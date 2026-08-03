@@ -2235,7 +2235,8 @@
       "last_daily": "2026-08-03",
       "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "impatience": 1
     }
   }
 }
