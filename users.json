@@ -760,7 +760,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
@@ -833,10 +833,11 @@
         "Willow Snuggle": 1,
         "Amanda": 1,
         "Legendary Amanda": 1,
-        "Willow Belly": 1
+        "Willow Belly": 1,
+        "GengArtemis": 1
       },
       "last_daily": "2026-08-03",
-      "pity": 2,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
