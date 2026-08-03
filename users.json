@@ -2162,13 +2162,13 @@
       "pity": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-02",
-        "key_index": 12,
+        "date": "2026-08-03",
+        "key_index": 8,
         "question": [
-          1,
-          0
+          2,
+          1
         ],
-        "completed": true
+        "completed": false
       }
     },
     "346044943795617792": {
