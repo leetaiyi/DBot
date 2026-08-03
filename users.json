@@ -1608,14 +1608,14 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 2,
         "Capt Ben": 3,
         "Artemis Dee": 3,
         "A Wild Artemis": 3,
         "Belly Flash": 1,
-        "Gabbro": 3,
+        "Gabbro": 4,
         "Howl": 2,
         "Sadge Ryuu": 3,
         "Flash": 2,
@@ -1690,7 +1690,7 @@
         "LaCat: Belleh": 1
       },
       "last_daily": "2026-08-03",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
