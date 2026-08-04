@@ -1275,11 +1275,11 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-03",
-        "key_index": 13,
+        "date": "2026-08-04",
+        "key_index": 9,
         "question": [
-          0,
-          1
+          1,
+          0
         ],
         "completed": false
       }
