@@ -637,7 +637,7 @@
         "Cerberus": 1,
         "Maleficent": 3,
         "Noodle": 4,
-        "David": 1,
+        "David": 2,
         "?? Ben": 2,
         "Maru Merak Miss Ma'am Morden": 4,
         "Belly Flash": 1,
@@ -666,8 +666,8 @@
         "GengArtemis": 1,
         "Listening to Rehearsal Recordings": 1
       },
-      "last_daily": "2026-08-03",
-      "pity": 0,
+      "last_daily": "2026-08-04",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
