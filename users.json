@@ -2019,7 +2019,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 3,
         "Kazoo David": 1,
@@ -2057,7 +2057,7 @@
         "Noodle plays Pok\u00e9mon": 4,
         "Objection!": 2,
         "Ebi": 3,
-        "Loki Loodelally": 1,
+        "Loki Loodelally": 2,
         "Artemis Dee": 1,
         "Willow Snuggle": 1,
         "Amadeus2": 1,
@@ -2091,7 +2091,7 @@
         "Masabone": 1
       },
       "last_daily": "2026-08-04",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
