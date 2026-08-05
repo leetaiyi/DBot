@@ -1160,7 +1160,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1186,11 +1186,11 @@
         "Rose": 1,
         "Ivan": 2,
         "Sawyer": 1,
-        "Kitchen Cat": 2,
+        "Kitchen Cat": 3,
         "Cerberus": 1
       },
       "last_daily": "2026-08-05",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
