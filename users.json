@@ -1734,7 +1734,7 @@
       }
     },
     "247912247496540160": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -1765,7 +1765,7 @@
         "Maleficent": 3,
         "Kitchen Cat": 1,
         "Oreo": 2,
-        "LaCat: Wassup": 1,
+        "LaCat: Wassup": 2,
         "Batta": 1,
         "IDDOG": 1,
         "Ben": 3,
@@ -1799,7 +1799,7 @@
         "LaCat: Belleh": 1
       },
       "last_daily": "2026-08-05",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
