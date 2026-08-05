@@ -1514,7 +1514,7 @@
     "641043636041285656": {
       "coins": 0,
       "inventory": {
-        "Live Gloriously!": 1,
+        "Live Gloriously!": 2,
         "Ollidammara": 2,
         "Batta": 2,
         "Gabbro": 1,
@@ -1549,8 +1549,8 @@
         "Loki Loodelally": 1,
         "Amadeus": 1
       },
-      "last_daily": "2026-06-22",
-      "pity": 1,
+      "last_daily": "2026-08-05",
+      "pity": 2,
       "pulls": 0,
       "blessed": false
     },
