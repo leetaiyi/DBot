@@ -1291,13 +1291,13 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-05",
-        "key_index": 14,
+        "date": "2026-08-06",
+        "key_index": 8,
         "question": [
           0,
-          1
+          2
         ],
-        "completed": true
+        "completed": false
       }
     },
     "418107361786331138": {
