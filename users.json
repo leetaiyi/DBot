@@ -2158,7 +2158,7 @@
         "Bella": 2,
         "Rose": 2,
         "Polly": 2,
-        "Zelda": 2,
+        "Zelda": 3,
         "Bratty Ryuu": 1,
         "Kazoo David": 1,
         "Ollidammara": 1,
@@ -2203,8 +2203,8 @@
         "Bigger litterbox pls": 1
       },
       "coins": 3,
-      "last_daily": "2026-08-05",
-      "pity": 0,
+      "last_daily": "2026-08-06",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-05",
