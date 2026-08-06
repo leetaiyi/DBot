@@ -1639,7 +1639,7 @@
       "coins": 1,
       "inventory": {
         "Maleficent": 2,
-        "Capt Ben": 4,
+        "Capt Ben": 5,
         "Artemis Dee": 3,
         "A Wild Artemis": 3,
         "Belly Flash": 1,
@@ -1718,8 +1718,8 @@
         "LaCat: Belleh": 1,
         "Are You Dragon Tales?": 1
       },
-      "last_daily": "2026-08-05",
-      "pity": 1,
+      "last_daily": "2026-08-06",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
