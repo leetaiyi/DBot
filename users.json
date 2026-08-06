@@ -2207,10 +2207,10 @@
       "pity": 1,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-05",
-        "key_index": 14,
+        "date": "2026-08-06",
+        "key_index": 6,
         "question": [
-          2,
+          0,
           1
         ],
         "completed": false
