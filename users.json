@@ -70,7 +70,7 @@
         "Batta": 3,
         "Maleficent": 6,
         "A Wild Artemis": 2,
-        "Mishka": 5,
+        "Mishka": 6,
         "Flash": 5,
         "Percy": 3,
         "David": 5,
@@ -139,9 +139,9 @@
         "Are You Dragon Tales?": 1,
         "?? Ben": 1
       },
-      "coins": 1,
+      "coins": 0,
       "last_daily": "2026-08-06",
-      "pity": 0,
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
