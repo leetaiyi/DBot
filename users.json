@@ -139,7 +139,7 @@
         "Are You Dragon Tales?": 1,
         "?? Ben": 1
       },
-      "coins": 0,
+      "coins": 1,
       "last_daily": "2026-08-06",
       "pity": 0,
       "blessed": false,
@@ -153,7 +153,7 @@
           2,
           1
         ],
-        "completed": false
+        "completed": true
       }
     },
     "156937687515791361": {
