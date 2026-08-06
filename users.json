@@ -2202,7 +2202,7 @@
         "Capt Ben": 1,
         "Bigger litterbox pls": 1
       },
-      "coins": 3,
+      "coins": 4,
       "last_daily": "2026-08-06",
       "pity": 1,
       "blessed": false,
@@ -2213,7 +2213,7 @@
           0,
           1
         ],
-        "completed": false
+        "completed": true
       }
     },
     "346044943795617792": {
