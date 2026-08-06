@@ -2042,7 +2042,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 3,
         "Kazoo David": 1,
@@ -2063,7 +2063,7 @@
         "Ivan": 4,
         "Belly Flash": 1,
         "Capt Ben": 1,
-        "Rose": 3,
+        "Rose": 4,
         "Ellie as Moonmoon": 2,
         "LaCat: Belleh": 1,
         "Sawyer": 3,
@@ -2115,7 +2115,7 @@
         "Listening to Rehearsal Recordings": 1
       },
       "last_daily": "2026-08-06",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
