@@ -1303,7 +1303,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1318,7 +1318,7 @@
         "Bynx": 2,
         "Morpheus": 3,
         "Amadeus": 2,
-        "Rose": 4,
+        "Rose": 5,
         "Artemis Dee": 1,
         "Sake": 3,
         "Flash": 2,
@@ -1380,7 +1380,7 @@
         "Barely Legal John": 1
       },
       "last_daily": "2026-08-06",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
