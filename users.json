@@ -1208,13 +1208,13 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-05",
-        "key_index": 6,
+        "date": "2026-08-06",
+        "key_index": 4,
         "question": [
           1,
-          2
+          0
         ],
-        "completed": true
+        "completed": false
       },
       "impatience": 1
     },
