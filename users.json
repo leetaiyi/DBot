@@ -412,7 +412,7 @@
       "coins": 1,
       "inventory": {
         "Artemis Dee": 3,
-        "LaCat: Wassup": 3,
+        "LaCat: Wassup": 4,
         "Zelda": 3,
         "A Wild Artemis": 3,
         "Gabbro": 4,
@@ -492,8 +492,8 @@
         "Are You Dragon Tales?": 1,
         "Barely Legal John": 1
       },
-      "last_daily": "2026-08-06",
-      "pity": 0,
+      "last_daily": "2026-08-07",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
