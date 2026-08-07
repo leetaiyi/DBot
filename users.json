@@ -1296,13 +1296,13 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-06",
-        "key_index": 8,
+        "date": "2026-08-07",
+        "key_index": 13,
         "question": [
           0,
-          2
+          1
         ],
-        "completed": true
+        "completed": false
       }
     },
     "418107361786331138": {
