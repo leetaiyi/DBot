@@ -2142,13 +2142,13 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-06",
-        "key_index": 9,
+        "date": "2026-08-07",
+        "key_index": 13,
         "question": [
-          2,
-          0
+          0,
+          1
         ],
-        "completed": true
+        "completed": false
       }
     },
     "181899217919279104": {
