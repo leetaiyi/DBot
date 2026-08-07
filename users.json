@@ -147,13 +147,13 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-08-06",
-        "key_index": 7,
+        "date": "2026-08-07",
+        "key_index": 5,
         "question": [
-          2,
-          1
+          1,
+          0
         ],
-        "completed": true
+        "completed": false
       }
     },
     "156937687515791361": {
