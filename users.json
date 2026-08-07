@@ -2222,13 +2222,13 @@
       "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-06",
-        "key_index": 6,
+        "date": "2026-08-07",
+        "key_index": 1,
         "question": [
-          0,
-          1
+          1,
+          2
         ],
-        "completed": true
+        "completed": false
       }
     },
     "346044943795617792": {
