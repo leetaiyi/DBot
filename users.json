@@ -775,14 +775,14 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
         "Howl": 3,
         "Objection!": 3,
         "Ollidammara": 5,
-        "Betty": 4,
+        "Betty": 5,
         "John and Albino water monitor lizard": 2,
         "A Wild Artemis": 4,
         "Mishka": 4,
@@ -854,7 +854,7 @@
         "Furiosa blesses you with wealth": 1
       },
       "last_daily": "2026-08-07",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
