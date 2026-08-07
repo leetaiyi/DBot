@@ -137,11 +137,12 @@
         "Destruction and the Birds": 1,
         "LaCat: Belleh": 1,
         "Are You Dragon Tales?": 1,
-        "?? Ben": 1
+        "?? Ben": 1,
+        "AdaMario": 1
       },
-      "coins": 1,
+      "coins": 0,
       "last_daily": "2026-08-07",
-      "pity": 2,
+      "pity": 0,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
