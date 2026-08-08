@@ -682,11 +682,11 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-07",
-        "key_index": 8,
+        "date": "2026-08-08",
+        "key_index": 13,
         "question": [
-          1,
-          2
+          0,
+          1
         ],
         "completed": false
       }
