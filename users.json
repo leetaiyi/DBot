@@ -1664,7 +1664,7 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 2,
         "Capt Ben": 5,
@@ -1725,7 +1725,7 @@
         "YO!": 2,
         "Snow Kiss": 2,
         "Benjamin (bandana)": 1,
-        "Noodle": 1,
+        "Noodle": 2,
         "Oreo": 1,
         "Noodle plays Pok\u00e9mon": 2,
         "Sake+Ebi": 1,
@@ -1748,7 +1748,7 @@
         "Carbon Eyes": 1
       },
       "last_daily": "2026-08-08",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
