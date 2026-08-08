@@ -1844,13 +1844,13 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-08-05",
-        "key_index": 1,
+        "date": "2026-08-08",
+        "key_index": 8,
         "question": [
           1,
-          0
+          2
         ],
-        "completed": true
+        "completed": false
       }
     },
     "743276168316190795": {
