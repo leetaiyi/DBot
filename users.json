@@ -1319,7 +1319,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1394,10 +1394,11 @@
         "Furiosa blesses you with wealth": 1,
         "Nova: The Absurd Beast": 1,
         "Barely Legal John": 1,
-        "Noodle": 1
+        "Noodle": 1,
+        "Masabone": 1
       },
       "last_daily": "2026-08-08",
-      "pity": 2,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
