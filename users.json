@@ -1769,7 +1769,7 @@
       }
     },
     "247912247496540160": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -1850,7 +1850,7 @@
           1,
           2
         ],
-        "completed": false
+        "completed": true
       }
     },
     "743276168316190795": {
