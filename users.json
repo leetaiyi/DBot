@@ -1769,7 +1769,7 @@
       }
     },
     "247912247496540160": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -1824,7 +1824,7 @@
         "Sake+Ebi": 1,
         "Ellie as Moonmoon": 1,
         "Noodle": 3,
-        "Willow Snuggle": 1,
+        "Willow Snuggle": 2,
         "HONK!!": 1,
         "King Baker": 1,
         "Bigger litterbox pls": 1,
@@ -1836,7 +1836,7 @@
         "Noodle plays Pok\u00e9mon": 1
       },
       "last_daily": "2026-08-08",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
