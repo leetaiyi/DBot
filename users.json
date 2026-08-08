@@ -588,7 +588,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 3,
@@ -688,7 +688,7 @@
           0,
           1
         ],
-        "completed": false
+        "completed": true
       }
     },
     "184110334334730240": {
