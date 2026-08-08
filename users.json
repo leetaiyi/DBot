@@ -87,7 +87,7 @@
         "Capt Ben": 2,
         "IDDOG": 3,
         "Gabbro": 3,
-        "Sake": 2,
+        "Sake": 3,
         "Barely Legal John": 1,
         "Maru Merak Miss Ma'am Morden": 4,
         "Leia (apples)": 5,
@@ -141,8 +141,8 @@
         "AdaMario": 1
       },
       "coins": 0,
-      "last_daily": "2026-08-07",
-      "pity": 0,
+      "last_daily": "2026-08-08",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
