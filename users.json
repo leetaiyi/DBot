@@ -1223,13 +1223,13 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-06",
-        "key_index": 4,
+        "date": "2026-08-08",
+        "key_index": 11,
         "question": [
-          1,
-          0
+          0,
+          2
         ],
-        "completed": true
+        "completed": false
       },
       "impatience": 1
     },
