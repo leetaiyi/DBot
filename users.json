@@ -877,13 +877,13 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-07",
-        "key_index": 13,
+        "date": "2026-08-08",
+        "key_index": 3,
         "question": [
-          2,
+          0,
           1
         ],
-        "completed": true
+        "completed": false
       }
     },
     "201094207857754112": {
