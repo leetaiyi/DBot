@@ -1235,7 +1235,7 @@
       "impatience": 1
     },
     "954136279296118885": {
-      "coins": 8,
+      "coins": 9,
       "inventory": {
         "Bynx": 6,
         "LaCat: Wassup": 2,
@@ -1317,7 +1317,7 @@
           2,
           1
         ],
-        "completed": false
+        "completed": true
       }
     },
     "418107361786331138": {
