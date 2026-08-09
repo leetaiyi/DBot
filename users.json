@@ -99,7 +99,7 @@
         "Coconut!": 2,
         "Loki Loodelally": 5,
         "Sawyer": 2,
-        "Morpheus": 3,
+        "Morpheus": 4,
         "Howl": 2,
         "Nova Fangly": 2,
         "Bilbo Bee": 1,
@@ -140,9 +140,9 @@
         "?? Ben": 1,
         "AdaMario": 1
       },
-      "coins": 1,
+      "coins": 0,
       "last_daily": "2026-08-09",
-      "pity": 3,
+      "pity": 4,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
