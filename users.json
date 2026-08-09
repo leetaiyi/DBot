@@ -787,7 +787,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
@@ -807,7 +807,7 @@
         "Batta": 1,
         "Ebi": 6,
         "Gabbro": 4,
-        "Flash": 3,
+        "Flash": 4,
         "Korok Couple": 1,
         "Kazoo David": 4,
         "David": 4,
@@ -867,7 +867,7 @@
         "Listening to Rehearsal Recordings": 1
       },
       "last_daily": "2026-08-09",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
