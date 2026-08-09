@@ -140,7 +140,7 @@
         "?? Ben": 1,
         "AdaMario": 1
       },
-      "coins": 0,
+      "coins": 1,
       "last_daily": "2026-08-09",
       "pity": 3,
       "blessed": false,
@@ -154,7 +154,7 @@
           0,
           1
         ],
-        "completed": false
+        "completed": true
       }
     },
     "156937687515791361": {
