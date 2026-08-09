@@ -1055,7 +1055,7 @@
       "blessed": false
     },
     "690973798102597705": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 5,
         "LaCat: Belleh": 1,
@@ -1104,7 +1104,7 @@
         "Willow Belly": 2,
         "Live Gloriously!": 2,
         "Amanda": 1,
-        "Bella": 2,
+        "Bella": 3,
         "Ebi": 1,
         "Noodle plays Pok\u00e9mon": 1,
         "Bigger litterbox pls": 2,
@@ -1137,7 +1137,7 @@
         "Duet of the Fates": 1
       },
       "last_daily": "2026-08-09",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
