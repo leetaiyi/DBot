@@ -1323,7 +1323,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1355,7 +1355,7 @@
         "Zelda": 6,
         "Maleficent": 5,
         "John and Albino water monitor lizard": 3,
-        "Live Gloriously!": 1,
+        "Live Gloriously!": 2,
         "Ebi": 2,
         "Objection!": 1,
         "Mishka": 3,
@@ -1402,7 +1402,7 @@
         "Masabone": 1
       },
       "last_daily": "2026-08-09",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
