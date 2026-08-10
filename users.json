@@ -589,7 +589,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 3,
@@ -613,7 +613,7 @@
         "Nova: The Absurd Beast": 1,
         "Sake": 3,
         "Amadeus2": 3,
-        "Gabbro": 1,
+        "Gabbro": 2,
         "Bilbo Bee": 2,
         "Ivan": 2,
         "Nova Fangly": 2,
@@ -673,7 +673,7 @@
         "Legendary Amanda": 1
       },
       "last_daily": "2026-08-10",
-      "pity": 4,
+      "pity": 5,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
