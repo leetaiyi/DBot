@@ -2174,13 +2174,13 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-09",
-        "key_index": 1,
+        "date": "2026-08-10",
+        "key_index": 9,
         "question": [
-          1,
+          0,
           2
         ],
-        "completed": true
+        "completed": false
       }
     },
     "181899217919279104": {
