@@ -1009,7 +1009,7 @@
         "Howl": 1,
         "Furiosa blesses you with wealth": 1,
         "Are You Dragon Tales?": 1,
-        "Noodle": 1,
+        "Noodle": 2,
         "Achelois": 1,
         "Percy": 1,
         "Kitchen Cat": 2,
@@ -1026,8 +1026,8 @@
         "King Baker": 1,
         "Destruction and the Birds": 1
       },
-      "last_daily": "2026-08-09",
-      "pity": 0,
+      "last_daily": "2026-08-10",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
