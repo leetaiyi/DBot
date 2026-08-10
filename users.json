@@ -409,7 +409,7 @@
       "pity": 0
     },
     "125459449023299584": {
-      "coins": 3,
+      "coins": 4,
       "inventory": {
         "Artemis Dee": 3,
         "LaCat: Wassup": 4,
@@ -509,7 +509,7 @@
           0,
           2
         ],
-        "completed": false
+        "completed": true
       }
     },
     "277552214342631424": {
