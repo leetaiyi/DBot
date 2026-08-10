@@ -1325,7 +1325,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1340,7 +1340,7 @@
         "Bynx": 2,
         "Morpheus": 3,
         "Amadeus": 2,
-        "Rose": 5,
+        "Rose": 6,
         "Artemis Dee": 1,
         "Sake": 3,
         "Flash": 2,
@@ -1405,7 +1405,7 @@
         "Destruction and the Birds": 1
       },
       "last_daily": "2026-08-10",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
