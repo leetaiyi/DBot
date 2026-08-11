@@ -1491,6 +1491,10 @@
           2
         ],
         "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 5,
+        "correct": 5
       }
     },
     "339576678902923274": {
