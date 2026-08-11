@@ -40,7 +40,7 @@
         "Morpheus": 1,
         "Objection!": 1
       },
-      "coins": 971,
+      "coins": 972,
       "last_daily": "2026-08-11",
       "pity": 2,
       "blessed": false,
@@ -57,11 +57,11 @@
           "key_index": 8,
           "mode_index": 6
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 5,
-        "correct": 5
+        "attempts": 6,
+        "correct": 6
       }
     },
     "418102912221184001": {
