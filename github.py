@@ -24,7 +24,6 @@ def get_file(url):
     content = base64.b64decode(data["content"]).decode()
     return json.loads(content), data["sha"]
 
-
 def update_file(url, data, sha):
     encoded = base64.b64encode(
         json.dumps(data, indent=2).encode()
@@ -41,5 +40,21 @@ def update_file(url, data, sha):
         headers=headers,
         json=payload
     )
+
+    if r.status_code == 409:
+        print("========== 409 DEBUG ==========")
+        print("URL:", url)
+        print("SHA we used:", sha)
+        print("GitHub response:", r.text)
+
+        # Immediately ask GitHub what the current SHA is
+        current = requests.get(url, headers=headers)
+        print("Current GET status:", current.status_code)
+
+        if current.ok:
+            current_data = current.json()
+            print("CURRENT SHA:", current_data["sha"])
+
+        print("===============================")
 
     r.raise_for_status()
