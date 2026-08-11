@@ -7,61 +7,18 @@ import random
 import os
 from datetime import datetime, timezone, UTC, timedelta
 from keep_alive import keep_alive
+from quiz import setup_quiz
 
 # Re-pull code from GitHub
 import os
-
-# =========================
-# CONFIG
-# =========================
-ALLOWED_CHANNELS = {
-    1476061562404995213,  #Ramajohns #ctl-sandbox
-    1474234316019073064,  #WMGSO #gacha-bot
-    1473837591974645932  #CTLnF #bottest
-}
-
-ADMIN_IDS = {
-    96408456294064128,  #ctl
-    156937687515791361  #ben
-}
-
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-REPO_OWNER = "leetaiyi"
-REPO_NAME = "DBot"
-
-PITY_LIM = 3
-
-BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/data/WM%20Gacha/"
-
-PRIZES_PATH = "prizes.json"
-USERS_PATH = "users.json"
-
-PRIZES_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{PRIZES_PATH}?ref=data"
-USERS_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{USERS_PATH}?ref=data"
-
-headers = {
-    "Authorization": f"token {GITHUB_TOKEN}",
-    "Accept": "application/vnd.github+json"
-}
+from config import *
+from github import *
+from utils import *
 
 intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
-
-
-def next_midnight_unix():
-    now = datetime.now(UTC)
-    next_midnight = (now + timedelta(days=1)).replace(hour=0,
-                                                      minute=0,
-                                                      second=0,
-                                                      microsecond=0)
-    return int(next_midnight.timestamp())
-
-
-def today_string():
-    return datetime.now(timezone.utc).date().isoformat()
 
 
 @bot.check
@@ -161,38 +118,6 @@ def count_progress(inventory, items):
 def is_complete(inventory, items):
     return all(check_item_group(inventory, r) for r in items)
 
-
-# =========================
-# GITHUB FUNCTIONS
-# =========================
-
-
-def get_file(url):
-    r = requests.get(url, headers=headers)
-    data = r.json()
-
-    if "content" not in data:
-        print("GitHub ERROR:", data)
-        raise Exception("Failed to fetch file")
-
-    content = base64.b64decode(data["content"]).decode()
-    return json.loads(content), data["sha"]
-
-
-def update_file(url, new_data, sha):
-    encoded = base64.b64encode(json.dumps(new_data, indent=2).encode()).decode()
-
-    payload = {
-        "message": "Update data",
-        "content": encoded,
-        "sha": sha,
-        "branch": "data"
-    }
-
-    r = requests.put(url, headers=headers, json=payload)
-
-    if r.status_code != 200:
-        print("Update failed:", r.json())
 
 
 # =========================
@@ -702,172 +627,7 @@ async def redeem(ctx, *, achievement_name):
 
     await ctx.send(embed=embed)
 
-# =========================
-# QUIZ FUNCTIONS
-# =========================
-
-KEYS = [
-    ["C", "A", 0],
-    ["F", "D", -1],
-    ["Bb", "G", -2],
-    ["Eb", "C", -3],
-    ["Ab", "F", -4],
-    ["Db", "Bb", -5],
-    ["Gb", "Eb", -6],
-    ["Cb", "Ab", -7],
-    ["G", "E", 1],
-    ["D", "B", 2],
-    ["A", "F#", 3],
-    ["E", "C#", 4],
-    ["B", "G#", 5],
-    ["F#", "D#", 6],
-    ["C#", "A#", 7],
-]
-
-QUESTION_TEXT = {
-    (0, 1): lambda k: f"What is the relative minor of {k[0]} major?",
-    (1, 0): lambda k: f"What is the relative major of {k[1]} minor?",
-    (0, 2): lambda k: (
-        f"How many {'sharps' if k[2] > 0 else 'flats'} "
-        f"does {k[0]} major have?"
-        if k[2] != 0
-        else f"How many accidentals does {k[0]} major have?"
-    ),
-    (1, 2): lambda k: (
-        f"How many {'sharps' if k[2] >= 0 else 'flats'} "
-        f"does {k[1]} minor have?"
-        if k[2] != 0
-        else f"How many accidentals does {k[1]} minor have?"
-    ),
-    (2, 0): lambda k: (
-        f"What major key has {abs(k[2])} "
-        f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
-        if k[2] > 0 else
-        f"What major key has {abs(k[2])} "
-        f"{'flat' if k[2] == 1 else 'flats'}?"
-    ),
-    (2, 1): lambda k: (
-        f"What relative minor has {abs(k[2])} "
-        f"{'sharp' if abs(k[2]) == 1 else 'sharps'}?"
-        if k[2] >= 0 else
-        f"What relative minor has {abs(k[2])} "
-        f"{'flat' if k[2] == 1 else 'flats'}?"
-    )
-}
-
-@bot.command()
-async def quiz(ctx):
-    user_data, user_sha = get_file(USERS_URL)
-
-    users = user_data.setdefault("users", {})
-    user_id = str(ctx.author.id)
-
-    if user_id not in users:
-        await ctx.send("Use `!pull` first to initialize your account.")
-        return
-
-    user = users[user_id]
-
-    today = today_string()
-
-    # Already has today's quiz
-    quiz = user.get("daily_quiz")
-    if quiz is not None and quiz.get("date") == today:
-        if quiz.get("completed"):
-            await ctx.send("✅ You've already completed today's quiz.")
-        else:
-            key = KEYS[quiz["key_index"]]
-            reference, asked = quiz["question"]
-            prompt = QUESTION_TEXT[(reference, asked)](key)
-
-            await ctx.send(
-                f"**You already have today's quiz:**\n\n{prompt}"
-            )
-        return
-
-    # Generate new quiz
-    key_index = random.randrange(len(KEYS))
-
-    reference = random.randint(0, 2)
-    asked = random.randint(0, 2)
-    while asked == reference:
-        asked = random.randint(0, 2)
-
-    user["daily_quiz"] = {
-        "date": today,
-        "key_index": key_index,
-        "question": [reference, asked],
-        "completed": False
-    }
-
-    update_file(USERS_URL, user_data, user_sha)
-
-    key = KEYS[key_index]
-    prompt = QUESTION_TEXT[(reference, asked)](key)
-
-    await ctx.send(
-        f"**Daily Music Theory Quiz**\n\n"
-        f"{prompt}\n\n"
-        f"Reply using `!answer <answer>`. Examples: !answer Cb or !answer f#"
-    )
-
-
-@bot.command()
-async def answer(ctx, *, response):
-    user_data, user_sha = get_file(USERS_URL)
-
-    users = user_data.setdefault("users", {})
-    user_id = str(ctx.author.id)
-
-    if user_id not in users:
-        await ctx.send("Use `!pull` first to initialize your account.")
-        return
-
-    user = users[user_id]
-
-    quiz = user.get("daily_quiz")
-
-    if quiz is None or quiz.get("date") != today_string():
-        await ctx.send(
-            "You don't have today's quiz.\n"
-            "Use `!quiz` first."
-        )
-        return
-
-    if quiz.get("completed"):
-        await ctx.send("You've already completed today's quiz.")
-        return
-
-    key = KEYS[quiz["key_index"]]
-    reference, asked = quiz["question"]
-
-    # Determine correct answer
-    if asked == 0:
-        correct = key[0]
-    elif asked == 1:
-        correct = key[1]
-    else:
-        correct = str(abs(key[2]))
-
-    # Case-insensitive comparison
-    if response.strip().lower() == correct.lower():
-
-        quiz["completed"] = True
-        user["coins"] = user.get("coins", 0) + 1
-
-        update_file(USERS_URL, user_data, user_sha)
-
-        await ctx.send(
-            f"Correct!\n"
-            f"You earned **1 WMGpeSO**.\n"
-            f"You now have {user['coins']}."
-        )
-
-    else:
-        await ctx.send(
-            f"Incorrect.\n"
-            f"The correct answer was **{correct}**."
-        )
+setup_quiz(bot)
 
 keep_alive()
 
