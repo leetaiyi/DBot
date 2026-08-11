@@ -48,7 +48,7 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
+        "date": "2026-08-01",
         "type": "minor_accidental",
         "question": "How many flats does C minor have?",
         "answer": "3",
@@ -59,8 +59,8 @@
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 1,
-        "correct": 1
+        "attempts": 5,
+        "correct": 5
       }
     },
     "418102912221184001": {
@@ -896,6 +896,10 @@
           1
         ],
         "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 5,
+        "correct": 5
       }
     },
     "201094207857754112": {
@@ -1244,6 +1248,10 @@
         ],
         "completed": true
       },
+      "quiz_stats": {
+        "attempts": 5,
+        "correct": 5
+      },
       "impatience": 1
     },
     "954136279296118885": {
@@ -1432,6 +1440,10 @@
           1
         ],
         "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 5,
+        "correct": 5
       }
     },
     "370310581716254723": {
@@ -1792,6 +1804,10 @@
           0
         ],
         "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 5,
+        "correct": 5
       }
     },
     "247912247496540160": {
@@ -2197,6 +2213,10 @@
           2
         ],
         "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 5,
+        "correct": 5
       }
     },
     "181899217919279104": {
@@ -2279,6 +2299,10 @@
           0
         ],
         "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 5,
+        "correct": 5
       }
     },
     "346044943795617792": {
