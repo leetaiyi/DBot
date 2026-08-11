@@ -1466,13 +1466,13 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-09",
-        "key_index": 4,
+        "date": "2026-08-11",
+        "key_index": 1,
         "question": [
-          0,
+          1,
           2
         ],
-        "completed": true
+        "completed": false
       }
     },
     "339576678902923274": {
