@@ -1431,7 +1431,7 @@
     "370310581716254723": {
       "coins": 1,
       "inventory": {
-        "Bynx": 2,
+        "Bynx": 3,
         "Ben": 1,
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
@@ -1460,8 +1460,8 @@
         "Amadeus2": 2,
         "Benjamin (bandana)": 1
       },
-      "last_daily": "2026-08-08",
-      "pity": 1,
+      "last_daily": "2026-08-11",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
