@@ -1683,7 +1683,7 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 2,
         "Capt Ben": 5,
@@ -1706,7 +1706,7 @@
         "Sawyer": 1,
         "Objection!": 2,
         "Willow Snuggle": 1,
-        "LaCat: Hypnosis": 2,
+        "LaCat: Hypnosis": 3,
         "Korok Couple": 1,
         "Bella": 3,
         "Amadeus2": 4,
@@ -1767,7 +1767,7 @@
         "Carbon Eyes": 1
       },
       "last_daily": "2026-08-11",
-      "pity": 5,
+      "pity": 6,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
