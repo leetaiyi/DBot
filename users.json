@@ -1088,7 +1088,7 @@
         "Capt Ben": 1,
         "Amadeus": 2,
         "Amadeus2": 3,
-        "Carbon": 4,
+        "Carbon": 5,
         "David": 4,
         "Oreo": 3,
         "Maleficent": 3,
@@ -1139,8 +1139,8 @@
         "Duet of the Fates": 1,
         "AdaMario": 1
       },
-      "last_daily": "2026-08-10",
-      "pity": 0,
+      "last_daily": "2026-08-11",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
