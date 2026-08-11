@@ -1777,13 +1777,13 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-08",
-        "key_index": 11,
+        "date": "2026-08-11",
+        "key_index": 0,
         "question": [
           1,
           0
         ],
-        "completed": true
+        "completed": false
       }
     },
     "247912247496540160": {
