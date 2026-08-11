@@ -4,7 +4,7 @@ import requests
 import base64
 import json
 
-from config import GITHUB_TOKEN
+from config import *
 import asyncio
 
 github_lock = asyncio.Lock()
@@ -16,13 +16,18 @@ headers = {
 
 
 def get_file(url):
-    r = requests.get(url, headers=headers)
+    r = requests.get(
+        url,
+        headers=headers,
+        params={"ref": DATA_BRANCH}
+    )
     r.raise_for_status()
 
     data = r.json()
 
     content = base64.b64decode(data["content"]).decode()
     return json.loads(content), data["sha"]
+
 
 def update_file(url, data, sha):
     encoded = base64.b64encode(
@@ -32,7 +37,8 @@ def update_file(url, data, sha):
     payload = {
         "message": "Update bot data",
         "content": encoded,
-        "sha": sha
+        "sha": sha,
+        "branch": DATA_BRANCH
     }
 
     r = requests.put(
@@ -41,20 +47,7 @@ def update_file(url, data, sha):
         json=payload
     )
 
-    if r.status_code == 409:
-        print("========== 409 DEBUG ==========")
-        print("URL:", url)
-        print("SHA we used:", sha)
-        print("GitHub response:", r.text)
-
-        # Immediately ask GitHub what the current SHA is
-        current = requests.get(url, headers=headers)
-        print("Current GET status:", current.status_code)
-
-        if current.ok:
-            current_data = current.json()
-            print("CURRENT SHA:", current_data["sha"])
-
-        print("===============================")
+    if not r.ok:
+        print("Update failed:", r.status_code, r.text)
 
     r.raise_for_status()

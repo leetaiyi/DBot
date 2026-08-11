@@ -27,8 +27,17 @@ BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/data/WM%20Gach
 PRIZES_PATH = "prizes.json"
 USERS_PATH = "users.json"
 
-PRIZES_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{PRIZES_PATH}?ref=data"
-USERS_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{USERS_PATH}?ref=data"
+PRIZES_URL = (
+    f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}"
+    f"/contents/{PRIZES_PATH}"
+)
+
+USERS_URL = (
+    f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}"
+    f"/contents/{USERS_PATH}"
+)
+
+DATA_BRANCH = "data"
 
 headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
