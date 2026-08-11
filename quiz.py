@@ -1,6 +1,6 @@
 from datetime import datetime, timezone, UTC, timedelta
 import random
-from github import get_file, update_file
+from github import get_file, update_file, github_lock
 from config import *
 from utils import today_string
 
@@ -244,59 +244,61 @@ def generate_question(question_type):
 def setup_quiz(bot):
     @bot.command()
     async def quiz(ctx):
-        user_data, user_sha = get_file(USERS_URL)
+        async with github_lock:
 
-        users = user_data.setdefault("users", {})
-        user_id = str(ctx.author.id)
+            user_data, user_sha = get_file(USERS_URL)
 
-        if user_id not in users:
-            await ctx.send("Use `!pull` first to initialize your account.")
-            return
+            users = user_data.setdefault("users", {})
+            user_id = str(ctx.author.id)
 
-        user = users[user_id]
+            if user_id not in users:
+                await ctx.send("Use `!pull` first to initialize your account.")
+                return
 
-        today = today_string()
+            user = users[user_id]
 
-        # Initialize quiz statistics if they don't exist
-        quiz_stats = user.setdefault("quiz_stats", {})
-        quiz_stats.setdefault("attempts", 0)
-        quiz_stats.setdefault("correct", 0)
+            today = today_string()
 
-        # Check whether the user already has today's quiz
-        quiz = user.get("daily_quiz")
+            # Initialize quiz statistics if they don't exist
+            quiz_stats = user.setdefault("quiz_stats", {})
+            quiz_stats.setdefault("attempts", 0)
+            quiz_stats.setdefault("correct", 0)
 
-        if quiz is not None and quiz.get("date") == today:
+            # Check whether the user already has today's quiz
+            quiz = user.get("daily_quiz")
 
-            if quiz.get("completed"):
-                await ctx.send("✅ You've already completed today's quiz.")
-            else:
-                await ctx.send(
-                    f"**You already have today's quiz:**\n\n"
-                    f"{quiz['question']}\n\n"
-                    f"Reply using `!answer <answer>`."
-                )
+            if quiz is not None and quiz.get("date") == today:
 
-            return
+                if quiz.get("completed"):
+                    await ctx.send("✅ You've already completed today's quiz.")
+                else:
+                    await ctx.send(
+                        f"**You already have today's quiz:**\n\n"
+                        f"{quiz['question']}\n\n"
+                        f"Reply using `!answer <answer>`."
+                    )
 
-        # Determine which type of question the user is eligible for
-        question_type = get_question_type(user)
+                return
 
-        # Generate the question
-        question, answer, example, question_data = generate_question(question_type)
+            # Determine which type of question the user is eligible for
+            question_type = get_question_type(user)
 
-        # Store the quiz
-        user["daily_quiz"] = {
-            "date": today,
-            "type": question_type,
-            "question": question,
-            "answer": answer,
-            "example": example,
-            "question_data": question_data,
-            "completed": False
-        }
+            # Generate the question
+            question, answer, example, question_data = generate_question(question_type)
+
+            # Store the quiz
+            user["daily_quiz"] = {
+                "date": today,
+                "type": question_type,
+                "question": question,
+                "answer": answer,
+                "example": example,
+                "question_data": question_data,
+                "completed": False
+            }
 
 
-        update_file(USERS_URL, user_data, user_sha)
+            update_file(USERS_URL, user_data, user_sha)
 
         await ctx.send(
             f"**Daily Music Theory Quiz**\n\n"
@@ -308,57 +310,59 @@ def setup_quiz(bot):
 
     @bot.command()
     async def answer(ctx, *, response):
-        user_data, user_sha = get_file(USERS_URL)
+        async with github_lock:
 
-        users = user_data.setdefault("users", {})
-        user_id = str(ctx.author.id)
+            user_data, user_sha = get_file(USERS_URL)
 
-        if user_id not in users:
-            await ctx.send("Use `!pull` first to initialize your account.")
-            return
+            users = user_data.setdefault("users", {})
+            user_id = str(ctx.author.id)
 
-        user = users[user_id]
+            if user_id not in users:
+                await ctx.send("Use `!pull` first to initialize your account.")
+                return
 
-        quiz = user.get("daily_quiz")
+            user = users[user_id]
 
-        if quiz is None or quiz.get("date") != today_string():
-            await ctx.send(
-                "You don't have today's quiz.\n"
-                "Use `!quiz` first."
-            )
-            return
+            quiz = user.get("daily_quiz")
 
-        if quiz.get("completed"):
-            await ctx.send("You've already completed today's quiz.")
-            return
+            if quiz is None or quiz.get("date") != today_string():
+                await ctx.send(
+                    "You don't have today's quiz.\n"
+                    "Use `!quiz` first."
+                )
+                return
 
-        # Initialize quiz statistics
-        quiz_stats = user.setdefault("quiz_stats", {})
-        quiz_stats.setdefault("attempts", 0)
-        quiz_stats.setdefault("correct", 0)
+            if quiz.get("completed"):
+                await ctx.send("You've already completed today's quiz.")
+                return
 
-        correct_answer = str(quiz["answer"]).strip().lower()
-        user_answer = response.strip().lower()
+            # Initialize quiz statistics
+            quiz_stats = user.setdefault("quiz_stats", {})
+            quiz_stats.setdefault("attempts", 0)
+            quiz_stats.setdefault("correct", 0)
 
-        # Check answer
-        quiz_stats["attempts"] += 1
-        quiz["completed"] = True
-        if user_answer == correct_answer:
-            quiz_stats["correct"] += 1
-            user["coins"] = user.get("coins", 0) + 1
+            correct_answer = str(quiz["answer"]).strip().lower()
+            user_answer = response.strip().lower()
 
-            update_file(USERS_URL, user_data, user_sha)
+            # Check answer
+            quiz_stats["attempts"] += 1
+            quiz["completed"] = True
+            if user_answer == correct_answer:
+                quiz_stats["correct"] += 1
+                user["coins"] = user.get("coins", 0) + 1
 
-            await ctx.send(
-                f"Correct!\n"
-                f"You earned **1 WMGpeSO**.\n"
-                f"You now have {user['coins']}."
-            )
+                update_file(USERS_URL, user_data, user_sha)
 
-        else:
-            update_file(USERS_URL, user_data, user_sha)
-            await ctx.send(
-                f"Incorrect.\n"
-                f"The correct answer was **{quiz["answer"]}**."
-            )
+                await ctx.send(
+                    f"Correct!\n"
+                    f"You earned **1 WMGpeSO**.\n"
+                    f"You now have {user['coins']}."
+                )
+
+            else:
+                update_file(USERS_URL, user_data, user_sha)
+                await ctx.send(
+                    f"Incorrect.\n"
+                    f"The correct answer was **{quiz["answer"]}**."
+                )
 

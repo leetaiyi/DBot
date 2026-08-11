@@ -128,153 +128,155 @@ def is_complete(inventory, items):
 @bot.command()
 @commands.cooldown(rate=1, per=10.0, type=commands.BucketType.default)
 async def pull(ctx):
-    prize_data, _ = get_file(PRIZES_URL)
-    user_data, user_sha = get_file(USERS_URL)
+    async with github_lock:
 
-    prizes = prize_data["prizes"]
-    users = user_data.setdefault("users", {})
+        prize_data, _ = get_file(PRIZES_URL)
+        user_data, user_sha = get_file(USERS_URL)
 
-    user_id = str(ctx.author.id)
+        prizes = prize_data["prizes"]
+        users = user_data.setdefault("users", {})
 
-    # FIRST TIME USER — give starter coins
-    if user_id not in users:
-        users[user_id] = {
-            "coins": 5,  # starter bonus
-            "inventory": {},
-            "last_daily": today_string(),
-            "pity": 0,
-            "pulls": 0
-        }
+        user_id = str(ctx.author.id)
 
-        await ctx.send(
-            f"🎁 Welcome {ctx.author.mention}! You received **5 starter WMGpeSOs!**"
-        )
+        # FIRST TIME USER — give starter coins
+        if user_id not in users:
+            users[user_id] = {
+                "coins": 5,  # starter bonus
+                "inventory": {},
+                "last_daily": today_string(),
+                "pity": 0,
+                "pulls": 0
+            }
 
-    user = users[user_id]
+            await ctx.send(
+                f"🎁 Welcome {ctx.author.mention}! You received **5 starter WMGpeSOs!**"
+            )
 
-    daily_coin_used = False
+        user = users[user_id]
 
-    # Give daily coin if new day
-    if user.get("last_daily") != today_string():
-        user["coins"] += 1
-        user["last_daily"] = today_string()
-        daily_coin_used = True
+        daily_coin_used = False
 
-    # Check coins
-    if user["coins"] <= 0:
-        # Hidden stat: attempted to pull with no coins
-        user["impatience"] = user.get("impatience", 0) + 1
+        # Give daily coin if new day
+        if user.get("last_daily") != today_string():
+            user["coins"] += 1
+            user["last_daily"] = today_string()
+            daily_coin_used = True
 
-        update_file(USERS_URL, user_data, user_sha)
-        
-        next_reset = next_midnight_unix()
+        # Check coins
+        if user["coins"] <= 0:
+            # Hidden stat: attempted to pull with no coins
+            user["impatience"] = user.get("impatience", 0) + 1
 
-        await ctx.send(f"❌ You have no WMGpeSOs!\n"
-                       f"⏳ Next daily <t:{next_reset}:R>")
-        return
+            update_file(USERS_URL, user_data, user_sha)
+            
+            next_reset = next_midnight_unix()
 
-    # Deduct coin
-    user["coins"] -= 1
+            await ctx.send(f"❌ You have no WMGpeSOs!\n"
+                        f"⏳ Next daily <t:{next_reset}:R>")
+            return
 
-    # Roll gacha
-    inventory = user.setdefault("inventory", {})
-    user["pity"] = user.get("pity", 0) + 1
+        # Deduct coin
+        user["coins"] -= 1
 
-    # Ensure blessed exists
-    if "blessed" not in user:
-        user["blessed"] = False
+        # Roll gacha
+        inventory = user.setdefault("inventory", {})
+        user["pity"] = user.get("pity", 0) + 1
 
-    # Check blessing
-    if user["blessed"]:
-        # Only allow weight <= 5
-        blessed_prizes = [p for p in prizes if p["weight"] <= 5]
+        # Ensure blessed exists
+        if "blessed" not in user:
+            user["blessed"] = False
 
-        names = [p["name"] for p in blessed_prizes]
-        weights = [p["weight"] for p in blessed_prizes]
+        # Check blessing
+        if user["blessed"]:
+            # Only allow weight <= 5
+            blessed_prizes = [p for p in prizes if p["weight"] <= 5]
 
-        result = random.choices(names, weights=weights, k=1)[0]
-
-        user["blessed"] = False  # consume blessing
-
-        if result not in inventory:
-            user["pity"] = 0
-    elif user["pity"] >= PITY_LIM:
-        # Find prizes user doesn't own yet
-        unowned_prizes = [p for p in prizes if p["name"] not in inventory]
-
-        pity_pool = [p for p in unowned_prizes if p["weight"] != 1]
-        if pity_pool:
-            # Pity trigger
-            # Force new item
-            names = [p["name"] for p in pity_pool]
-            weights = [p["weight"] for p in pity_pool]
+            names = [p["name"] for p in blessed_prizes]
+            weights = [p["weight"] for p in blessed_prizes]
 
             result = random.choices(names, weights=weights, k=1)[0]
-            user["pity"] = 0  # Reset pity
+
+            user["blessed"] = False  # consume blessing
+
+            if result not in inventory:
+                user["pity"] = 0
+        elif user["pity"] >= PITY_LIM:
+            # Find prizes user doesn't own yet
+            unowned_prizes = [p for p in prizes if p["name"] not in inventory]
+
+            pity_pool = [p for p in unowned_prizes if p["weight"] != 1]
+            if pity_pool:
+                # Pity trigger
+                # Force new item
+                names = [p["name"] for p in pity_pool]
+                weights = [p["weight"] for p in pity_pool]
+
+                result = random.choices(names, weights=weights, k=1)[0]
+                user["pity"] = 0  # Reset pity
+            else:
+                names = [p["name"] for p in prizes]
+                weights = [p["weight"] for p in prizes]
+
+                result = random.choices(names, weights=weights, k=1)[0]
+                # Reset pity if new item obtained naturally
+                if result not in inventory:
+                    user["pity"] = 0
+
         else:
             names = [p["name"] for p in prizes]
             weights = [p["weight"] for p in prizes]
 
             result = random.choices(names, weights=weights, k=1)[0]
+
             # Reset pity if new item obtained naturally
             if result not in inventory:
                 user["pity"] = 0
 
-    else:
-        names = [p["name"] for p in prizes]
-        weights = [p["weight"] for p in prizes]
+        # Update inventory
+        inventory = user.setdefault("inventory", {})
+        inventory[result] = inventory.get(result, 0) + 1
 
-        result = random.choices(names, weights=weights, k=1)[0]
+        update_file(USERS_URL, user_data, user_sha)
 
-        # Reset pity if new item obtained naturally
-        if result not in inventory:
-            user["pity"] = 0
+        # Find the prize object with the name
+        prize_obj = next((p for p in prizes if p["name"] == result), None)
+        if prize_obj is None:
+            await ctx.send(f"Error: prize '{result}' not found in JSON.")
+            return
 
-    # Update inventory
-    inventory = user.setdefault("inventory", {})
-    inventory[result] = inventory.get(result, 0) + 1
+        image_file = prize_obj["image"]
+        image_url = BASE_IMAGE_URL + image_file
 
-    update_file(USERS_URL, user_data, user_sha)
+        # Send embed
+        # Determine rarity
+        weight = prize_obj["weight"]
 
-    # Find the prize object with the name
-    prize_obj = next((p for p in prizes if p["name"] == result), None)
-    if prize_obj is None:
-        await ctx.send(f"Error: prize '{result}' not found in JSON.")
-        return
-
-    image_file = prize_obj["image"]
-    image_url = BASE_IMAGE_URL + image_file
-
-    # Send embed
-    # Determine rarity
-    weight = prize_obj["weight"]
-
-    rarity_message = ""
-    embed_color = discord.Color.gold()
-
-    if weight == 1:
-        rarity_message = "🚨🔥🚨🔥🚨 **LUDICROUSLY RARE!!!** 🚨🔥🚨🔥🚨"
+        rarity_message = ""
         embed_color = discord.Color.gold()
-    elif weight <= 5:
-        rarity_message = "🌟🌟🌟 **ULTRA RARE!!** 🌟🌟🌟"
-        embed_color = discord.Color.purple()
-    elif weight <= 25:
-        rarity_message = "✨ **RARE!** ✨"
-        embed_color = discord.Color.blue()
 
-    description = f"{ctx.author.mention} pulled **{result}**!\n{rarity_message}\n\n🪙 WMGpeSOs left: {user['coins']}"
+        if weight == 1:
+            rarity_message = "🚨🔥🚨🔥🚨 **LUDICROUSLY RARE!!!** 🚨🔥🚨🔥🚨"
+            embed_color = discord.Color.gold()
+        elif weight <= 5:
+            rarity_message = "🌟🌟🌟 **ULTRA RARE!!** 🌟🌟🌟"
+            embed_color = discord.Color.purple()
+        elif weight <= 25:
+            rarity_message = "✨ **RARE!** ✨"
+            embed_color = discord.Color.blue()
 
-    if daily_coin_used:
-        description += "\n🌅 Daily pull used!"
+        description = f"{ctx.author.mention} pulled **{result}**!\n{rarity_message}\n\n🪙 WMGpeSOs left: {user['coins']}"
 
-    # Build embed
-    embed = discord.Embed(title="🎰 Gacha Pull!",
-                          description=description,
-                          color=embed_color)
+        if daily_coin_used:
+            description += "\n🌅 Daily pull used!"
 
-    embed.set_image(url=image_url)
+        # Build embed
+        embed = discord.Embed(title="🎰 Gacha Pull!",
+                            description=description,
+                            color=embed_color)
 
-    await ctx.send(embed=embed)
+        embed.set_image(url=image_url)
+
+        await ctx.send(embed=embed)
 
 
 # =========================
@@ -387,23 +389,25 @@ async def addcoin(ctx, member: discord.Member, amount: int = 1):
     if ctx.author.id not in ADMIN_IDS:
         await ctx.send("❌ You don't have permission to use this.")
         return
+    
+    async with github_lock:
 
-    user_data, user_sha = get_file(USERS_URL)
-    users = user_data.setdefault("users", {})
+        user_data, user_sha = get_file(USERS_URL)
+        users = user_data.setdefault("users", {})
 
-    user_id = str(member.id)
+        user_id = str(member.id)
 
-    if user_id not in users:
-        users[user_id] = {
-            "inventory": {},
-            "coins": 0,
-            "last_daily": today_string(),
-            "pity": 0
-        }
+        if user_id not in users:
+            users[user_id] = {
+                "inventory": {},
+                "coins": 0,
+                "last_daily": today_string(),
+                "pity": 0
+            }
 
-    users[user_id]["coins"] += amount
+        users[user_id]["coins"] += amount
 
-    update_file(USERS_URL, user_data, user_sha)
+        update_file(USERS_URL, user_data, user_sha)
 
     await ctx.send(f"🪙 Gave {amount} WMGpeSO(s) to {member.mention}.")
 
@@ -535,75 +539,77 @@ async def acheivements(ctx):
 
 @bot.command()
 async def redeem(ctx, *, achievement_name):
-    # Load files
-    prize_data, _ = get_file(PRIZES_URL)
-    user_data, user_sha = get_file(USERS_URL)
+    async with github_lock:
 
-    achievements = prize_data.get("achievements", {})
-    users = user_data.setdefault("users", {})
+        # Load files
+        prize_data, _ = get_file(PRIZES_URL)
+        user_data, user_sha = get_file(USERS_URL)
 
-    user_id = str(ctx.author.id)
+        achievements = prize_data.get("achievements", {})
+        users = user_data.setdefault("users", {})
 
-    # User check
-    if user_id not in users:
-        await ctx.send("❌ You have no inventory yet.")
-        return
+        user_id = str(ctx.author.id)
 
-    # Achievement exists?
-    if achievement_name not in achievements:
-        await ctx.send("❌ Achievement not found.")
-        return
+        # User check
+        if user_id not in users:
+            await ctx.send("❌ You have no inventory yet.")
+            return
 
-    achievement = achievements[achievement_name]
+        # Achievement exists?
+        if achievement_name not in achievements:
+            await ctx.send("❌ Achievement not found.")
+            return
 
-    inventory = users[user_id].setdefault("inventory", {})
-    claims = users[user_id].setdefault("achievement_claims", {})
+        achievement = achievements[achievement_name]
 
-    items = achievement["items"]
+        inventory = users[user_id].setdefault("inventory", {})
+        claims = users[user_id].setdefault("achievement_claims", {})
 
-    # Reward structure
-    reward = achievement.get("reward")
+        items = achievement["items"]
 
-    if reward is None:
-        await ctx.send("❌ This achievement has no reward configured. (Help suggest one)")
-        return
+        # Reward structure
+        reward = achievement.get("reward")
+
+        if reward is None:
+            await ctx.send("❌ This achievement has no reward configured. (Help suggest one)")
+            return
 
 
-    # Number already redeemed
-    claimed_count = claims.get(achievement_name, 0)
+        # Number already redeemed
+        claimed_count = claims.get(achievement_name, 0)
 
-    # Compute redeemability
-    effective_counts = []
+        # Compute redeemability
+        effective_counts = []
 
-    for req in items:
+        for req in items:
 
-        # Any-of group
-        if isinstance(req, list):
+            # Any-of group
+            if isinstance(req, list):
 
-            remaining = max(
-                inventory.get(item, 0) - claimed_count
-                for item in req
+                remaining = max(
+                    inventory.get(item, 0) - claimed_count
+                    for item in req
+                )
+
+            else:
+                remaining = inventory.get(req, 0) - claimed_count
+
+            effective_counts.append(max(0, remaining))
+
+        redeemable = min(effective_counts)
+
+        # Must have a full redeemable set
+        if redeemable <= 0:
+            await ctx.send(
+                "❌ You do not currently have a full redeemable set."
             )
+            return
 
-        else:
-            remaining = inventory.get(req, 0) - claimed_count
+        # Track redemption
+        claims[achievement_name] = claimed_count + 1
 
-        effective_counts.append(max(0, remaining))
-
-    redeemable = min(effective_counts)
-
-    # Must have a full redeemable set
-    if redeemable <= 0:
-        await ctx.send(
-            "❌ You do not currently have a full redeemable set."
-        )
-        return
-
-    # Track redemption
-    claims[achievement_name] = claimed_count + 1
-
-    # Save
-    update_file(USERS_URL, user_data, user_sha)
+        # Save
+        update_file(USERS_URL, user_data, user_sha)
 
     # Embed
     image_url = BASE_IMAGE_URL + reward

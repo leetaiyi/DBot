@@ -5,6 +5,9 @@ import base64
 import json
 
 from config import GITHUB_TOKEN
+import asyncio
+
+github_lock = asyncio.Lock()
 
 headers = {
     "Authorization": f"Bearer {GITHUB_TOKEN}",
