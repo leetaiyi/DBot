@@ -1429,7 +1429,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 3,
         "Ben": 1,
@@ -1448,7 +1448,7 @@
         "Objection!": 1,
         "Ollidammara": 1,
         "Sake": 2,
-        "Leia (apples)": 1,
+        "Leia (apples)": 2,
         "Percy": 1,
         "Sawyer": 1,
         "David": 2,
@@ -1462,7 +1462,7 @@
         "Kazoo David": 1
       },
       "last_daily": "2026-08-11",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
