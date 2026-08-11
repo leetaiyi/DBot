@@ -288,7 +288,6 @@ async def inventory(ctx):
 
     prizes = prize_data["prizes"]
     users = user_data.get("users", {})
-    claims = user.setdefault("achievement_claims", {})
 
     user_id = str(ctx.author.id)
 
@@ -298,6 +297,7 @@ async def inventory(ctx):
         return
 
     user = users[user_id]
+    claims = user.setdefault("achievement_claims", {})
 
     inventory = user.get("inventory", {})
     coins = user.get("coins", 0)
@@ -568,8 +568,6 @@ async def redeem(ctx, *, achievement_name):
         await ctx.send("❌ This achievement has no reward configured. (Help suggest one)")
         return
 
-    reward_name = reward["name"]
-    reward_image = reward["image"]
 
     # Number already redeemed
     claimed_count = claims.get(achievement_name, 0)
@@ -601,9 +599,6 @@ async def redeem(ctx, *, achievement_name):
         )
         return
 
-    # Grant reward
-    inventory[reward_name] = inventory.get(reward_name, 0) + 1
-
     # Track redemption
     claims[achievement_name] = claimed_count + 1
 
@@ -611,14 +606,13 @@ async def redeem(ctx, *, achievement_name):
     update_file(USERS_URL, user_data, user_sha)
 
     # Embed
-    image_url = BASE_IMAGE_URL + reward_image
+    image_url = BASE_IMAGE_URL + reward
 
     embed = discord.Embed(
         title="🏆 Achievement Redeemed!",
         description=(
             f"{ctx.author.mention} redeemed "
-            f"**{achievement_name}**!\n\n"
-            f"🎁 Received **{reward_name}**!"
+            f"**{achievement_name}**!"
         ),
         color=discord.Color.dark_gold()
     )
