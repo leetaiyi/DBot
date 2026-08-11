@@ -1429,7 +1429,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 3,
         "Ben": 1,
@@ -1458,10 +1458,11 @@
         "Tomyris": 2,
         "Morpheus": 1,
         "Amadeus2": 2,
-        "Benjamin (bandana)": 1
+        "Benjamin (bandana)": 1,
+        "Kazoo David": 1
       },
       "last_daily": "2026-08-11",
-      "pity": 2,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
