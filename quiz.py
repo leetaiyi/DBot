@@ -94,6 +94,9 @@ def generate_question(question_type):
 
     key_index = random.randrange(len(KEYS))
     key = KEYS[key_index]
+    question_data = {
+        "key_index": key_index
+    }
 
     major = key[0]
     minor = key[1]
@@ -329,9 +332,6 @@ def setup_quiz(bot):
             await ctx.send("You've already completed today's quiz.")
             return
 
-        key = KEYS[quiz["key_index"]]
-        reference, asked = quiz["question"]
-
         # Initialize quiz statistics
         quiz_stats = user.setdefault("quiz_stats", {})
         quiz_stats.setdefault("attempts", 0)
@@ -356,6 +356,7 @@ def setup_quiz(bot):
             )
 
         else:
+            update_file(USERS_URL, user_data, user_sha)
             await ctx.send(
                 f"Incorrect.\n"
                 f"The correct answer was **{quiz["answer"]}**."
