@@ -503,13 +503,13 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-10",
-        "key_index": 0,
+        "date": "2026-08-11",
+        "key_index": 12,
         "question": [
-          0,
+          1,
           2
         ],
-        "completed": true
+        "completed": false
       }
     },
     "277552214342631424": {
