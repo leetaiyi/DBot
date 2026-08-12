@@ -905,10 +905,10 @@
           "key_index": 6,
           "mode_index": 6
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 5,
+        "attempts": 6,
         "correct": 5
       }
     },
