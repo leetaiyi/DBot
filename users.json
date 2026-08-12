@@ -1252,13 +1252,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-08",
-        "key_index": 11,
-        "question": [
-          0,
-          2
-        ],
-        "completed": true
+        "date": "2026-08-12",
+        "type": "accidental_mode",
+        "question": "Which Aeolian scale has 1 flats?",
+        "answer": "D",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 1,
+          "mode_index": 5
+        },
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 5,
