@@ -66,7 +66,7 @@
     },
     "418102912221184001": {
       "inventory": {
-        "LaCat: Wassup": 6,
+        "LaCat: Wassup": 7,
         "Amanda": 2,
         "Willow": 1,
         "Bynx": 1,
@@ -148,8 +148,8 @@
         "AdaMario": 1
       },
       "coins": 0,
-      "last_daily": "2026-08-11",
-      "pity": 7,
+      "last_daily": "2026-08-12",
+      "pity": 8,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
