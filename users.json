@@ -2288,7 +2288,7 @@
         "Achelois": 1,
         "Amadeus2": 1,
         "LaCat: Wassup": 1,
-        "Objection!": 2,
+        "Objection!": 3,
         "Betty": 1,
         "Bilbo Bee": 1,
         "Capt Ben": 2,
@@ -2297,8 +2297,8 @@
         "Carbon Eyes": 1
       },
       "coins": 4,
-      "last_daily": "2026-08-11",
-      "pity": 0,
+      "last_daily": "2026-08-12",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-11",
