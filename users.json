@@ -2241,13 +2241,16 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 1,
-        "question": [
-          1,
-          2
-        ],
-        "completed": true
+        "date": "2026-08-12",
+        "type": "mode_accidental",
+        "question": "How many flats are in Bb Dorian?",
+        "answer": "4",
+        "example": "!answer 5",
+        "question_data": {
+          "key_index": 4,
+          "mode_index": 1
+        },
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 5,
