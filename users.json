@@ -2307,13 +2307,16 @@
       "pity": 1,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 13,
-        "question": [
-          1,
-          0
-        ],
-        "completed": true
+        "date": "2026-08-12",
+        "type": "accidental_mode",
+        "question": "Which Ionian scale has 7 flats?",
+        "answer": "Cb",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 7,
+          "mode_index": 0
+        },
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 5,
