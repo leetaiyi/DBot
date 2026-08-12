@@ -1580,7 +1580,7 @@
       "blessed": false
     },
     "429690196276019231": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Gabbro": 1,
         "Sad Jamin": 2,
@@ -1606,8 +1606,8 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 0,
-        "correct": 0
+        "attempts": 1,
+        "correct": 1
       },
       "daily_quiz": {
         "date": "2026-08-12",
@@ -1618,7 +1618,7 @@
         "question_data": {
           "key_index": 1
         },
-        "completed": false
+        "completed": true
       }
     },
     "361679054341931009": {
