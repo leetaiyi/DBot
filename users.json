@@ -1173,13 +1173,19 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 4,
-        "question": [
-          2,
-          1
-        ],
+        "date": "2026-08-12",
+        "type": "minor_major",
+        "question": "What is the relative major of A# minor?",
+        "answer": "C#",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 14
+        },
         "completed": false
+      },
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
       }
     },
     "316002379537317899": {
