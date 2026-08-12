@@ -1347,13 +1347,19 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 14,
-        "question": [
-          0,
-          2
-        ],
-        "completed": true
+        "date": "2026-08-12",
+        "type": "accidental_major",
+        "question": "What major key has 5 sharps?",
+        "answer": "B",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 12
+        },
+        "completed": false
+      },
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
       }
     },
     "418107361786331138": {
