@@ -66,7 +66,7 @@
     },
     "418102912221184001": {
       "inventory": {
-        "LaCat: Wassup": 6,
+        "LaCat: Wassup": 7,
         "Amanda": 2,
         "Willow": 1,
         "Bynx": 1,
@@ -148,8 +148,8 @@
         "AdaMario": 1
       },
       "coins": 0,
-      "last_daily": "2026-08-11",
-      "pity": 7,
+      "last_daily": "2026-08-12",
+      "pity": 8,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
@@ -426,7 +426,7 @@
         "Howl": 3,
         "Betty": 1,
         "Amanda": 2,
-        "Flash": 4,
+        "Flash": 5,
         "IDDOG": 1,
         "Ollidammara": 3,
         "Cerberus": 2,
@@ -500,8 +500,8 @@
         "Barely Legal John": 1,
         "?? Ben": 1
       },
-      "last_daily": "2026-08-11",
-      "pity": 2,
+      "last_daily": "2026-08-12",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -510,13 +510,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 12,
-        "question": [
-          1,
-          2
-        ],
-        "completed": false
+        "date": "2026-08-12",
+        "type": "minor_major",
+        "question": "What is the relative major of C# minor?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 11
+        },
+        "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 1,
+        "correct": 0
       }
     },
     "277552214342631424": {
@@ -613,7 +619,7 @@
         "Batta": 5,
         "Bella": 6,
         "Percy": 3,
-        "A Wild Artemis": 3,
+        "A Wild Artemis": 4,
         "Ben": 2,
         "Keyboard Carbon": 4,
         "Rose": 6,
@@ -669,7 +675,7 @@
         "Barely Legal John": 1,
         "Ellie as Moonmoon": 1,
         "Duet of the Fates": 1,
-        "Korok Couple": 1,
+        "Korok Couple": 2,
         "Willow Belly": 1,
         "Destruction and the Birds": 1,
         "AdaMario": 1,
@@ -679,8 +685,8 @@
         "LaCat: Belleh": 1,
         "Legendary Amanda": 1
       },
-      "last_daily": "2026-08-11",
-      "pity": 6,
+      "last_daily": "2026-08-12",
+      "pity": 8,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -691,13 +697,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 2,
-        "question": [
-          0,
-          1
-        ],
-        "completed": false
+        "date": "2026-08-12",
+        "type": "minor_major",
+        "question": "What is the relative major of C# minor?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 11
+        },
+        "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 1,
+        "correct": 1
       }
     },
     "184110334334730240": {
@@ -757,7 +769,7 @@
         "Sad Jamin": 1,
         "Noodle plays Pok\u00e9mon": 1,
         "Noodle": 2,
-        "Santa Murphy": 1,
+        "Santa Murphy": 2,
         "Snow Kiss": 2,
         "Benjamin (bandana)": 3,
         "Bilbo Bee": 2,
@@ -778,8 +790,8 @@
         "Listening to Rehearsal Recordings": 1,
         "Masabone": 1
       },
-      "last_daily": "2026-08-11",
-      "pity": 0,
+      "last_daily": "2026-08-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -851,7 +863,7 @@
         "Noodle plays Pok\u00e9mon": 2,
         "Santa Murphy": 2,
         "Snow Kiss": 1,
-        "YO!": 2,
+        "YO!": 3,
         "Sake+Ebi": 2,
         "Sake": 1,
         "Bigger litterbox pls": 1,
@@ -877,8 +889,8 @@
         "?? Ben": 1,
         "Carbon Eyes": 1
       },
-      "last_daily": "2026-08-11",
-      "pity": 0,
+      "last_daily": "2026-08-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -890,16 +902,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 3,
-        "question": [
-          2,
-          1
-        ],
+        "date": "2026-08-12",
+        "type": "accidental_mode",
+        "question": "Which Locrian scale has 6 flats?",
+        "answer": "F",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 6,
+          "mode_index": 6
+        },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 5,
+        "attempts": 6,
         "correct": 5
       }
     },
@@ -1117,7 +1132,7 @@
         "Kitchen Cat": 3,
         "Willow Belly": 2,
         "Live Gloriously!": 2,
-        "Amanda": 1,
+        "Amanda": 2,
         "Bella": 3,
         "Ebi": 1,
         "Noodle plays Pok\u00e9mon": 1,
@@ -1151,8 +1166,8 @@
         "Duet of the Fates": 1,
         "AdaMario": 1
       },
-      "last_daily": "2026-08-11",
-      "pity": 1,
+      "last_daily": "2026-08-12",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1164,13 +1179,19 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 4,
-        "question": [
-          2,
-          1
-        ],
-        "completed": false
+        "date": "2026-08-12",
+        "type": "minor_major",
+        "question": "What is the relative major of A# minor?",
+        "answer": "C#",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 14
+        },
+        "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 1,
+        "correct": 0
       }
     },
     "316002379537317899": {
@@ -1234,36 +1255,41 @@
         "Sawyer": 1,
         "Kitchen Cat": 3,
         "Cerberus": 1,
-        "Noodle": 1
+        "Noodle": 1,
+        "Capt Ben": 1,
+        "A Wild Artemis": 1
       },
-      "last_daily": "2026-08-08",
-      "pity": 2,
+      "last_daily": "2026-08-12",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-08",
-        "key_index": 11,
-        "question": [
-          0,
-          2
-        ],
+        "date": "2026-08-12",
+        "type": "accidental_mode",
+        "question": "Which Aeolian scale has 1 flats?",
+        "answer": "D",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 1,
+          "mode_index": 5
+        },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 5,
-        "correct": 5
+        "attempts": 6,
+        "correct": 6
       },
       "impatience": 1
     },
     "954136279296118885": {
-      "coins": 11,
+      "coins": 12,
       "inventory": {
         "Bynx": 6,
         "LaCat: Wassup": 2,
         "LaCat: Hypnosis": 5,
         "Ollidammara": 2,
         "Nova Fangly": 4,
-        "Cerberus": 5,
+        "Cerberus": 6,
         "Tomyris": 3,
         "Betty": 3,
         "Willow Snuggle": 4,
@@ -1324,8 +1350,8 @@
         "Santa Murphy": 1,
         "Amanda": 1
       },
-      "last_daily": "2026-08-10",
-      "pity": 0,
+      "last_daily": "2026-08-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1333,13 +1359,19 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 14,
-        "question": [
-          0,
-          2
-        ],
+        "date": "2026-08-12",
+        "type": "accidental_major",
+        "question": "What major key has 5 sharps?",
+        "answer": "B",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 12
+        },
         "completed": true
+      },
+      "quiz_stats": {
+        "attempts": 1,
+        "correct": 1
       }
     },
     "418107361786331138": {
@@ -1364,7 +1396,7 @@
         "Flash": 2,
         "Willow Belly": 1,
         "IDDOG": 4,
-        "Amanda": 1,
+        "Amanda": 2,
         "Sake+Ebi": 1,
         "Betty": 3,
         "Sawyer": 3,
@@ -1373,7 +1405,7 @@
         "Kazoo David": 4,
         "Coconut!": 3,
         "Zelda": 6,
-        "Maleficent": 5,
+        "Maleficent": 6,
         "John and Albino water monitor lizard": 3,
         "Live Gloriously!": 2,
         "Ebi": 2,
@@ -1423,8 +1455,8 @@
         "Destruction and the Birds": 1,
         "Duet of the Fates": 1
       },
-      "last_daily": "2026-08-11",
-      "pity": 0,
+      "last_daily": "2026-08-12",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1435,20 +1467,20 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "type": "accidental_mode",
-        "question": "Which Dorian scale has 2 sharps?",
-        "answer": "E",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-08-12",
+        "type": "mode_accidental",
+        "question": "How many sharps are in B Mixolydian?",
+        "answer": "4",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 9,
-          "mode_index": 1
+          "key_index": 11,
+          "mode_index": 4
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 6,
-        "correct": 6
+        "attempts": 7,
+        "correct": 7
       }
     },
     "370310581716254723": {
@@ -1757,7 +1789,7 @@
         "Leia (apples)": 4,
         "Bynx": 2,
         "Barely Legal John": 1,
-        "Kitchen Cat": 4,
+        "Kitchen Cat": 5,
         "Ivan": 5,
         "Ben": 1,
         "Rose": 1,
@@ -1795,8 +1827,8 @@
         "Are You Dragon Tales?": 1,
         "Carbon Eyes": 1
       },
-      "last_daily": "2026-08-11",
-      "pity": 6,
+      "last_daily": "2026-08-12",
+      "pity": 7,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2164,7 +2196,7 @@
         "A Wild Artemis": 1,
         "Cerberus": 1,
         "Benjamin (bandana)": 3,
-        "IDDOG": 2,
+        "IDDOG": 3,
         "Noodle plays Pok\u00e9mon": 4,
         "Objection!": 2,
         "Ebi": 3,
@@ -2204,8 +2236,8 @@
         "Bratty Ryuu": 1,
         "Furiosa blesses you with wealth": 1
       },
-      "last_daily": "2026-08-11",
-      "pity": 1,
+      "last_daily": "2026-08-12",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2215,16 +2247,19 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 1,
-        "question": [
-          1,
-          2
-        ],
+        "date": "2026-08-12",
+        "type": "mode_accidental",
+        "question": "How many flats are in Bb Dorian?",
+        "answer": "4",
+        "example": "!answer 5",
+        "question_data": {
+          "key_index": 4,
+          "mode_index": 1
+        },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 5,
+        "attempts": 6,
         "correct": 5
       }
     },
@@ -2288,7 +2323,7 @@
         "Achelois": 1,
         "Amadeus2": 1,
         "LaCat: Wassup": 1,
-        "Objection!": 2,
+        "Objection!": 3,
         "Betty": 1,
         "Bilbo Bee": 1,
         "Capt Ben": 2,
@@ -2296,22 +2331,25 @@
         "Ellie as Moonmoon": 1,
         "Carbon Eyes": 1
       },
-      "coins": 4,
-      "last_daily": "2026-08-11",
-      "pity": 0,
+      "coins": 5,
+      "last_daily": "2026-08-12",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 13,
-        "question": [
-          1,
-          0
-        ],
+        "date": "2026-08-12",
+        "type": "accidental_mode",
+        "question": "Which Ionian scale has 7 flats?",
+        "answer": "Cb",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 7,
+          "mode_index": 0
+        },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 5,
-        "correct": 5
+        "attempts": 6,
+        "correct": 6
       }
     },
     "346044943795617792": {
