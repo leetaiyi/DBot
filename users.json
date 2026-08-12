@@ -1604,7 +1604,22 @@
       "last_daily": "2026-08-12",
       "pity": 1,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
+      },
+      "daily_quiz": {
+        "date": "2026-08-12",
+        "type": "minor_accidental",
+        "question": "How many flats does D minor have?",
+        "answer": "1",
+        "example": "!answer 4",
+        "question_data": {
+          "key_index": 1
+        },
+        "completed": false
+      }
     },
     "361679054341931009": {
       "coins": 0,
