@@ -510,13 +510,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 12,
-        "question": [
-          1,
-          2
-        ],
+        "date": "2026-08-12",
+        "type": "minor_major",
+        "question": "What is the relative major of C# minor?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 11
+        },
         "completed": false
+      },
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
       }
     },
     "277552214342631424": {
