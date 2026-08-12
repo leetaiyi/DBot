@@ -1349,7 +1349,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1379,7 +1379,7 @@
         "Kazoo David": 4,
         "Coconut!": 3,
         "Zelda": 6,
-        "Maleficent": 5,
+        "Maleficent": 6,
         "John and Albino water monitor lizard": 3,
         "Live Gloriously!": 2,
         "Ebi": 2,
@@ -1430,7 +1430,7 @@
         "Duet of the Fates": 1
       },
       "last_daily": "2026-08-12",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
