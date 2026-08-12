@@ -1215,7 +1215,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1244,7 +1244,8 @@
         "Kitchen Cat": 3,
         "Cerberus": 1,
         "Noodle": 1,
-        "Capt Ben": 1
+        "Capt Ben": 1,
+        "A Wild Artemis": 1
       },
       "last_daily": "2026-08-12",
       "pity": 0,
