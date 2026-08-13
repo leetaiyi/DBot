@@ -2269,16 +2269,15 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-12",
-        "type": "mode_accidental",
-        "question": "How many flats are in Bb Dorian?",
-        "answer": "4",
-        "example": "!answer 5",
+        "date": "2026-08-13",
+        "type": "major_minor",
+        "question": "What is the relative minor of F major?",
+        "answer": "D",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 1
+          "key_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 6,
