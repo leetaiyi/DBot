@@ -761,7 +761,7 @@
         "Belly Flash": 1,
         "Willow Belly": 1,
         "A Wild Artemis": 2,
-        "Kitchen Cat": 2,
+        "Kitchen Cat": 3,
         "Morpheus": 3,
         "King Baker": 1,
         "IDDOG": 1,
@@ -796,8 +796,8 @@
         "Listening to Rehearsal Recordings": 1,
         "Masabone": 1
       },
-      "last_daily": "2026-08-12",
-      "pity": 1,
+      "last_daily": "2026-08-13",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
