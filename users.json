@@ -1473,16 +1473,16 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-08-12",
+        "date": "2026-08-13",
         "type": "mode_accidental",
-        "question": "How many sharps are in B Mixolydian?",
-        "answer": "4",
+        "question": "How many sharps are in C# Dorian?",
+        "answer": "5",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 4
+          "key_index": 12,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 7,
