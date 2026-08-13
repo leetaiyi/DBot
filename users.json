@@ -1381,7 +1381,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1482,11 +1482,11 @@
           "key_index": 12,
           "mode_index": 1
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 7,
-        "correct": 7
+        "attempts": 8,
+        "correct": 8
       }
     },
     "370310581716254723": {
