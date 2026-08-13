@@ -908,16 +908,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-12",
-        "type": "accidental_mode",
-        "question": "Which Locrian scale has 6 flats?",
-        "answer": "F",
+        "date": "2026-08-13",
+        "type": "minor_major",
+        "question": "What is the relative major of D# minor?",
+        "answer": "F#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 6,
-          "mode_index": 6
+          "key_index": 13
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 6,
