@@ -2358,16 +2358,16 @@
       "pity": 1,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-12",
-        "type": "accidental_mode",
-        "question": "Which Ionian scale has 7 flats?",
-        "answer": "Cb",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-08-13",
+        "type": "mode_accidental",
+        "question": "How many sharps are in B Lydian?",
+        "answer": "6",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 7,
-          "mode_index": 0
+          "key_index": 13,
+          "mode_index": 3
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 6,
