@@ -163,10 +163,10 @@
         "question_data": {
           "key_index": 10
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 1,
+        "attempts": 2,
         "correct": 1
       }
     },
