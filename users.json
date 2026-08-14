@@ -1619,15 +1619,15 @@
         "correct": 1
       },
       "daily_quiz": {
-        "date": "2026-08-12",
-        "type": "minor_accidental",
-        "question": "How many flats does D minor have?",
+        "date": "2026-08-14",
+        "type": "major_accidental",
+        "question": "How many flats does F major have?",
         "answer": "1",
         "example": "!answer 4",
         "question_data": {
           "key_index": 1
         },
-        "completed": true
+        "completed": false
       }
     },
     "361679054341931009": {
