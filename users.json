@@ -1588,7 +1588,7 @@
       "blessed": false
     },
     "429690196276019231": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Gabbro": 1,
         "Sad Jamin": 2,
@@ -1609,7 +1609,8 @@
         "Bella": 1,
         "Nova Fangly": 1,
         "Coconut!": 1,
-        "Benjamin (bandana)": 1
+        "Benjamin (bandana)": 1,
+        "IDDOG": 1
       },
       "last_daily": "2026-08-14",
       "pity": 0,
