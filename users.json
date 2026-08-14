@@ -2423,7 +2423,7 @@
         "YO!": 1,
         "Batta": 1,
         "Belly Flash": 1,
-        "Kitchen Cat": 1,
+        "Kitchen Cat": 2,
         "AdaMario": 1,
         "Ellie as Moonmoon": 1,
         "Ebi": 1,
@@ -2437,8 +2437,8 @@
         "Cerberus": 1,
         "Sad Jamin": 1
       },
-      "last_daily": "2026-08-13",
-      "pity": 0,
+      "last_daily": "2026-08-14",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "impatience": 3
