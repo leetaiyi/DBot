@@ -1366,15 +1366,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-13",
-        "type": "major_minor",
-        "question": "What is the relative minor of F major?",
+        "date": "2026-08-14",
+        "type": "accidental_mode",
+        "question": "Which Phrygian scale has 2 flats?",
         "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1
+          "key_index": 2,
+          "mode_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 5,
