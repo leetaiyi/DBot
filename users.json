@@ -2376,10 +2376,10 @@
         "question_data": {
           "key_index": 5
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 7,
+        "attempts": 8,
         "correct": 6
       }
     },
