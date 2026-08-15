@@ -608,7 +608,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 3,
@@ -618,7 +618,7 @@
         "Amanda": 2,
         "Oreo": 3,
         "Howl": 3,
-        "LaCat: Wassup": 6,
+        "LaCat: Wassup": 7,
         "Willow": 2,
         "Willow Snuggle": 4,
         "Flash": 2,
@@ -692,7 +692,7 @@
         "Legendary Amanda": 1
       },
       "last_daily": "2026-08-15",
-      "pity": 11,
+      "pity": 12,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
