@@ -1396,7 +1396,7 @@
         "Cerberus": 3,
         "Ivan": 2,
         "Willow": 3,
-        "Keyboard Carbon": 1,
+        "Keyboard Carbon": 2,
         "Bynx": 2,
         "Morpheus": 3,
         "Amadeus": 2,
@@ -1467,8 +1467,8 @@
         "Korok Couple": 1,
         "Are You Dragon Tales?": 1
       },
-      "last_daily": "2026-08-14",
-      "pity": 0,
+      "last_daily": "2026-08-15",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
