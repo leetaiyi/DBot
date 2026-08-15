@@ -1188,15 +1188,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-14",
-        "type": "minor_major",
-        "question": "What is the relative major of Eb minor?",
-        "answer": "Gb",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-08-15",
+        "type": "minor_accidental",
+        "question": "How many flats does C minor have?",
+        "answer": "3",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 6
+          "key_index": 3
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 3,
