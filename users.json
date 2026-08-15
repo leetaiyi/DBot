@@ -2291,10 +2291,10 @@
         "question_data": {
           "key_index": 14
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 8,
+        "attempts": 9,
         "correct": 7
       }
     },
