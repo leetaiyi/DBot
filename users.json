@@ -2283,15 +2283,15 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-14",
-        "type": "accidental_minor",
-        "question": "What minor key has 1 flats?",
-        "answer": "D",
+        "date": "2026-08-15",
+        "type": "major_minor",
+        "question": "What is the relative minor of C# major?",
+        "answer": "A#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1
+          "key_index": 14
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 8,
