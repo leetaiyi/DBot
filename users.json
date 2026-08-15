@@ -2379,10 +2379,10 @@
         "question_data": {
           "key_index": 12
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 8,
+        "attempts": 9,
         "correct": 6
       }
     },
