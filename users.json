@@ -1385,7 +1385,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1445,7 +1445,7 @@
         "YO!": 2,
         "Capt Ben": 1,
         "Belly Flash": 1,
-        "Kitchen Cat": 3,
+        "Kitchen Cat": 4,
         "Benjamin (bandana)": 1,
         "LaCat: Hypnosis": 1,
         "Bratty Ryuu": 1,
@@ -1468,7 +1468,7 @@
         "Are You Dragon Tales?": 1
       },
       "last_daily": "2026-08-15",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
