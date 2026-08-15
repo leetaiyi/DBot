@@ -910,15 +910,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-14",
-        "type": "minor_accidental",
-        "question": "How many flats does Eb minor have?",
-        "answer": "6",
-        "example": "!answer 4",
+        "date": "2026-08-15",
+        "type": "major_minor",
+        "question": "What is the relative minor of Cb major?",
+        "answer": "Ab",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 6
+          "key_index": 7
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 8,
