@@ -74,7 +74,7 @@
         "Ivan": 2,
         "Oreo": 4,
         "Artemis Dee": 3,
-        "Batta": 3,
+        "Batta": 4,
         "Maleficent": 6,
         "A Wild Artemis": 2,
         "Mishka": 6,
@@ -148,8 +148,8 @@
         "AdaMario": 1
       },
       "coins": 0,
-      "last_daily": "2026-08-14",
-      "pity": 11,
+      "last_daily": "2026-08-15",
+      "pity": 12,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
