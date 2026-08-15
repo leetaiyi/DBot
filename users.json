@@ -516,15 +516,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-14",
+        "date": "2026-08-15",
         "type": "major_accidental",
-        "question": "How many flats does Gb major have?",
-        "answer": "6",
+        "question": "How many sharps does C# major have?",
+        "answer": "7",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 6
+          "key_index": 14
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 3,
