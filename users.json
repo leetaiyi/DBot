@@ -1537,13 +1537,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-11",
-        "key_index": 1,
-        "question": [
-          1,
-          2
-        ],
-        "completed": true
+        "date": "2026-08-16",
+        "type": "mode_accidental",
+        "question": "How many sharps are in A# Locrian?",
+        "answer": "5",
+        "example": "!answer 5",
+        "question_data": {
+          "key_index": 12,
+          "mode_index": 6
+        },
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 5,
