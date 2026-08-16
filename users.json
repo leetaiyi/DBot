@@ -1499,7 +1499,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Bynx": 3,
         "Ben": 1,
@@ -1546,11 +1546,11 @@
           "key_index": 12,
           "mode_index": 6
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 5,
-        "correct": 5
+        "attempts": 6,
+        "correct": 6
       }
     },
     "339576678902923274": {
