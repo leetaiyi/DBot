@@ -1870,16 +1870,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-14",
-        "type": "mode_accidental",
-        "question": "How many flats are in Bb Dorian?",
-        "answer": "4",
-        "example": "!answer 5",
+        "date": "2026-08-16",
+        "type": "minor_accidental",
+        "question": "How many sharps does G# minor have?",
+        "answer": "5",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 1
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 6,
