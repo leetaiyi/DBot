@@ -2357,7 +2357,7 @@
         "Snow Kiss": 1,
         "?? Ben": 1,
         "Gabbro": 2,
-        "Willow": 1,
+        "Willow": 2,
         "Loki Loodelally": 1,
         "Ben": 1,
         "Amanda": 1,
@@ -2377,8 +2377,8 @@
         "Santa Murphy": 1
       },
       "coins": 5,
-      "last_daily": "2026-08-16",
-      "pity": 0,
+      "last_daily": "2026-08-17",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-16",
