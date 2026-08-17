@@ -1486,16 +1486,16 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-08-16",
-        "type": "mode_accidental",
-        "question": "How many sharps are in D# Dorian?",
-        "answer": "7",
-        "example": "!answer 5",
+        "date": "2026-08-17",
+        "type": "accidental_mode",
+        "question": "Which Ionian scale has 2 flats?",
+        "answer": "Bb",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 14,
-          "mode_index": 1
+          "key_index": 2,
+          "mode_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 11,
