@@ -2299,10 +2299,10 @@
         "question_data": {
           "key_index": 9
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 10,
+        "attempts": 11,
         "correct": 8
       }
     },
