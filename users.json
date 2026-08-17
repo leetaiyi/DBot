@@ -2376,7 +2376,7 @@
         "David": 1,
         "Santa Murphy": 1
       },
-      "coins": 5,
+      "coins": 6,
       "last_daily": "2026-08-17",
       "pity": 1,
       "blessed": false,
@@ -2389,11 +2389,11 @@
         "question_data": {
           "key_index": 11
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 10,
-        "correct": 6
+        "attempts": 11,
+        "correct": 7
       }
     },
     "346044943795617792": {
