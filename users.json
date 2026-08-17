@@ -1391,7 +1391,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1407,7 +1407,7 @@
         "Morpheus": 3,
         "Amadeus": 2,
         "Rose": 6,
-        "Artemis Dee": 1,
+        "Artemis Dee": 2,
         "Sake": 3,
         "Flash": 3,
         "Willow Belly": 1,
@@ -1475,7 +1475,7 @@
         "AdaMario": 1
       },
       "last_daily": "2026-08-17",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
