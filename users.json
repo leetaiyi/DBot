@@ -516,15 +516,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-16",
-        "type": "major_accidental",
-        "question": "How many flats does Gb major have?",
-        "answer": "6",
-        "example": "!answer 4",
+        "date": "2026-08-17",
+        "type": "minor_major",
+        "question": "What is the relative major of C# minor?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 6
+          "key_index": 11
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 5,
