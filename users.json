@@ -524,10 +524,10 @@
         "question_data": {
           "key_index": 11
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 5,
+        "attempts": 6,
         "correct": 1
       }
     },
