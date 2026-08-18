@@ -516,15 +516,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-17",
-        "type": "minor_major",
-        "question": "What is the relative major of C# minor?",
-        "answer": "E",
+        "date": "2026-08-18",
+        "type": "accidental_major",
+        "question": "What major key has 5 sharps?",
+        "answer": "B",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 6,
