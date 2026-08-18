@@ -1125,7 +1125,7 @@
         "Amadeus": 2,
         "Amadeus2": 3,
         "Carbon": 5,
-        "David": 4,
+        "David": 5,
         "Oreo": 3,
         "Maleficent": 3,
         "Sawyer": 5,
@@ -1177,8 +1177,8 @@
         "GengArtemis": 1,
         "Listening to Rehearsal Recordings": 1
       },
-      "last_daily": "2026-08-17",
-      "pity": 1,
+      "last_daily": "2026-08-18",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
