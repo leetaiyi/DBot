@@ -1190,15 +1190,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-17",
-        "type": "major_minor",
-        "question": "What is the relative minor of Cb major?",
-        "answer": "Ab",
+        "date": "2026-08-18",
+        "type": "minor_major",
+        "question": "What is the relative major of B minor?",
+        "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7
+          "key_index": 9
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 6,
