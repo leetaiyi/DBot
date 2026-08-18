@@ -1942,7 +1942,7 @@
         "Leia (apples)": 2,
         "Percy": 1,
         "Achelois": 1,
-        "Bynx": 3,
+        "Bynx": 4,
         "Coconut!": 1,
         "A Wild Artemis": 1,
         "Betty": 2,
@@ -1962,8 +1962,8 @@
         "Santa Murphy": 1,
         "Sad Jamin": 1
       },
-      "last_daily": "2026-08-17",
-      "pity": 0,
+      "last_daily": "2026-08-18",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
