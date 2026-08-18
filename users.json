@@ -2293,15 +2293,15 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-17",
+        "date": "2026-08-18",
         "type": "minor_major",
-        "question": "What is the relative major of B minor?",
-        "answer": "D",
+        "question": "What is the relative major of D# minor?",
+        "answer": "F#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 9
+          "key_index": 13
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 11,
