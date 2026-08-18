@@ -815,14 +815,14 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
         "Howl": 3,
         "Objection!": 3,
         "Ollidammara": 5,
-        "Betty": 5,
+        "Betty": 6,
         "John and Albino water monitor lizard": 2,
         "A Wild Artemis": 4,
         "Mishka": 6,
@@ -899,7 +899,7 @@
         "Duet of the Fates": 1
       },
       "last_daily": "2026-08-18",
-      "pity": 5,
+      "pity": 6,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
