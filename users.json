@@ -2383,15 +2383,15 @@
       "pity": 1,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-17",
-        "type": "accidental_minor",
-        "question": "What minor key has 4 sharps?",
-        "answer": "C#",
+        "date": "2026-08-19",
+        "type": "major_minor",
+        "question": "What is the relative minor of Ab major?",
+        "answer": "F",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11
+          "key_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 11,
