@@ -1189,15 +1189,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-18",
-        "type": "minor_major",
-        "question": "What is the relative major of B minor?",
-        "answer": "D",
+        "date": "2026-08-19",
+        "type": "accidental_minor",
+        "question": "What minor key has 6 flats?",
+        "answer": "Eb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 9
+          "key_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 7,
