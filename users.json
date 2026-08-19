@@ -1784,7 +1784,7 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 2,
         "Capt Ben": 5,
@@ -1793,7 +1793,7 @@
         "Belly Flash": 1,
         "Gabbro": 4,
         "Howl": 2,
-        "Sadge Ryuu": 3,
+        "Sadge Ryuu": 4,
         "Flash": 2,
         "Mishka": 3,
         "Bilbo Bee": 1,
@@ -1868,7 +1868,7 @@
         "Carbon Eyes": 1
       },
       "last_daily": "2026-08-19",
-      "pity": 15,
+      "pity": 16,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
