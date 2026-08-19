@@ -1540,16 +1540,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-16",
-        "type": "mode_accidental",
-        "question": "How many sharps are in A# Locrian?",
-        "answer": "5",
-        "example": "!answer 5",
+        "date": "2026-08-19",
+        "type": "accidental_mode",
+        "question": "Which Ionian scale has 4 flats?",
+        "answer": "Ab",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 12,
-          "mode_index": 6
+          "key_index": 4,
+          "mode_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 6,
