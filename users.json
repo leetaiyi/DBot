@@ -2365,7 +2365,7 @@
         "Amanda": 1,
         "King Baker": 1,
         "Howl": 1,
-        "Achelois": 1,
+        "Achelois": 2,
         "Amadeus2": 1,
         "LaCat: Wassup": 1,
         "Objection!": 3,
@@ -2379,8 +2379,8 @@
         "Santa Murphy": 1
       },
       "coins": 7,
-      "last_daily": "2026-08-17",
-      "pity": 1,
+      "last_daily": "2026-08-19",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-19",
