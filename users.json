@@ -816,7 +816,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
@@ -869,7 +869,7 @@
         "Tomyris": 2,
         "Artemis Dee": 1,
         "Noodle plays Pok\u00e9mon": 2,
-        "Santa Murphy": 3,
+        "Santa Murphy": 4,
         "Snow Kiss": 1,
         "YO!": 3,
         "Sake+Ebi": 2,
@@ -900,7 +900,7 @@
         "Duet of the Fates": 1
       },
       "last_daily": "2026-08-20",
-      "pity": 9,
+      "pity": 10,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
