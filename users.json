@@ -2297,15 +2297,15 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-19",
-        "type": "major_accidental",
-        "question": "How many flats does Db major have?",
-        "answer": "5",
-        "example": "!answer 4",
+        "date": "2026-08-20",
+        "type": "major_minor",
+        "question": "What is the relative minor of C# major?",
+        "answer": "A#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5
+          "key_index": 14
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 13,
