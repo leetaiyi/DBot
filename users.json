@@ -2304,15 +2304,15 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-20",
-        "type": "major_minor",
-        "question": "What is the relative minor of C# major?",
-        "answer": "A#",
+        "date": "2026-08-21",
+        "type": "accidental_minor",
+        "question": "What minor key has 6 sharps?",
+        "answer": "D#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 14
+          "key_index": 13
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 14,
