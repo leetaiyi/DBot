@@ -703,15 +703,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-20",
+        "date": "2026-08-21",
         "type": "minor_accidental",
-        "question": "How many sharps does F# minor have?",
-        "answer": "3",
+        "question": "How many flats does Eb minor have?",
+        "answer": "6",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 10
+          "key_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 7,
