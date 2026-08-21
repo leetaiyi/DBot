@@ -20,7 +20,7 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 REPO_OWNER = "leetaiyi"
 REPO_NAME = "DBot"
 
-PITY_LIM = 3
+PITY_LIM = 5
 
 BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/data/WM%20Gacha/"
 
