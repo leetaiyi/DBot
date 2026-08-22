@@ -2306,15 +2306,15 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-08-21",
+        "date": "2026-08-22",
         "type": "accidental_minor",
-        "question": "What minor key has 6 sharps?",
-        "answer": "D#",
+        "question": "What minor key has 5 flats?",
+        "answer": "Bb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 13
+          "key_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 15,
