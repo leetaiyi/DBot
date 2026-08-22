@@ -816,7 +816,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
@@ -834,7 +834,7 @@
         "Ivan": 6,
         "Maleficent": 3,
         "Batta": 1,
-        "Ebi": 6,
+        "Ebi": 7,
         "Gabbro": 5,
         "Flash": 4,
         "Korok Couple": 1,
@@ -900,7 +900,7 @@
         "Duet of the Fates": 1
       },
       "last_daily": "2026-08-22",
-      "pity": 11,
+      "pity": 12,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
