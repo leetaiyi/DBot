@@ -1882,15 +1882,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-19",
-        "type": "minor_accidental",
-        "question": "How many flats does Eb minor have?",
-        "answer": "6",
-        "example": "!answer 4",
+        "date": "2026-08-22",
+        "type": "accidental_minor",
+        "question": "What minor key has 2 sharps?",
+        "answer": "B",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 6
+          "key_index": 9
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 8,
