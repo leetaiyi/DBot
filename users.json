@@ -1788,9 +1788,9 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
-        "Maleficent": 2,
+        "Maleficent": 3,
         "Capt Ben": 5,
         "Artemis Dee": 3,
         "A Wild Artemis": 3,
@@ -1872,7 +1872,7 @@
         "Carbon Eyes": 1
       },
       "last_daily": "2026-08-22",
-      "pity": 19,
+      "pity": 20,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
