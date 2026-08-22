@@ -1376,16 +1376,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-21",
-        "type": "mode_accidental",
-        "question": "How many flats are in Cb Ionian?",
-        "answer": "7",
-        "example": "!answer 5",
+        "date": "2026-08-22",
+        "type": "accidental_mode",
+        "question": "Which Aeolian scale has 1 flats?",
+        "answer": "D",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7,
-          "mode_index": 0
+          "key_index": 1,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 13,
