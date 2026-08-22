@@ -2218,7 +2218,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 10,
+      "coins": 9,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 3,
         "Kazoo David": 1,
@@ -2293,10 +2293,11 @@
         "Furiosa blesses you with wealth": 1,
         "Are You Dragon Tales?": 1,
         "Duet of the Fates": 1,
-        "Nova: The Absurd Beast": 1
+        "Nova: The Absurd Beast": 1,
+        "Willow Belly": 1
       },
       "last_daily": "2026-08-22",
-      "pity": 4,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
