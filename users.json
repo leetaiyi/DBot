@@ -2317,10 +2317,10 @@
         "question_data": {
           "key_index": 14
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 16,
+        "attempts": 17,
         "correct": 12
       }
     },
