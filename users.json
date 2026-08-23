@@ -1191,15 +1191,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-22",
-        "type": "minor_accidental",
-        "question": "How many sharps does B minor have?",
-        "answer": "2",
-        "example": "!answer 4",
+        "date": "2026-08-23",
+        "type": "major_minor",
+        "question": "What is the relative minor of Cb major?",
+        "answer": "Ab",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 9
+          "key_index": 7
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 10,
