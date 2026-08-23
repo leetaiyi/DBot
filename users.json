@@ -2401,15 +2401,15 @@
       "pity": 1,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-19",
-        "type": "major_minor",
-        "question": "What is the relative minor of Ab major?",
-        "answer": "F",
+        "date": "2026-08-23",
+        "type": "accidental_minor",
+        "question": "What minor key has 5 sharps?",
+        "answer": "G#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 4
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 12,
