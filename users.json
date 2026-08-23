@@ -1376,16 +1376,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-22",
+        "date": "2026-08-23",
         "type": "accidental_mode",
-        "question": "Which Aeolian scale has 1 flats?",
-        "answer": "D",
+        "question": "Which Aeolian scale has 0 flats?",
+        "answer": "A",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1,
+          "key_index": 0,
           "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 14,
