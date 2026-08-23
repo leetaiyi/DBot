@@ -1544,16 +1544,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-19",
+        "date": "2026-08-23",
         "type": "accidental_mode",
-        "question": "Which Ionian scale has 4 flats?",
+        "question": "Which Dorian scale has 6 flats?",
         "answer": "Ab",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 0
+          "key_index": 6,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 7,
