@@ -469,6 +469,11 @@
       "name": "Baby brother bother",
       "weight": 5,
       "image": "MoogleEllieGustave.png"
+    },
+    {
+      "name": "Mizu",
+      "weight": 40,
+      "image": "Mizu.png"
     }
   ],
   "achievements": {
