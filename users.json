@@ -1376,16 +1376,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-23",
+        "date": "2026-08-24",
         "type": "accidental_mode",
-        "question": "Which Aeolian scale has 0 flats?",
+        "question": "Which Ionian scale has 3 sharps?",
         "answer": "A",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 0,
-          "mode_index": 5
+          "key_index": 10,
+          "mode_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 15,
