@@ -429,6 +429,46 @@
       "name": "Destruction and the Birds",
       "weight": 4,
       "image": "dfbirds.gif"
+    },
+    {
+      "name": "Guardian Sphinx",
+      "weight": 40,
+      "image": "GuardianSphinx.png"
+    },
+    {
+      "name": "Rainbow Hairless",
+      "weight": 40,
+      "image": "RainbowHairless.png"
+    },
+    {
+      "name": "Moogle",
+      "weight": 40,
+      "image": "Moogle.png"
+    },
+    {
+      "name": "LARGE Moogle",
+      "weight": 25,
+      "image": "MoogleL.png"
+    },
+    {
+      "name": "Ellie",
+      "weight": 40,
+      "image": "EllieT.png"
+    },
+    {
+      "name": "Gustave",
+      "weight": 40,
+      "image": "Gustave.png"
+    },
+    {
+      "name": "Gustave Dodge",
+      "weight": 25,
+      "image": "GustaveD.png"
+    },
+    {
+      "name": "Baby brother bother",
+      "weight": 5,
+      "image": "MoogleEllieGustave.png"
     }
   ],
   "achievements": {
