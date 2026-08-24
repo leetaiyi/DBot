@@ -1191,15 +1191,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-23",
-        "type": "major_minor",
-        "question": "What is the relative minor of Cb major?",
-        "answer": "Ab",
+        "date": "2026-08-24",
+        "type": "accidental_minor",
+        "question": "What minor key has 3 sharps?",
+        "answer": "F#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7
+          "key_index": 10
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 11,
