@@ -912,7 +912,7 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-23",
+        "date": "2026-08-24",
         "type": "minor_accidental",
         "question": "How many flats does Eb minor have?",
         "answer": "6",
@@ -920,7 +920,7 @@
         "question_data": {
           "key_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 16,
