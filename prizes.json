@@ -474,6 +474,21 @@
       "name": "Mizu",
       "weight": 40,
       "image": "Mizu.png"
+    },
+    {
+      "name": " Benjamin (hidden)",
+      "weight": 25,
+      "image": "BenjaminH.png"
+    },
+    {
+      "name": "Leia hates dry food",
+      "weight": 25,
+      "image": "LeiaD.png"
+    },
+    {
+      "name": "Ben & Leia tart runneth over",
+      "weight": 5,
+      "image": "BenLeia.png"
     }
   ],
   "achievements": {
