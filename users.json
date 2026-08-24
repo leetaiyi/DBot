@@ -2311,15 +2311,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-23",
-        "type": "minor_accidental",
-        "question": "How many sharps does A# minor have?",
-        "answer": "7",
-        "example": "!answer 4",
+        "date": "2026-08-24",
+        "type": "accidental_major",
+        "question": "What major key has 6 sharps?",
+        "answer": "F#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 14
+          "key_index": 13
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 17,
