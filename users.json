@@ -711,10 +711,10 @@
         "question_data": {
           "key_index": 12
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 9,
+        "attempts": 10,
         "correct": 3
       }
     },
