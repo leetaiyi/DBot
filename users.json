@@ -1385,10 +1385,10 @@
           "key_index": 10,
           "mode_index": 0
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 15,
+        "attempts": 16,
         "correct": 15
       }
     },
