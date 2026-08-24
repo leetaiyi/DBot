@@ -2319,10 +2319,10 @@
         "question_data": {
           "key_index": 13
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 17,
+        "attempts": 18,
         "correct": 12
       }
     },
