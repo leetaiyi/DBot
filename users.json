@@ -1900,7 +1900,7 @@
       }
     },
     "247912247496540160": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -1967,10 +1967,11 @@
         "Noodle plays Pok\u00e9mon": 1,
         "Santa Murphy": 2,
         "Sad Jamin": 1,
-        "?? Ben": 1
+        "?? Ben": 1,
+        "Nova: The Absurd Beast": 1
       },
       "last_daily": "2026-08-24",
-      "pity": 1,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
