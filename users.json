@@ -2407,7 +2407,7 @@
         "Belly Flash": 1,
         "Kitchen Cat": 1
       },
-      "coins": 5,
+      "coins": 6,
       "last_daily": "2026-08-25",
       "pity": 3,
       "blessed": false,
@@ -2420,11 +2420,11 @@
         "question_data": {
           "key_index": 3
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 14,
-        "correct": 9
+        "attempts": 15,
+        "correct": 10
       }
     },
     "346044943795617792": {
