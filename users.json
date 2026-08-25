@@ -2319,15 +2319,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-24",
-        "type": "accidental_major",
-        "question": "What major key has 6 sharps?",
-        "answer": "F#",
+        "date": "2026-08-25",
+        "type": "minor_major",
+        "question": "What is the relative major of F# minor?",
+        "answer": "A",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 13
+          "key_index": 10
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 18,
