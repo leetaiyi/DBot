@@ -2385,7 +2385,7 @@
         "Snow Kiss": 1,
         "?? Ben": 1,
         "Gabbro": 2,
-        "Willow": 2,
+        "Willow": 3,
         "Loki Loodelally": 1,
         "Ben": 1,
         "Amanda": 1,
@@ -2407,9 +2407,9 @@
         "Belly Flash": 1,
         "Kitchen Cat": 1
       },
-      "coins": 8,
+      "coins": 7,
       "last_daily": "2026-08-25",
-      "pity": 0,
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-24",
