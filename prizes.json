@@ -489,6 +489,21 @@
       "name": "Ben & Leia tart runneth over",
       "weight": 5,
       "image": "BenLeia.png"
+    },
+    {
+      "name": "Aisling Fishy Cave",
+      "weight": 40,
+      "image": "AislingF.png"
+    },
+    {
+      "name": "Aisling Belly",
+      "weight": 25,
+      "image": "AislingB.png"
+    },
+    {
+      "name": "Aisling's Squeaky Mouse",
+      "weight": 5,
+      "image": "AislingM.png"
     }
   ],
   "achievements": {
