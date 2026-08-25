@@ -706,15 +706,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-24",
-        "type": "major_accidental",
-        "question": "How many sharps does B major have?",
-        "answer": "5",
+        "date": "2026-08-25",
+        "type": "minor_accidental",
+        "question": "How many sharps does F# minor have?",
+        "answer": "3",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 12
+          "key_index": 10
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 10,
