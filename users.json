@@ -1398,7 +1398,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1449,7 +1449,7 @@
         "Gabbro": 2,
         "David": 1,
         "Bigger litterbox pls": 2,
-        "Loki Loodelally": 1,
+        "Loki Loodelally": 2,
         "Maru Merak Miss Ma'am Morden": 4,
         "Ben": 2,
         "Santa Murphy": 2,
@@ -1483,7 +1483,7 @@
         "Mizu": 1
       },
       "last_daily": "2026-08-25",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
