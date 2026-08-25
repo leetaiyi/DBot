@@ -145,11 +145,12 @@
         "LaCat: Belleh": 1,
         "Are You Dragon Tales?": 1,
         "?? Ben": 1,
-        "AdaMario": 1
+        "AdaMario": 1,
+        "Mizu": 1
       },
       "coins": 0,
-      "last_daily": "2026-08-24",
-      "pity": 21,
+      "last_daily": "2026-08-25",
+      "pity": 0,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
@@ -504,10 +505,11 @@
         "Masabone": 1,
         "Are You Dragon Tales?": 1,
         "Barely Legal John": 1,
-        "?? Ben": 1
+        "?? Ben": 1,
+        "Mizu": 1
       },
-      "last_daily": "2026-08-24",
-      "pity": 13,
+      "last_daily": "2026-08-25",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -689,10 +691,11 @@
         "GengArtemis": 2,
         "Listening to Rehearsal Recordings": 1,
         "LaCat: Belleh": 1,
-        "Legendary Amanda": 1
+        "Legendary Amanda": 1,
+        "Ellie": 1
       },
-      "last_daily": "2026-08-24",
-      "pity": 22,
+      "last_daily": "2026-08-25",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -885,7 +888,7 @@
         "IDDOG": 2,
         "AdaMario": 1,
         "Destruction and the Birds": 1,
-        "Are You Dragon Tales?": 1,
+        "Are You Dragon Tales?": 2,
         "Willow Snuggle": 2,
         "Amanda": 2,
         "Legendary Amanda": 1,
@@ -897,10 +900,11 @@
         "?? Ben": 1,
         "Carbon Eyes": 2,
         "Masabone": 1,
-        "Duet of the Fates": 1
+        "Duet of the Fates": 1,
+        "Rainbow Hairless": 1
       },
-      "last_daily": "2026-08-24",
-      "pity": 16,
+      "last_daily": "2026-08-25",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -912,19 +916,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-24",
-        "type": "minor_accidental",
-        "question": "How many flats does Eb minor have?",
-        "answer": "6",
-        "example": "!answer 4",
+        "date": "2026-08-25",
+        "type": "minor_major",
+        "question": "What is the relative major of G minor?",
+        "answer": "Bb",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 6
+          "key_index": 2
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 17,
-        "correct": 15
+        "attempts": 18,
+        "correct": 16
       }
     },
     "201094207857754112": {
@@ -1009,7 +1013,7 @@
         "Oreo": 1,
         "Kazoo David": 2,
         "Cerberus": 5,
-        "Carbon": 3,
+        "Carbon": 4,
         "Bella": 2,
         "Flash": 5,
         "Ellie as Moonmoon": 1,
@@ -1064,8 +1068,8 @@
         "Destruction and the Birds": 1,
         "Snow Kiss": 1
       },
-      "last_daily": "2026-08-23",
-      "pity": 1,
+      "last_daily": "2026-08-25",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1296,7 +1300,7 @@
       "impatience": 1
     },
     "954136279296118885": {
-      "coins": 23,
+      "coins": 24,
       "inventory": {
         "Bynx": 6,
         "LaCat: Wassup": 2,
@@ -1365,10 +1369,11 @@
         "Amanda": 1,
         "Destruction and the Birds": 1,
         "LaCat: Belleh": 1,
-        "Sad Jamin": 1
+        "Sad Jamin": 1,
+        "Capt Ben": 1
       },
-      "last_daily": "2026-08-24",
-      "pity": 4,
+      "last_daily": "2026-08-25",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1376,20 +1381,20 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-24",
-        "type": "accidental_mode",
-        "question": "Which Ionian scale has 3 sharps?",
-        "answer": "A",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-08-25",
+        "type": "mode_accidental",
+        "question": "How many sharps are in B Dorian?",
+        "answer": "3",
+        "example": "!answer 5",
         "question_data": {
           "key_index": 10,
-          "mode_index": 0
+          "mode_index": 1
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 16,
-        "correct": 15
+        "attempts": 17,
+        "correct": 16
       }
     },
     "418107361786331138": {
@@ -1444,7 +1449,7 @@
         "Gabbro": 2,
         "David": 1,
         "Bigger litterbox pls": 2,
-        "Loki Loodelally": 1,
+        "Loki Loodelally": 2,
         "Maru Merak Miss Ma'am Morden": 4,
         "Ben": 2,
         "Santa Murphy": 2,
@@ -1474,10 +1479,11 @@
         "Duet of the Fates": 1,
         "Korok Couple": 1,
         "Are You Dragon Tales?": 1,
-        "AdaMario": 1
+        "AdaMario": 1,
+        "Mizu": 1
       },
-      "last_daily": "2026-08-24",
-      "pity": 4,
+      "last_daily": "2026-08-25",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1488,20 +1494,20 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-08-24",
+        "date": "2026-08-25",
         "type": "mode_accidental",
-        "question": "How many flats are in G Locrian?",
-        "answer": "4",
+        "question": "How many sharps are in C# Phrygian?",
+        "answer": "3",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 6
+          "key_index": 10,
+          "mode_index": 2
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 13,
-        "correct": 12
+        "attempts": 14,
+        "correct": 13
       }
     },
     "370310581716254723": {
@@ -2397,11 +2403,12 @@
         "David": 1,
         "Santa Murphy": 2,
         "Tomyris": 2,
-        "Belly Flash": 1
+        "Belly Flash": 1,
+        "Kitchen Cat": 1
       },
       "coins": 8,
-      "last_daily": "2026-08-24",
-      "pity": 2,
+      "last_daily": "2026-08-25",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-24",
