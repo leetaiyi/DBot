@@ -1203,10 +1203,10 @@
         "question_data": {
           "key_index": 6
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 12,
+        "attempts": 13,
         "correct": 1
       }
     },
