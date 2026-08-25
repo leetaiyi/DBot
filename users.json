@@ -2405,11 +2405,12 @@
         "Santa Murphy": 2,
         "Tomyris": 2,
         "Belly Flash": 1,
-        "Kitchen Cat": 1
+        "Kitchen Cat": 1,
+        "John and Albino water monitor lizard": 1
       },
-      "coins": 6,
+      "coins": 5,
       "last_daily": "2026-08-25",
-      "pity": 3,
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-25",
