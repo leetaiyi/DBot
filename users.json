@@ -2365,7 +2365,7 @@
         "Masabone": 1,
         "Maleficent": 3,
         "Leia (apples)": 2,
-        "Sawyer": 3,
+        "Sawyer": 4,
         "YO!": 1,
         "A Wild Artemis": 2,
         "Willow Snuggle": 1,
@@ -2407,9 +2407,9 @@
         "Belly Flash": 1,
         "Kitchen Cat": 1
       },
-      "coins": 6,
+      "coins": 5,
       "last_daily": "2026-08-25",
-      "pity": 2,
+      "pity": 3,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-24",
