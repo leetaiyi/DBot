@@ -1516,7 +1516,7 @@
     "370310581716254723": {
       "coins": 3,
       "inventory": {
-        "Bynx": 3,
+        "Bynx": 4,
         "Ben": 1,
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
@@ -1548,8 +1548,8 @@
         "Santa Murphy": 1,
         "Maleficent": 1
       },
-      "last_daily": "2026-08-23",
-      "pity": 0,
+      "last_daily": "2026-08-26",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
