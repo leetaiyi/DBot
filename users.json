@@ -723,7 +723,7 @@
       }
     },
     "184110334334730240": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "HONK!!": 1,
         "Tomyris": 7,
@@ -800,10 +800,11 @@
         "Listening to Rehearsal Recordings": 1,
         "Masabone": 1,
         "?? Ben": 1,
-        "Legendary Amanda": 1
+        "Legendary Amanda": 1,
+        "Aisling Fishy Cave": 1
       },
       "last_daily": "2026-08-26",
-      "pity": 4,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
