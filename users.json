@@ -527,10 +527,10 @@
         "question_data": {
           "key_index": 3
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 10,
+        "attempts": 11,
         "correct": 3
       }
     },
