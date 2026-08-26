@@ -1553,16 +1553,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-23",
+        "date": "2026-08-26",
         "type": "accidental_mode",
-        "question": "Which Dorian scale has 6 flats?",
-        "answer": "Ab",
+        "question": "Which Aeolian scale has 4 flats?",
+        "answer": "F",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 6,
-          "mode_index": 1
+          "key_index": 4,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 8,
