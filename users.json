@@ -1292,16 +1292,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-17",
+        "date": "2026-08-26",
         "type": "accidental_mode",
-        "question": "Which Lydian scale has 7 flats?",
-        "answer": "Fb",
+        "question": "Which Locrian scale has 5 sharps?",
+        "answer": "A#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7,
-          "mode_index": 3
+          "key_index": 12,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 7,
