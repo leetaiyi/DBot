@@ -810,13 +810,19 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-07",
-        "key_index": 0,
-        "question": [
-          1,
-          0
-        ],
+        "date": "2026-08-26",
+        "type": "minor_major",
+        "question": "What is the relative major of F minor?",
+        "answer": "Ab",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 4
+        },
         "completed": false
+      },
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
       }
     },
     "292070419341639681": {
