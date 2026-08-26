@@ -2415,7 +2415,7 @@
         "Kitchen Cat": 1,
         "John and Albino water monitor lizard": 1
       },
-      "coins": 5,
+      "coins": 6,
       "last_daily": "2026-08-26",
       "pity": 1,
       "blessed": false,
@@ -2428,11 +2428,11 @@
         "question_data": {
           "key_index": 14
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 15,
-        "correct": 10
+        "attempts": 16,
+        "correct": 11
       }
     },
     "346044943795617792": {
