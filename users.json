@@ -2420,15 +2420,15 @@
       "pity": 1,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-25",
-        "type": "major_accidental",
-        "question": "How many flats does Eb major have?",
-        "answer": "3",
-        "example": "!answer 4",
+        "date": "2026-08-26",
+        "type": "minor_major",
+        "question": "What is the relative major of A# minor?",
+        "answer": "C#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 3
+          "key_index": 14
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 15,
