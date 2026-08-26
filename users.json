@@ -1205,10 +1205,10 @@
         "question_data": {
           "key_index": 11
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 13,
+        "attempts": 14,
         "correct": 1
       }
     },
