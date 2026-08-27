@@ -767,7 +767,7 @@
         "Willow Belly": 1,
         "A Wild Artemis": 2,
         "Kitchen Cat": 5,
-        "Morpheus": 3,
+        "Morpheus": 4,
         "King Baker": 1,
         "IDDOG": 1,
         "Amadeus2": 1,
@@ -804,8 +804,8 @@
         "Legendary Amanda": 1,
         "Aisling Fishy Cave": 1
       },
-      "last_daily": "2026-08-26",
-      "pity": 0,
+      "last_daily": "2026-08-27",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
