@@ -2440,10 +2440,10 @@
         "question_data": {
           "key_index": 8
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 16,
+        "attempts": 17,
         "correct": 11
       }
     },
