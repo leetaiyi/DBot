@@ -2341,15 +2341,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-26",
-        "type": "accidental_minor",
-        "question": "What minor key has 5 flats?",
-        "answer": "Bb",
+        "date": "2026-08-28",
+        "type": "major_minor",
+        "question": "What is the relative minor of G major?",
+        "answer": "E",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5
+          "key_index": 8
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 20,
