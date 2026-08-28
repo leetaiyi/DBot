@@ -526,6 +526,11 @@
       "image": "Cutter.jpg"
     },
     {
+      "name": "Cutter??",
+      "weight": 30,
+      "image": "CutterB.jpg"
+    },
+    {
       "name": "Rascal",
       "weight": 40,
       "image": "Rascal.jpg"
