@@ -1814,7 +1814,7 @@
       "blessed": false
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 5,
@@ -1832,7 +1832,7 @@
         "Batta": 3,
         "Nova Fangly": 3,
         "Amadeus": 4,
-        "Betty": 2,
+        "Betty": 3,
         "LaCat: Wassup": 2,
         "Sawyer": 1,
         "Objection!": 2,
@@ -1900,7 +1900,7 @@
         "Aisling Fishy Cave": 1
       },
       "last_daily": "2026-08-28",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
