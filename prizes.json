@@ -544,6 +544,16 @@
       "name": "Cutter Rascal Cuddle",
       "weight": 25,
       "image": "CutterRascal.jpg"
+    },
+    {
+      "name": "Bella & Erin",
+      "weight": 25,
+      "image": "BellaE.jpg"
+    },
+    {
+      "name": "Mizu Pounces Yumi",
+      "weight": 5,
+      "image": "MizuYumi.gif"
     }
   ],
   "achievements": {
