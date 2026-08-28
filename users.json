@@ -1217,10 +1217,10 @@
         "question_data": {
           "key_index": 2
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 15,
+        "attempts": 16,
         "correct": 2
       }
     },
