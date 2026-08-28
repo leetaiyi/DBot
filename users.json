@@ -1910,15 +1910,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-22",
-        "type": "accidental_minor",
-        "question": "What minor key has 2 sharps?",
-        "answer": "B",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-08-28",
+        "type": "minor_accidental",
+        "question": "How many sharps does F# minor have?",
+        "answer": "3",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 9
+          "key_index": 10
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 9,
