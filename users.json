@@ -935,10 +935,10 @@
           "key_index": 13,
           "mode_index": 4
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 20,
+        "attempts": 21,
         "correct": 18
       }
     },
