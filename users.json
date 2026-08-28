@@ -2428,11 +2428,12 @@
         "Tomyris": 2,
         "Belly Flash": 1,
         "Kitchen Cat": 1,
-        "John and Albino water monitor lizard": 1
+        "John and Albino water monitor lizard": 1,
+        "Camouflaged": 1
       },
       "coins": 6,
-      "last_daily": "2026-08-27",
-      "pity": 2,
+      "last_daily": "2026-08-28",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-27",
