@@ -1396,16 +1396,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-27",
+        "date": "2026-08-28",
         "type": "mode_accidental",
-        "question": "How many flats are in F Aeolian?",
-        "answer": "4",
+        "question": "How many flats are in A Locrian?",
+        "answer": "2",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 5
+          "key_index": 2,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 19,
