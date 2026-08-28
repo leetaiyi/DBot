@@ -2248,7 +2248,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 2,
+      "coins": 3,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 3,
         "Kazoo David": 1,
@@ -2349,11 +2349,11 @@
         "question_data": {
           "key_index": 8
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 20,
-        "correct": 14
+        "attempts": 21,
+        "correct": 15
       }
     },
     "181899217919279104": {
