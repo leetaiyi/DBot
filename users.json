@@ -926,15 +926,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-27",
-        "type": "accidental_minor",
-        "question": "What minor key has 7 flats?",
-        "answer": "Ab",
+        "date": "2026-08-28",
+        "type": "accidental_mode",
+        "question": "Which Mixolydian scale has 6 sharps?",
+        "answer": "C#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7
+          "key_index": 13,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 20,
