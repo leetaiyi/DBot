@@ -504,6 +504,46 @@
       "name": "Aisling's Squeaky Mouse",
       "weight": 5,
       "image": "AislingM.png"
+    },
+    {
+      "name": "Camouflaged",
+      "weight": 40,
+      "image": "Camo.jpg"
+    },
+    {
+      "name": "Crepuscule with Angie",
+      "weight": 40,
+      "image": "AngieC.jpg"
+    },
+    {
+      "name": "Nananananananana",
+      "weight": 25,
+      "image": "Nanana.jpg"
+    },
+    {
+      "name": "Cutter",
+      "weight": 40,
+      "image": "Cutter.jpg"
+    },
+    {
+      "name": "Rascal",
+      "weight": 40,
+      "image": "Rascal.jpg"
+    },
+    {
+      "name": "YinYorang",
+      "weight": 5,
+      "image": "YinYong.jpg"
+    },
+    {
+      "name": "C-C-C-Combo Breaker!",
+      "weight": 5,
+      "image": "ComboBreaker.jpg"
+    },
+    {
+      "name": "Cutter Rascal Cuddle",
+      "weight": 25,
+      "image": "CutterRascal.jpg"
     }
   ],
   "achievements": {
