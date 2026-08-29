@@ -2418,7 +2418,7 @@
         "Howl": 1,
         "Achelois": 2,
         "Amadeus2": 1,
-        "LaCat: Wassup": 2,
+        "LaCat: Wassup": 3,
         "Objection!": 3,
         "Betty": 2,
         "Bilbo Bee": 1,
@@ -2435,8 +2435,8 @@
         "Camouflaged": 1
       },
       "coins": 6,
-      "last_daily": "2026-08-28",
-      "pity": 0,
+      "last_daily": "2026-08-29",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-27",
