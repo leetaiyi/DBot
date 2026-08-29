@@ -708,15 +708,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-28",
-        "type": "major_accidental",
-        "question": "How many flats does C major have?",
-        "answer": "0",
-        "example": "!answer 4",
+        "date": "2026-08-29",
+        "type": "accidental_major",
+        "question": "What major key has 7 flats?",
+        "answer": "Cb",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 0
+          "key_index": 7
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 13,
