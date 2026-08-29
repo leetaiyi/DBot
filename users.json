@@ -611,7 +611,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -672,7 +672,7 @@
         "Noodle plays Pok\u00e9mon": 2,
         "Carbon Eyes": 1,
         "Leia (apples)": 3,
-        "Polly": 2,
+        "Polly": 3,
         "YO!": 1,
         "HONK!!": 1,
         "Benjamin (bandana)": 2,
@@ -697,7 +697,7 @@
         "LARGE Moogle": 1
       },
       "last_daily": "2026-08-29",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
