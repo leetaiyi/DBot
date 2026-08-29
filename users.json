@@ -2074,7 +2074,7 @@
         "Howl": 2,
         "IDDOG": 3,
         "Sake+Ebi": 4,
-        "Ben": 4,
+        "Ben": 5,
         "A Wild Artemis": 4,
         "Bynx": 2,
         "Ivan": 2,
@@ -2135,8 +2135,8 @@
         "LARGE Moogle": 1,
         "Camouflaged": 1
       },
-      "last_daily": "2026-08-28",
-      "pity": 0,
+      "last_daily": "2026-08-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
