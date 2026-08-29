@@ -1926,7 +1926,7 @@
       }
     },
     "247912247496540160": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -1970,7 +1970,7 @@
         "Bella": 1,
         "Willow": 2,
         "Nova Fangly": 1,
-        "Cerberus": 1,
+        "Cerberus": 2,
         "Leia (apples)": 2,
         "Percy": 1,
         "Achelois": 1,
@@ -1999,7 +1999,7 @@
         "Nananananananana": 1
       },
       "last_daily": "2026-08-29",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
