@@ -1396,16 +1396,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-28",
+        "date": "2026-08-29",
         "type": "mode_accidental",
-        "question": "How many flats are in A Locrian?",
-        "answer": "2",
+        "question": "How many sharps are in E# Locrian?",
+        "answer": "6",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 2,
+          "key_index": 13,
           "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 20,
