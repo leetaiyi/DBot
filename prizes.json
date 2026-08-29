@@ -536,6 +536,11 @@
       "image": "Rascal.jpg"
     },
     {
+      "name": "Metal Gear Rascal",
+      "weight": 25,
+      "image": "RascalM.jpg"
+    },
+    {
       "name": "YinYorang",
       "weight": 5,
       "image": "YinYong.jpg"
