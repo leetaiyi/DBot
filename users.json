@@ -2436,7 +2436,7 @@
         "John and Albino water monitor lizard": 1,
         "Camouflaged": 1
       },
-      "coins": 6,
+      "coins": 7,
       "last_daily": "2026-08-29",
       "pity": 1,
       "blessed": false,
@@ -2449,11 +2449,11 @@
         "question_data": {
           "key_index": 11
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 17,
-        "correct": 11
+        "attempts": 18,
+        "correct": 12
       }
     },
     "346044943795617792": {
