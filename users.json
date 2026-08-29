@@ -1111,7 +1111,7 @@
       "blessed": false
     },
     "690973798102597705": {
-      "coins": 2,
+      "coins": 3,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 6,
         "LaCat: Belleh": 1,
@@ -1218,11 +1218,11 @@
         "question_data": {
           "key_index": 8
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 16,
-        "correct": 2
+        "attempts": 17,
+        "correct": 3
       }
     },
     "316002379537317899": {
