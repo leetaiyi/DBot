@@ -2352,10 +2352,10 @@
         "question_data": {
           "key_index": 7
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 21,
+        "attempts": 22,
         "correct": 15
       }
     },
