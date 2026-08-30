@@ -146,11 +146,12 @@
         "Are You Dragon Tales?": 1,
         "?? Ben": 1,
         "AdaMario": 1,
-        "Mizu": 1
+        "Mizu": 1,
+        "Ellie": 1
       },
       "coins": 0,
-      "last_daily": "2026-08-29",
-      "pity": 4,
+      "last_daily": "2026-08-30",
+      "pity": 0,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
