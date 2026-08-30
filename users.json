@@ -1361,7 +1361,7 @@
         "King Baker": 1,
         "Furiosa blesses you with wealth": 1,
         "Benjamin (bandana)": 2,
-        "Leia (apples)": 3,
+        "Leia (apples)": 4,
         "Kitchen Cat": 1,
         "Noodle": 2,
         "Willow Belly": 1,
@@ -1390,8 +1390,8 @@
         "Capt Ben": 1,
         "Gustave Dodge": 1
       },
-      "last_daily": "2026-08-29",
-      "pity": 3,
+      "last_daily": "2026-08-30",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
