@@ -2401,7 +2401,7 @@
         "Nova Fangly": 1,
         "Bella": 2,
         "Rose": 2,
-        "Polly": 3,
+        "Polly": 4,
         "Zelda": 3,
         "Bratty Ryuu": 1,
         "Kazoo David": 1,
@@ -2456,8 +2456,8 @@
         "Camouflaged": 1
       },
       "coins": 7,
-      "last_daily": "2026-08-29",
-      "pity": 1,
+      "last_daily": "2026-08-30",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-08-29",
