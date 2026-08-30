@@ -1814,7 +1814,22 @@
       "last_daily": "2026-08-30",
       "pity": 2,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
+      },
+      "daily_quiz": {
+        "date": "2026-08-30",
+        "type": "major_accidental",
+        "question": "How many flats does Db major have?",
+        "answer": "5",
+        "example": "!answer 4",
+        "question_data": {
+          "key_index": 5
+        },
+        "completed": false
+      }
     },
     "543627458583199764": {
       "coins": 2,
