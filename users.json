@@ -1913,15 +1913,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-28",
-        "type": "minor_accidental",
-        "question": "How many sharps does F# minor have?",
-        "answer": "3",
-        "example": "!answer 4",
+        "date": "2026-08-30",
+        "type": "accidental_mode",
+        "question": "Which Aeolian scale has 4 sharps?",
+        "answer": "C#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 10
+          "key_index": 11,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 10,
