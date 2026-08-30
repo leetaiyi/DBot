@@ -709,15 +709,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-29",
-        "type": "accidental_major",
-        "question": "What major key has 7 flats?",
-        "answer": "Cb",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-08-30",
+        "type": "minor_accidental",
+        "question": "How many flats does Bb minor have?",
+        "answer": "5",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 7
+          "key_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 14,
