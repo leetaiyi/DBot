@@ -2521,7 +2521,22 @@
       "pity": 0,
       "pulls": 0,
       "blessed": false,
-      "impatience": 5
+      "impatience": 5,
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
+      },
+      "daily_quiz": {
+        "date": "2026-08-30",
+        "type": "minor_accidental",
+        "question": "How many flats does Ab minor have?",
+        "answer": "7",
+        "example": "!answer 4",
+        "question_data": {
+          "key_index": 7
+        },
+        "completed": false
+      }
     }
   }
 }
