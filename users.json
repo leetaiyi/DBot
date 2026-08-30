@@ -1747,7 +1747,7 @@
       }
     },
     "221288694835838986": {
-      "coins": 2,
+      "coins": 3,
       "inventory": {
         "Flash": 2,
         "Gabbro": 2,
@@ -1816,8 +1816,8 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 0,
-        "correct": 0
+        "attempts": 1,
+        "correct": 1
       },
       "daily_quiz": {
         "date": "2026-08-30",
@@ -1828,7 +1828,7 @@
         "question_data": {
           "key_index": 5
         },
-        "completed": false
+        "completed": true
       }
     },
     "543627458583199764": {
