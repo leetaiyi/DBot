@@ -936,10 +936,10 @@
         "question_data": {
           "key_index": 8
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 22,
+        "attempts": 23,
         "correct": 19
       }
     },
