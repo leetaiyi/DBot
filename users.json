@@ -1832,7 +1832,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 5,
@@ -1877,7 +1877,7 @@
         "Leia (apples)": 4,
         "Bynx": 2,
         "Barely Legal John": 1,
-        "Kitchen Cat": 6,
+        "Kitchen Cat": 7,
         "Ivan": 5,
         "Ben": 1,
         "Rose": 1,
@@ -1919,7 +1919,7 @@
         "Bella & Erin": 1
       },
       "last_daily": "2026-08-30",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
