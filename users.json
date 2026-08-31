@@ -613,7 +613,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -697,7 +697,8 @@
         "Legendary Amanda": 1,
         "Ellie": 1,
         "LARGE Moogle": 1,
-        "Guardian Sphinx": 1
+        "Guardian Sphinx": 1,
+        "Bella & Erin": 1
       },
       "last_daily": "2026-08-31",
       "pity": 0,
