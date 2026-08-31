@@ -71,7 +71,7 @@
         "Willow": 1,
         "Bynx": 1,
         "Sad Jamin": 1,
-        "Ivan": 2,
+        "Ivan": 3,
         "Oreo": 4,
         "Artemis Dee": 3,
         "Batta": 4,
@@ -150,8 +150,8 @@
         "Ellie": 1
       },
       "coins": 0,
-      "last_daily": "2026-08-30",
-      "pity": 0,
+      "last_daily": "2026-08-31",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
