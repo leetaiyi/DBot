@@ -1399,16 +1399,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-30",
+        "date": "2026-08-31",
         "type": "accidental_mode",
-        "question": "Which Phrygian scale has 7 flats?",
-        "answer": "Eb",
+        "question": "Which Mixolydian scale has 1 flats?",
+        "answer": "C",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7,
-          "mode_index": 2
+          "key_index": 1,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 22,
