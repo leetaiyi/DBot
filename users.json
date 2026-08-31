@@ -1221,10 +1221,10 @@
         "question_data": {
           "key_index": 13
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 18,
+        "attempts": 19,
         "correct": 3
       }
     },
