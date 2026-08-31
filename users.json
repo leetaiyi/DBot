@@ -729,7 +729,7 @@
       "impatience": 1
     },
     "184110334334730240": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "HONK!!": 1,
         "Tomyris": 7,
@@ -825,11 +825,11 @@
         "question_data": {
           "key_index": 2
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 1,
-        "correct": 1
+        "attempts": 2,
+        "correct": 2
       }
     },
     "292070419341639681": {
