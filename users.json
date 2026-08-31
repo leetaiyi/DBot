@@ -1772,7 +1772,7 @@
         "HONK!!": 1,
         "Howl": 1,
         "Ben": 2,
-        "Amadeus": 2,
+        "Amadeus": 3,
         "Sake+Ebi": 1,
         "John and Albino water monitor lizard": 1,
         "IDDOG": 3,
@@ -1814,8 +1814,8 @@
         "Keyboard Carbon": 1,
         "Aisling Fishy Cave": 1
       },
-      "last_daily": "2026-08-30",
-      "pity": 2,
+      "last_daily": "2026-08-31",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
