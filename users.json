@@ -2467,15 +2467,15 @@
       "pity": 4,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-31",
-        "type": "accidental_minor",
-        "question": "What minor key has 3 sharps?",
-        "answer": "F#",
+        "date": "2026-09-01",
+        "type": "major_minor",
+        "question": "What is the relative minor of Eb major?",
+        "answer": "C",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 10
+          "key_index": 3
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 19,
