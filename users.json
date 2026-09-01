@@ -2374,15 +2374,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-08-31",
-        "type": "accidental_minor",
-        "question": "What minor key has 1 sharps?",
-        "answer": "E",
+        "date": "2026-09-01",
+        "type": "major_minor",
+        "question": "What is the relative minor of Gb major?",
+        "answer": "Eb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 8
+          "key_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 23,
