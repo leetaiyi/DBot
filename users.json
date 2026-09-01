@@ -1578,16 +1578,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-08-26",
-        "type": "accidental_mode",
-        "question": "Which Aeolian scale has 4 flats?",
-        "answer": "F",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-01",
+        "type": "mode_accidental",
+        "question": "How many flats are in C Locrian?",
+        "answer": "5",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 5
+          "key_index": 5,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 9,
