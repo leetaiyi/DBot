@@ -1578,16 +1578,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-01",
+        "date": "2026-09-02",
         "type": "mode_accidental",
-        "question": "How many flats are in C Locrian?",
-        "answer": "5",
+        "question": "How many flats are in Bb Mixolydian?",
+        "answer": "3",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 5,
-          "mode_index": 6
+          "key_index": 3,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 10,
