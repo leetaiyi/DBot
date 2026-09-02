@@ -73,7 +73,7 @@
         "Sad Jamin": 1,
         "Ivan": 3,
         "Oreo": 4,
-        "Artemis Dee": 3,
+        "Artemis Dee": 4,
         "Batta": 4,
         "Maleficent": 6,
         "A Wild Artemis": 3,
@@ -150,8 +150,8 @@
         "Ellie": 1
       },
       "coins": 0,
-      "last_daily": "2026-09-01",
-      "pity": 2,
+      "last_daily": "2026-09-02",
+      "pity": 3,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
