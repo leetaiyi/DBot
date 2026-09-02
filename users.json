@@ -2468,7 +2468,7 @@
         "Camouflaged": 1,
         "Percy": 1
       },
-      "coins": 8,
+      "coins": 9,
       "last_daily": "2026-09-02",
       "pity": 0,
       "blessed": false,
@@ -2481,11 +2481,11 @@
         "question_data": {
           "key_index": 2
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 20,
-        "correct": 13
+        "attempts": 21,
+        "correct": 14
       }
     },
     "346044943795617792": {
