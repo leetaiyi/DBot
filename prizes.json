@@ -579,6 +579,11 @@
       "name": "Concert Dwarf",
       "weight": 5,
       "image": "ConcertDwarf.jpg"
+    },
+    {
+      "name": "Happy Bisquick and Adam",
+      "weight": 5,
+      "image": "Bisquick.jpg"
     }
   ],
   "achievements": {
