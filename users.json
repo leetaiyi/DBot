@@ -442,7 +442,7 @@
         "Oreo": 1,
         "Live Gloriously!": 3,
         "Bella": 7,
-        "Sake": 3,
+        "Sake": 4,
         "Willow": 1,
         "Kazoo David": 1,
         "Maleficent": 2,
@@ -512,8 +512,8 @@
         "Moogle": 1,
         "Leia hates dry food": 1
       },
-      "last_daily": "2026-09-01",
-      "pity": 0,
+      "last_daily": "2026-09-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
