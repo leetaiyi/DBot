@@ -1219,15 +1219,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-01",
-        "type": "major_minor",
-        "question": "What is the relative minor of G major?",
-        "answer": "E",
+        "date": "2026-09-02",
+        "type": "minor_major",
+        "question": "What is the relative major of D# minor?",
+        "answer": "F#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 8
+          "key_index": 13
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 20,
