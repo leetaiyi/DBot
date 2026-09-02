@@ -836,7 +836,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
@@ -892,7 +892,7 @@
         "Santa Murphy": 4,
         "Snow Kiss": 1,
         "YO!": 3,
-        "Sake+Ebi": 2,
+        "Sake+Ebi": 3,
         "Sake": 2,
         "Bigger litterbox pls": 1,
         "Keyboard Carbon": 1,
@@ -924,7 +924,7 @@
         "Crepuscule with Angie": 1
       },
       "last_daily": "2026-09-02",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
