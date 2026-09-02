@@ -699,11 +699,11 @@
         "Ellie": 1,
         "LARGE Moogle": 1,
         "Guardian Sphinx": 1,
-        "Bella & Erin": 1,
+        "Bella & Erin": 2,
         "Rascal": 1
       },
       "last_daily": "2026-09-02",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -714,19 +714,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-01",
-        "type": "accidental_major",
-        "question": "What major key has 4 flats?",
-        "answer": "Ab",
+        "date": "2026-09-02",
+        "type": "major_minor",
+        "question": "What is the relative minor of Bb major?",
+        "answer": "G",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 4
+          "key_index": 2
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 17,
-        "correct": 9
+        "attempts": 18,
+        "correct": 10
       },
       "impatience": 1
     },
@@ -785,7 +785,7 @@
         "Keyboard Carbon": 2,
         "Willow Snuggle": 2,
         "Sad Jamin": 1,
-        "Noodle plays Pok\u00e9mon": 1,
+        "Noodle plays Pok\u00e9mon": 2,
         "Noodle": 2,
         "Santa Murphy": 2,
         "Snow Kiss": 2,
@@ -812,8 +812,8 @@
         "Aisling Fishy Cave": 1,
         "C-C-C-Combo Breaker!": 1
       },
-      "last_daily": "2026-09-01",
-      "pity": 1,
+      "last_daily": "2026-09-02",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1087,10 +1087,11 @@
         "King Baker": 1,
         "Destruction and the Birds": 1,
         "Snow Kiss": 1,
-        "Leia hates dry food": 1
+        "Leia hates dry food": 1,
+        "Cutter??": 1
       },
-      "last_daily": "2026-09-01",
-      "pity": 2,
+      "last_daily": "2026-09-02",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1927,10 +1928,11 @@
         "Carbon Eyes": 1,
         "Rainbow Hairless": 2,
         "Aisling Fishy Cave": 1,
-        "Bella & Erin": 1
+        "Bella & Erin": 1,
+        "Moogle": 1
       },
-      "last_daily": "2026-09-01",
-      "pity": 4,
+      "last_daily": "2026-09-02",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2022,15 +2024,15 @@
         "LaCat: Belleh": 1,
         "David": 1,
         "Noodle plays Pok\u00e9mon": 1,
-        "Santa Murphy": 2,
+        "Santa Murphy": 3,
         "Sad Jamin": 1,
         "?? Ben": 1,
         "Nova: The Absurd Beast": 1,
         "Mizu": 1,
         "Nananananananana": 1
       },
-      "last_daily": "2026-08-31",
-      "pity": 3,
+      "last_daily": "2026-09-02",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2362,12 +2364,13 @@
         "AdaMario": 1,
         "LARGE Moogle": 1,
         "Gustave Dodge": 1,
-        "Cutter": 1,
+        "Cutter": 2,
         "Bella & Erin": 1,
-        "Metal Gear Rascal": 1
+        "Metal Gear Rascal": 1,
+        "Crepuscule with Angie": 1
       },
-      "last_daily": "2026-09-01",
-      "pity": 0,
+      "last_daily": "2026-09-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2378,10 +2381,10 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-01",
-        "type": "major_minor",
-        "question": "What is the relative minor of Gb major?",
-        "answer": "Eb",
+        "date": "2026-09-02",
+        "type": "minor_major",
+        "question": "What is the relative major of Eb minor?",
+        "answer": "Gb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
           "key_index": 6
@@ -2389,8 +2392,8 @@
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 24,
-        "correct": 17
+        "attempts": 25,
+        "correct": 18
       }
     },
     "181899217919279104": {
@@ -2467,9 +2470,10 @@
         "Kitchen Cat": 1,
         "John and Albino water monitor lizard": 1,
         "Camouflaged": 1,
-        "Percy": 1
+        "Percy": 1,
+        "Bynx": 1
       },
-      "coins": 9,
+      "coins": 8,
       "last_daily": "2026-09-02",
       "pity": 0,
       "blessed": false,
