@@ -564,6 +564,21 @@
       "name": "Mizu Pounces Yumi",
       "weight": 5,
       "image": "MizuYumi.gif"
+    },
+    {
+      "name": "Spooky on a Spooky Skeleton",
+      "weight": 25,
+      "image": "SpookyS.jpg"
+    },
+    {
+      "name": "Spooky likes any lap",
+      "weight": 40,
+      "image": "SpookyF.jpg"
+    },
+    {
+      "name": "Concert Dwarf",
+      "weight": 5,
+      "image": "ConcertDwarf.jpg"
     }
   ],
   "achievements": {
