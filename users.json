@@ -1409,16 +1409,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-09-01",
+        "date": "2026-09-02",
         "type": "accidental_mode",
-        "question": "Which Phrygian scale has 3 flats?",
-        "answer": "G",
+        "question": "Which Mixolydian scale has 4 sharps?",
+        "answer": "B",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 3,
-          "mode_index": 2
+          "key_index": 11,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 24,
