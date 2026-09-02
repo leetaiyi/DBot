@@ -2465,11 +2465,12 @@
         "Belly Flash": 1,
         "Kitchen Cat": 1,
         "John and Albino water monitor lizard": 1,
-        "Camouflaged": 1
+        "Camouflaged": 1,
+        "Percy": 1
       },
       "coins": 8,
-      "last_daily": "2026-09-01",
-      "pity": 4,
+      "last_daily": "2026-09-02",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-01",
