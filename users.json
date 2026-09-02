@@ -1327,7 +1327,7 @@
     "954136279296118885": {
       "coins": 31,
       "inventory": {
-        "Bynx": 6,
+        "Bynx": 7,
         "LaCat: Wassup": 2,
         "LaCat: Hypnosis": 5,
         "Ollidammara": 2,
@@ -1400,8 +1400,8 @@
         "Gustave": 1,
         "Aisling Belly": 1
       },
-      "last_daily": "2026-09-01",
-      "pity": 0,
+      "last_daily": "2026-09-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
