@@ -614,7 +614,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -699,11 +699,11 @@
         "Ellie": 1,
         "LARGE Moogle": 1,
         "Guardian Sphinx": 1,
-        "Bella & Erin": 1,
+        "Bella & Erin": 2,
         "Rascal": 1
       },
       "last_daily": "2026-09-02",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
