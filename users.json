@@ -2474,7 +2474,7 @@
         "Percy": 1,
         "Bynx": 1
       },
-      "coins": 8,
+      "coins": 9,
       "last_daily": "2026-09-03",
       "pity": 1,
       "blessed": false,
@@ -2487,11 +2487,11 @@
         "question_data": {
           "key_index": 8
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 21,
-        "correct": 14
+        "attempts": 22,
+        "correct": 15
       }
     },
     "346044943795617792": {
