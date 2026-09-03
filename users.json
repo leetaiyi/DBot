@@ -714,15 +714,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-02",
-        "type": "major_minor",
-        "question": "What is the relative minor of Bb major?",
-        "answer": "G",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-03",
+        "type": "minor_accidental",
+        "question": "How many sharps does A# minor have?",
+        "answer": "7",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 2
+          "key_index": 14
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 18,
