@@ -1140,7 +1140,7 @@
         "LaCat: Wassup": 4,
         "Bynx": 3,
         "IDDOG": 2,
-        "Cerberus": 3,
+        "Cerberus": 4,
         "A Wild Artemis": 2,
         "Bilbo Bee": 3,
         "Morpheus": 2,
@@ -1207,8 +1207,8 @@
         "Gustave Dodge": 1,
         "Cutter": 1
       },
-      "last_daily": "2026-09-01",
-      "pity": 0,
+      "last_daily": "2026-09-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
