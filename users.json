@@ -1410,16 +1410,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-09-02",
-        "type": "accidental_mode",
-        "question": "Which Mixolydian scale has 4 sharps?",
-        "answer": "B",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-03",
+        "type": "mode_accidental",
+        "question": "How many sharps are in B Locrian?",
+        "answer": "0",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 4
+          "key_index": 0,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 25,
