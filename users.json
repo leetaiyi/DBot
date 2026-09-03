@@ -1580,16 +1580,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-02",
-        "type": "mode_accidental",
-        "question": "How many flats are in Bb Mixolydian?",
-        "answer": "3",
-        "example": "!answer 5",
+        "date": "2026-09-03",
+        "type": "accidental_mode",
+        "question": "Which Dorian scale has 5 flats?",
+        "answer": "Eb",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 3,
-          "mode_index": 4
+          "key_index": 5,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 11,
