@@ -836,7 +836,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
@@ -883,7 +883,7 @@
         "Kitchen Cat": 3,
         "Bratty Ryuu": 1,
         "Amadeus2": 4,
-        "Achelois": 3,
+        "Achelois": 4,
         "Loki Loodelally": 1,
         "Noodle": 2,
         "Tomyris": 2,
@@ -924,7 +924,7 @@
         "Crepuscule with Angie": 1
       },
       "last_daily": "2026-09-03",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
