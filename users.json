@@ -2455,7 +2455,7 @@
         "Howl": 1,
         "Achelois": 2,
         "Amadeus2": 1,
-        "LaCat: Wassup": 3,
+        "LaCat: Wassup": 4,
         "Objection!": 3,
         "Betty": 2,
         "Bilbo Bee": 1,
@@ -2474,8 +2474,8 @@
         "Bynx": 1
       },
       "coins": 8,
-      "last_daily": "2026-09-02",
-      "pity": 0,
+      "last_daily": "2026-09-03",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-02",
