@@ -2391,10 +2391,10 @@
         "question_data": {
           "key_index": 7
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 25,
+        "attempts": 26,
         "correct": 18
       }
     },
