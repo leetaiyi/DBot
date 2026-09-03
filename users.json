@@ -1032,7 +1032,7 @@
         "Amadeus": 2,
         "Oreo": 1,
         "Kazoo David": 2,
-        "Cerberus": 5,
+        "Cerberus": 6,
         "Carbon": 4,
         "Bella": 2,
         "Flash": 5,
@@ -1090,8 +1090,8 @@
         "Leia hates dry food": 1,
         "Cutter??": 1
       },
-      "last_daily": "2026-09-02",
-      "pity": 0,
+      "last_daily": "2026-09-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
