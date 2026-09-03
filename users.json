@@ -614,7 +614,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -649,7 +649,7 @@
         "King Baker": 1,
         "Capt Ben": 2,
         "Amadeus": 3,
-        "Ebi": 2,
+        "Ebi": 3,
         "Coconut!": 2,
         "Carbon": 3,
         "Betty": 1,
@@ -703,7 +703,7 @@
         "Rascal": 1
       },
       "last_daily": "2026-09-03",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
