@@ -821,15 +821,15 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-31",
+        "date": "2026-09-03",
         "type": "minor_accidental",
-        "question": "How many flats does G minor have?",
-        "answer": "2",
+        "question": "How many sharps does F# minor have?",
+        "answer": "3",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 2
+          "key_index": 10
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 2,
