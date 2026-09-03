@@ -1942,16 +1942,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-08-30",
+        "date": "2026-09-03",
         "type": "accidental_mode",
-        "question": "Which Aeolian scale has 4 sharps?",
-        "answer": "C#",
+        "question": "Which Locrian scale has 1 sharps?",
+        "answer": "F#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 5
+          "key_index": 8,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 11,
