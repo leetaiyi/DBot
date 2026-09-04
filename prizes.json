@@ -584,6 +584,21 @@
       "name": "Happy Bisquick and Adam",
       "weight": 5,
       "image": "Bisquick.jpg"
+    },
+    {
+      "name": "Pet the Batta",
+      "weight": 40,
+      "image": "BattaP.jpg"
+    },
+    {
+      "name": "ɐʇʇɐq",
+      "weight": 25,
+      "image": "BattaU.jpg"
+    },
+    {
+      "name": "Batta Bunny Kick",
+      "weight": 25,
+      "image": "BattaT.jpg"
     }
   ],
   "achievements": {
