@@ -1947,16 +1947,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-03",
-        "type": "accidental_mode",
-        "question": "Which Locrian scale has 1 sharps?",
-        "answer": "F#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-04",
+        "type": "major_accidental",
+        "question": "How many flats does Ab major have?",
+        "answer": "4",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 8,
-          "mode_index": 6
+          "key_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 12,
