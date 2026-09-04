@@ -831,10 +831,10 @@
         "question_data": {
           "key_index": 7
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 3,
+        "attempts": 4,
         "correct": 2
       }
     },
