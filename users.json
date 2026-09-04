@@ -939,15 +939,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-03",
-        "type": "major_accidental",
-        "question": "How many sharps does D major have?",
-        "answer": "2",
-        "example": "!answer 4",
+        "date": "2026-09-04",
+        "type": "major_minor",
+        "question": "What is the relative minor of B major?",
+        "answer": "G#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 9
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 27,
