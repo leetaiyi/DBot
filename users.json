@@ -781,7 +781,7 @@
         "IDDOG": 1,
         "Amadeus2": 2,
         "John and Albino water monitor lizard": 1,
-        "Sawyer": 1,
+        "Sawyer": 2,
         "Willow": 3,
         "Leia (apples)": 3,
         "Keyboard Carbon": 2,
@@ -815,8 +815,8 @@
         "C-C-C-Combo Breaker!": 1,
         "Camouflaged": 1
       },
-      "last_daily": "2026-09-03",
-      "pity": 0,
+      "last_daily": "2026-09-04",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
