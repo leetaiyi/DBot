@@ -1224,15 +1224,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-03",
-        "type": "minor_major",
-        "question": "What is the relative major of Eb minor?",
-        "answer": "Gb",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-04",
+        "type": "minor_accidental",
+        "question": "How many sharps does E minor have?",
+        "answer": "1",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 6
+          "key_index": 8
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 22,
