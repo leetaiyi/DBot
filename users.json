@@ -823,15 +823,15 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-09-03",
-        "type": "minor_accidental",
-        "question": "How many sharps does F# minor have?",
-        "answer": "3",
+        "date": "2026-09-04",
+        "type": "major_accidental",
+        "question": "How many flats does Cb major have?",
+        "answer": "7",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 10
+          "key_index": 7
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 3,
