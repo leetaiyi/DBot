@@ -2097,7 +2097,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 2,
@@ -2163,7 +2163,7 @@
         "Cerberus": 3,
         "YO!": 2,
         "GengArtemis": 2,
-        "Coconut!": 1,
+        "Coconut!": 2,
         "Masabone": 1,
         "LaCat: Hypnosis": 1,
         "Destruction and the Birds": 1,
@@ -2176,7 +2176,7 @@
         "Aisling Fishy Cave": 1
       },
       "last_daily": "2026-09-05",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
