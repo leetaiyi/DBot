@@ -2487,15 +2487,15 @@
       "pity": 1,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-03",
-        "type": "accidental_major",
-        "question": "What major key has 1 sharps?",
-        "answer": "G",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-05",
+        "type": "minor_accidental",
+        "question": "How many flats does F minor have?",
+        "answer": "4",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 8
+          "key_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 22,
