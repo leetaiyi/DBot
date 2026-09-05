@@ -1530,15 +1530,15 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-04",
-        "type": "major_accidental",
-        "question": "How many sharps does F# major have?",
-        "answer": "6",
-        "example": "!answer 4",
+        "date": "2026-09-05",
+        "type": "accidental_minor",
+        "question": "What minor key has 2 sharps?",
+        "answer": "B",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 13
+          "key_index": 9
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 16,
