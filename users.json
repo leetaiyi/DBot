@@ -511,10 +511,11 @@
         "Mizu": 1,
         "Aisling Belly": 2,
         "Moogle": 1,
-        "Leia hates dry food": 1
+        "Leia hates dry food": 1,
+        "Rainbow Hairless": 1
       },
-      "last_daily": "2026-09-04",
-      "pity": 3,
+      "last_daily": "2026-09-05",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
