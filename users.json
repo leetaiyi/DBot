@@ -425,7 +425,7 @@
       "pity": 0
     },
     "125459449023299584": {
-      "coins": 9,
+      "coins": 10,
       "inventory": {
         "Artemis Dee": 3,
         "LaCat: Wassup": 4,
@@ -532,11 +532,11 @@
         "question_data": {
           "key_index": 0
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 14,
-        "correct": 5
+        "attempts": 15,
+        "correct": 6
       }
     },
     "277552214342631424": {
