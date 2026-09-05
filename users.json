@@ -524,15 +524,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-02",
-        "type": "major_accidental",
-        "question": "How many flats does Db major have?",
-        "answer": "5",
-        "example": "!answer 4",
+        "date": "2026-09-05",
+        "type": "accidental_major",
+        "question": "What major key has 0 accidentals?",
+        "answer": "C",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5
+          "key_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 14,
