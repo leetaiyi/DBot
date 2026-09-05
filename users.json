@@ -2579,6 +2579,16 @@
         },
         "completed": true
       }
+    },
+    "239924467898384395": {
+      "coins": 4,
+      "inventory": {
+        "Crepuscule with Angie": 1
+      },
+      "last_daily": "2026-09-05",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
