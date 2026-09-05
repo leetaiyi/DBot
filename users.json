@@ -2182,7 +2182,22 @@
       "achievement_claims": {
         "Catbus Family": 1
       },
-      "impatience": 3
+      "impatience": 3,
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
+      },
+      "daily_quiz": {
+        "date": "2026-09-05",
+        "type": "minor_accidental",
+        "question": "How many sharps does F# minor have?",
+        "answer": "3",
+        "example": "!answer 4",
+        "question_data": {
+          "key_index": 10
+        },
+        "completed": false
+      }
     },
     "268534866193285122": {
       "coins": 4,
