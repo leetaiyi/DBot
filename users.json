@@ -718,15 +718,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-04",
-        "type": "minor_major",
-        "question": "What is the relative major of G# minor?",
-        "answer": "B",
+        "date": "2026-09-05",
+        "type": "accidental_major",
+        "question": "What major key has 1 flats?",
+        "answer": "F",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 12
+          "key_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 20,
