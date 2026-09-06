@@ -2479,7 +2479,7 @@
         "Howl": 1,
         "Achelois": 2,
         "Amadeus2": 1,
-        "LaCat: Wassup": 4,
+        "LaCat: Wassup": 5,
         "Objection!": 3,
         "Betty": 2,
         "Bilbo Bee": 1,
@@ -2499,8 +2499,8 @@
         "Leia hates dry food": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-05",
-      "pity": 1,
+      "last_daily": "2026-09-06",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-05",
