@@ -616,7 +616,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -636,7 +636,7 @@
         "A Wild Artemis": 4,
         "Ben": 2,
         "Keyboard Carbon": 4,
-        "Rose": 6,
+        "Rose": 7,
         "Nova: The Absurd Beast": 1,
         "Sake": 3,
         "Amadeus2": 3,
@@ -707,7 +707,7 @@
         "Spooky on a Spooky Skeleton": 1
       },
       "last_daily": "2026-09-06",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
