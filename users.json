@@ -2499,7 +2499,7 @@
         "Bynx": 1,
         "Leia hates dry food": 1
       },
-      "coins": 10,
+      "coins": 11,
       "last_daily": "2026-09-06",
       "pity": 2,
       "blessed": false,
@@ -2512,11 +2512,11 @@
         "question_data": {
           "key_index": 0
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 23,
-        "correct": 16
+        "attempts": 24,
+        "correct": 17
       }
     },
     "346044943795617792": {
