@@ -2504,15 +2504,15 @@
       "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-05",
+        "date": "2026-09-06",
         "type": "minor_accidental",
-        "question": "How many flats does F minor have?",
-        "answer": "4",
+        "question": "How many flats does A minor have?",
+        "answer": "0",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 4
+          "key_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 23,
