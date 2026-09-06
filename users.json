@@ -950,10 +950,10 @@
         "question_data": {
           "key_index": 10
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 29,
+        "attempts": 30,
         "correct": 25
       }
     },
