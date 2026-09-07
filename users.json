@@ -148,11 +148,12 @@
         "AdaMario": 1,
         "Mizu": 1,
         "Ellie": 1,
-        "Rascal": 1
+        "Rascal": 1,
+        "Cutter Rascal Cuddle": 1
       },
       "coins": 0,
-      "last_daily": "2026-09-06",
-      "pity": 2,
+      "last_daily": "2026-09-07",
+      "pity": 0,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
