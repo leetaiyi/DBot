@@ -2607,10 +2607,11 @@
       }
     },
     "239924467898384395": {
-      "coins": 4,
+      "coins": 3,
       "inventory": {
         "Crepuscule with Angie": 1,
-        "Sake+Ebi": 1
+        "Sake+Ebi": 1,
+        "Rascal": 1
       },
       "last_daily": "2026-09-07",
       "pity": 0,
