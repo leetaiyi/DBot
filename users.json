@@ -2054,15 +2054,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-05",
-        "type": "major_accidental",
-        "question": "How many sharps does A major have?",
-        "answer": "3",
-        "example": "!answer 4",
+        "date": "2026-09-07",
+        "type": "accidental_minor",
+        "question": "What minor key has 4 sharps?",
+        "answer": "C#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 10
+          "key_index": 11
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 5,
