@@ -2454,7 +2454,7 @@
         "Oreo": 3,
         "Batta": 1,
         "Masabone": 1,
-        "Maleficent": 3,
+        "Maleficent": 4,
         "Leia (apples)": 2,
         "Sawyer": 4,
         "YO!": 1,
@@ -2504,8 +2504,8 @@
         "Leia hates dry food": 1
       },
       "coins": 11,
-      "last_daily": "2026-09-06",
-      "pity": 2,
+      "last_daily": "2026-09-07",
+      "pity": 3,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-06",
