@@ -1972,7 +1972,7 @@
       }
     },
     "247912247496540160": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -2010,7 +2010,7 @@
         "Barely Legal John": 2,
         "Mishka": 1,
         "Capt Ben": 1,
-        "Bilbo Bee": 2,
+        "Bilbo Bee": 3,
         "Sake": 2,
         "Carbon": 2,
         "Bella": 1,
@@ -2047,7 +2047,7 @@
         "Aisling Fishy Cave": 1
       },
       "last_daily": "2026-09-07",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
