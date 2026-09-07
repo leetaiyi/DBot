@@ -1592,16 +1592,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-03",
+        "date": "2026-09-07",
         "type": "accidental_mode",
-        "question": "Which Dorian scale has 5 flats?",
-        "answer": "Eb",
+        "question": "Which Mixolydian scale has 2 flats?",
+        "answer": "F",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5,
-          "mode_index": 1
+          "key_index": 2,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 12,
