@@ -618,7 +618,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -704,13 +704,13 @@
         "LARGE Moogle": 1,
         "Guardian Sphinx": 1,
         "Bella & Erin": 2,
-        "Rascal": 1,
+        "Rascal": 2,
         "Gustave": 1,
         "Spooky on a Spooky Skeleton": 1,
         "YinYorang": 1
       },
       "last_daily": "2026-09-08",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
