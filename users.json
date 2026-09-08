@@ -1974,7 +1974,7 @@
       }
     },
     "247912247496540160": {
-      "coins": 1,
+      "coins": 2,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -2066,11 +2066,11 @@
         "question_data": {
           "key_index": 0
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 6,
-        "correct": 5
+        "attempts": 7,
+        "correct": 6
       }
     },
     "743276168316190795": {
