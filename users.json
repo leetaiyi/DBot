@@ -101,7 +101,7 @@
         "Amadeus": 2,
         "Carbon": 1,
         "Bratty Ryuu": 1,
-        "Cerberus": 2,
+        "Cerberus": 3,
         "Ebi": 2,
         "Coconut!": 5,
         "Loki Loodelally": 5,
@@ -152,8 +152,8 @@
         "Cutter Rascal Cuddle": 1
       },
       "coins": 0,
-      "last_daily": "2026-09-07",
-      "pity": 0,
+      "last_daily": "2026-09-08",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
