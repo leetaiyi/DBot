@@ -622,7 +622,7 @@
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
-        "Artemis Dee": 2,
+        "Artemis Dee": 3,
         "Zelda": 2,
         "LaCat: Hypnosis": 4,
         "Amanda": 2,
@@ -709,8 +709,8 @@
         "Spooky on a Spooky Skeleton": 1,
         "YinYorang": 1
       },
-      "last_daily": "2026-09-07",
-      "pity": 0,
+      "last_daily": "2026-09-08",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
