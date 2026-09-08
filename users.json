@@ -2058,15 +2058,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-07",
-        "type": "accidental_minor",
-        "question": "What minor key has 4 sharps?",
-        "answer": "C#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-08",
+        "type": "major_accidental",
+        "question": "How many flats does C major have?",
+        "answer": "0",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 11
+          "key_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 6,
