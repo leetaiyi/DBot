@@ -471,7 +471,7 @@
         "Furiosa blesses you with wealth": 1,
         "Benjamin (bandana)": 3,
         "King Baker": 4,
-        "Capt Ben": 2,
+        "Capt Ben": 3,
         "Kitchen Cat": 2,
         "Amadeus": 3,
         "Korok Couple": 1,
@@ -516,8 +516,8 @@
         "Rainbow Hairless": 1,
         "Concert Dwarf": 1
       },
-      "last_daily": "2026-09-07",
-      "pity": 0,
+      "last_daily": "2026-09-08",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
