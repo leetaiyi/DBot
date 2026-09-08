@@ -844,7 +844,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 2,
@@ -858,7 +858,7 @@
         "Percy": 2,
         "LaCat: Hypnosis": 5,
         "Rose": 5,
-        "Carbon": 4,
+        "Carbon": 5,
         "Ivan": 7,
         "Maleficent": 3,
         "Batta": 1,
@@ -935,7 +935,7 @@
         "Metal Gear Rascal": 1
       },
       "last_daily": "2026-09-08",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
