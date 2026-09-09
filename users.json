@@ -1542,15 +1542,15 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-08",
-        "type": "accidental_major",
-        "question": "What major key has 1 sharps?",
-        "answer": "G",
+        "date": "2026-09-09",
+        "type": "accidental_minor",
+        "question": "What minor key has 7 flats?",
+        "answer": "Ab",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 8
+          "key_index": 7
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 18,
