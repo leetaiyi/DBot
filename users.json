@@ -724,15 +724,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "type": "accidental_major",
-        "question": "What major key has 5 flats?",
-        "answer": "Db",
+        "question": "What major key has 3 flats?",
+        "answer": "Eb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5
+          "key_index": 3
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 24,
