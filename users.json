@@ -849,7 +849,7 @@
       "coins": 1,
       "inventory": {
         "Bynx": 4,
-        "Sad Jamin": 2,
+        "Sad Jamin": 3,
         "Howl": 4,
         "Objection!": 3,
         "Ollidammara": 6,
@@ -936,8 +936,8 @@
         "Bella & Erin": 1,
         "Metal Gear Rascal": 1
       },
-      "last_daily": "2026-09-08",
-      "pity": 2,
+      "last_daily": "2026-09-09",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
