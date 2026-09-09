@@ -1912,7 +1912,7 @@
         "Ben": 1,
         "Rose": 1,
         "King Baker": 2,
-        "Achelois": 2,
+        "Achelois": 3,
         "David": 2,
         "Ollidammara": 1,
         "HONK!!": 1,
@@ -1950,8 +1950,8 @@
         "Moogle": 1,
         "Gustave": 1
       },
-      "last_daily": "2026-09-08",
-      "pity": 2,
+      "last_daily": "2026-09-09",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
