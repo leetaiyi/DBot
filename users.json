@@ -2448,7 +2448,7 @@
       "inventory": {
         "Amadeus": 3,
         "LaCat: Hypnosis": 1,
-        "Live Gloriously!": 2,
+        "Live Gloriously!": 3,
         "Artemis Dee": 4,
         "Noodle plays Pok\u00e9mon": 2,
         "Noodle": 4,
@@ -2514,9 +2514,9 @@
         "Ellie": 1,
         "Sake": 1
       },
-      "coins": 11,
+      "coins": 10,
       "last_daily": "2026-09-09",
-      "pity": 0,
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-09",
