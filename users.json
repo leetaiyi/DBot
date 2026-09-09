@@ -846,7 +846,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -934,10 +934,11 @@
         "Crepuscule with Angie": 1,
         "Nananananananana": 1,
         "Bella & Erin": 1,
-        "Metal Gear Rascal": 1
+        "Metal Gear Rascal": 1,
+        "Cutter??": 1
       },
       "last_daily": "2026-09-09",
-      "pity": 3,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
