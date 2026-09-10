@@ -2330,7 +2330,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 3,
         "Kazoo David": 1,
@@ -2413,10 +2413,11 @@
         "Cutter": 2,
         "Bella & Erin": 1,
         "Metal Gear Rascal": 1,
-        "Crepuscule with Angie": 1
+        "Crepuscule with Angie": 1,
+        "Aisling's Squeaky Mouse": 1
       },
       "last_daily": "2026-09-10",
-      "pity": 4,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
