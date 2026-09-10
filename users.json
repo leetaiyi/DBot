@@ -2210,15 +2210,15 @@
         "correct": 3
       },
       "daily_quiz": {
-        "date": "2026-09-09",
+        "date": "2026-09-10",
         "type": "major_accidental",
-        "question": "How many sharps does A major have?",
-        "answer": "3",
+        "question": "How many sharps does C# major have?",
+        "answer": "7",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 10
+          "key_index": 14
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
