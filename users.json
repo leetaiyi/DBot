@@ -848,7 +848,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -914,7 +914,7 @@
         "King Baker": 1,
         "Nova: The Absurd Beast": 1,
         "LaCat: Belleh": 1,
-        "IDDOG": 2,
+        "IDDOG": 3,
         "AdaMario": 1,
         "Destruction and the Birds": 1,
         "Are You Dragon Tales?": 2,
@@ -940,7 +940,7 @@
         "Cutter??": 1
       },
       "last_daily": "2026-09-10",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
