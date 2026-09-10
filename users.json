@@ -96,7 +96,7 @@
         "Gabbro": 3,
         "Sake": 3,
         "Barely Legal John": 1,
-        "Maru Merak Miss Ma'am Morden": 4,
+        "Maru Merak Miss Ma'am Morden": 5,
         "Leia (apples)": 6,
         "Amadeus": 2,
         "Carbon": 1,
@@ -153,8 +153,8 @@
         "\u0250\u0287\u0287\u0250q": 1
       },
       "coins": 0,
-      "last_daily": "2026-09-09",
-      "pity": 0,
+      "last_daily": "2026-09-10",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
