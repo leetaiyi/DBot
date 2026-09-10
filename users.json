@@ -2435,10 +2435,10 @@
         "question_data": {
           "key_index": 13
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 27,
+        "attempts": 28,
         "correct": 19
       }
     },
