@@ -2490,7 +2490,7 @@
         "Coconut!": 2,
         "Snow Kiss": 1,
         "?? Ben": 1,
-        "Gabbro": 2,
+        "Gabbro": 3,
         "Willow": 3,
         "Loki Loodelally": 1,
         "Ben": 1,
@@ -2521,8 +2521,8 @@
         "Sake": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-09",
-      "pity": 1,
+      "last_daily": "2026-09-10",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-09",
