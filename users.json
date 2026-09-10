@@ -1430,16 +1430,16 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-09-09",
+        "date": "2026-09-10",
         "type": "mode_accidental",
-        "question": "How many sharps are in G# Locrian?",
-        "answer": "3",
+        "question": "How many flats are in Gb Mixolydian?",
+        "answer": "7",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 10,
-          "mode_index": 6
+          "key_index": 7,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 32,
