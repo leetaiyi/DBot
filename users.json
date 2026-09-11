@@ -1968,15 +1968,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-09",
-        "type": "minor_major",
-        "question": "What is the relative major of C# minor?",
-        "answer": "E",
+        "date": "2026-09-11",
+        "type": "accidental_minor",
+        "question": "What minor key has 5 sharps?",
+        "answer": "G#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 14,
