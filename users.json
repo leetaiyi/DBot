@@ -1432,16 +1432,15 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-09-10",
-        "type": "mode_accidental",
-        "question": "How many flats are in Gb Mixolydian?",
-        "answer": "7",
-        "example": "!answer 5",
+        "date": "2026-09-11",
+        "type": "accidental_minor",
+        "question": "What minor key has 3 sharps?",
+        "answer": "F#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7,
-          "mode_index": 4
+          "key_index": 10
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 33,
