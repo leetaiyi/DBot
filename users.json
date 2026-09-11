@@ -2119,7 +2119,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 2,
@@ -2197,10 +2197,11 @@
         "Camouflaged": 1,
         "Aisling Fishy Cave": 1,
         "Spooky likes any lap": 1,
-        "Spooky on a Spooky Skeleton": 1
+        "Spooky on a Spooky Skeleton": 1,
+        "Aisling Belly": 1
       },
       "last_daily": "2026-09-11",
-      "pity": 1,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
