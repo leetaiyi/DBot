@@ -2212,15 +2212,15 @@
         "correct": 4
       },
       "daily_quiz": {
-        "date": "2026-09-10",
-        "type": "major_accidental",
-        "question": "How many sharps does C# major have?",
-        "answer": "7",
-        "example": "!answer 4",
+        "date": "2026-09-11",
+        "type": "major_minor",
+        "question": "What is the relative minor of Bb major?",
+        "answer": "G",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 14
+          "key_index": 2
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
