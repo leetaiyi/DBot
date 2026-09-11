@@ -1868,7 +1868,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 5,
@@ -1886,7 +1886,7 @@
         "Batta": 3,
         "Nova Fangly": 4,
         "Amadeus": 4,
-        "Betty": 3,
+        "Betty": 4,
         "LaCat: Wassup": 2,
         "Sawyer": 1,
         "Objection!": 2,
@@ -1958,7 +1958,7 @@
         "Pet the Batta": 1
       },
       "last_daily": "2026-09-11",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
