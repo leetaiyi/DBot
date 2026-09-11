@@ -953,15 +953,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-10",
-        "type": "major_minor",
-        "question": "What is the relative minor of Ab major?",
-        "answer": "F",
+        "date": "2026-09-11",
+        "type": "accidental_minor",
+        "question": "What minor key has 3 sharps?",
+        "answer": "F#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 4
+          "key_index": 10
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 34,
