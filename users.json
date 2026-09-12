@@ -2121,7 +2121,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 2,
@@ -2169,7 +2169,7 @@
         "Benjamin (bandana)": 3,
         "Loki Loodelally": 1,
         "Betty": 2,
-        "Noodle plays Pok\u00e9mon": 2,
+        "Noodle plays Pok\u00e9mon": 3,
         "AdaMario": 1,
         "LaCat: Wassup": 1,
         "Live Gloriously!": 1,
@@ -2203,7 +2203,7 @@
         "Aisling Belly": 1
       },
       "last_daily": "2026-09-12",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
