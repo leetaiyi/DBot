@@ -954,15 +954,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-11",
-        "type": "accidental_minor",
-        "question": "What minor key has 3 sharps?",
-        "answer": "F#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-12",
+        "type": "major_accidental",
+        "question": "How many flats does Db major have?",
+        "answer": "5",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 10
+          "key_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 35,
