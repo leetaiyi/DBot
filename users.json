@@ -2147,7 +2147,7 @@
         "Sawyer": 4,
         "Oreo": 5,
         "Bilbo Bee": 1,
-        "Gabbro": 2,
+        "Gabbro": 3,
         "Nova Fangly": 3,
         "Keyboard Carbon": 2,
         "Morpheus": 6,
@@ -2202,8 +2202,8 @@
         "Spooky on a Spooky Skeleton": 1,
         "Aisling Belly": 1
       },
-      "last_daily": "2026-09-11",
-      "pity": 0,
+      "last_daily": "2026-09-12",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
