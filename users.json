@@ -2481,7 +2481,7 @@
         "YO!": 2,
         "A Wild Artemis": 2,
         "Willow Snuggle": 1,
-        "Benjamin (bandana)": 2,
+        "Benjamin (bandana)": 3,
         "Maru Merak Miss Ma'am Morden": 4,
         "Flash": 4,
         "GMRA Winner!": 1,
@@ -2527,8 +2527,8 @@
         "Sake": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-11",
-      "pity": 3,
+      "last_daily": "2026-09-12",
+      "pity": 4,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-09",
