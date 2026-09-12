@@ -1393,7 +1393,7 @@
         "Furiosa blesses you with wealth": 1,
         "Benjamin (bandana)": 2,
         "Leia (apples)": 4,
-        "Kitchen Cat": 1,
+        "Kitchen Cat": 2,
         "Noodle": 2,
         "Willow Belly": 1,
         "Morpheus": 3,
@@ -1425,8 +1425,8 @@
         "Batta Bunny Kick": 1,
         "Nova: The Absurd Beast": 1
       },
-      "last_daily": "2026-09-11",
-      "pity": 1,
+      "last_daily": "2026-09-12",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
