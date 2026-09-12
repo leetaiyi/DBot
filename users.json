@@ -2544,6 +2544,9 @@
       "quiz_stats": {
         "attempts": 25,
         "correct": 18
+      },
+      "achievement_claims": {
+        "The B's": 1
       }
     },
     "346044943795617792": {
