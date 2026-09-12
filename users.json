@@ -622,7 +622,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -669,7 +669,7 @@
         "John and Albino water monitor lizard": 2,
         "Bigger litterbox pls": 2,
         "Achelois": 3,
-        "Loki Loodelally": 2,
+        "Loki Loodelally": 3,
         "Sawyer": 5,
         "Cerberus": 3,
         "Maleficent": 4,
@@ -716,7 +716,7 @@
         "Crepuscule with Angie": 1
       },
       "last_daily": "2026-09-12",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
