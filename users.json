@@ -537,10 +537,10 @@
         "question_data": {
           "key_index": 3
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 15,
+        "attempts": 16,
         "correct": 6
       }
     },
