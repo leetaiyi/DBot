@@ -2527,11 +2527,12 @@
         "Bynx": 1,
         "Leia hates dry food": 1,
         "Ellie": 1,
-        "Sake": 1
+        "Sake": 1,
+        "Rascal": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-12",
-      "pity": 4,
+      "last_daily": "2026-09-13",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-09",
