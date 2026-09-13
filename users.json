@@ -1453,7 +1453,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1462,7 +1462,7 @@
         "Howl": 5,
         "Batta": 4,
         "Cerberus": 4,
-        "Ivan": 2,
+        "Ivan": 3,
         "Willow": 3,
         "Keyboard Carbon": 2,
         "Bynx": 2,
@@ -1541,7 +1541,7 @@
         "Guardian Sphinx": 1
       },
       "last_daily": "2026-09-13",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
