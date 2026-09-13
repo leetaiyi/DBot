@@ -1352,7 +1352,7 @@
       "coins": 40,
       "inventory": {
         "Bynx": 7,
-        "LaCat: Wassup": 2,
+        "LaCat: Wassup": 3,
         "LaCat: Hypnosis": 5,
         "Ollidammara": 2,
         "Nova Fangly": 4,
@@ -1426,8 +1426,8 @@
         "Batta Bunny Kick": 1,
         "Nova: The Absurd Beast": 1
       },
-      "last_daily": "2026-09-12",
-      "pity": 2,
+      "last_daily": "2026-09-13",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
