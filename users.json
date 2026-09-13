@@ -1435,15 +1435,15 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-09-12",
+        "date": "2026-09-13",
         "type": "accidental_major",
-        "question": "What major key has 7 flats?",
-        "answer": "Cb",
+        "question": "What major key has 5 flats?",
+        "answer": "Db",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7
+          "key_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 35,
