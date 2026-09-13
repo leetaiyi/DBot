@@ -622,7 +622,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -646,7 +646,7 @@
         "Nova: The Absurd Beast": 1,
         "Sake": 3,
         "Amadeus2": 4,
-        "Gabbro": 5,
+        "Gabbro": 6,
         "Bilbo Bee": 3,
         "Ivan": 2,
         "Nova Fangly": 2,
@@ -716,7 +716,7 @@
         "Crepuscule with Angie": 1
       },
       "last_daily": "2026-09-13",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
