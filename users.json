@@ -1453,7 +1453,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1560,11 +1560,11 @@
         "question_data": {
           "key_index": 1
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 19,
-        "correct": 17
+        "attempts": 20,
+        "correct": 18
       }
     },
     "370310581716254723": {
