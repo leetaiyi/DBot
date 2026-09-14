@@ -2134,7 +2134,7 @@
       "inventory": {
         "Capt Ben": 2,
         "Willow": 2,
-        "Carbon": 2,
+        "Carbon": 3,
         "Ebi": 4,
         "Tomyris": 2,
         "Percy": 1,
@@ -2211,8 +2211,8 @@
         "Spooky on a Spooky Skeleton": 1,
         "Aisling Belly": 1
       },
-      "last_daily": "2026-09-12",
-      "pity": 2,
+      "last_daily": "2026-09-14",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
