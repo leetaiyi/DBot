@@ -2492,7 +2492,7 @@
         "Oreo": 3,
         "Batta": 1,
         "Masabone": 1,
-        "Maleficent": 4,
+        "Maleficent": 5,
         "Leia (apples)": 2,
         "Sawyer": 4,
         "YO!": 2,
@@ -2545,9 +2545,9 @@
         "Rascal": 1,
         "Morpheus": 1
       },
-      "coins": 10,
+      "coins": 9,
       "last_daily": "2026-09-14",
-      "pity": 0,
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-09",
