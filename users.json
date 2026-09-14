@@ -956,15 +956,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-13",
-        "type": "major_minor",
-        "question": "What is the relative minor of F# major?",
-        "answer": "D#",
+        "date": "2026-09-14",
+        "type": "minor_major",
+        "question": "What is the relative major of A minor?",
+        "answer": "C",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 13
+          "key_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 37,
