@@ -2537,10 +2537,11 @@
         "Leia hates dry food": 1,
         "Ellie": 1,
         "Sake": 1,
-        "Rascal": 1
+        "Rascal": 1,
+        "Morpheus": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-13",
+      "last_daily": "2026-09-14",
       "pity": 0,
       "blessed": false,
       "daily_quiz": {
