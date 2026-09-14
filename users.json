@@ -791,7 +791,7 @@
         "Kitchen Cat": 5,
         "Morpheus": 4,
         "King Baker": 1,
-        "IDDOG": 1,
+        "IDDOG": 2,
         "Amadeus2": 2,
         "John and Albino water monitor lizard": 1,
         "Sawyer": 2,
@@ -829,8 +829,8 @@
         "Camouflaged": 1,
         "Moogle": 1
       },
-      "last_daily": "2026-09-12",
-      "pity": 0,
+      "last_daily": "2026-09-14",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
