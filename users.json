@@ -1555,15 +1555,16 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-13",
-        "type": "accidental_major",
-        "question": "What major key has 1 flats?",
-        "answer": "F",
+        "date": "2026-09-14",
+        "type": "accidental_mode",
+        "question": "Which Dorian scale has 5 flats?",
+        "answer": "Eb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1
+          "key_index": 5,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 20,
