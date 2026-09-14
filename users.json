@@ -1440,15 +1440,15 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-09-13",
-        "type": "accidental_major",
-        "question": "What major key has 5 flats?",
-        "answer": "Db",
+        "date": "2026-09-14",
+        "type": "minor_major",
+        "question": "What is the relative major of G# minor?",
+        "answer": "B",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 36,
