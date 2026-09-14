@@ -1456,7 +1456,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1541,10 +1541,11 @@
         "Mizu": 1,
         "Rascal": 1,
         "Pet the Batta": 2,
-        "Guardian Sphinx": 1
+        "Guardian Sphinx": 1,
+        "Moogle": 1
       },
       "last_daily": "2026-09-14",
-      "pity": 4,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
