@@ -1473,7 +1473,7 @@
         "Bynx": 2,
         "Morpheus": 3,
         "Amadeus": 2,
-        "Rose": 6,
+        "Rose": 7,
         "Artemis Dee": 2,
         "Sake": 4,
         "Flash": 4,
@@ -1546,8 +1546,8 @@
         "Guardian Sphinx": 1,
         "Moogle": 1
       },
-      "last_daily": "2026-09-14",
-      "pity": 0,
+      "last_daily": "2026-09-15",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
