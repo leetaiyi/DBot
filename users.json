@@ -1441,15 +1441,15 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-09-14",
-        "type": "minor_major",
-        "question": "What is the relative major of G# minor?",
-        "answer": "B",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-15",
+        "type": "minor_accidental",
+        "question": "How many sharps does C# minor have?",
+        "answer": "4",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 12
+          "key_index": 11
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 37,
