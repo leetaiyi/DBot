@@ -2546,7 +2546,7 @@
         "Rascal": 1,
         "Morpheus": 1
       },
-      "coins": 9,
+      "coins": 10,
       "last_daily": "2026-09-15",
       "pity": 2,
       "blessed": false,
@@ -2559,11 +2559,11 @@
         "question_data": {
           "key_index": 9
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 25,
-        "correct": 18
+        "attempts": 26,
+        "correct": 19
       },
       "achievement_claims": {
         "The B's": 1,
