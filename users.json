@@ -1444,15 +1444,15 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-09-15",
-        "type": "minor_accidental",
-        "question": "How many sharps does C# minor have?",
-        "answer": "4",
-        "example": "!answer 4",
+        "date": "2026-09-16",
+        "type": "minor_major",
+        "question": "What is the relative major of C# minor?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
           "key_index": 11
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 38,
