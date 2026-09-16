@@ -731,15 +731,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-15",
-        "type": "minor_accidental",
-        "question": "How many sharps does G# minor have?",
-        "answer": "5",
-        "example": "!answer 4",
+        "date": "2026-09-16",
+        "type": "accidental_minor",
+        "question": "What minor key has 1 flats?",
+        "answer": "D",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 12
+          "key_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 31,
