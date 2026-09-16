@@ -2235,16 +2235,16 @@
         "correct": 8
       },
       "daily_quiz": {
-        "date": "2026-09-15",
+        "date": "2026-09-16",
         "type": "mode_accidental",
-        "question": "How many sharps are in B Aeolian?",
-        "answer": "2",
+        "question": "How many sharps are in E Aeolian?",
+        "answer": "1",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 9,
+          "key_index": 8,
           "mode_index": 5
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
