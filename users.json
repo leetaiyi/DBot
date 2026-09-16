@@ -625,7 +625,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -717,10 +717,11 @@
         "YinYorang": 1,
         "Cutter??": 1,
         "Crepuscule with Angie": 1,
-        "Mizu": 1
+        "Mizu": 1,
+        "Nananananananana": 1
       },
       "last_daily": "2026-09-16",
-      "pity": 3,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
