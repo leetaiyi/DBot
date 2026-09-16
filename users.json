@@ -2136,7 +2136,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 2,
@@ -2179,7 +2179,7 @@
         "Bella": 2,
         "Belly Flash": 1,
         "Nova: The Absurd Beast": 1,
-        "Willow Snuggle": 3,
+        "Willow Snuggle": 4,
         "Leia (apples)": 1,
         "Benjamin (bandana)": 3,
         "Loki Loodelally": 1,
@@ -2219,7 +2219,7 @@
         "Ellie": 1
       },
       "last_daily": "2026-09-16",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
