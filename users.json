@@ -2553,11 +2553,12 @@
         "Ellie": 1,
         "Sake": 1,
         "Rascal": 1,
-        "Morpheus": 1
+        "Morpheus": 1,
+        "Listening to Rehearsal Recordings": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-16",
-      "pity": 3,
+      "last_daily": "2026-09-17",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-15",
