@@ -859,7 +859,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -899,7 +899,7 @@
         "Capt Ben": 1,
         "Live Gloriously!": 3,
         "Maru Merak Miss Ma'am Morden": 4,
-        "Benjamin (bandana)": 3,
+        "Benjamin (bandana)": 4,
         "Oreo": 2,
         "Ben": 2,
         "Leia (apples)": 1,
@@ -954,7 +954,7 @@
         "Ellie": 1
       },
       "last_daily": "2026-09-17",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
