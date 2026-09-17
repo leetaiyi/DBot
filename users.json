@@ -1466,7 +1466,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1478,7 +1478,7 @@
         "Ivan": 3,
         "Willow": 3,
         "Keyboard Carbon": 2,
-        "Bynx": 3,
+        "Bynx": 4,
         "Morpheus": 3,
         "Amadeus": 2,
         "Rose": 7,
@@ -1555,7 +1555,7 @@
         "Moogle": 1
       },
       "last_daily": "2026-09-17",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
