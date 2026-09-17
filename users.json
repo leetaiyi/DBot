@@ -1358,7 +1358,7 @@
       "impatience": 1
     },
     "954136279296118885": {
-      "coins": 43,
+      "coins": 44,
       "inventory": {
         "Bynx": 7,
         "LaCat: Wassup": 3,
@@ -1454,11 +1454,11 @@
         "question_data": {
           "key_index": 3
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 39,
-        "correct": 35
+        "attempts": 40,
+        "correct": 36
       }
     },
     "418107361786331138": {
