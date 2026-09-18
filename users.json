@@ -1553,10 +1553,11 @@
         "Rascal": 1,
         "Pet the Batta": 2,
         "Guardian Sphinx": 1,
-        "Moogle": 1
+        "Moogle": 1,
+        "Camouflaged": 1
       },
-      "last_daily": "2026-09-17",
-      "pity": 4,
+      "last_daily": "2026-09-18",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
