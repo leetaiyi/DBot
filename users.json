@@ -2690,12 +2690,13 @@
       "blessed": false
     },
     "124148748615024640": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Ben": 1,
         "Mizu Pounces Yumi": 1,
         "Mal-letstation": 1,
-        "Keyboard Carbon": 1
+        "Keyboard Carbon": 1,
+        "Ollidammara": 1
       },
       "last_daily": "2026-09-18",
       "pity": 0,
