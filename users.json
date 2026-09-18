@@ -733,15 +733,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-16",
-        "type": "accidental_minor",
-        "question": "What minor key has 1 flats?",
-        "answer": "D",
+        "date": "2026-09-18",
+        "type": "minor_major",
+        "question": "What is the relative major of D minor?",
+        "answer": "F",
         "example": "!answer Ab or !answer c#",
         "question_data": {
           "key_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 32,
