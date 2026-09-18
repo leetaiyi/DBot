@@ -2701,7 +2701,8 @@
       "last_daily": "2026-09-18",
       "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "impatience": 1
     }
   }
 }
