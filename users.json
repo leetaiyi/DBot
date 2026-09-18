@@ -1567,16 +1567,16 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-17",
+        "date": "2026-09-18",
         "type": "mode_accidental",
-        "question": "How many sharps are in D# Aeolian?",
-        "answer": "6",
+        "question": "How many flats are in Bb Dorian?",
+        "answer": "4",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 13,
-          "mode_index": 5
+          "key_index": 4,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 23,
