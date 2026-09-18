@@ -1576,10 +1576,10 @@
           "key_index": 4,
           "mode_index": 1
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 23,
+        "attempts": 24,
         "correct": 21
       }
     },
