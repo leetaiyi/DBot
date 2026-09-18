@@ -2561,7 +2561,7 @@
         "Listening to Rehearsal Recordings": 1,
         "Cutter": 1
       },
-      "coins": 9,
+      "coins": 10,
       "last_daily": "2026-09-18",
       "pity": 1,
       "blessed": false,
@@ -2574,11 +2574,11 @@
         "question_data": {
           "key_index": 14
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 26,
-        "correct": 19
+        "attempts": 27,
+        "correct": 20
       },
       "achievement_claims": {
         "The B's": 1,
