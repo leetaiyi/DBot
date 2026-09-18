@@ -859,7 +859,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -872,7 +872,7 @@
         "Mishka": 6,
         "Percy": 2,
         "LaCat: Hypnosis": 5,
-        "Rose": 5,
+        "Rose": 6,
         "Carbon": 5,
         "Ivan": 8,
         "Maleficent": 3,
@@ -954,7 +954,7 @@
         "Ellie": 1
       },
       "last_daily": "2026-09-18",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
