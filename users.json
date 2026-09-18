@@ -2690,10 +2690,11 @@
       "blessed": false
     },
     "124148748615024640": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Ben": 1,
-        "Mizu Pounces Yumi": 1
+        "Mizu Pounces Yumi": 1,
+        "Mal-letstation": 1
       },
       "last_daily": "2026-09-18",
       "pity": 0,
