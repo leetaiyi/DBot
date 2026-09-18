@@ -1992,15 +1992,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-11",
-        "type": "accidental_minor",
-        "question": "What minor key has 5 sharps?",
-        "answer": "G#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-18",
+        "type": "minor_accidental",
+        "question": "How many flats does Ab minor have?",
+        "answer": "7",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 12
+          "key_index": 7
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 15,
