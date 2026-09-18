@@ -2527,7 +2527,7 @@
         "Coconut!": 2,
         "Snow Kiss": 1,
         "?? Ben": 1,
-        "Gabbro": 3,
+        "Gabbro": 4,
         "Willow": 3,
         "Loki Loodelally": 1,
         "Ben": 2,
@@ -2561,9 +2561,9 @@
         "Listening to Rehearsal Recordings": 1,
         "Cutter": 1
       },
-      "coins": 10,
+      "coins": 9,
       "last_daily": "2026-09-18",
-      "pity": 0,
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-15",
