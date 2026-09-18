@@ -599,6 +599,36 @@
       "name": "Batta Bunny Kick",
       "weight": 25,
       "image": "BattaT.jpg"
+    },
+    {
+      "name": "He Looks Like He Needs A Newspaper",
+      "weight": 5,
+      "image": "OreoNews.jpg"
+    },
+    {
+      "name": "Where's My Churu",
+      "weight": 25,
+      "image": "OreoChuru.jpg"
+    },
+    {
+      "name": "Contemplating Existence",
+      "weight": 25,
+      "image": "IvanThink.jpg"
+    },
+    {
+      "name": "Mal-letstation",
+      "weight": 40,
+      "image": "Mallet.jpg"
+    },
+    {
+      "name": "Food Confusion",
+      "weight": 40,
+      "image": "FlashFood.jpg"
+    },
+    {
+      "name": "Real Life Gacha Victory",
+      "weight": 5,
+      "image": "GachaWin.jpg"
     }
   ],
   "achievements": {
