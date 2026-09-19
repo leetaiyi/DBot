@@ -2561,11 +2561,12 @@
         "Rascal": 1,
         "Morpheus": 1,
         "Listening to Rehearsal Recordings": 1,
-        "Cutter": 1
+        "Cutter": 1,
+        "Food Confusion": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-18",
-      "pity": 1,
+      "last_daily": "2026-09-19",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-18",
