@@ -1892,7 +1892,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 5,
@@ -1974,7 +1974,7 @@
         "LaCat: Belleh": 1,
         "Are You Dragon Tales?": 1,
         "Carbon Eyes": 1,
-        "Rainbow Hairless": 2,
+        "Rainbow Hairless": 3,
         "Aisling Fishy Cave": 1,
         "Bella & Erin": 1,
         "Moogle": 1,
@@ -1986,7 +1986,7 @@
         "\u0250\u0287\u0287\u0250q": 1
       },
       "last_daily": "2026-09-19",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
