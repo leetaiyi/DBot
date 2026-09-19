@@ -1994,13 +1994,13 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-18",
+        "date": "2026-09-19",
         "type": "minor_accidental",
-        "question": "How many flats does Ab minor have?",
-        "answer": "7",
+        "question": "How many flats does A minor have?",
+        "answer": "0",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 7
+          "key_index": 0
         },
         "completed": false
       },
