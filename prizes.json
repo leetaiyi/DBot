@@ -629,6 +629,11 @@
       "name": "Real Life Gacha Victory",
       "weight": 5,
       "image": "GachaWin.jpg"
+    },
+    {
+      "name": "Awkward Teenage Nova",
+      "weight": 40,
+      "image": "NovaTeen.jpg"
     }
   ],
   "achievements": {
