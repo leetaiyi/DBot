@@ -535,15 +535,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-13",
-        "type": "major_minor",
-        "question": "What is the relative minor of F major?",
-        "answer": "D",
+        "date": "2026-09-20",
+        "type": "minor_major",
+        "question": "What is the relative major of Bb minor?",
+        "answer": "Db",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1
+          "key_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 17,
