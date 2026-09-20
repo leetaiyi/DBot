@@ -861,7 +861,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -921,7 +921,7 @@
         "Sake": 2,
         "Bigger litterbox pls": 1,
         "Keyboard Carbon": 2,
-        "Zelda": 2,
+        "Zelda": 3,
         "Cerberus": 2,
         "Belly Flash": 1,
         "King Baker": 1,
@@ -957,7 +957,7 @@
         "Pet the Batta": 1
       },
       "last_daily": "2026-09-20",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
