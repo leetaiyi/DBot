@@ -2478,15 +2478,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-20",
-        "type": "major_minor",
-        "question": "What is the relative minor of D major?",
-        "answer": "B",
+        "date": "2026-09-21",
+        "type": "minor_major",
+        "question": "What is the relative major of Eb minor?",
+        "answer": "Gb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 9
+          "key_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 33,
