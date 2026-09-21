@@ -1474,7 +1474,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1563,7 +1563,8 @@
         "Moogle": 1,
         "Camouflaged": 1,
         "Contemplating Existence": 1,
-        "Metal Gear Rascal": 1
+        "Metal Gear Rascal": 1,
+        "Ellie": 1
       },
       "last_daily": "2026-09-21",
       "pity": 0,
