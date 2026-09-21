@@ -2004,15 +2004,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-19",
-        "type": "minor_accidental",
-        "question": "How many flats does A minor have?",
-        "answer": "0",
-        "example": "!answer 4",
+        "date": "2026-09-21",
+        "type": "major_minor",
+        "question": "What is the relative minor of C major?",
+        "answer": "A",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
           "key_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 16,
