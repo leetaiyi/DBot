@@ -2381,7 +2381,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 3,
         "Kazoo David": 2,
@@ -2435,7 +2435,7 @@
         "Live Gloriously!": 6,
         "Noodle": 2,
         "Bigger litterbox pls": 1,
-        "Achelois": 4,
+        "Achelois": 5,
         "YO!": 2,
         "Gabbro": 2,
         "Sadge Ryuu": 1,
@@ -2472,7 +2472,7 @@
         "Food Confusion": 1
       },
       "last_daily": "2026-09-22",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
