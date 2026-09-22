@@ -632,8 +632,13 @@
     },
     {
       "name": "Awkward Teenage Nova",
-      "weight": 40,
+      "weight": 25,
       "image": "NovaTeen.jpg"
+    },
+    {
+      "name": "Husky, Elkhound, German Shepherd",
+      "weight": 40,
+      "image": "BreedComparison1.jpg"
     }
   ],
   "achievements": {
