@@ -1476,7 +1476,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 1,
         "HONK!!": 1,
@@ -1554,7 +1554,7 @@
         "Noodle": 1,
         "Masabone": 1,
         "Destruction and the Birds": 1,
-        "Duet of the Fates": 1,
+        "Duet of the Fates": 2,
         "Korok Couple": 1,
         "Are You Dragon Tales?": 1,
         "AdaMario": 1,
@@ -1569,7 +1569,7 @@
         "Ellie": 1
       },
       "last_daily": "2026-09-22",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
