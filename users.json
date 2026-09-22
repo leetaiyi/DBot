@@ -2719,10 +2719,11 @@
         "Ollidammara": 2,
         "Maleficent": 1,
         "Sake": 1,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "Cerberus": 1
       },
-      "last_daily": "2026-09-20",
-      "pity": 1,
+      "last_daily": "2026-09-22",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "impatience": 2,
