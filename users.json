@@ -2732,15 +2732,15 @@
         "correct": 2
       },
       "daily_quiz": {
-        "date": "2026-09-20",
-        "type": "minor_major",
-        "question": "What is the relative major of F# minor?",
-        "answer": "A",
+        "date": "2026-09-22",
+        "type": "accidental_major",
+        "question": "What major key has 1 sharps?",
+        "answer": "G",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 10
+          "key_index": 8
         },
-        "completed": true
+        "completed": false
       }
     }
   }
