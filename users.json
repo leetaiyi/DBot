@@ -91,7 +91,7 @@
         "Korok Couple": 1,
         "Polly": 3,
         "Keyboard Carbon": 2,
-        "Capt Ben": 2,
+        "Capt Ben": 3,
         "IDDOG": 3,
         "Gabbro": 3,
         "Sake": 3,
@@ -154,10 +154,11 @@
         "Metal Gear Rascal": 1,
         "Moogle": 1,
         "Camouflaged": 1,
-        "Nananananananana": 1
+        "Nananananananana": 1,
+        "Leia hates dry food": 1
       },
       "coins": 0,
-      "last_daily": "2026-09-20",
+      "last_daily": "2026-09-22",
       "pity": 0,
       "blessed": false,
       "achievement_claims": {
@@ -431,7 +432,7 @@
       "pity": 0
     },
     "125459449023299584": {
-      "coins": 10,
+      "coins": 11,
       "inventory": {
         "Artemis Dee": 3,
         "LaCat: Wassup": 4,
@@ -520,13 +521,14 @@
         "Leia hates dry food": 1,
         "Rainbow Hairless": 1,
         "Concert Dwarf": 1,
-        "Spooky likes any lap": 1,
+        "Spooky likes any lap": 2,
         "Metal Gear Rascal": 1,
         "Cutter": 1,
-        "Batta Bunny Kick": 1
+        "Batta Bunny Kick": 1,
+        "Gustave Dodge": 1
       },
-      "last_daily": "2026-09-20",
-      "pity": 1,
+      "last_daily": "2026-09-22",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -535,19 +537,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-20",
-        "type": "minor_major",
-        "question": "What is the relative major of Bb minor?",
-        "answer": "Db",
+        "date": "2026-09-22",
+        "type": "accidental_major",
+        "question": "What major key has 4 sharps?",
+        "answer": "E",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5
+          "key_index": 11
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 18,
-        "correct": 6
+        "attempts": 19,
+        "correct": 7
       }
     },
     "277552214342631424": {
@@ -628,7 +630,7 @@
       }
     },
     "400744536239898625": {
-      "coins": 3,
+      "coins": 4,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
@@ -695,7 +697,7 @@
         "Benjamin (bandana)": 2,
         "Kazoo David": 4,
         "Santa Murphy": 2,
-        "Snow Kiss": 2,
+        "Snow Kiss": 3,
         "IDDOG": 1,
         "Furiosa blesses you with wealth": 1,
         "Barely Legal John": 1,
@@ -712,7 +714,7 @@
         "Legendary Amanda": 1,
         "Ellie": 1,
         "LARGE Moogle": 1,
-        "Guardian Sphinx": 2,
+        "Guardian Sphinx": 3,
         "Bella & Erin": 2,
         "Rascal": 2,
         "Gustave": 1,
@@ -721,10 +723,11 @@
         "Cutter??": 1,
         "Crepuscule with Angie": 1,
         "Mizu": 1,
-        "Nananananananana": 1
+        "Nananananananana": 1,
+        "Gustave Dodge": 1
       },
-      "last_daily": "2026-09-19",
-      "pity": 3,
+      "last_daily": "2026-09-22",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -735,7 +738,7 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-20",
+        "date": "2026-09-21",
         "type": "major_accidental",
         "question": "How many flats does Eb major have?",
         "answer": "3",
@@ -746,8 +749,8 @@
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 34,
-        "correct": 25
+        "attempts": 35,
+        "correct": 26
       },
       "impatience": 1
     },
@@ -781,7 +784,7 @@
         "Artemis Dee": 1,
         "Coconut!": 3,
         "Carbon": 2,
-        "Kazoo David": 2,
+        "Kazoo David": 3,
         "Bratty Ryuu": 1,
         "Maleficent": 2,
         "Objection!": 1,
@@ -835,10 +838,11 @@
         "Camouflaged": 1,
         "Moogle": 1,
         "Ellie": 1,
-        "Rainbow Hairless": 1
+        "Rainbow Hairless": 1,
+        "Mal-letstation": 1
       },
-      "last_daily": "2026-09-20",
-      "pity": 2,
+      "last_daily": "2026-09-22",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -875,7 +879,7 @@
         "Percy": 2,
         "LaCat: Hypnosis": 5,
         "Rose": 6,
-        "Carbon": 5,
+        "Carbon": 6,
         "Ivan": 8,
         "Maleficent": 3,
         "Batta": 1,
@@ -894,7 +898,7 @@
         "HONK!!": 2,
         "Willow": 3,
         "Ellie as Moonmoon": 2,
-        "Bella": 6,
+        "Bella": 7,
         "Morpheus": 2,
         "Polly": 2,
         "Coconut!": 6,
@@ -905,7 +909,7 @@
         "Oreo": 3,
         "Ben": 2,
         "Leia (apples)": 1,
-        "Kitchen Cat": 3,
+        "Kitchen Cat": 4,
         "Bratty Ryuu": 1,
         "Amadeus2": 4,
         "Achelois": 4,
@@ -954,10 +958,11 @@
         "C-C-C-Combo Breaker!": 1,
         "Spooky likes any lap": 1,
         "Ellie": 1,
-        "Pet the Batta": 1
+        "Pet the Batta": 1,
+        "Cutter": 1
       },
-      "last_daily": "2026-09-20",
-      "pity": 3,
+      "last_daily": "2026-09-22",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -969,19 +974,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-20",
-        "type": "accidental_minor",
-        "question": "What minor key has 5 flats?",
-        "answer": "Bb",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-22",
+        "type": "major_accidental",
+        "question": "How many sharps does G major have?",
+        "answer": "1",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 5
+          "key_index": 8
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 44,
-        "correct": 39
+        "attempts": 46,
+        "correct": 41
       }
     },
     "201094207857754112": {
@@ -1506,7 +1511,7 @@
         "John and Albino water monitor lizard": 3,
         "Live Gloriously!": 2,
         "Ebi": 2,
-        "Objection!": 1,
+        "Objection!": 2,
         "Mishka": 3,
         "Oreo": 1,
         "Nova Fangly": 1,
@@ -1550,7 +1555,7 @@
         "Noodle": 1,
         "Masabone": 1,
         "Destruction and the Birds": 1,
-        "Duet of the Fates": 1,
+        "Duet of the Fates": 2,
         "Korok Couple": 1,
         "Are You Dragon Tales?": 1,
         "AdaMario": 1,
@@ -1560,10 +1565,12 @@
         "Guardian Sphinx": 1,
         "Moogle": 1,
         "Camouflaged": 1,
-        "Contemplating Existence": 1
+        "Contemplating Existence": 1,
+        "Metal Gear Rascal": 1,
+        "Ellie": 1
       },
-      "last_daily": "2026-09-19",
-      "pity": 0,
+      "last_daily": "2026-09-22",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1574,19 +1581,19 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-19",
-        "type": "minor_accidental",
-        "question": "How many flats does G minor have?",
-        "answer": "2",
-        "example": "!answer 4",
+        "date": "2026-09-22",
+        "type": "accidental_minor",
+        "question": "What minor key has 2 flats?",
+        "answer": "G",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
           "key_index": 2
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 25,
-        "correct": 22
+        "attempts": 27,
+        "correct": 24
       }
     },
     "370310581716254723": {
@@ -1922,7 +1929,7 @@
         "Korok Couple": 1,
         "Bella": 3,
         "Amadeus2": 4,
-        "Live Gloriously!": 7,
+        "Live Gloriously!": 8,
         "Keyboard Carbon": 4,
         "Ebi": 3,
         "Cerberus": 4,
@@ -1974,7 +1981,7 @@
         "Bratty Ryuu": 1,
         "AdaMario": 1,
         "GengArtemis": 2,
-        "LaCat: Belleh": 1,
+        "LaCat: Belleh": 2,
         "Are You Dragon Tales?": 1,
         "Carbon Eyes": 1,
         "Rainbow Hairless": 3,
@@ -1982,15 +1989,15 @@
         "Bella & Erin": 1,
         "Moogle": 1,
         "Gustave": 1,
-        "Pet the Batta": 1,
+        "Pet the Batta": 2,
         "Guardian Sphinx": 1,
         "Spooky on a Spooky Skeleton": 1,
         "Spooky likes any lap": 1,
         "\u0250\u0287\u0287\u0250q": 1,
         "Baby brother bother": 1
       },
-      "last_daily": "2026-09-20",
-      "pity": 0,
+      "last_daily": "2026-09-22",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2000,19 +2007,19 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-19",
-        "type": "minor_accidental",
-        "question": "How many flats does A minor have?",
-        "answer": "0",
-        "example": "!answer 4",
+        "date": "2026-09-21",
+        "type": "major_minor",
+        "question": "What is the relative minor of C major?",
+        "answer": "A",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
           "key_index": 0
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 16,
-        "correct": 14
+        "attempts": 17,
+        "correct": 15
       }
     },
     "247912247496540160": {
@@ -2165,7 +2172,7 @@
         "Flash": 1,
         "Sadge Ryuu": 3,
         "Ollidammara": 2,
-        "Howl": 2,
+        "Howl": 3,
         "IDDOG": 3,
         "Sake+Ebi": 5,
         "Ben": 5,
@@ -2234,9 +2241,10 @@
         "Aisling Belly": 1,
         "Ellie": 1,
         "Metal Gear Rascal": 1,
-        "Moogle": 1
+        "Moogle": 1,
+        "Concert Dwarf": 1
       },
-      "last_daily": "2026-09-19",
+      "last_daily": "2026-09-21",
       "pity": 1,
       "pulls": 0,
       "blessed": false,
@@ -2249,18 +2257,18 @@
       },
       "impatience": 4,
       "quiz_stats": {
-        "attempts": 11,
-        "correct": 11
+        "attempts": 12,
+        "correct": 12
       },
       "daily_quiz": {
-        "date": "2026-09-19",
+        "date": "2026-09-21",
         "type": "mode_accidental",
-        "question": "How many sharps are in F# Ionian?",
-        "answer": "6",
+        "question": "How many sharps are in D# Locrian?",
+        "answer": "4",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 13,
-          "mode_index": 0
+          "key_index": 11,
+          "mode_index": 6
         },
         "completed": true
       }
@@ -2373,7 +2381,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 3,
         "Kazoo David": 2,
@@ -2429,7 +2437,7 @@
         "Bigger litterbox pls": 1,
         "Achelois": 4,
         "YO!": 2,
-        "Gabbro": 1,
+        "Gabbro": 2,
         "Sadge Ryuu": 1,
         "Tomyris": 1,
         "Santa Murphy": 1,
@@ -2460,10 +2468,11 @@
         "Aisling's Squeaky Mouse": 1,
         "Ellie": 1,
         "Camouflaged": 1,
-        "Moogle": 1
+        "Moogle": 1,
+        "Food Confusion": 1
       },
-      "last_daily": "2026-09-20",
-      "pity": 1,
+      "last_daily": "2026-09-21",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2474,19 +2483,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-20",
-        "type": "major_minor",
-        "question": "What is the relative minor of D major?",
-        "answer": "B",
+        "date": "2026-09-21",
+        "type": "minor_major",
+        "question": "What is the relative major of Eb minor?",
+        "answer": "Gb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 9
+          "key_index": 6
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 33,
-        "correct": 24
+        "attempts": 34,
+        "correct": 25
       }
     },
     "181899217919279104": {
@@ -2545,7 +2554,7 @@
         "Ben": 2,
         "Amanda": 1,
         "King Baker": 1,
-        "Howl": 1,
+        "Howl": 2,
         "Achelois": 2,
         "Amadeus2": 1,
         "LaCat: Wassup": 5,
@@ -2575,8 +2584,8 @@
         "Food Confusion": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-20",
-      "pity": 1,
+      "last_daily": "2026-09-22",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-18",
@@ -2712,25 +2721,27 @@
         "Ollidammara": 2,
         "Maleficent": 1,
         "Sake": 1,
-        "Gabbro": 1
+        "Gabbro": 1,
+        "Cerberus": 1,
+        "Nova Fangly": 1
       },
-      "last_daily": "2026-09-20",
-      "pity": 1,
+      "last_daily": "2026-09-22",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "impatience": 2,
       "quiz_stats": {
-        "attempts": 2,
-        "correct": 2
+        "attempts": 3,
+        "correct": 3
       },
       "daily_quiz": {
-        "date": "2026-09-20",
-        "type": "minor_major",
-        "question": "What is the relative major of F# minor?",
-        "answer": "A",
+        "date": "2026-09-22",
+        "type": "accidental_major",
+        "question": "What major key has 1 sharps?",
+        "answer": "G",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 10
+          "key_index": 8
         },
         "completed": true
       }
