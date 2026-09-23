@@ -1907,7 +1907,7 @@
       "coins": 1,
       "inventory": {
         "Maleficent": 3,
-        "Capt Ben": 5,
+        "Capt Ben": 6,
         "Artemis Dee": 3,
         "A Wild Artemis": 3,
         "Belly Flash": 1,
@@ -1998,8 +1998,8 @@
         "\u0250\u0287\u0287\u0250q": 1,
         "Baby brother bother": 1
       },
-      "last_daily": "2026-09-22",
-      "pity": 3,
+      "last_daily": "2026-09-23",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
