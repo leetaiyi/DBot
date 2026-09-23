@@ -2161,7 +2161,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 2,
@@ -2200,7 +2200,7 @@
         "Rose": 2,
         "Maru Merak Miss Ma'am Morden": 2,
         "Cookie Strife": 2,
-        "Noodle": 2,
+        "Noodle": 3,
         "Bella": 2,
         "Belly Flash": 1,
         "Nova: The Absurd Beast": 1,
@@ -2247,7 +2247,7 @@
         "Concert Dwarf": 1
       },
       "last_daily": "2026-09-23",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
