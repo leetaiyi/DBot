@@ -2767,7 +2767,7 @@
       }
     },
     "321852031889309708": {
-      "coins": 4,
+      "coins": 5,
       "inventory": {
         "Pet the Batta": 1
       },
@@ -2776,8 +2776,8 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 0,
-        "correct": 0
+        "attempts": 1,
+        "correct": 1
       },
       "daily_quiz": {
         "date": "2026-09-24",
@@ -2788,7 +2788,7 @@
         "question_data": {
           "key_index": 14
         },
-        "completed": false
+        "completed": true
       }
     }
   }
