@@ -2487,15 +2487,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-23",
-        "type": "major_accidental",
-        "question": "How many flats does Eb major have?",
-        "answer": "3",
-        "example": "!answer 4",
+        "date": "2026-09-24",
+        "type": "accidental_minor",
+        "question": "What minor key has 2 flats?",
+        "answer": "G",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 3
+          "key_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 36,
