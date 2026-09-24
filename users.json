@@ -623,13 +623,19 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-08-01",
-        "key_index": 11,
-        "question": [
-          2,
-          0
-        ],
+        "date": "2026-09-24",
+        "type": "major_accidental",
+        "question": "How many sharps does E major have?",
+        "answer": "4",
+        "example": "!answer 4",
+        "question_data": {
+          "key_index": 11
+        },
         "completed": false
+      },
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
       }
     },
     "400744536239898625": {
