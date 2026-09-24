@@ -2765,6 +2765,16 @@
         },
         "completed": true
       }
+    },
+    "321852031889309708": {
+      "coins": 4,
+      "inventory": {
+        "Pet the Batta": 1
+      },
+      "last_daily": "2026-09-24",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
