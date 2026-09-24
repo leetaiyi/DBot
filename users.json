@@ -868,7 +868,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -950,7 +950,7 @@
         "Carbon Eyes": 2,
         "Masabone": 2,
         "Duet of the Fates": 1,
-        "Rainbow Hairless": 3,
+        "Rainbow Hairless": 4,
         "Mizu": 1,
         "LARGE Moogle": 1,
         "Crepuscule with Angie": 1,
@@ -966,7 +966,7 @@
         "Rascal": 1
       },
       "last_daily": "2026-09-24",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
