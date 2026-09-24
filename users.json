@@ -564,7 +564,7 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Zelda": 3,
         "Ben": 3,
@@ -631,11 +631,11 @@
         "question_data": {
           "key_index": 11
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 0,
-        "correct": 0
+        "attempts": 1,
+        "correct": 1
       }
     },
     "400744536239898625": {
