@@ -17,7 +17,7 @@
     },
     {
       "name": "Zelda",
-      "weight": 50,
+      "weight": 40,
       "image": "Zelda.png"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "name": "LaCat: Wassup",
-      "weight": 45,
+      "weight": 40,
       "image": "LaCatWassup.jpg"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "Bynx",
-      "weight": 50,
+      "weight": 40,
       "image": "Bynx.png"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "name": "King Baker",
-      "weight": 6,
+      "weight": 17,
       "image": "KingBaker.png"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "name": "Howl",
-      "weight": 50,
+      "weight": 40,
       "image": "Howl.png"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "name": "A Wild Artemis",
-      "weight": 50,
+      "weight": 40,
       "image": "Artemis.png"
     },
     {
@@ -132,7 +132,7 @@
     },
     {
       "name": "Willow",
-      "weight": 50,
+      "weight": 40,
       "image": "Willow.png"
     },
     {
@@ -172,12 +172,12 @@
     },
     {
       "name": "Mishka",
-      "weight": 50,
+      "weight": 40,
       "image": "Mishka.jpg"
     },
     {
       "name": "Batta",
-      "weight": 50,
+      "weight": 40,
       "image": "Batta.jpg"
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "name": "Barely Legal John",
-      "weight": 3,
+      "weight": 4,
       "image": "JohnY.jpg"
     },
     {
@@ -202,7 +202,7 @@
     },
     {
       "name": "Betty",
-      "weight": 50,
+      "weight": 40,
       "image": "Betty.jpg"
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "name": "Duet of the Fates",
-      "weight": 5,
+      "weight": 4,
       "image": "JonJedi.jpg"
     },
     {
@@ -252,12 +252,12 @@
     },
     {
       "name": "Korok Couple",
-      "weight": 5,
+      "weight": 4,
       "image": "KorokCouple.jpg"
     },
     {
       "name": "Rose",
-      "weight": 50,
+      "weight": 40,
       "image": "Rose.png"
     },
     {
@@ -267,7 +267,7 @@
     },
     {
       "name": "Carbon",
-      "weight": 50,
+      "weight": 40,
       "image": "Carbon.png"
     },
     {
@@ -287,12 +287,12 @@
     },
     {
       "name": "Cerberus",
-      "weight": 50,
+      "weight": 40,
       "image": "Cerberus.jpg"
     },
     {
       "name": "Morpheus",
-      "weight": 50,
+      "weight": 40,
       "image": "Morpheus.jpg"
     },
     {
@@ -312,7 +312,7 @@
     },
     {
       "name": "Are You Dragon Tales?",
-      "weight": 5,
+      "weight": 4,
       "image": "AreYouDragonTales.jpg"
     },
     {
@@ -347,7 +347,7 @@
     },
     {
       "name": "AdaMario",
-      "weight": 5,
+      "weight": 4,
       "image": "AdaMario.jpg"
     },
     {
@@ -357,32 +357,137 @@
     },
     {
       "name": "Polly",
-      "weight": 50,
+      "weight": 40,
       "image": "Polly.png"
+    },
+    {
+      "name": "Benjamin (bandana)",
+      "weight": 40,
+      "image": "Benjamin.png"
+    },
+    {
+      "name": "Leia (apples)",
+      "weight": 40,
+      "image": "Leia.png"
+    },
+    {
+      "name": "Furiosa blesses you with wealth",
+      "weight": 5,
+      "image": "Furiosa.gif"
+    },
+    {
+      "name": "GMRA Winner!",
+      "weight": 1,
+      "image": "GMRAwin.jpg"
+    },
+    {
+      "name": "Kitchen Cat",
+      "weight": 40,
+      "image": "KitchenCat.png"
+    },
+    {
+      "name": "Loki Loodelally",
+      "weight": 30,
+      "image": "Loki.jpg"
+    },
+    {
+      "name": "Bigger litterbox pls",
+      "weight": 17,
+      "image": "LokiLitter.png"
+    },
+    {
+      "name": "Achelois",
+      "weight": 40,
+      "image": "Achelois.png"
+    },
+    {
+      "name": "Noodle",
+      "weight": 40,
+      "image": "Noodle.jpg"
+    },
+    {
+      "name": "Noodle plays Pokémon",
+      "weight": 25,
+      "image": "NoodleCards.jpg"
     }
   ],
   "achievements": {
     "Catbus Family": {
       "items": [
-        "Maru Merak Miss Ma'am Morden",
-        "Ollidammara",
-        "Howl",
         "Gabbro",
-        "Morpheus"
+        "Howl",
+        "Maru Merak Miss Ma'am Morden",
+        "Morpheus",
+        "Ollidammara"
+      ],
+      "rarity": "common",
+      "reward": "CatbusFamily.jpg"
+      }
+    },
+    "Forever Vacuuming": {
+      "items": [
+        ["Artemis", "A Wild Artemis", "Artemis Dee"],
+        ["Ebi", "Ebi+Sake"],
+        ["Loki", "Loki Loodelally", "Bigger litterbox pls"],
+        "Rose",
+        ["Sake", "Ebi+Sake"],
+        "Tomyris",
+        "Zelda"
       ],
       "rarity": "common"
     },
+    "The LuxenBieles": {
+      "items": [
+        ["Flash","Belly Flash"],
+        "Ivan",
+        "Kitchen Cat",
+        "Maleficent",
+        "Oreo"
+      ],
+      "rarity": "common",
+      "reward": "LuxemBieles.jpg"
+    },
     "Voids": {
       "items": [
-        "Morpheus", 
-        ["Amadeus","Amadeus2"],
+        ["Amadeus","Amadeus2"], 
+        ["Artemis", "A Wild Artemis", "Artemis Dee"],
         ["Carbon","Keyboard Carbon", "Carbon Eyes"],
-        ["LaCat: Wassup", "LaCat: Hypnosis", "LaCat: Belleh"],
-        ["Artemis", "Artemis Dee"],
+        ["LaCat","LaCat: Wassup", "LaCat: Hypnosis", "LaCat: Belleh"],
         "Maleficent",
+        "Morpheus",
         "Ollidammara"
       ],
       "rarity": "common"
+    },
+    "Bellies": {
+      "items": [
+        "Belly Flash",
+        "LaCat: Belleh",
+        "Nova: The Absurd Beast",
+        "Willow Belly"
+      ],
+    "rarity": "common"
+    },
+    "The B's": {
+      "items": [
+        "Batta",
+        "King Baker",
+        "Bella",
+        "Benjamin (bandana)",
+        "Betty",
+        "Bilbo Bee",
+        "Bynx"
+      ],
+    "rarity": "rare"
+    },
+    "Cursed Humans": {
+      "items": [
+        "?? Ben",
+        "AdaMario",
+        "Barely Legal John",
+        "Listening to Rehearsal Recordings"
+      ],
+    "rarity": "rare"
     },
     "Nova The Goon": {
       "items": [
@@ -390,6 +495,14 @@
         "Nova Fangly",
         "IDDOG",
         "Nova: The Absurd Beast"
+      ],
+    "rarity": "rare"
+    },
+    "Vacation Time": {
+      "items": [
+        "Coconut!",
+        "John and Albino water monitor lizard",
+        "Duet of the Fates"
       ],
     "rarity": "rare"
     }

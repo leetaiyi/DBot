@@ -7,61 +7,18 @@ import random
 import os
 from datetime import datetime, timezone, UTC, timedelta
 from keep_alive import keep_alive
+from quiz import setup_quiz
 
 # Re-pull code from GitHub
 import os
-
-# =========================
-# CONFIG
-# =========================
-ALLOWED_CHANNELS = {
-    1476061562404995213,  #Ramajohns #ctl-sandbox
-    1474234316019073064,  #WMGSO #gacha-bot
-    1473837591974645932  #CTLnF #bottest
-}
-
-ADMIN_IDS = {
-    96408456294064128,  #ctl
-    156937687515791361  #ben
-}
-
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-REPO_OWNER = "leetaiyi"
-REPO_NAME = "DBot"
-
-PITY_LIM = 3
-
-BASE_IMAGE_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/data/WM%20Gacha/"
-
-PRIZES_PATH = "prizes.json"
-USERS_PATH = "users.json"
-
-PRIZES_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{PRIZES_PATH}?ref=data"
-USERS_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{USERS_PATH}?ref=data"
-
-headers = {
-    "Authorization": f"token {GITHUB_TOKEN}",
-    "Accept": "application/vnd.github+json"
-}
+from config import *
+from github import *
+from utils import *
 
 intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
-
-
-def next_midnight_unix():
-    now = datetime.now(UTC)
-    next_midnight = (now + timedelta(days=1)).replace(hour=0,
-                                                      minute=0,
-                                                      second=0,
-                                                      microsecond=0)
-    return int(next_midnight.timestamp())
-
-
-def today_string():
-    return datetime.now(timezone.utc).date().isoformat()
 
 
 @bot.check
@@ -162,38 +119,6 @@ def is_complete(inventory, items):
     return all(check_item_group(inventory, r) for r in items)
 
 
-# =========================
-# GITHUB FUNCTIONS
-# =========================
-
-
-def get_file(url):
-    r = requests.get(url, headers=headers)
-    data = r.json()
-
-    if "content" not in data:
-        print("GitHub ERROR:", data)
-        raise Exception("Failed to fetch file")
-
-    content = base64.b64decode(data["content"]).decode()
-    return json.loads(content), data["sha"]
-
-
-def update_file(url, new_data, sha):
-    encoded = base64.b64encode(json.dumps(new_data, indent=2).encode()).decode()
-
-    payload = {
-        "message": "Update data",
-        "content": encoded,
-        "sha": sha,
-        "branch": "data"
-    }
-
-    r = requests.put(url, headers=headers, json=payload)
-
-    if r.status_code != 200:
-        print("Update failed:", r.json())
-
 
 # =========================
 # GACHA COMMAND
@@ -237,6 +162,11 @@ async def pull(ctx):
 
     # Check coins
     if user["coins"] <= 0:
+        # Hidden stat: attempted to pull with no coins
+        user["impatience"] = user.get("impatience", 0) + 1
+
+        update_file(USERS_URL, user_data, user_sha)
+        
         next_reset = next_midnight_unix()
 
         await ctx.send(f"❌ You have no WMGpeSOs!\n"
@@ -358,7 +288,6 @@ async def inventory(ctx):
 
     prizes = prize_data["prizes"]
     users = user_data.get("users", {})
-    claims = user.setdefault("achievement_claims", {})
 
     user_id = str(ctx.author.id)
 
@@ -368,6 +297,7 @@ async def inventory(ctx):
         return
 
     user = users[user_id]
+    claims = user.setdefault("achievement_claims", {})
 
     inventory = user.get("inventory", {})
     coins = user.get("coins", 0)
@@ -638,8 +568,6 @@ async def redeem(ctx, *, achievement_name):
         await ctx.send("❌ This achievement has no reward configured. (Help suggest one)")
         return
 
-    reward_name = reward["name"]
-    reward_image = reward["image"]
 
     # Number already redeemed
     claimed_count = claims.get(achievement_name, 0)
@@ -671,9 +599,6 @@ async def redeem(ctx, *, achievement_name):
         )
         return
 
-    # Grant reward
-    inventory[reward_name] = inventory.get(reward_name, 0) + 1
-
     # Track redemption
     claims[achievement_name] = claimed_count + 1
 
@@ -681,14 +606,13 @@ async def redeem(ctx, *, achievement_name):
     update_file(USERS_URL, user_data, user_sha)
 
     # Embed
-    image_url = BASE_IMAGE_URL + reward_image
+    image_url = BASE_IMAGE_URL + reward
 
     embed = discord.Embed(
         title="🏆 Achievement Redeemed!",
         description=(
             f"{ctx.author.mention} redeemed "
-            f"**{achievement_name}**!\n\n"
-            f"🎁 Received **{reward_name}**!"
+            f"**{achievement_name}**!"
         ),
         color=discord.Color.dark_gold()
     )
@@ -697,6 +621,7 @@ async def redeem(ctx, *, achievement_name):
 
     await ctx.send(embed=embed)
 
+setup_quiz(bot)
 
 keep_alive()
 
