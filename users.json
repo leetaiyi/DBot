@@ -2605,15 +2605,15 @@
       "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-23",
-        "type": "accidental_minor",
-        "question": "What minor key has 4 flats?",
-        "answer": "F",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-25",
+        "type": "major_accidental",
+        "question": "How many sharps does G major have?",
+        "answer": "1",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 4
+          "key_index": 8
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 28,
