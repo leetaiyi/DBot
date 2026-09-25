@@ -2531,7 +2531,7 @@
         "Live Gloriously!": 3,
         "Artemis Dee": 4,
         "Noodle plays Pok\u00e9mon": 2,
-        "Noodle": 4,
+        "Noodle": 5,
         "Nova Fangly": 1,
         "Bella": 2,
         "Rose": 2,
@@ -2601,8 +2601,8 @@
         "HONK!!": 1
       },
       "coins": 10,
-      "last_daily": "2026-09-24",
-      "pity": 1,
+      "last_daily": "2026-09-25",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-23",
