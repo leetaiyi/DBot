@@ -2613,10 +2613,10 @@
         "question_data": {
           "key_index": 8
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 28,
+        "attempts": 29,
         "correct": 21
       },
       "achievement_claims": {
