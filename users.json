@@ -876,7 +876,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -899,7 +899,7 @@
         "Flash": 4,
         "Korok Couple": 1,
         "Kazoo David": 5,
-        "David": 4,
+        "David": 5,
         "Sadge Ryuu": 2,
         "Amadeus": 4,
         "Bilbo Bee": 4,
@@ -974,7 +974,7 @@
         "Rascal": 1
       },
       "last_daily": "2026-09-25",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
