@@ -750,15 +750,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
+        "date": "2026-09-25",
         "type": "accidental_major",
-        "question": "What major key has 4 flats?",
-        "answer": "Ab",
+        "question": "What major key has 1 sharps?",
+        "answer": "G",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 4
+          "key_index": 8
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 38,
