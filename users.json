@@ -725,7 +725,7 @@
         "Legendary Amanda": 1,
         "Ellie": 1,
         "LARGE Moogle": 1,
-        "Guardian Sphinx": 3,
+        "Guardian Sphinx": 4,
         "Bella & Erin": 2,
         "Rascal": 2,
         "Gustave": 1,
@@ -739,8 +739,8 @@
         "Cutter Rascal Cuddle": 1,
         "Where's My Churu": 1
       },
-      "last_daily": "2026-09-25",
-      "pity": 0,
+      "last_daily": "2026-09-26",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
