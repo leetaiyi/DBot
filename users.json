@@ -2618,15 +2618,15 @@
       "pity": 4,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-26",
+        "date": "2026-09-27",
         "type": "accidental_minor",
-        "question": "What minor key has 4 sharps?",
-        "answer": "C#",
+        "question": "What minor key has 3 sharps?",
+        "answer": "F#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11
+          "key_index": 10
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 30,
