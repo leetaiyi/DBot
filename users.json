@@ -1477,16 +1477,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-09-26",
+        "date": "2026-09-27",
         "type": "mode_accidental",
-        "question": "How many sharps are in G# Phrygian?",
-        "answer": "4",
+        "question": "How many flats are in D Aeolian?",
+        "answer": "1",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 2
+          "key_index": 1,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 47,
