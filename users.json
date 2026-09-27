@@ -1486,10 +1486,10 @@
           "key_index": 1,
           "mode_index": 5
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 47,
+        "attempts": 48,
         "correct": 43
       }
     },
