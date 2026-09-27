@@ -566,7 +566,7 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Zelda": 3,
         "Ben": 3,
@@ -590,7 +590,7 @@
         "Percy": 1,
         "Sake+Ebi": 1,
         "Mishka": 3,
-        "Amadeus2": 1,
+        "Amadeus2": 2,
         "Morpheus": 1,
         "Ivan": 3,
         "Duet of the Fates": 1,
@@ -618,7 +618,7 @@
         "Santa Murphy": 1
       },
       "last_daily": "2026-09-27",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
