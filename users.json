@@ -2613,7 +2613,7 @@
         "Food Confusion": 1,
         "HONK!!": 1
       },
-      "coins": 11,
+      "coins": 12,
       "last_daily": "2026-09-27",
       "pity": 4,
       "blessed": false,
@@ -2626,11 +2626,11 @@
         "question_data": {
           "key_index": 10
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 30,
-        "correct": 22
+        "attempts": 31,
+        "correct": 23
       },
       "achievement_claims": {
         "The B's": 1,
