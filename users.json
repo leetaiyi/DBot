@@ -759,10 +759,10 @@
         "question_data": {
           "key_index": 14
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 39,
+        "attempts": 40,
         "correct": 29
       },
       "impatience": 1
