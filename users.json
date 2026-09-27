@@ -878,7 +878,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -902,7 +902,7 @@
         "Korok Couple": 1,
         "Kazoo David": 5,
         "David": 5,
-        "Sadge Ryuu": 2,
+        "Sadge Ryuu": 3,
         "Amadeus": 5,
         "Bilbo Bee": 4,
         "Nova Fangly": 1,
@@ -977,7 +977,7 @@
         "Mal-letstation": 1
       },
       "last_daily": "2026-09-27",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
