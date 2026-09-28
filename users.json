@@ -992,16 +992,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-27",
+        "date": "2026-09-28",
         "type": "mode_accidental",
-        "question": "How many flats are in Eb Mixolydian?",
-        "answer": "4",
+        "question": "How many flats are in Db Ionian?",
+        "answer": "5",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 4
+          "key_index": 5,
+          "mode_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 51,
