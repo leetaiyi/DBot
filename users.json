@@ -2616,11 +2616,12 @@
         "Listening to Rehearsal Recordings": 1,
         "Cutter": 1,
         "Food Confusion": 1,
-        "HONK!!": 1
+        "HONK!!": 1,
+        " Benjamin (hidden)": 1
       },
       "coins": 12,
-      "last_daily": "2026-09-27",
-      "pity": 4,
+      "last_daily": "2026-09-28",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-09-27",
