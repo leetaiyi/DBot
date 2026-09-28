@@ -1501,7 +1501,7 @@
     "418107361786331138": {
       "coins": 1,
       "inventory": {
-        "?? Ben": 1,
+        "?? Ben": 2,
         "HONK!!": 1,
         "Sad Jamin": 1,
         "LaCat: Wassup": 3,
@@ -1592,8 +1592,8 @@
         "Ellie": 1,
         "Leia hates dry food": 1
       },
-      "last_daily": "2026-09-25",
-      "pity": 0,
+      "last_daily": "2026-09-28",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
