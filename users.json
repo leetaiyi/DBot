@@ -2751,7 +2751,7 @@
       "blessed": false
     },
     "124148748615024640": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Ben": 1,
         "Mizu Pounces Yumi": 1,
@@ -2765,7 +2765,8 @@
         "Nova Fangly": 1,
         "Zelda": 1,
         "Batta": 1,
-        "Santa Murphy": 1
+        "Santa Murphy": 1,
+        "Benjamin (bandana)": 1
       },
       "last_daily": "2026-09-28",
       "pity": 0,
