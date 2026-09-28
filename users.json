@@ -1483,16 +1483,15 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-09-27",
-        "type": "mode_accidental",
-        "question": "How many flats are in D Aeolian?",
-        "answer": "1",
-        "example": "!answer 5",
+        "date": "2026-09-28",
+        "type": "minor_major",
+        "question": "What is the relative major of C minor?",
+        "answer": "Eb",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1,
-          "mode_index": 5
+          "key_index": 3
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 48,
