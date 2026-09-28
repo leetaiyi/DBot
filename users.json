@@ -754,15 +754,15 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-27",
-        "type": "minor_accidental",
-        "question": "How many sharps does A# minor have?",
-        "answer": "7",
+        "date": "2026-09-28",
+        "type": "major_accidental",
+        "question": "How many flats does Db major have?",
+        "answer": "5",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 14
+          "key_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 40,
