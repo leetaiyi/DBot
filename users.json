@@ -1499,7 +1499,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 2,
         "HONK!!": 1,
@@ -1517,7 +1517,7 @@
         "Rose": 7,
         "Artemis Dee": 2,
         "Sake": 4,
-        "Flash": 4,
+        "Flash": 5,
         "Willow Belly": 1,
         "IDDOG": 4,
         "Amanda": 2,
@@ -1593,7 +1593,7 @@
         "Leia hates dry food": 1
       },
       "last_daily": "2026-09-28",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
