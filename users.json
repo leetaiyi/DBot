@@ -1604,15 +1604,15 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-25",
-        "type": "minor_major",
-        "question": "What is the relative major of Ab minor?",
-        "answer": "Cb",
+        "date": "2026-09-28",
+        "type": "accidental_major",
+        "question": "What major key has 2 sharps?",
+        "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7
+          "key_index": 9
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 29,
