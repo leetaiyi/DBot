@@ -2619,7 +2619,7 @@
         "HONK!!": 1,
         " Benjamin (hidden)": 1
       },
-      "coins": 12,
+      "coins": 13,
       "last_daily": "2026-09-28",
       "pity": 0,
       "blessed": false,
@@ -2632,11 +2632,11 @@
         "question_data": {
           "key_index": 12
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 31,
-        "correct": 23
+        "attempts": 32,
+        "correct": 24
       },
       "achievement_claims": {
         "The B's": 1,
