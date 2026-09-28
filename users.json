@@ -2292,16 +2292,16 @@
         "correct": 14
       },
       "daily_quiz": {
-        "date": "2026-09-25",
+        "date": "2026-09-28",
         "type": "mode_accidental",
-        "question": "How many flats are in Cb Lydian?",
-        "answer": "6",
+        "question": "How many flats are in Gb Mixolydian?",
+        "answer": "7",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 6,
-          "mode_index": 3
+          "key_index": 7,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
