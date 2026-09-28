@@ -2624,15 +2624,15 @@
       "pity": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-27",
+        "date": "2026-09-28",
         "type": "accidental_minor",
-        "question": "What minor key has 3 sharps?",
-        "answer": "F#",
+        "question": "What minor key has 5 sharps?",
+        "answer": "G#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 10
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 31,
