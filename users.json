@@ -2622,7 +2622,7 @@
         " Benjamin (hidden)": 1,
         "Sake+Ebi": 1
       },
-      "coins": 13,
+      "coins": 14,
       "last_daily": "2026-09-29",
       "pity": 0,
       "blessed": false,
@@ -2635,11 +2635,11 @@
         "question_data": {
           "key_index": 4
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 32,
-        "correct": 24
+        "attempts": 33,
+        "correct": 25
       },
       "achievement_claims": {
         "The B's": 1,
