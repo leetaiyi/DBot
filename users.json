@@ -2297,16 +2297,16 @@
         "correct": 15
       },
       "daily_quiz": {
-        "date": "2026-09-28",
-        "type": "mode_accidental",
-        "question": "How many flats are in Gb Mixolydian?",
-        "answer": "7",
-        "example": "!answer 5",
+        "date": "2026-09-29",
+        "type": "accidental_mode",
+        "question": "Which Mixolydian scale has 2 flats?",
+        "answer": "F",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7,
+          "key_index": 2,
           "mode_index": 4
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
