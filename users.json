@@ -996,16 +996,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-28",
+        "date": "2026-09-29",
         "type": "mode_accidental",
-        "question": "How many flats are in Db Ionian?",
-        "answer": "5",
+        "question": "How many flats are in A Locrian?",
+        "answer": "2",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 5,
-          "mode_index": 0
+          "key_index": 2,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 52,
