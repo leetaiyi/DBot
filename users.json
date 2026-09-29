@@ -2192,7 +2192,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 2,
@@ -2208,7 +2208,7 @@
         "Howl": 3,
         "IDDOG": 3,
         "Sake+Ebi": 5,
-        "Ben": 5,
+        "Ben": 6,
         "A Wild Artemis": 4,
         "Bynx": 2,
         "Ivan": 2,
@@ -2281,7 +2281,7 @@
         "Aisling's Squeaky Mouse": 1
       },
       "last_daily": "2026-09-29",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
