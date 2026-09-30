@@ -997,16 +997,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-29",
-        "type": "mode_accidental",
-        "question": "How many flats are in A Locrian?",
-        "answer": "2",
-        "example": "!answer 5",
+        "date": "2026-09-30",
+        "type": "accidental_mode",
+        "question": "Which Dorian scale has 0 flats?",
+        "answer": "D",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 2,
-          "mode_index": 6
+          "key_index": 0,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 53,
