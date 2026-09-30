@@ -1609,15 +1609,15 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-29",
-        "type": "accidental_major",
-        "question": "What major key has 3 flats?",
-        "answer": "Eb",
+        "date": "2026-09-30",
+        "type": "accidental_minor",
+        "question": "What minor key has 1 flats?",
+        "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 3
+          "key_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 31,
