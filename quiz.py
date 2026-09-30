@@ -3,6 +3,41 @@ import random
 from github import get_file, update_file
 from config import *
 from utils import today_string
+from difflib import SequenceMatcher
+import re
+
+
+def normalize_answer(answer):
+    answer = answer.casefold().strip()
+
+    # Normalize punctuation to spaces
+    answer = re.sub(r"[^a-z0-9\s]", " ", answer)
+
+    # Collapse multiple spaces
+    answer = re.sub(r"\s+", " ", answer)
+
+    return answer
+
+
+def answers_match(user_answer, correct_answer, threshold=0.85):
+    user_answer = normalize_answer(user_answer)
+    correct_answer = normalize_answer(correct_answer)
+
+    # Exact match after normalization
+    if user_answer == correct_answer:
+        return True
+
+    # Don't fuzzy-match very short answers
+    if len(user_answer) < 5 or len(correct_answer) < 5:
+        return False
+
+    similarity = SequenceMatcher(
+        None,
+        user_answer,
+        correct_answer
+    ).ratio()
+
+    return similarity >= threshold
 
 
 # =========================
@@ -46,7 +81,44 @@ QUESTION_TYPES = [
     "accidental_major",
     "accidental_minor"],
     ["mode_accidental",
-    "accidental_mode"]
+    "accidental_mode"],
+    ["transpose"],
+    ["repertoire"]
+]
+
+TRANSPOSE_QUESTIONS = [
+    {
+        "image": "quizpics/sev1.png",
+        "answer": "G#minor7"
+    },
+    {
+        "image": "quizpics/sev2.png",
+        "answer": "Eb7"
+    },
+    {
+        "image": "quizpics/sev3.png",
+        "answer": "Fmajor7"
+    },
+    {
+        "image": "quizpics/sev4.png",
+        "answer": "Fdim7"
+    },
+    {
+        "image": "quizpics/sev5.png",
+        "answer": "Eb7"
+    },
+    {
+        "image": "quizpics/sev6.png",
+        "answer": "Gdim7"
+    },
+    {
+        "image": "quizpics/sev8.png",
+        "answer": ["D#min7", "Ebmin7"]
+    },
+    {
+        "image": "quizpics/sev9.png",
+        "answer": "Fmin7"
+    }
 ]
 
 def get_mode(key, mode_index):
@@ -71,11 +143,13 @@ def get_question_type(user):
 
     # Unlock mode questions after:
     #   - at least 5 major/minor questions
-    #   - at least 90% correct
+    #   - at least 80% correct
     if attempts >= 5:
         accuracy = correct / attempts
 
-        if accuracy >= 0.90:
+        if attempts >= 20 and accuracy >= 0.90:
+            question_types = QUESTION_TYPES[2].copy
+        elif accuracy >= 0.80:
             question_types = QUESTION_TYPES[1].copy()
 
     return random.choice(question_types)
@@ -232,6 +306,23 @@ def generate_question(question_type):
 
         return question, answer, example, question_data
 
+    # -------------------------
+    # Transpose questions
+    # -------------------------   
+    elif question_type in ["transpose"]:
+        question_index = random.randrange(len(TRANSPOSE_QUESTIONS))
+        transpose_question = TRANSPOSE_QUESTIONS[question_index]
+
+        question = "In concert pitch, what chord is this?"
+        answer = transpose_question["answer"]
+        example = "G7, Dmaj7, Bbm7, Fdim7"
+
+        question_data = {
+            "type": "transpose",
+            "index": question_index
+            "attachment": transpose_question["image"]
+        }
+
     else:
         raise ValueError(f"Unknown question type: {question_type}")
 
@@ -251,7 +342,6 @@ def setup_quiz(bot):
             return
 
         user = users[user_id]
-
         today = today_string()
 
         # Initialize quiz statistics if they don't exist
@@ -266,12 +356,38 @@ def setup_quiz(bot):
 
             if quiz.get("completed"):
                 await ctx.send("✅ You've already completed today's quiz.")
-            else:
-                await ctx.send(
-                    f"**You already have today's quiz:**\n\n"
-                    f"{quiz['question']}\n\n"
-                    f"Reply using `!answer <answer>`."
+                return
+
+            message = (
+                f"**You already have today's quiz:**\n\n"
+                f"{quiz['question']}\n\n"
+                f"Reply using `!answer <answer>`.\n"
+                f"Examples: {quiz['example']}"
+            )
+
+            # Re-send the image for transpose questions
+            if quiz.get("type") == "transpose":
+                transpose_question = TRANSPOSE_QUESTIONS[
+                    quiz["question_data"]["index"]
+                ]
+
+                image_path = transpose_question["image"]
+                image_url = QUIZ_MEDIA_URL + image_path
+
+                async with aiohttp.ClientSession() as session:
+                    async with session.get(image_url) as response:
+                        response.raise_for_status()
+                        image_data = await response.read()
+
+                file = discord.File(
+                    io.BytesIO(image_data),
+                    filename=os.path.basename(image_path)
                 )
+
+                await ctx.send(message, file=file)
+
+            else:
+                await ctx.send(message)
 
             return
 
@@ -279,7 +395,9 @@ def setup_quiz(bot):
         question_type = get_question_type(user)
 
         # Generate the question
-        question, answer, example, question_data = generate_question(question_type)
+        question, answer, example, question_data = generate_question(
+            question_type
+        )
 
         # Store the quiz
         user["daily_quiz"] = {
@@ -292,15 +410,38 @@ def setup_quiz(bot):
             "completed": False
         }
 
-
         update_file(USERS_URL, user_data, user_sha)
 
-        await ctx.send(
+        message = (
             f"**Daily Music Theory Quiz**\n\n"
             f"{question}\n\n"
-            f"Reply using `!answer <answer>`. "
-            f"Examples: `{example}`"
+            f"Reply using `!answer <answer>`.\n"
+            f"Examples: {example}"
         )
+
+        # Send image for transpose questions
+        if question_type == "transpose":
+            transpose_question = TRANSPOSE_QUESTIONS[
+                question_data["index"]
+            ]
+
+            image_path = transpose_question["image"]
+            image_url = QUIZ_MEDIA_URL + image_path
+
+            async with aiohttp.ClientSession() as session:
+                async with session.get(image_url) as response:
+                    response.raise_for_status()
+                    image_data = await response.read()
+
+            file = discord.File(
+                io.BytesIO(image_data),
+                filename=os.path.basename(image_path)
+            )
+
+            await ctx.send(message, file=file)
+
+        else:
+            await ctx.send(message)
 
 
     @bot.command()
