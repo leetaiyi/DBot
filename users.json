@@ -1504,7 +1504,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 2,
         "HONK!!": 1,
@@ -1596,7 +1596,8 @@
         "Metal Gear Rascal": 2,
         "Ellie": 1,
         "Leia hates dry food": 1,
-        "Husky, Elkhound, German Shepherd": 1
+        "Husky, Elkhound, German Shepherd": 1,
+        "Crepuscule with Angie": 1
       },
       "last_daily": "2026-09-30",
       "pity": 0,
