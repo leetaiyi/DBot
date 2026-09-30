@@ -1488,15 +1488,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-09-29",
-        "type": "minor_accidental",
-        "question": "How many flats does Ab minor have?",
-        "answer": "7",
-        "example": "!answer 4",
+        "date": "2026-09-30",
+        "type": "mode_accidental",
+        "question": "How many sharps are in C# Aeolian?",
+        "answer": "4",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 7
+          "key_index": 11,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 50,
