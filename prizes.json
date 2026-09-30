@@ -639,6 +639,16 @@
       "name": "Husky, Elkhound, German Shepherd",
       "weight": 40,
       "image": "BreedComparison1.jpg"
+    },
+    {
+      "name": "Lego Polly",
+      "weight": 40,
+      "image": "PollyL.jpg"
+    },
+    {
+      "name": "Squishy Cheeks",
+      "weight": 5,
+      "image": "PollyC.gif"
     }
   ],
   "achievements": {
