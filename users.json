@@ -78,19 +78,19 @@
         "Maleficent": 6,
         "A Wild Artemis": 3,
         "Mishka": 6,
-        "Flash": 5,
+        "Flash": 6,
         "Percy": 4,
         "David": 5,
         "Sadge Ryuu": 3,
         "Bella": 4,
-        "Tomyris": 3,
+        "Tomyris": 4,
         "Masabone": 2,
         "Sake+Ebi": 1,
         "Zelda": 6,
         "Ellie as Moonmoon": 1,
         "Korok Couple": 1,
         "Polly": 3,
-        "Keyboard Carbon": 2,
+        "Keyboard Carbon": 3,
         "Capt Ben": 3,
         "IDDOG": 3,
         "Gabbro": 3,
@@ -104,7 +104,7 @@
         "Cerberus": 3,
         "Ebi": 2,
         "Coconut!": 5,
-        "Loki Loodelally": 5,
+        "Loki Loodelally": 6,
         "Sawyer": 3,
         "Morpheus": 5,
         "Howl": 2,
@@ -156,10 +156,12 @@
         "Camouflaged": 1,
         "Nananananananana": 1,
         "Leia hates dry food": 1,
-        "Mal-letstation": 1
+        "Mal-letstation": 1,
+        "Rainbow Hairless": 1,
+        "Pet the Batta": 1
       },
       "coins": 0,
-      "last_daily": "2026-09-24",
+      "last_daily": "2026-09-30",
       "pity": 1,
       "blessed": false,
       "achievement_claims": {
@@ -464,7 +466,7 @@
         "Bynx": 3,
         "Batta": 4,
         "Sawyer": 2,
-        "Percy": 3,
+        "Percy": 4,
         "Ivan": 4,
         "Willow Snuggle": 6,
         "LaCat: Hypnosis": 5,
@@ -527,9 +529,13 @@
         "Cutter": 1,
         "Batta Bunny Kick": 1,
         "Gustave Dodge": 1,
-        "Rascal": 1
+        "Rascal": 1,
+        "Crepuscule with Angie": 1,
+        "Awkward Teenage Nova": 1,
+        "Cutter Rascal Cuddle": 1,
+        "Cutter??": 1
       },
-      "last_daily": "2026-09-24",
+      "last_daily": "2026-09-29",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
@@ -564,7 +570,7 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Zelda": 3,
         "Ben": 3,
@@ -587,8 +593,8 @@
         "Sawyer": 3,
         "Percy": 1,
         "Sake+Ebi": 1,
-        "Mishka": 2,
-        "Amadeus2": 1,
+        "Mishka": 3,
+        "Amadeus2": 2,
         "Morpheus": 1,
         "Ivan": 3,
         "Duet of the Fates": 1,
@@ -615,23 +621,23 @@
         "Noodle": 1,
         "Santa Murphy": 1
       },
-      "last_daily": "2026-09-24",
-      "pity": 0,
+      "last_daily": "2026-09-27",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
-        "type": "major_accidental",
-        "question": "How many sharps does E major have?",
-        "answer": "4",
-        "example": "!answer 4",
+        "date": "2026-09-27",
+        "type": "accidental_major",
+        "question": "What major key has 5 flats?",
+        "answer": "Db",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11
+          "key_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 1,
@@ -639,11 +645,11 @@
       }
     },
     "400744536239898625": {
-      "coins": 6,
+      "coins": 9,
       "inventory": {
         "Sad Jamin": 1,
         "Bynx": 4,
-        "Artemis Dee": 3,
+        "Artemis Dee": 4,
         "Zelda": 2,
         "LaCat: Hypnosis": 4,
         "Amanda": 2,
@@ -723,20 +729,22 @@
         "Legendary Amanda": 1,
         "Ellie": 1,
         "LARGE Moogle": 1,
-        "Guardian Sphinx": 3,
+        "Guardian Sphinx": 4,
         "Bella & Erin": 2,
         "Rascal": 2,
         "Gustave": 1,
-        "Spooky on a Spooky Skeleton": 1,
+        "Spooky on a Spooky Skeleton": 2,
         "YinYorang": 1,
         "Cutter??": 1,
         "Crepuscule with Angie": 1,
         "Mizu": 1,
         "Nananananananana": 1,
         "Gustave Dodge": 1,
-        "Cutter Rascal Cuddle": 1
+        "Cutter Rascal Cuddle": 1,
+        "Where's My Churu": 1,
+        "\u0250\u0287\u0287\u0250q": 1
       },
-      "last_daily": "2026-09-24",
+      "last_daily": "2026-09-29",
       "pity": 1,
       "pulls": 0,
       "blessed": false,
@@ -748,19 +756,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
-        "type": "accidental_major",
-        "question": "What major key has 4 flats?",
-        "answer": "Ab",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-29",
+        "type": "major_accidental",
+        "question": "How many sharps does D major have?",
+        "answer": "2",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 4
+          "key_index": 9
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 38,
-        "correct": 28
+        "attempts": 42,
+        "correct": 31
       },
       "impatience": 1
     },
@@ -768,7 +776,7 @@
       "coins": 0,
       "inventory": {
         "HONK!!": 1,
-        "Tomyris": 7,
+        "Tomyris": 8,
         "Howl": 3,
         "LaCat: Wassup": 5,
         "Ollidammara": 2,
@@ -790,7 +798,7 @@
         "Amanda": 2,
         "Rose": 3,
         "Nova Fangly": 1,
-        "Betty": 3,
+        "Betty": 4,
         "Artemis Dee": 1,
         "Coconut!": 3,
         "Carbon": 2,
@@ -821,14 +829,14 @@
         "Sad Jamin": 1,
         "Noodle plays Pok\u00e9mon": 2,
         "Noodle": 2,
-        "Santa Murphy": 2,
+        "Santa Murphy": 3,
         "Snow Kiss": 3,
         "Benjamin (bandana)": 3,
         "Bilbo Bee": 2,
         "Loki Loodelally": 1,
         "YO!": 2,
         "Achelois": 1,
-        "Furiosa blesses you with wealth": 1,
+        "Furiosa blesses you with wealth": 2,
         "LaCat: Belleh": 1,
         "Oreo": 1,
         "Bigger litterbox pls": 1,
@@ -849,29 +857,31 @@
         "Moogle": 1,
         "Ellie": 1,
         "Rainbow Hairless": 1,
-        "Mal-letstation": 1
+        "Mal-letstation": 1,
+        "LARGE Moogle": 2,
+        " Benjamin (hidden)": 1
       },
-      "last_daily": "2026-09-24",
-      "pity": 2,
+      "last_daily": "2026-09-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
-        "type": "accidental_major",
-        "question": "What major key has 7 flats?",
-        "answer": "Cb",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-29",
+        "type": "major_accidental",
+        "question": "How many sharps does A major have?",
+        "answer": "3",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 7
+          "key_index": 10
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 6,
-        "correct": 2
+        "attempts": 8,
+        "correct": 4
       }
     },
     "292070419341639681": {
@@ -898,12 +908,12 @@
         "Flash": 4,
         "Korok Couple": 1,
         "Kazoo David": 5,
-        "David": 4,
-        "Sadge Ryuu": 2,
-        "Amadeus": 4,
+        "David": 5,
+        "Sadge Ryuu": 3,
+        "Amadeus": 6,
         "Bilbo Bee": 4,
         "Nova Fangly": 1,
-        "Sawyer": 4,
+        "Sawyer": 5,
         "LaCat: Wassup": 6,
         "HONK!!": 2,
         "Willow": 3,
@@ -911,7 +921,7 @@
         "Bella": 7,
         "Morpheus": 2,
         "Polly": 2,
-        "Coconut!": 6,
+        "Coconut!": 7,
         "Capt Ben": 1,
         "Live Gloriously!": 3,
         "Maru Merak Miss Ma'am Morden": 4,
@@ -932,7 +942,7 @@
         "Snow Kiss": 1,
         "YO!": 4,
         "Sake+Ebi": 3,
-        "Sake": 2,
+        "Sake": 3,
         "Bigger litterbox pls": 1,
         "Keyboard Carbon": 2,
         "Zelda": 3,
@@ -951,7 +961,7 @@
         "Willow Belly": 1,
         "GengArtemis": 1,
         "Barely Legal John": 1,
-        "Furiosa blesses you with wealth": 1,
+        "Furiosa blesses you with wealth": 2,
         "Listening to Rehearsal Recordings": 1,
         "?? Ben": 1,
         "Carbon Eyes": 2,
@@ -964,16 +974,19 @@
         "Nananananananana": 2,
         "Bella & Erin": 1,
         "Metal Gear Rascal": 1,
-        "Cutter??": 1,
+        "Cutter??": 2,
         "C-C-C-Combo Breaker!": 1,
         "Spooky likes any lap": 1,
         "Ellie": 1,
         "Pet the Batta": 1,
         "Cutter": 1,
-        "Rascal": 1
+        "Rascal": 1,
+        "Mal-letstation": 1,
+        "Ben & Leia tart runneth over": 1,
+        "Gustave Dodge": 1
       },
-      "last_daily": "2026-09-24",
-      "pity": 1,
+      "last_daily": "2026-09-30",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -985,19 +998,20 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
-        "type": "major_accidental",
-        "question": "How many flats does Bb major have?",
-        "answer": "2",
-        "example": "!answer 4",
+        "date": "2026-09-30",
+        "type": "accidental_mode",
+        "question": "Which Dorian scale has 0 flats?",
+        "answer": "D",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 2
+          "key_index": 0,
+          "mode_index": 1
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 48,
-        "correct": 43
+        "attempts": 54,
+        "correct": 49
       }
     },
     "201094207857754112": {
@@ -1071,7 +1085,7 @@
         "Willow Snuggle": 1,
         "LaCat: Wassup": 5,
         "Ollidammara": 5,
-        "Artemis Dee": 3,
+        "Artemis Dee": 4,
         "Sadge Ryuu": 3,
         "Maleficent": 6,
         "Mishka": 4,
@@ -1120,10 +1134,10 @@
         "Furiosa blesses you with wealth": 1,
         "Are You Dragon Tales?": 1,
         "Noodle": 2,
-        "Achelois": 1,
+        "Achelois": 2,
         "Percy": 1,
         "Kitchen Cat": 2,
-        "Santa Murphy": 2,
+        "Santa Murphy": 3,
         "Noodle plays Pok\u00e9mon": 1,
         "Listening to Rehearsal Recordings": 1,
         "David": 1,
@@ -1141,8 +1155,8 @@
         "Rainbow Hairless": 1,
         "\u0250\u0287\u0287\u0250q": 1
       },
-      "last_daily": "2026-09-19",
-      "pity": 0,
+      "last_daily": "2026-09-29",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1337,7 +1351,7 @@
         "Amadeus2": 2,
         "Maru Merak Miss Ma'am Morden": 1,
         "YO!": 1,
-        "LaCat: Wassup": 3,
+        "LaCat: Wassup": 4,
         "Tomyris": 2,
         "Ebi": 2,
         "Keyboard Carbon": 2,
@@ -1357,32 +1371,33 @@
         "Guardian Sphinx": 1,
         "Bigger litterbox pls": 1,
         "Metal Gear Rascal": 1,
-        "Mal-letstation": 1
+        "Mal-letstation": 1,
+        "Betty": 1
       },
-      "last_daily": "2026-09-19",
+      "last_daily": "2026-09-29",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-19",
-        "type": "mode_accidental",
-        "question": "How many sharps are in A Lydian?",
-        "answer": "4",
-        "example": "!answer 5",
+        "date": "2026-09-29",
+        "type": "accidental_mode",
+        "question": "Which Locrian scale has 5 flats?",
+        "answer": "C",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 3
+          "key_index": 5,
+          "mode_index": 6
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 9,
-        "correct": 9
+        "attempts": 10,
+        "correct": 10
       },
       "impatience": 1
     },
     "954136279296118885": {
-      "coins": 49,
+      "coins": 53,
       "inventory": {
         "Bynx": 7,
         "LaCat: Wassup": 3,
@@ -1424,7 +1439,7 @@
         "John and Albino water monitor lizard": 3,
         "Loki Loodelally": 2,
         "King Baker": 1,
-        "Furiosa blesses you with wealth": 1,
+        "Furiosa blesses you with wealth": 2,
         "Benjamin (bandana)": 3,
         "Leia (apples)": 4,
         "Kitchen Cat": 2,
@@ -1439,7 +1454,7 @@
         "Achelois": 2,
         "Listening to Rehearsal Recordings": 1,
         "Noodle plays Pok\u00e9mon": 1,
-        "Flash": 1,
+        "Flash": 2,
         "Coconut!": 1,
         "Sake+Ebi": 1,
         "Snow Kiss": 1,
@@ -1459,10 +1474,12 @@
         "Batta Bunny Kick": 1,
         "Nova: The Absurd Beast": 1,
         "Pet the Batta": 1,
-        "C-C-C-Combo Breaker!": 1
+        "C-C-C-Combo Breaker!": 1,
+        "Crepuscule with Angie": 1,
+        "Rainbow Hairless": 1
       },
-      "last_daily": "2026-09-23",
-      "pity": 4,
+      "last_daily": "2026-09-29",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1471,26 +1488,25 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
-        "type": "accidental_mode",
-        "question": "Which Dorian scale has 4 flats?",
-        "answer": "Bb",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-29",
+        "type": "minor_accidental",
+        "question": "How many flats does Ab minor have?",
+        "answer": "7",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 1
+          "key_index": 7
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 45,
-        "correct": 41
+        "attempts": 50,
+        "correct": 45
       }
     },
     "418107361786331138": {
       "coins": 0,
       "inventory": {
-        "?? Ben": 1,
+        "?? Ben": 2,
         "HONK!!": 1,
         "Sad Jamin": 1,
         "LaCat: Wassup": 3,
@@ -1500,13 +1516,13 @@
         "Ivan": 3,
         "Willow": 3,
         "Keyboard Carbon": 2,
-        "Bynx": 4,
+        "Bynx": 5,
         "Morpheus": 3,
         "Amadeus": 2,
         "Rose": 7,
         "Artemis Dee": 2,
         "Sake": 4,
-        "Flash": 4,
+        "Flash": 5,
         "Willow Belly": 1,
         "IDDOG": 4,
         "Amanda": 2,
@@ -1563,7 +1579,7 @@
         "Furiosa blesses you with wealth": 1,
         "Nova: The Absurd Beast": 1,
         "Barely Legal John": 1,
-        "Noodle": 1,
+        "Noodle": 2,
         "Masabone": 1,
         "Destruction and the Birds": 1,
         "Duet of the Fates": 2,
@@ -1577,11 +1593,14 @@
         "Moogle": 1,
         "Camouflaged": 1,
         "Contemplating Existence": 1,
-        "Metal Gear Rascal": 1,
-        "Ellie": 1
+        "Metal Gear Rascal": 2,
+        "Ellie": 1,
+        "Leia hates dry food": 1,
+        "Husky, Elkhound, German Shepherd": 1,
+        "Crepuscule with Angie": 1
       },
-      "last_daily": "2026-09-24",
-      "pity": 3,
+      "last_daily": "2026-09-30",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1592,23 +1611,23 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
-        "type": "minor_accidental",
-        "question": "How many sharps does A# minor have?",
-        "answer": "7",
-        "example": "!answer 4",
+        "date": "2026-09-30",
+        "type": "accidental_minor",
+        "question": "What minor key has 1 flats?",
+        "answer": "D",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 14
+          "key_index": 1
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 28,
-        "correct": 24
+        "attempts": 32,
+        "correct": 28
       }
     },
     "370310581716254723": {
-      "coins": 10,
+      "coins": 12,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1642,27 +1661,29 @@
         "Santa Murphy": 1,
         "Maleficent": 1,
         "Tin Senpai Noticed Us": 1,
-        "Spooky likes any lap": 1
+        "Spooky likes any lap": 1,
+        "Howl": 1,
+        "Rainbow Hairless": 1
       },
-      "last_daily": "2026-09-24",
+      "last_daily": "2026-09-26",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-24",
-        "type": "accidental_mode",
-        "question": "Which Lydian scale has 5 flats?",
-        "answer": "Gb",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-26",
+        "type": "mode_accidental",
+        "question": "How many sharps are in B Ionian?",
+        "answer": "5",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 5,
-          "mode_index": 3
+          "key_index": 12,
+          "mode_index": 0
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 15,
-        "correct": 15
+        "attempts": 17,
+        "correct": 17
       }
     },
     "339576678902923274": {
@@ -1943,10 +1964,10 @@
         "Amadeus2": 4,
         "Live Gloriously!": 8,
         "Keyboard Carbon": 4,
-        "Ebi": 3,
+        "Ebi": 4,
         "Cerberus": 4,
         "Willow": 3,
-        "Sake": 9,
+        "Sake": 10,
         "Sad Jamin": 2,
         "Morpheus": 3,
         "Percy": 2,
@@ -1954,7 +1975,7 @@
         "IDDOG": 2,
         "Duet of the Fates": 2,
         "Ellie as Moonmoon": 1,
-        "Carbon": 2,
+        "Carbon": 3,
         "Maru Merak Miss Ma'am Morden": 3,
         "Leia (apples)": 4,
         "Bynx": 2,
@@ -1965,7 +1986,7 @@
         "Rose": 1,
         "King Baker": 2,
         "Achelois": 4,
-        "David": 3,
+        "David": 4,
         "Ollidammara": 1,
         "HONK!!": 1,
         "Legendary Amanda": 1,
@@ -2007,9 +2028,11 @@
         "Spooky likes any lap": 1,
         "\u0250\u0287\u0287\u0250q": 1,
         "Baby brother bother": 1,
-        "Crepuscule with Angie": 1
+        "Crepuscule with Angie": 2,
+        "Awkward Teenage Nova": 1,
+        "Food Confusion": 1
       },
-      "last_daily": "2026-09-24",
+      "last_daily": "2026-09-29",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
@@ -2020,23 +2043,23 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-21",
-        "type": "major_minor",
-        "question": "What is the relative minor of C major?",
-        "answer": "A",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-27",
+        "type": "major_accidental",
+        "question": "How many sharps does E major have?",
+        "answer": "4",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 0
+          "key_index": 11
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 17,
-        "correct": 15
+        "attempts": 19,
+        "correct": 17
       }
     },
     "247912247496540160": {
-      "coins": 4,
+      "coins": 7,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -2055,7 +2078,7 @@
         "Polly": 3,
         "Flash": 4,
         "John and Albino water monitor lizard": 4,
-        "Ebi": 3,
+        "Ebi": 4,
         "Morpheus": 4,
         "Live Gloriously!": 4,
         "Benjamin (bandana)": 3,
@@ -2108,13 +2131,14 @@
         "Mizu": 1,
         "Nananananananana": 1,
         "Pet the Batta": 1,
-        "Aisling Fishy Cave": 1,
+        "Aisling Fishy Cave": 2,
         "Cutter": 1,
         "Spooky likes any lap": 1,
-        "Gustave Dodge": 1
+        "Gustave Dodge": 1,
+        "Contemplating Existence": 1
       },
-      "last_daily": "2026-09-20",
-      "pity": 1,
+      "last_daily": "2026-09-28",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2123,19 +2147,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-20",
-        "type": "accidental_minor",
-        "question": "What minor key has 4 flats?",
-        "answer": "F",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-28",
+        "type": "major_accidental",
+        "question": "How many sharps does D major have?",
+        "answer": "2",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 4
+          "key_index": 9
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 11,
-        "correct": 9
+        "attempts": 14,
+        "correct": 12
       }
     },
     "743276168316190795": {
@@ -2188,7 +2212,7 @@
         "Howl": 3,
         "IDDOG": 3,
         "Sake+Ebi": 5,
-        "Ben": 5,
+        "Ben": 6,
         "A Wild Artemis": 4,
         "Bynx": 2,
         "Ivan": 2,
@@ -2238,11 +2262,11 @@
         "Cerberus": 4,
         "YO!": 2,
         "GengArtemis": 2,
-        "Coconut!": 2,
+        "Coconut!": 3,
         "Masabone": 1,
         "LaCat: Hypnosis": 1,
         "Destruction and the Birds": 1,
-        "Legendary Amanda": 1,
+        "Legendary Amanda": 2,
         "Carbon Eyes": 1,
         "Kazoo David": 2,
         "Korok Couple": 1,
@@ -2255,10 +2279,13 @@
         "Ellie": 1,
         "Metal Gear Rascal": 1,
         "Moogle": 1,
-        "Concert Dwarf": 1
+        "Concert Dwarf": 1,
+        "Cutter Rascal Cuddle": 1,
+        "Pet the Batta": 1,
+        "Aisling's Squeaky Mouse": 1
       },
-      "last_daily": "2026-09-24",
-      "pity": 4,
+      "last_daily": "2026-09-29",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2270,18 +2297,18 @@
       },
       "impatience": 4,
       "quiz_stats": {
-        "attempts": 13,
-        "correct": 13
+        "attempts": 16,
+        "correct": 16
       },
       "daily_quiz": {
-        "date": "2026-09-23",
-        "type": "mode_accidental",
-        "question": "How many sharps are in G Ionian?",
-        "answer": "1",
-        "example": "!answer 5",
+        "date": "2026-09-29",
+        "type": "accidental_mode",
+        "question": "Which Mixolydian scale has 2 flats?",
+        "answer": "F",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 8,
-          "mode_index": 0
+          "key_index": 2,
+          "mode_index": 4
         },
         "completed": true
       }
@@ -2394,7 +2421,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 1,
+      "coins": 2,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 3,
         "Kazoo David": 2,
@@ -2415,11 +2442,11 @@
         "Ivan": 6,
         "Belly Flash": 1,
         "Capt Ben": 2,
-        "Rose": 4,
-        "Ellie as Moonmoon": 2,
+        "Rose": 5,
+        "Ellie as Moonmoon": 3,
         "LaCat: Belleh": 1,
         "Sawyer": 3,
-        "Leia (apples)": 2,
+        "Leia (apples)": 3,
         "David": 1,
         "Nova Fangly": 4,
         "Coconut!": 2,
@@ -2435,7 +2462,7 @@
         "Loki Loodelally": 2,
         "Artemis Dee": 3,
         "Willow Snuggle": 2,
-        "Amadeus2": 1,
+        "Amadeus2": 2,
         "King Baker": 1,
         "Keyboard Carbon": 3,
         "Sake": 3,
@@ -2480,14 +2507,16 @@
         "Crepuscule with Angie": 1,
         "Aisling's Squeaky Mouse": 1,
         "Ellie": 1,
-        "Camouflaged": 1,
+        "Camouflaged": 2,
         "Moogle": 1,
         "Food Confusion": 1,
         "Batta Bunny Kick": 1,
-        "Spooky likes any lap": 1
+        "Spooky likes any lap": 1,
+        "Gustave": 1,
+        "Awkward Teenage Nova": 1
       },
-      "last_daily": "2026-09-24",
-      "pity": 0,
+      "last_daily": "2026-09-29",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2498,19 +2527,19 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
+        "date": "2026-09-29",
         "type": "accidental_minor",
-        "question": "What minor key has 2 flats?",
-        "answer": "G",
+        "question": "What minor key has 1 flats?",
+        "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 2
+          "key_index": 1
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 37,
-        "correct": 28
+        "attempts": 40,
+        "correct": 31
       }
     },
     "181899217919279104": {
@@ -2530,7 +2559,7 @@
         "Live Gloriously!": 3,
         "Artemis Dee": 4,
         "Noodle plays Pok\u00e9mon": 2,
-        "Noodle": 4,
+        "Noodle": 5,
         "Nova Fangly": 1,
         "Bella": 2,
         "Rose": 2,
@@ -2557,7 +2586,7 @@
         "Sadge Ryuu": 2,
         "Cerberus": 1,
         "Sad Jamin": 2,
-        "Ebi": 5,
+        "Ebi": 6,
         "Ivan": 2,
         "Carbon": 1,
         "Coconut!": 2,
@@ -2591,32 +2620,35 @@
         "Bynx": 2,
         "Leia hates dry food": 1,
         "Ellie": 1,
-        "Sake": 1,
+        "Sake": 2,
         "Rascal": 1,
         "Morpheus": 1,
         "Listening to Rehearsal Recordings": 1,
         "Cutter": 1,
         "Food Confusion": 1,
-        "HONK!!": 1
+        "HONK!!": 1,
+        " Benjamin (hidden)": 1,
+        "Sake+Ebi": 1,
+        "Crepuscule with Angie": 1
       },
-      "coins": 10,
-      "last_daily": "2026-09-24",
-      "pity": 1,
+      "coins": 14,
+      "last_daily": "2026-09-30",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-23",
-        "type": "accidental_minor",
-        "question": "What minor key has 4 flats?",
-        "answer": "F",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-09-29",
+        "type": "minor_accidental",
+        "question": "How many flats does F minor have?",
+        "answer": "4",
+        "example": "!answer 4",
         "question_data": {
           "key_index": 4
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 28,
-        "correct": 21
+        "attempts": 33,
+        "correct": 25
       },
       "achievement_claims": {
         "The B's": 1,
@@ -2691,11 +2723,16 @@
         "Noodle": 1,
         "Spooky likes any lap": 1,
         "Rascal": 1,
-        "Moogle": 1,
+        "Moogle": 2,
         "Spooky on a Spooky Skeleton": 1,
-        "Batta Bunny Kick": 1
+        "Batta Bunny Kick": 1,
+        "Sawyer": 1,
+        "Betty": 1,
+        "Mizu": 1,
+        "Cutter??": 1,
+        "Aisling Fishy Cave": 1
       },
-      "last_daily": "2026-09-23",
+      "last_daily": "2026-09-29",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
@@ -2742,25 +2779,52 @@
         "Cerberus": 1,
         "Nova Fangly": 1,
         "Zelda": 1,
-        "Batta": 1
+        "Batta": 1,
+        "Santa Murphy": 1,
+        "Benjamin (bandana)": 1
       },
-      "last_daily": "2026-09-23",
+      "last_daily": "2026-09-28",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "impatience": 2,
       "quiz_stats": {
-        "attempts": 4,
-        "correct": 4
+        "attempts": 5,
+        "correct": 5
       },
       "daily_quiz": {
-        "date": "2026-09-23",
-        "type": "accidental_minor",
-        "question": "What minor key has 4 sharps?",
+        "date": "2026-09-28",
+        "type": "accidental_major",
+        "question": "What major key has 5 sharps?",
+        "answer": "B",
+        "example": "!answer Ab or !answer c#",
+        "question_data": {
+          "key_index": 12
+        },
+        "completed": true
+      }
+    },
+    "321852031889309708": {
+      "coins": 5,
+      "inventory": {
+        "Pet the Batta": 1
+      },
+      "last_daily": "2026-09-24",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false,
+      "quiz_stats": {
+        "attempts": 1,
+        "correct": 1
+      },
+      "daily_quiz": {
+        "date": "2026-09-24",
+        "type": "accidental_major",
+        "question": "What major key has 7 sharps?",
         "answer": "C#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11
+          "key_index": 14
         },
         "completed": true
       }
