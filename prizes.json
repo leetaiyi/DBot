@@ -649,6 +649,11 @@
       "name": "Squishy Cheeks",
       "weight": 5,
       "image": "PollyC.gif"
+    },
+    {
+      "name": "Lying ~~in~~ on the Mediterranean",
+      "weight": 5,
+      "image": "zdMedit.jpg"
     }
   ],
   "achievements": {
