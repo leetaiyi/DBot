@@ -1700,10 +1700,10 @@
           "index": 12,
           "attachment": "sev13.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 20,
+        "attempts": 21,
         "correct": 20
       }
     },
