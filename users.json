@@ -773,15 +773,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-30",
-        "type": "accidental_minor",
-        "question": "What minor key has 2 sharps?",
-        "answer": "B",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-01",
+        "type": "mode_accidental",
+        "question": "How many sharps are in A# Locrian?",
+        "answer": "5",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 9
+          "key_index": 12,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 43,
