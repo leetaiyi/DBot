@@ -2858,6 +2858,16 @@
         },
         "completed": true
       }
+    },
+    "148190213045354497": {
+      "coins": 4,
+      "inventory": {
+        "Duet of the Fates": 1
+      },
+      "last_daily": "2026-10-01",
+      "pity": 0,
+      "pulls": 0,
+      "blessed": false
     }
   }
 }
