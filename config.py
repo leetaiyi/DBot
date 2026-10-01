@@ -37,7 +37,7 @@ USERS_URL = (
     f"/contents/{USERS_PATH}"
 )
 
-QUIZ_MEDIA_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/WM%20Gacha/quizpics/"
+QUIZ_MEDIA_URL = "https://raw.githubusercontent.com/leetaiyi/DBot/main/quizpics/"
 
 DATA_BRANCH = "data"
 
