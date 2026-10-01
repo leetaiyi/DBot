@@ -382,8 +382,7 @@ def generate_question(question_type):
 
 
 def setup_quiz(bot):
-```python
-@bot.command()
+    @bot.command()
     async def quiz(ctx):
         user_data, user_sha = get_file(USERS_URL)
 
