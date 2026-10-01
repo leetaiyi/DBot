@@ -387,6 +387,8 @@ def generate_question(question_type):
 def setup_quiz(bot):
     @bot.command()
     async def quiz(ctx):
+        print("KEYS:", type(KEYS), KEYS)
+        print("TRANSPOSE_QUESTIONS:", type(TRANSPOSE_QUESTIONS), TRANSPOSE_QUESTIONS)
         user_data, user_sha = get_file(USERS_URL)
 
         users = user_data.setdefault("users", {})
