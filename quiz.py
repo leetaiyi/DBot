@@ -214,9 +214,6 @@ def generate_question(question_type):
         example        - example !answer command
         question_data  - information about the generated question
     """
-    print("KEYS:", type(KEYS), KEYS)
-    print("TRANSPOSE_QUESTIONS:", type(TRANSPOSE_QUESTIONS), TRANSPOSE_QUESTIONS)
-
 
     key_index = random.randrange(len(KEYS))
     key = KEYS[key_index]
@@ -387,8 +384,6 @@ def generate_question(question_type):
 def setup_quiz(bot):
     @bot.command()
     async def quiz(ctx):
-        print("KEYS:", type(KEYS), KEYS)
-        print("TRANSPOSE_QUESTIONS:", type(TRANSPOSE_QUESTIONS), TRANSPOSE_QUESTIONS)
         user_data, user_sha = get_file(USERS_URL)
 
         users = user_data.setdefault("users", {})
@@ -408,6 +403,8 @@ def setup_quiz(bot):
 
         # Check whether the user already has today's quiz
         quiz = user.get("daily_quiz")
+
+        print("check1")
 
         if quiz is not None and quiz.get("date") == today:
 
@@ -450,11 +447,12 @@ def setup_quiz(bot):
 
         # Determine which type of question the user is eligible for
         question_type = get_question_type(user)
-
+        print("check2")
         # Generate the question
         question, answer, example, question_data = generate_question(
             question_type
         )
+        print("check3")
 
         # Store the quiz
         user["daily_quiz"] = {
