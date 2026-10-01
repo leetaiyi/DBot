@@ -434,6 +434,8 @@ def setup_quiz(bot):
                 image_path = transpose_question["image"]
                 image_url = QUIZ_MEDIA_URL + image_path
 
+                print(image_url)
+
                 embed.set_image(url=image_url)
 
             await ctx.send(embed=embed)
@@ -513,6 +515,8 @@ def setup_quiz(bot):
         quiz_stats = user.setdefault("quiz_stats", {})
         quiz_stats.setdefault("attempts", 0)
         quiz_stats.setdefault("correct", 0)
+
+        correct_answer = quiz["answer"]
 
         if isinstance(correct_answer, list):
             correct_answers = [str(answer).strip().lower() for answer in correct_answer]
