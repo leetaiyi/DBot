@@ -200,7 +200,7 @@ def get_question_type(user):
         if attempts >= 20 and accuracy >= 0.90:
             question_types = QUESTION_TYPES[2].copy
         elif accuracy * math.log(attempts, 5) >= 0.90:
-            question_types* = QUESTION_TYPES[1].copy()
+            question_types = QUESTION_TYPES[1].copy()
 
     return random.choice(question_types)
 
