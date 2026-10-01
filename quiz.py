@@ -382,7 +382,8 @@ def generate_question(question_type):
 
 
 def setup_quiz(bot):
-    @bot.command()
+```python
+@bot.command()
     async def quiz(ctx):
         user_data, user_sha = get_file(USERS_URL)
 
@@ -410,15 +411,21 @@ def setup_quiz(bot):
                 await ctx.send("✅ You've already completed today's quiz.")
                 return
 
-            message = (
-                f"**You already have today's quiz:**\n\n"
-                f"{quiz['question']}\n\n"
-                f"Reply using `!answer <answer>`.\n"
-                f"Examples: {quiz['example']}"
+            question = quiz["question"]
+            example = quiz["example"]
+            question_type = quiz.get("type")
+
+            embed = discord.Embed(
+                title="Daily Music Theory Quiz",
+                description=(
+                    f"{question}\n\n"
+                    f"Reply using `!answer <answer>`.\n"
+                    f"Examples: {example}"
+                )
             )
 
-            # Re-send the image for transpose questions
-            if quiz.get("type") == "transpose":
+            # Add image for transpose questions
+            if question_type == "transpose":
                 transpose_question = TRANSPOSE_QUESTIONS[
                     quiz["question_data"]["index"]
                 ]
@@ -426,21 +433,9 @@ def setup_quiz(bot):
                 image_path = transpose_question["image"]
                 image_url = QUIZ_MEDIA_URL + image_path
 
-                async with aiohttp.ClientSession() as session:
-                    async with session.get(image_url) as response:
-                        response.raise_for_status()
-                        image_data = await response.read()
+                embed.set_image(url=image_url)
 
-                file = discord.File(
-                    io.BytesIO(image_data),
-                    filename=os.path.basename(image_path)
-                )
-
-                await ctx.send(message, file=file)
-
-            else:
-                await ctx.send(message)
-
+            await ctx.send(embed=embed)
             return
 
         # Determine which type of question the user is eligible for
@@ -464,14 +459,16 @@ def setup_quiz(bot):
 
         update_file(USERS_URL, user_data, user_sha)
 
-        message = (
-            f"**Daily Music Theory Quiz**\n\n"
-            f"{question}\n\n"
-            f"Reply using `!answer <answer>`.\n"
-            f"Examples: {example}"
+        embed = discord.Embed(
+            title="Daily Music Theory Quiz",
+            description=(
+                f"{question}\n\n"
+                f"Reply using `!answer <answer>`.\n"
+                f"Examples: {example}"
+            )
         )
 
-        # Send image for transpose questions
+        # Add image for transpose questions
         if question_type == "transpose":
             transpose_question = TRANSPOSE_QUESTIONS[
                 question_data["index"]
@@ -480,20 +477,9 @@ def setup_quiz(bot):
             image_path = transpose_question["image"]
             image_url = QUIZ_MEDIA_URL + image_path
 
-            async with aiohttp.ClientSession() as session:
-                async with session.get(image_url) as response:
-                    response.raise_for_status()
-                    image_data = await response.read()
+            embed.set_image(url=image_url)
 
-            file = discord.File(
-                io.BytesIO(image_data),
-                filename=os.path.basename(image_path)
-            )
-
-            await ctx.send(message, file=file)
-
-        else:
-            await ctx.send(message)
+        await ctx.send(embed=embed)
 
 
     @bot.command()
