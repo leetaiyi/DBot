@@ -60,8 +60,8 @@
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 6,
-        "correct": 6
+        "attempts": 26,
+        "correct": 26
       }
     },
     "418102912221184001": {
@@ -1391,8 +1391,8 @@
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 10,
-        "correct": 10
+        "attempts": 20,
+        "correct": 20
       },
       "impatience": 1
     },
