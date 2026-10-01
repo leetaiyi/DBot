@@ -7,7 +7,7 @@ from utils import today_string
 from difflib import SequenceMatcher
 import re
 
-
+""" 
 def normalize_answer(answer):
     answer = answer.casefold().strip()
 
@@ -39,7 +39,7 @@ def answers_match(user_answer, correct_answer, threshold=0.85):
     ).ratio()
 
     return similarity >= threshold
-
+ """
 
 # =========================
 # QUIZ FUNCTIONS
