@@ -1397,16 +1397,17 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-09-29",
-        "type": "accidental_mode",
-        "question": "Which Locrian scale has 5 flats?",
-        "answer": "C",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-01",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "Eb7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 5,
-          "mode_index": 6
+          "type": "transpose",
+          "index": 4,
+          "attachment": "sev5.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 20,
