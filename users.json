@@ -2045,15 +2045,15 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-09-27",
+        "date": "2026-10-01",
         "type": "major_accidental",
-        "question": "How many sharps does E major have?",
-        "answer": "4",
+        "question": "How many sharps does B major have?",
+        "answer": "5",
         "example": "!answer 4",
         "question_data": {
-          "key_index": 11
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 19,
