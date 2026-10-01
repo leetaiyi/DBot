@@ -1353,7 +1353,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 2,
+      "coins": 3,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1407,11 +1407,11 @@
           "index": 4,
           "attachment": "sev5.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 20,
-        "correct": 20
+        "attempts": 21,
+        "correct": 21
       },
       "impatience": 1
     },
