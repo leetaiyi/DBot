@@ -2,6 +2,7 @@ from datetime import datetime, timezone, UTC, timedelta
 import random
 from github import get_file, update_file
 from config import *
+import math
 from utils import today_string
 from difflib import SequenceMatcher
 import re
@@ -88,37 +89,86 @@ QUESTION_TYPES = [
 
 TRANSPOSE_QUESTIONS = [
     {
-        "image": "quizpics/sev1.png",
-        "answer": "G#minor7"
+        "image": "quizpics/sev1.jpg",
+        "answer": "G#min7"
     },
     {
-        "image": "quizpics/sev2.png",
+        "image": "quizpics/sev2.jpg",
         "answer": "Eb7"
     },
     {
-        "image": "quizpics/sev3.png",
-        "answer": "Fmajor7"
+        "image": "quizpics/sev3.jpg",
+        "answer": "Fmaj7"
     },
     {
-        "image": "quizpics/sev4.png",
+        "image": "quizpics/sev4.jpg",
         "answer": "Fdim7"
     },
     {
-        "image": "quizpics/sev5.png",
+        "image": "quizpics/sev5.jpg",
         "answer": "Eb7"
     },
     {
-        "image": "quizpics/sev6.png",
+        "image": "quizpics/sev6.jpg",
         "answer": "Gdim7"
     },
     {
-        "image": "quizpics/sev8.png",
+        "image": "quizpics/sev7.jpg",
+        "answer": "Amin7"
+    },
+    {
+        "image": "quizpics/sev8.jpg",
         "answer": ["D#min7", "Ebmin7"]
     },
     {
-        "image": "quizpics/sev9.png",
+        "image": "quizpics/sev9.jpg",
         "answer": "Fmin7"
+    },
+    {
+        "image": "quizpics/sev10.jpg",
+        "answer": "G#min7"
+    },
+    {
+        "image": "quizpics/sev11.jpg",
+        "answer": "A#dim7"
+    },
+    {
+        "image": "quizpics/sev12.jpg",
+        "answer": "C#7"
+    },
+    {
+        "image": "quizpics/sev13.jpg",
+        "answer": "Db7"
+    },
+    {
+        "image": "quizpics/sev14.jpg",
+        "answer": "Emaj7"
+    },
+    {
+        "image": "quizpics/sev15.jpg",
+        "answer": "Fbmaj7"
+    },
+    {
+        "image": "quizpics/sev16.jpg",
+        "answer": "G#maj7"
+    },
+    {
+        "image": "quizpics/sev17.jpg",
+        "answer": ["F#mM7","F#minM7"]
+    },
+    {
+        "image": "quizpics/sev18.jpg",
+        "answer": "Dmaj7"
+    },
+    {
+        "image": "quizpics/sev19.jpg",
+        "answer": "Fmin7"
+    },
+    {
+        "image": "quizpics/sev20.jpg",
+        "answer": "G#min7"
     }
+    
 ]
 
 def get_mode(key, mode_index):
@@ -149,8 +199,8 @@ def get_question_type(user):
 
         if attempts >= 20 and accuracy >= 0.90:
             question_types = QUESTION_TYPES[2].copy
-        elif accuracy >= 0.80:
-            question_types = QUESTION_TYPES[1].copy()
+        elif accuracy * math.log(attempts, 5) >= 0.90:
+            question_types* = QUESTION_TYPES[1].copy()
 
     return random.choice(question_types)
 
@@ -315,7 +365,7 @@ def generate_question(question_type):
 
         question = "In concert pitch, what chord is this?"
         answer = transpose_question["answer"]
-        example = "G7, Dmaj7, Bbm7, Fdim7"
+        example = "G7, Dmaj7, Bbmin7, Fdim7, AminM7"
 
         question_data = {
             "type": "transpose",
@@ -478,13 +528,19 @@ def setup_quiz(bot):
         quiz_stats.setdefault("attempts", 0)
         quiz_stats.setdefault("correct", 0)
 
-        correct_answer = str(quiz["answer"]).strip().lower()
+        if isinstance(correct_answer, list):
+            correct_answers = [str(answer).strip().lower() for answer in correct_answer]
+            answer_string = " or ".join(correct_answer)
+        else:
+            correct_answers = [str(correct_answer).strip().lower()]
+            answer_string = correct_answer
+
         user_answer = response.strip().lower()
 
         # Check answer
         quiz_stats["attempts"] += 1
         quiz["completed"] = True
-        if user_answer == correct_answer:
+        if user_answer in correct_answers:
             quiz_stats["correct"] += 1
             user["coins"] = user.get("coins", 0) + 1
 
@@ -499,6 +555,6 @@ def setup_quiz(bot):
         else:
             await ctx.send(
                 f"Incorrect.\n"
-                f"The correct answer was **{quiz["answer"]}**."
+                f"The correct answer was **{answer_string}**."
             )
 
