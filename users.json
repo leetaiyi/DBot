@@ -49,16 +49,17 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-08-11",
-        "type": "mode_accidental",
-        "question": "How many sharps are in F# Locrian?",
-        "answer": "1",
-        "example": "!answer 5",
+        "date": "2026-10-01",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this?",
+        "answer": "Dmaj7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 8,
-          "mode_index": 6
+          "type": "transpose",
+          "index": 17,
+          "attachment": "quizpics/sev18.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 26,
