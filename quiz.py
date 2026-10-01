@@ -214,6 +214,8 @@ def generate_question(question_type):
         example        - example !answer command
         question_data  - information about the generated question
     """
+    print("KEYS:", type(KEYS), KEYS)
+    print("TRANSPOSE_QUESTIONS:", type(TRANSPOSE_QUESTIONS), TRANSPOSE_QUESTIONS)
 
 
     key_index = random.randrange(len(KEYS))
