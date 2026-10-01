@@ -372,7 +372,7 @@ def generate_question(question_type):
 
         question_data = {
             "type": "transpose",
-            "index": question_index
+            "index": question_index,
             "attachment": transpose_question["image"]
         }
 
