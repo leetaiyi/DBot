@@ -1949,7 +1949,7 @@
         "Flash": 3,
         "Mishka": 4,
         "Bilbo Bee": 2,
-        "Coconut!": 3,
+        "Coconut!": 4,
         "Tomyris": 4,
         "Batta": 3,
         "Nova Fangly": 4,
@@ -2034,8 +2034,8 @@
         "Food Confusion": 1,
         "Ellie": 1
       },
-      "last_daily": "2026-09-30",
-      "pity": 0,
+      "last_daily": "2026-10-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
