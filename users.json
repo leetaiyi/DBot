@@ -889,7 +889,7 @@
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
-        "Howl": 4,
+        "Howl": 5,
         "Objection!": 3,
         "Ollidammara": 6,
         "Betty": 6,
@@ -985,8 +985,8 @@
         "Ben & Leia tart runneth over": 1,
         "Gustave Dodge": 1
       },
-      "last_daily": "2026-09-30",
-      "pity": 0,
+      "last_daily": "2026-10-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
