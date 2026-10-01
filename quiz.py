@@ -89,83 +89,83 @@ QUESTION_TYPES = [
 
 TRANSPOSE_QUESTIONS = [
     {
-        "image": "quizpics/sev1.jpg",
+        "image": "sev1.jpg",
         "answer": "G#min7"
     },
     {
-        "image": "quizpics/sev2.jpg",
+        "image": "sev2.jpg",
         "answer": "Eb7"
     },
     {
-        "image": "quizpics/sev3.jpg",
+        "image": "sev3.jpg",
         "answer": "Fmaj7"
     },
     {
-        "image": "quizpics/sev4.jpg",
+        "image": "sev4.jpg",
         "answer": "Fdim7"
     },
     {
-        "image": "quizpics/sev5.jpg",
+        "image": "sev5.jpg",
         "answer": "Eb7"
     },
     {
-        "image": "quizpics/sev6.jpg",
+        "image": "sev6.jpg",
         "answer": "Gdim7"
     },
     {
-        "image": "quizpics/sev7.jpg",
+        "image": "sev7.jpg",
         "answer": "Amin7"
     },
     {
-        "image": "quizpics/sev8.jpg",
+        "image": "sev8.jpg",
         "answer": ["D#min7", "Ebmin7"]
     },
     {
-        "image": "quizpics/sev9.jpg",
+        "image": "sev9.jpg",
         "answer": "Fmin7"
     },
     {
-        "image": "quizpics/sev10.jpg",
+        "image": "sev10.jpg",
         "answer": "G#min7"
     },
     {
-        "image": "quizpics/sev11.jpg",
+        "image": "sev11.jpg",
         "answer": "A#dim7"
     },
     {
-        "image": "quizpics/sev12.jpg",
+        "image": "sev12.jpg",
         "answer": "C#7"
     },
     {
-        "image": "quizpics/sev13.jpg",
+        "image": "sev13.jpg",
         "answer": "Db7"
     },
     {
-        "image": "quizpics/sev14.jpg",
+        "image": "sev14.jpg",
         "answer": "Emaj7"
     },
     {
-        "image": "quizpics/sev15.jpg",
+        "image": "sev15.jpg",
         "answer": "Fbmaj7"
     },
     {
-        "image": "quizpics/sev16.jpg",
+        "image": "sev16.jpg",
         "answer": "G#maj7"
     },
     {
-        "image": "quizpics/sev17.jpg",
+        "image": "sev17.jpg",
         "answer": ["F#mM7","F#minM7"]
     },
     {
-        "image": "quizpics/sev18.jpg",
+        "image": "sev18.jpg",
         "answer": "Dmaj7"
     },
     {
-        "image": "quizpics/sev19.jpg",
+        "image": "sev19.jpg",
         "answer": "Fmin7"
     },
     {
-        "image": "quizpics/sev20.jpg",
+        "image": "sev20.jpg",
         "answer": "G#min7"
     }
     
