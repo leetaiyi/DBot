@@ -1,6 +1,8 @@
 from datetime import datetime, timezone, UTC, timedelta
 import random
 from github import get_file, update_file, github_lock
+import discord
+from discord.ext import commands
 from config import *
 import math
 from utils import today_string
