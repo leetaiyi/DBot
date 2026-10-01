@@ -198,7 +198,7 @@ def get_question_type(user):
         accuracy = correct / attempts
 
         if attempts >= 20 and accuracy >= 0.90:
-            question_types = QUESTION_TYPES[2].copy
+            question_types = QUESTION_TYPES[2].copy()
         elif accuracy * math.log(attempts, 5) >= 0.90:
             question_types = QUESTION_TYPES[1].copy()
 
@@ -404,8 +404,6 @@ def setup_quiz(bot):
         # Check whether the user already has today's quiz
         quiz = user.get("daily_quiz")
 
-        print("check1")
-
         if quiz is not None and quiz.get("date") == today:
 
             if quiz.get("completed"):
@@ -447,12 +445,11 @@ def setup_quiz(bot):
 
         # Determine which type of question the user is eligible for
         question_type = get_question_type(user)
-        print("check2")
+
         # Generate the question
         question, answer, example, question_data = generate_question(
             question_type
         )
-        print("check3")
 
         # Store the quiz
         user["daily_quiz"] = {
