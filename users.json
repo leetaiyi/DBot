@@ -711,7 +711,7 @@
         "HONK!!": 1,
         "Benjamin (bandana)": 2,
         "Kazoo David": 4,
-        "Santa Murphy": 2,
+        "Santa Murphy": 3,
         "Snow Kiss": 3,
         "IDDOG": 1,
         "Furiosa blesses you with wealth": 1,
@@ -744,8 +744,8 @@
         "Where's My Churu": 1,
         "\u0250\u0287\u0287\u0250q": 2
       },
-      "last_daily": "2026-09-30",
-      "pity": 2,
+      "last_daily": "2026-10-01",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
