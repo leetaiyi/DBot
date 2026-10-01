@@ -367,7 +367,7 @@ def generate_question(question_type):
         question_index = random.randrange(len(TRANSPOSE_QUESTIONS))
         transpose_question = TRANSPOSE_QUESTIONS[question_index]
 
-        question = "In concert pitch, what chord is this?"
+        question = "In concert pitch, what chord is this? (See examples for syntax)"
         answer = transpose_question["answer"]
         example = "G7, Dmaj7, Bbmin7, Fdim7, AminM7"
 
