@@ -2668,7 +2668,7 @@
         "Crepuscule with Angie": 1,
         "Bella & Erin": 1
       },
-      "coins": 15,
+      "coins": 16,
       "last_daily": "2026-10-02",
       "pity": 1,
       "blessed": false,
@@ -2682,11 +2682,11 @@
           "key_index": 11,
           "mode_index": 3
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 34,
-        "correct": 26
+        "attempts": 35,
+        "correct": 27
       },
       "achievement_claims": {
         "The B's": 1,
