@@ -783,10 +783,10 @@
           "key_index": 5,
           "mode_index": 1
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 44,
+        "attempts": 45,
         "correct": 33
       },
       "impatience": 1
