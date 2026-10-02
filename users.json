@@ -1026,10 +1026,10 @@
           "index": 9,
           "attachment": "sev10.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 55,
+        "attempts": 56,
         "correct": 50
       }
     },
