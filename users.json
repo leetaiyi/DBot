@@ -2181,16 +2181,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-01",
+        "date": "2026-10-02",
         "type": "mode_accidental",
-        "question": "How many sharps are in F# Dorian?",
-        "answer": "4",
+        "question": "How many flats are in Gb Ionian?",
+        "answer": "6",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 1
+          "key_index": 6,
+          "mode_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 16,
