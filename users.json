@@ -1701,17 +1701,17 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-01",
+        "date": "2026-10-02",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "Db7",
+        "answer": "Fmin7",
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "index": 12,
-          "attachment": "sev13.jpg"
+          "index": 18,
+          "attachment": "sev19.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 21,
