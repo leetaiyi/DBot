@@ -646,13 +646,13 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-27",
+        "date": "2026-10-02",
         "type": "accidental_major",
-        "question": "What major key has 5 flats?",
-        "answer": "Db",
+        "question": "What major key has 4 sharps?",
+        "answer": "E",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5
+          "key_index": 11
         },
         "completed": false
       },
