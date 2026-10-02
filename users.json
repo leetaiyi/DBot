@@ -774,16 +774,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-01",
+        "date": "2026-10-02",
         "type": "mode_accidental",
-        "question": "How many sharps are in A# Locrian?",
+        "question": "How many flats are in Eb Dorian?",
         "answer": "5",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 12,
-          "mode_index": 6
+          "key_index": 5,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 44,
