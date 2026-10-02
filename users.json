@@ -2635,7 +2635,7 @@
         "Amadeus2": 1,
         "LaCat: Wassup": 5,
         "Objection!": 3,
-        "Betty": 2,
+        "Betty": 3,
         "Bilbo Bee": 1,
         "Capt Ben": 2,
         "Bigger litterbox pls": 1,
@@ -2665,8 +2665,8 @@
         "Bella & Erin": 1
       },
       "coins": 15,
-      "last_daily": "2026-10-01",
-      "pity": 0,
+      "last_daily": "2026-10-02",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-01",
