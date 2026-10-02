@@ -1016,16 +1016,17 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-01",
-        "type": "mode_accidental",
-        "question": "How many flats are in A Phrygian?",
-        "answer": "1",
-        "example": "!answer 5",
+        "date": "2026-10-02",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "G#min7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 1,
-          "mode_index": 2
+          "type": "transpose",
+          "index": 9,
+          "attachment": "sev10.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 55,
