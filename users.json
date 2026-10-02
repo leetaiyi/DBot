@@ -1637,15 +1637,16 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-09-30",
-        "type": "accidental_minor",
-        "question": "What minor key has 1 flats?",
-        "answer": "D",
+        "date": "2026-10-02",
+        "type": "accidental_mode",
+        "question": "Which Phrygian scale has 5 flats?",
+        "answer": "F",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1
+          "key_index": 5,
+          "mode_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 32,
