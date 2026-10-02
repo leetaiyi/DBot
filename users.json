@@ -2564,15 +2564,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-09-29",
-        "type": "accidental_minor",
-        "question": "What minor key has 1 flats?",
-        "answer": "D",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-02",
+        "type": "mode_accidental",
+        "question": "How many flats are in Bb Dorian?",
+        "answer": "4",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 1
+          "key_index": 4,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 40,
