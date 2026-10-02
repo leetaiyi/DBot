@@ -2859,15 +2859,15 @@
         "correct": 1
       },
       "daily_quiz": {
-        "date": "2026-09-24",
-        "type": "accidental_major",
-        "question": "What major key has 7 sharps?",
-        "answer": "C#",
+        "date": "2026-10-02",
+        "type": "accidental_minor",
+        "question": "What minor key has 5 sharps?",
+        "answer": "G#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 14
+          "key_index": 12
         },
-        "completed": true
+        "completed": false
       }
     },
     "148190213045354497": {
