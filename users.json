@@ -2774,10 +2774,11 @@
         "Mizu": 1,
         "Cutter??": 1,
         "Aisling Fishy Cave": 1,
-        "Carbon": 1
+        "Carbon": 1,
+        "Sake": 1
       },
-      "last_daily": "2026-10-01",
-      "pity": 1,
+      "last_daily": "2026-10-03",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "impatience": 9,
