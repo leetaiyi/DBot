@@ -2687,10 +2687,10 @@
           "key_index": 13,
           "mode_index": 5
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 35,
+        "attempts": 36,
         "correct": 27
       },
       "achievement_claims": {
