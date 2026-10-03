@@ -1018,17 +1018,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-02",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "G#min7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-10-03",
+        "type": "mode_accidental",
+        "question": "How many sharps are in E Dorian?",
+        "answer": "2",
+        "example": "!answer 5",
         "question_data": {
-          "type": "transpose",
-          "index": 9,
-          "attachment": "sev10.jpg"
+          "key_index": 9,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 56,
