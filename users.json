@@ -1766,7 +1766,8 @@
       "last_daily": "2026-10-03",
       "pity": 2,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "impatience": 1
     },
     "429690196276019231": {
       "coins": 0,
