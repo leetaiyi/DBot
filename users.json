@@ -1639,16 +1639,16 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "type": "accidental_mode",
-        "question": "Which Phrygian scale has 5 flats?",
-        "answer": "F",
+        "question": "Which Phrygian scale has 4 flats?",
+        "answer": "C",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5,
+          "key_index": 4,
           "mode_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 33,
