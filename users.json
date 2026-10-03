@@ -2597,7 +2597,7 @@
     "135485256147927042": {
       "inventory": {
         "Amadeus": 3,
-        "LaCat: Hypnosis": 1,
+        "LaCat: Hypnosis": 2,
         "Live Gloriously!": 3,
         "Artemis Dee": 4,
         "Noodle plays Pok\u00e9mon": 2,
@@ -2674,9 +2674,9 @@
         "Crepuscule with Angie": 1,
         "Bella & Erin": 1
       },
-      "coins": 16,
+      "coins": 15,
       "last_daily": "2026-10-03",
-      "pity": 2,
+      "pity": 3,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-03",
