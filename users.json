@@ -1513,17 +1513,17 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "Fmaj7",
+        "answer": "A#dim7",
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "index": 2,
-          "attachment": "sev3.jpg"
+          "index": 10,
+          "attachment": "sev11.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 53,
