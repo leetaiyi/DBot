@@ -2141,7 +2141,7 @@
         "Willow": 2,
         "Nova Fangly": 1,
         "Cerberus": 2,
-        "Leia (apples)": 2,
+        "Leia (apples)": 3,
         "Percy": 1,
         "Achelois": 1,
         "Bynx": 4,
@@ -2175,8 +2175,8 @@
         "Contemplating Existence": 1,
         "Leia hates dry food": 1
       },
-      "last_daily": "2026-10-02",
-      "pity": 0,
+      "last_daily": "2026-10-03",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
