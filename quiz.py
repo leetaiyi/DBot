@@ -104,7 +104,7 @@ TRANSPOSE_QUESTIONS = [
     },
     {
         "image": "sev4.jpg",
-        "answer": "Fdim7"
+        "answer": ["E#dim7","Fdim7"]
     },
     {
         "image": "sev5.jpg",
@@ -124,11 +124,11 @@ TRANSPOSE_QUESTIONS = [
     },
     {
         "image": "sev9.jpg",
-        "answer": "Fmin7"
+        "answer": ["E#min7","Fmin7"]
     },
     {
         "image": "sev10.jpg",
-        "answer": "G#min7"
+        "answer": ["G#min7", "Abmin7"]
     },
     {
         "image": "sev11.jpg",
@@ -140,7 +140,7 @@ TRANSPOSE_QUESTIONS = [
     },
     {
         "image": "sev13.jpg",
-        "answer": "Db7"
+        "answer": ["Db7", "C#7"]
     },
     {
         "image": "sev14.jpg",
