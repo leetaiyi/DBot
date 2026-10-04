@@ -2897,15 +2897,15 @@
         "correct": 2
       },
       "daily_quiz": {
-        "date": "2026-10-02",
-        "type": "accidental_major",
-        "question": "What major key has 7 flats?",
-        "answer": "Cb",
+        "date": "2026-10-04",
+        "type": "accidental_minor",
+        "question": "What minor key has 5 flats?",
+        "answer": "Bb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7
+          "key_index": 5
         },
-        "completed": true
+        "completed": false
       }
     }
   }
