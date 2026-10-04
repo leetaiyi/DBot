@@ -49,17 +49,17 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-10-01",
+        "date": "2026-10-04",
         "type": "transpose",
-        "question": "In concert pitch, what chord is this?",
-        "answer": "Dmaj7",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "G#min7",
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "index": 17,
-          "attachment": "quizpics/sev18.jpg"
+          "index": 15,
+          "attachment": "sev16.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 27,
