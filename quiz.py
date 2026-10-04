@@ -152,7 +152,7 @@ TRANSPOSE_QUESTIONS = [
     },
     {
         "image": "sev16.jpg",
-        "answer": "G#maj7"
+        "answer": "G#min7"
     },
     {
         "image": "sev17.jpg",
