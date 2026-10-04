@@ -132,7 +132,7 @@ TRANSPOSE_QUESTIONS = [
     },
     {
         "image": "sev11.jpg",
-        "answer": "A#dim7"
+        "answer": ["A#dim7", "Bbdim7"]
     },
     {
         "image": "sev12.jpg",
