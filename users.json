@@ -1022,16 +1022,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-03",
-        "type": "mode_accidental",
-        "question": "How many sharps are in E Dorian?",
-        "answer": "2",
-        "example": "!answer 5",
+        "date": "2026-10-04",
+        "type": "accidental_mode",
+        "question": "Which Aeolian scale has 5 sharps?",
+        "answer": "G#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 9,
-          "mode_index": 1
+          "key_index": 12,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 57,
