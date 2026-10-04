@@ -49,7 +49,7 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-10-04",
+        "date": "2026-10-02",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
         "answer": "G#min7",
