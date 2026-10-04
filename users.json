@@ -786,10 +786,10 @@
           "key_index": 1,
           "mode_index": 3
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 46,
+        "attempts": 47,
         "correct": 33
       },
       "impatience": 1
