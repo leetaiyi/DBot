@@ -1711,7 +1711,7 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-04",
+        "date": "2026-10-02",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
         "answer": "G#maj7",
@@ -1724,7 +1724,7 @@
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 23,
+        "attempts": 22,
         "correct": 20
       }
     },
