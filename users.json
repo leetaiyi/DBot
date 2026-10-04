@@ -1721,10 +1721,10 @@
           "index": 15,
           "attachment": "sev16.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 22,
+        "attempts": 23,
         "correct": 20
       }
     },
