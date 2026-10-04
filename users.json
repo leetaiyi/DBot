@@ -59,10 +59,10 @@
           "index": 15,
           "attachment": "sev16.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 27,
+        "attempts": 28,
         "correct": 27
       }
     },
