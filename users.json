@@ -2894,9 +2894,10 @@
     "148190213045354497": {
       "coins": 7,
       "inventory": {
-        "Duet of the Fates": 1
+        "Duet of the Fates": 1,
+        "David": 1
       },
-      "last_daily": "2026-10-01",
+      "last_daily": "2026-10-05",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
