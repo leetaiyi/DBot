@@ -1673,7 +1673,7 @@
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
         "Willow": 2,
-        "Live Gloriously!": 2,
+        "Live Gloriously!": 3,
         "LaCat: Wassup": 2,
         "Artemis Dee": 2,
         "Betty": 2,
@@ -1707,8 +1707,8 @@
         "Ellie": 1,
         "Rascal": 1
       },
-      "last_daily": "2026-10-04",
-      "pity": 0,
+      "last_daily": "2026-10-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
