@@ -2698,16 +2698,16 @@
       "pity": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-03",
+        "date": "2026-10-05",
         "type": "mode_accidental",
-        "question": "How many sharps are in D# Aeolian?",
-        "answer": "6",
+        "question": "How many sharps are in A# Aeolian?",
+        "answer": "7",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 13,
+          "key_index": 14,
           "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 36,
