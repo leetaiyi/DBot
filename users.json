@@ -2623,7 +2623,7 @@
         "Zelda": 3,
         "Bratty Ryuu": 1,
         "Kazoo David": 1,
-        "Ollidammara": 1,
+        "Ollidammara": 2,
         "Oreo": 3,
         "Batta": 2,
         "Masabone": 1,
@@ -2689,8 +2689,8 @@
         "Bella & Erin": 1
       },
       "coins": 15,
-      "last_daily": "2026-10-03",
-      "pity": 3,
+      "last_daily": "2026-10-05",
+      "pity": 4,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-03",
