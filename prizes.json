@@ -654,6 +654,11 @@
       "name": "Lying ~~in~~ on the Mediterranean",
       "weight": 5,
       "image": "zdMedit.jpg"
+    },
+    {
+      "name": "Begging Betty Waggles",
+      "weight": 5,
+      "image": "BettyWay.gif"
     }
   ],
   "achievements": {
