@@ -909,7 +909,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -1032,11 +1032,11 @@
           "key_index": 7,
           "mode_index": 0
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 58,
-        "correct": 52
+        "attempts": 59,
+        "correct": 53
       }
     },
     "201094207857754112": {
