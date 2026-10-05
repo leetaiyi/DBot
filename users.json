@@ -909,7 +909,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -938,7 +938,7 @@
         "Bilbo Bee": 4,
         "Nova Fangly": 1,
         "Sawyer": 5,
-        "LaCat: Wassup": 6,
+        "LaCat: Wassup": 7,
         "HONK!!": 2,
         "Willow": 3,
         "Ellie as Moonmoon": 3,
@@ -1011,7 +1011,7 @@
         "Gustave": 1
       },
       "last_daily": "2026-10-05",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
