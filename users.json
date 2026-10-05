@@ -2203,16 +2203,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-03",
+        "date": "2026-10-05",
         "type": "mode_accidental",
-        "question": "How many flats are in C Locrian?",
-        "answer": "5",
+        "question": "How many flats are in Ab Ionian?",
+        "answer": "4",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 5,
-          "mode_index": 6
+          "key_index": 4,
+          "mode_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 18,
