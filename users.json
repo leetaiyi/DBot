@@ -161,10 +161,11 @@
         "Mal-letstation": 1,
         "Rainbow Hairless": 1,
         "Pet the Batta": 1,
-        "Batta Bunny Kick": 1
+        "Batta Bunny Kick": 1,
+        "Guardian Sphinx": 1
       },
       "coins": 0,
-      "last_daily": "2026-10-04",
+      "last_daily": "2026-10-05",
       "pity": 0,
       "blessed": false,
       "achievement_claims": {
@@ -475,7 +476,7 @@
         "Willow": 2,
         "Kazoo David": 2,
         "Maleficent": 3,
-        "Rose": 6,
+        "Rose": 7,
         "Morpheus": 5,
         "Amadeus2": 3,
         "Tomyris": 5,
@@ -554,8 +555,8 @@
         "Cutter??": 1,
         "Mal-letstation": 1
       },
-      "last_daily": "2026-10-04",
-      "pity": 0,
+      "last_daily": "2026-10-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -938,7 +939,7 @@
         "Bilbo Bee": 4,
         "Nova Fangly": 1,
         "Sawyer": 5,
-        "LaCat: Wassup": 6,
+        "LaCat: Wassup": 7,
         "HONK!!": 2,
         "Willow": 3,
         "Ellie as Moonmoon": 3,
@@ -952,7 +953,7 @@
         "Benjamin (bandana)": 5,
         "Oreo": 3,
         "Ben": 2,
-        "Leia (apples)": 1,
+        "Leia (apples)": 2,
         "Kitchen Cat": 4,
         "Bratty Ryuu": 1,
         "Amadeus2": 4,
@@ -1010,8 +1011,8 @@
         "Gustave Dodge": 1,
         "Gustave": 1
       },
-      "last_daily": "2026-10-04",
-      "pity": 2,
+      "last_daily": "2026-10-05",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1023,20 +1024,20 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-04",
-        "type": "accidental_mode",
-        "question": "Which Aeolian scale has 5 sharps?",
-        "answer": "G#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-05",
+        "type": "mode_accidental",
+        "question": "How many flats are in Cb Ionian?",
+        "answer": "7",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 12,
-          "mode_index": 5
+          "key_index": 7,
+          "mode_index": 0
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 58,
-        "correct": 52
+        "attempts": 59,
+        "correct": 53
       }
     },
     "201094207857754112": {
@@ -1165,7 +1166,7 @@
         "Santa Murphy": 3,
         "Noodle plays Pok\u00e9mon": 1,
         "Listening to Rehearsal Recordings": 1,
-        "David": 1,
+        "David": 2,
         "Bigger litterbox pls": 1,
         "Leia (apples)": 2,
         "Objection!": 1,
@@ -1181,8 +1182,8 @@
         "\u0250\u0287\u0287\u0250q": 1,
         "Mizu": 1
       },
-      "last_daily": "2026-10-04",
-      "pity": 0,
+      "last_daily": "2026-10-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1425,7 +1426,7 @@
       "impatience": 1
     },
     "954136279296118885": {
-      "coins": 56,
+      "coins": 57,
       "inventory": {
         "Bynx": 7,
         "LaCat: Wassup": 3,
@@ -1480,7 +1481,7 @@
         "Batta": 1,
         "YO!": 1,
         "Achelois": 2,
-        "Listening to Rehearsal Recordings": 1,
+        "Listening to Rehearsal Recordings": 2,
         "Noodle plays Pok\u00e9mon": 1,
         "Flash": 2,
         "Coconut!": 1,
@@ -1510,8 +1511,8 @@
         "Where's My Churu": 1,
         "Food Confusion": 1
       },
-      "last_daily": "2026-10-04",
-      "pity": 0,
+      "last_daily": "2026-10-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1520,20 +1521,20 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-04",
+        "date": "2026-10-05",
         "type": "accidental_mode",
-        "question": "Which Ionian scale has 3 flats?",
-        "answer": "Eb",
+        "question": "Which Lydian scale has 5 sharps?",
+        "answer": "E",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 3,
-          "mode_index": 0
+          "key_index": 12,
+          "mode_index": 3
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 55,
-        "correct": 49
+        "attempts": 56,
+        "correct": 50
       }
     },
     "418107361786331138": {
@@ -1981,7 +1982,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 1,
+      "coins": 2,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 6,
@@ -2101,11 +2102,11 @@
           "index": 1,
           "attachment": "sev2.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 20,
-        "correct": 18
+        "attempts": 21,
+        "correct": 19
       }
     },
     "247912247496540160": {
@@ -2622,7 +2623,7 @@
         "Zelda": 3,
         "Bratty Ryuu": 1,
         "Kazoo David": 1,
-        "Ollidammara": 1,
+        "Ollidammara": 2,
         "Oreo": 3,
         "Batta": 2,
         "Masabone": 1,
@@ -2685,11 +2686,12 @@
         " Benjamin (hidden)": 1,
         "Sake+Ebi": 1,
         "Crepuscule with Angie": 1,
-        "Bella & Erin": 1
+        "Bella & Erin": 1,
+        "Ben & Leia tart runneth over": 1
       },
-      "coins": 15,
-      "last_daily": "2026-10-03",
-      "pity": 3,
+      "coins": 14,
+      "last_daily": "2026-10-05",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-03",
