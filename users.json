@@ -1481,7 +1481,7 @@
         "Batta": 1,
         "YO!": 1,
         "Achelois": 2,
-        "Listening to Rehearsal Recordings": 1,
+        "Listening to Rehearsal Recordings": 2,
         "Noodle plays Pok\u00e9mon": 1,
         "Flash": 2,
         "Coconut!": 1,
@@ -1511,8 +1511,8 @@
         "Where's My Churu": 1,
         "Food Confusion": 1
       },
-      "last_daily": "2026-10-04",
-      "pity": 0,
+      "last_daily": "2026-10-05",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
