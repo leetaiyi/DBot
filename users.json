@@ -2693,7 +2693,7 @@
         "Bella & Erin": 1,
         "Ben & Leia tart runneth over": 1
       },
-      "coins": 14,
+      "coins": 15,
       "last_daily": "2026-10-05",
       "pity": 0,
       "blessed": false,
@@ -2707,11 +2707,11 @@
           "key_index": 14,
           "mode_index": 5
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 36,
-        "correct": 27
+        "attempts": 37,
+        "correct": 28
       },
       "achievement_claims": {
         "The B's": 1,
