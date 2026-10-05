@@ -2909,15 +2909,15 @@
         "correct": 3
       },
       "daily_quiz": {
-        "date": "2026-10-04",
-        "type": "accidental_minor",
-        "question": "What minor key has 5 flats?",
-        "answer": "Bb",
+        "date": "2026-10-05",
+        "type": "accidental_major",
+        "question": "What major key has 6 flats?",
+        "answer": "Gb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5
+          "key_index": 6
         },
-        "completed": true
+        "completed": false
       }
     }
   }
