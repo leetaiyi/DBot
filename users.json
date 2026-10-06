@@ -2709,10 +2709,10 @@
           "key_index": 11,
           "mode_index": 2
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 37,
+        "attempts": 38,
         "correct": 28
       },
       "achievement_claims": {
