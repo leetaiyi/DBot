@@ -2634,7 +2634,7 @@
         "Masabone": 1,
         "Maleficent": 5,
         "Leia (apples)": 2,
-        "Sawyer": 5,
+        "Sawyer": 6,
         "YO!": 2,
         "A Wild Artemis": 3,
         "Willow Snuggle": 1,
@@ -2695,8 +2695,8 @@
         "Ben & Leia tart runneth over": 1
       },
       "coins": 15,
-      "last_daily": "2026-10-05",
-      "pity": 0,
+      "last_daily": "2026-10-06",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-05",
