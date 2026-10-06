@@ -2700,16 +2700,16 @@
       "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-05",
-        "type": "mode_accidental",
-        "question": "How many sharps are in A# Aeolian?",
-        "answer": "7",
-        "example": "!answer 5",
+        "date": "2026-10-06",
+        "type": "accidental_mode",
+        "question": "Which Phrygian scale has 4 sharps?",
+        "answer": "G#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 14,
-          "mode_index": 5
+          "key_index": 11,
+          "mode_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 37,
