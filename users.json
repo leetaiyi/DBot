@@ -2361,16 +2361,16 @@
         "correct": 16
       },
       "daily_quiz": {
-        "date": "2026-09-29",
+        "date": "2026-10-06",
         "type": "accidental_mode",
-        "question": "Which Mixolydian scale has 2 flats?",
-        "answer": "F",
+        "question": "Which Aeolian scale has 2 sharps?",
+        "answer": "B",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 2,
-          "mode_index": 4
+          "key_index": 9,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
