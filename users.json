@@ -1650,16 +1650,16 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-10-04",
-        "type": "mode_accidental",
-        "question": "How many flats are in A Locrian?",
-        "answer": "2",
-        "example": "!answer 5",
+        "date": "2026-10-06",
+        "type": "accidental_mode",
+        "question": "Which Dorian scale has 3 sharps?",
+        "answer": "B",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 2,
-          "mode_index": 6
+          "key_index": 10,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 35,
