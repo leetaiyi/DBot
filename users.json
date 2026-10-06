@@ -1024,16 +1024,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-05",
+        "date": "2026-10-06",
         "type": "mode_accidental",
-        "question": "How many flats are in Cb Ionian?",
+        "question": "How many sharps are in G# Mixolydian?",
         "answer": "7",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 7,
-          "mode_index": 0
+          "key_index": 14,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 59,
