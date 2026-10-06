@@ -2255,10 +2255,10 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Capt Ben": 2,
-        "Willow": 2,
+        "Willow": 3,
         "Carbon": 3,
         "Ebi": 5,
         "Tomyris": 2,
@@ -2345,7 +2345,7 @@
         "Cutter??": 1
       },
       "last_daily": "2026-10-06",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
