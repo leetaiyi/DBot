@@ -1472,7 +1472,7 @@
         "Benjamin (bandana)": 3,
         "Leia (apples)": 4,
         "Kitchen Cat": 2,
-        "Noodle": 3,
+        "Noodle": 4,
         "Willow Belly": 1,
         "Morpheus": 3,
         "Willow": 1,
@@ -1511,8 +1511,8 @@
         "Where's My Churu": 1,
         "Food Confusion": 1
       },
-      "last_daily": "2026-10-05",
-      "pity": 1,
+      "last_daily": "2026-10-06",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
