@@ -2366,16 +2366,16 @@
         "correct": 17
       },
       "daily_quiz": {
-        "date": "2026-10-06",
-        "type": "accidental_mode",
-        "question": "Which Aeolian scale has 2 sharps?",
-        "answer": "B",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-07",
+        "type": "mode_accidental",
+        "question": "How many sharps are in G# Phrygian?",
+        "answer": "4",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 9,
-          "mode_index": 5
+          "key_index": 11,
+          "mode_index": 2
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
