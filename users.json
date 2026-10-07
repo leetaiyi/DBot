@@ -1026,16 +1026,17 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-06",
-        "type": "mode_accidental",
-        "question": "How many sharps are in G# Mixolydian?",
-        "answer": "7",
-        "example": "!answer 5",
+        "date": "2026-10-07",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "Fmin7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 14,
-          "mode_index": 4
+          "type": "transpose",
+          "index": 18,
+          "attachment": "sev19.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 60,
