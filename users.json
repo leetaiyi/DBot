@@ -2113,10 +2113,10 @@
           "index": 8,
           "attachment": "sev9.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 21,
+        "attempts": 22,
         "correct": 19
       }
     },
