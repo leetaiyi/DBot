@@ -1541,7 +1541,7 @@
       }
     },
     "418107361786331138": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "?? Ben": 2,
         "HONK!!": 1,
@@ -1638,10 +1638,11 @@
         "LARGE Moogle": 2,
         "Cutter Rascal Cuddle": 1,
         "Mal-letstation": 1,
-        "Bella & Erin": 1
+        "Bella & Erin": 1,
+        "Aisling Fishy Cave": 1
       },
       "last_daily": "2026-10-07",
-      "pity": 3,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
