@@ -590,7 +590,7 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 2,
+      "coins": 1,
       "inventory": {
         "Zelda": 3,
         "Ben": 3,
@@ -640,7 +640,8 @@
         "YO!": 1,
         "Noodle": 1,
         "Santa Murphy": 1,
-        "Rainbow Hairless": 1
+        "Rainbow Hairless": 1,
+        "Gustave Dodge": 1
       },
       "last_daily": "2026-10-07",
       "pity": 0,
