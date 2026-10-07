@@ -1036,10 +1036,10 @@
           "index": 18,
           "attachment": "sev19.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 60,
+        "attempts": 61,
         "correct": 54
       }
     },
