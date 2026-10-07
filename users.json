@@ -1727,10 +1727,10 @@
           "index": 14,
           "attachment": "sev15.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 21,
+        "attempts": 22,
         "correct": 21
       }
     },
