@@ -1420,10 +1420,10 @@
           "index": 6,
           "attachment": "sev7.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 21,
+        "attempts": 22,
         "correct": 21
       },
       "impatience": 1
