@@ -1670,7 +1670,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 14,
+      "coins": 13,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1709,11 +1709,11 @@
         "Rainbow Hairless": 1,
         "Lying ~~in~~ on the Mediterranean": 1,
         "Ellie": 1,
-        "Rascal": 1,
+        "Rascal": 2,
         "Aisling Belly": 1
       },
       "last_daily": "2026-10-07",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
