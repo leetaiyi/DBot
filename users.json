@@ -2595,16 +2595,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-06",
-        "type": "mode_accidental",
-        "question": "How many flats are in F Ionian?",
-        "answer": "1",
-        "example": "!answer 5",
+        "date": "2026-10-07",
+        "type": "accidental_mode",
+        "question": "Which Dorian scale has 2 sharps?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1,
-          "mode_index": 0
+          "key_index": 9,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 42,
