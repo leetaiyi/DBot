@@ -2802,10 +2802,11 @@
         "Cutter??": 1,
         "Aisling Fishy Cave": 1,
         "Carbon": 1,
-        "Sake": 1
+        "Sake": 1,
+        "Food Confusion": 1
       },
-      "last_daily": "2026-10-06",
-      "pity": 2,
+      "last_daily": "2026-10-07",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "impatience": 9,
