@@ -2374,7 +2374,7 @@
         "correct": 18
       },
       "daily_quiz": {
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "type": "mode_accidental",
         "question": "How many sharps are in G# Phrygian?",
         "answer": "4",
@@ -2383,7 +2383,7 @@
           "key_index": 11,
           "mode_index": 2
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
