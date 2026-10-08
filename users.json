@@ -1527,16 +1527,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "type": "mode_accidental",
-        "question": "How many sharps are in D# Aeolian?",
+        "question": "How many sharps are in A# Phrygian?",
         "answer": "6",
         "example": "!answer 5",
         "question_data": {
           "key_index": 13,
-          "mode_index": 5
+          "mode_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 58,
