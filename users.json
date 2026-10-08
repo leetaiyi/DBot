@@ -2723,10 +2723,10 @@
           "key_index": 10,
           "mode_index": 5
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 39,
+        "attempts": 40,
         "correct": 29
       },
       "achievement_claims": {
