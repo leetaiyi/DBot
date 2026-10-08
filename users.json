@@ -2714,16 +2714,16 @@
       "pity": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "type": "accidental_mode",
-        "question": "Which Aeolian scale has 4 flats?",
-        "answer": "F",
+        "question": "Which Aeolian scale has 3 sharps?",
+        "answer": "F#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 4,
+          "key_index": 10,
           "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 39,
