@@ -1728,20 +1728,17 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": [
-          "D#min7",
-          "Ebmin7"
-        ],
+        "answer": "Cbmaj7",
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "index": 7,
-          "attachment": "sev8.jpg"
+          "index": 20,
+          "attachment": "sev21.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 23,
