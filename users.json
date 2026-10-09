@@ -918,7 +918,7 @@
       }
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -962,7 +962,7 @@
         "Oreo": 3,
         "Ben": 2,
         "Leia (apples)": 2,
-        "Kitchen Cat": 4,
+        "Kitchen Cat": 5,
         "Bratty Ryuu": 1,
         "Amadeus2": 4,
         "Achelois": 4,
@@ -1022,7 +1022,7 @@
         "Where's My Churu": 1
       },
       "last_daily": "2026-10-09",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
