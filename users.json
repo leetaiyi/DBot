@@ -49,15 +49,15 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-10-04",
+        "date": "2026-10-09",
         "type": "transpose",
-        "question": "In test test (See examples for syntax)",
-        "answer": "G#min7",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "C7",
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "index": 0,
-          "attachment": "sev3.jpg"
+          "index": 25,
+          "attachment": "sev26.jpg"
         },
         "completed": false
       },
