@@ -2618,10 +2618,10 @@
           "key_index": 7,
           "mode_index": 4
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 44,
+        "attempts": 45,
         "correct": 34
       }
     },
