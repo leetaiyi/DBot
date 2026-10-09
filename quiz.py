@@ -169,6 +169,34 @@ TRANSPOSE_QUESTIONS = [
     {
         "image": "sev20.jpg",
         "answer": "G#min7"
+    },
+    {
+        "image": "sev21.jpg",
+        "answer": "Cbmaj7"
+    },
+    {
+        "image": "sev22.jpg",
+        "answer": "Bmin7"
+    },
+    {
+        "image": "sev23.jpg",
+        "answer": "G#min7"
+    },
+    {
+        "image": "sev24.jpg",
+        "answer": "F#min7"
+    },
+    {
+        "image": "sev25.jpg",
+        "answer": "Adim7"
+    },
+    {
+        "image": "sev26.jpg",
+        "answer": "C7"
+    },
+    {
+        "image": "sev27.jpg",
+        "answer": "Ebmaj7"
     }
     
 ]
