@@ -2644,7 +2644,7 @@
         "Noodle": 5,
         "Nova Fangly": 2,
         "Bella": 2,
-        "Rose": 2,
+        "Rose": 3,
         "Polly": 4,
         "Zelda": 3,
         "Bratty Ryuu": 1,
@@ -2716,9 +2716,9 @@
         "Ben & Leia tart runneth over": 1,
         "Cutter Rascal Cuddle": 1
       },
-      "coins": 14,
+      "coins": 13,
       "last_daily": "2026-10-09",
-      "pity": 1,
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
