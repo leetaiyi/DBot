@@ -2609,16 +2609,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "type": "mode_accidental",
-        "question": "How many sharps are in F# Phrygian?",
-        "answer": "2",
+        "question": "How many flats are in Gb Mixolydian?",
+        "answer": "7",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 9,
-          "mode_index": 2
+          "key_index": 7,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 44,
