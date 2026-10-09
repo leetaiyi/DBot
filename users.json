@@ -1033,16 +1033,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-08",
-        "type": "mode_accidental",
-        "question": "How many flats are in C Dorian?",
-        "answer": "2",
-        "example": "!answer 5",
+        "date": "2026-10-09",
+        "type": "accidental_mode",
+        "question": "Which Mixolydian scale has 5 flats?",
+        "answer": "Ab",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 2,
-          "mode_index": 1
+          "key_index": 5,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 62,
