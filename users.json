@@ -1544,10 +1544,10 @@
           "index": 23,
           "attachment": "sev24.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 60,
+        "attempts": 61,
         "correct": 54
       }
     },
