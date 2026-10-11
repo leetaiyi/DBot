@@ -1534,17 +1534,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-10",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "F#min7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-10-11",
+        "type": "mode_accidental",
+        "question": "How many sharps are in F# Mixolydian?",
+        "answer": "5",
+        "example": "!answer 5",
         "question_data": {
-          "type": "transpose",
-          "index": 23,
-          "attachment": "sev24.jpg"
+          "key_index": 12,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 61,
