@@ -1419,17 +1419,17 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-07",
+        "date": "2026-10-11",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "Amin7",
+        "answer": "Adim7",
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "index": 6,
-          "attachment": "sev7.jpg"
+          "index": 24,
+          "attachment": "sev25.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 22,
