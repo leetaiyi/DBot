@@ -2606,16 +2606,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-09",
+        "date": "2026-10-11",
         "type": "mode_accidental",
-        "question": "How many flats are in Gb Mixolydian?",
-        "answer": "7",
+        "question": "How many sharps are in G Mixolydian?",
+        "answer": "0",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 7,
+          "key_index": 0,
           "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 45,
