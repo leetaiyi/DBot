@@ -2274,7 +2274,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 3,
@@ -2378,8 +2378,8 @@
       },
       "impatience": 4,
       "quiz_stats": {
-        "attempts": 19,
-        "correct": 19
+        "attempts": 20,
+        "correct": 20
       },
       "daily_quiz": {
         "date": "2026-10-12",
@@ -2391,7 +2391,7 @@
           "key_index": 2,
           "mode_index": 1
         },
-        "completed": false
+        "completed": true
       }
     },
     "268534866193285122": {
