@@ -917,7 +917,8 @@
       "quiz_stats": {
         "attempts": 8,
         "correct": 4
-      }
+      },
+      "impatience": 1
     },
     "292070419341639681": {
       "coins": 0,
