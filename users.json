@@ -1685,7 +1685,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 16,
+      "coins": 15,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1707,7 +1707,7 @@
         "Leia (apples)": 2,
         "Percy": 1,
         "Sawyer": 1,
-        "David": 2,
+        "David": 3,
         "Capt Ben": 2,
         "Ebi": 1,
         "Sad Jamin": 1,
@@ -1729,7 +1729,7 @@
         "Cutter??": 1
       },
       "last_daily": "2026-10-12",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
