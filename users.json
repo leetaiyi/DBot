@@ -2610,16 +2610,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "type": "mode_accidental",
-        "question": "How many sharps are in G Mixolydian?",
-        "answer": "0",
+        "question": "How many sharps are in A# Aeolian?",
+        "answer": "7",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 0,
-          "mode_index": 4
+          "key_index": 14,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 46,
