@@ -1035,16 +1035,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-11",
-        "type": "mode_accidental",
-        "question": "How many sharps are in C# Phrygian?",
-        "answer": "3",
-        "example": "!answer 5",
+        "date": "2026-10-12",
+        "type": "accidental_mode",
+        "question": "Which Phrygian scale has 5 sharps?",
+        "answer": "D#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 10,
+          "key_index": 12,
           "mode_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 65,
