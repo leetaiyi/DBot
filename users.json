@@ -2923,7 +2923,7 @@
       }
     },
     "148190213045354497": {
-      "coins": 8,
+      "coins": 9,
       "inventory": {
         "Duet of the Fates": 1,
         "David": 1
@@ -2933,8 +2933,8 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 4,
-        "correct": 4
+        "attempts": 5,
+        "correct": 5
       },
       "daily_quiz": {
         "date": "2026-10-12",
@@ -2945,7 +2945,7 @@
         "question_data": {
           "key_index": 0
         },
-        "completed": false
+        "completed": true
       }
     }
   }
