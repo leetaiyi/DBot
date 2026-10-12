@@ -1685,7 +1685,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 13,
+      "coins": 12,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1727,7 +1727,8 @@
         "Rascal": 2,
         "Aisling Belly": 1,
         "Cutter??": 1,
-        "Ben & Leia tart runneth over": 1
+        "Ben & Leia tart runneth over": 1,
+        "YO!": 1
       },
       "last_daily": "2026-10-12",
       "pity": 0,
