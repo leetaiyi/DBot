@@ -2382,16 +2382,16 @@
         "correct": 19
       },
       "daily_quiz": {
-        "date": "2026-10-08",
+        "date": "2026-10-12",
         "type": "mode_accidental",
-        "question": "How many sharps are in G# Phrygian?",
-        "answer": "4",
+        "question": "How many flats are in C Dorian?",
+        "answer": "2",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 2
+          "key_index": 2,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       }
     },
     "268534866193285122": {
