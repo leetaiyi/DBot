@@ -1685,7 +1685,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 14,
+      "coins": 13,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1726,10 +1726,11 @@
         "Ellie": 1,
         "Rascal": 2,
         "Aisling Belly": 1,
-        "Cutter??": 1
+        "Cutter??": 1,
+        "Ben & Leia tart runneth over": 1
       },
       "last_daily": "2026-10-12",
-      "pity": 4,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
