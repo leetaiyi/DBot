@@ -2274,7 +2274,7 @@
       "blessed": false
     },
     "232315422924341253": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Capt Ben": 2,
         "Willow": 3,
@@ -2350,7 +2350,7 @@
         "Korok Couple": 1,
         "LARGE Moogle": 1,
         "Camouflaged": 1,
-        "Aisling Fishy Cave": 1,
+        "Aisling Fishy Cave": 2,
         "Spooky likes any lap": 1,
         "Spooky on a Spooky Skeleton": 1,
         "Aisling Belly": 1,
@@ -2366,7 +2366,7 @@
         "Contemplating Existence": 1
       },
       "last_daily": "2026-10-12",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
