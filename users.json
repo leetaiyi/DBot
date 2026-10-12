@@ -2006,7 +2006,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 6,
@@ -2099,7 +2099,7 @@
         "Spooky likes any lap": 1,
         "\u0250\u0287\u0287\u0250q": 1,
         "Baby brother bother": 1,
-        "Crepuscule with Angie": 3,
+        "Crepuscule with Angie": 4,
         "Awkward Teenage Nova": 1,
         "Food Confusion": 1,
         "Ellie": 1,
@@ -2108,7 +2108,7 @@
         "Nananananananana": 1
       },
       "last_daily": "2026-10-12",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
