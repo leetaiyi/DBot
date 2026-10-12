@@ -2644,7 +2644,7 @@
         "Artemis Dee": 4,
         "Noodle plays Pok\u00e9mon": 2,
         "Noodle": 5,
-        "Nova Fangly": 2,
+        "Nova Fangly": 3,
         "Bella": 2,
         "Rose": 3,
         "Polly": 4,
@@ -2720,8 +2720,8 @@
         "Gustave Dodge": 1
       },
       "coins": 11,
-      "last_daily": "2026-10-11",
-      "pity": 2,
+      "last_daily": "2026-10-12",
+      "pity": 3,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
