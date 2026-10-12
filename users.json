@@ -2937,15 +2937,15 @@
         "correct": 4
       },
       "daily_quiz": {
-        "date": "2026-10-05",
-        "type": "accidental_major",
-        "question": "What major key has 6 flats?",
-        "answer": "Gb",
+        "date": "2026-10-12",
+        "type": "major_minor",
+        "question": "What is the relative minor of C major?",
+        "answer": "A",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 6
+          "key_index": 0
         },
-        "completed": true
+        "completed": false
       }
     }
   }
