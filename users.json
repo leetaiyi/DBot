@@ -1685,7 +1685,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 15,
+      "coins": 14,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1700,7 +1700,7 @@
         "Coconut!": 1,
         "Rose": 1,
         "Willow Belly": 1,
-        "A Wild Artemis": 1,
+        "A Wild Artemis": 2,
         "Objection!": 2,
         "Ollidammara": 1,
         "Sake": 4,
@@ -1729,7 +1729,7 @@
         "Cutter??": 1
       },
       "last_daily": "2026-10-12",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
