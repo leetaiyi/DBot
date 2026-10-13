@@ -2668,7 +2668,7 @@
         "Oreo": 3,
         "Batta": 2,
         "Masabone": 1,
-        "Maleficent": 5,
+        "Maleficent": 6,
         "Leia (apples)": 2,
         "Sawyer": 6,
         "YO!": 2,
@@ -2734,8 +2734,8 @@
         "Guardian Sphinx": 1
       },
       "coins": 10,
-      "last_daily": "2026-10-12",
-      "pity": 0,
+      "last_daily": "2026-10-13",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
