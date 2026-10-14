@@ -429,6 +429,236 @@
       "name": "Destruction and the Birds",
       "weight": 4,
       "image": "dfbirds.gif"
+    },
+    {
+      "name": "Guardian Sphinx",
+      "weight": 40,
+      "image": "GuardianSphinx.png"
+    },
+    {
+      "name": "Rainbow Hairless",
+      "weight": 40,
+      "image": "RainbowHairless.png"
+    },
+    {
+      "name": "Moogle",
+      "weight": 40,
+      "image": "Moogle.png"
+    },
+    {
+      "name": "LARGE Moogle",
+      "weight": 25,
+      "image": "MoogleL.png"
+    },
+    {
+      "name": "Ellie",
+      "weight": 40,
+      "image": "EllieT.png"
+    },
+    {
+      "name": "Gustave",
+      "weight": 40,
+      "image": "Gustave.png"
+    },
+    {
+      "name": "Gustave Dodge",
+      "weight": 25,
+      "image": "GustaveD.png"
+    },
+    {
+      "name": "Baby brother bother",
+      "weight": 5,
+      "image": "MoogleEllieGustave.png"
+    },
+    {
+      "name": "Mizu",
+      "weight": 40,
+      "image": "Mizu.png"
+    },
+    {
+      "name": " Benjamin (hidden)",
+      "weight": 25,
+      "image": "BenjaminH.png"
+    },
+    {
+      "name": "Leia hates dry food",
+      "weight": 25,
+      "image": "LeiaD.png"
+    },
+    {
+      "name": "Ben & Leia tart runneth over",
+      "weight": 5,
+      "image": "BenLeia.png"
+    },
+    {
+      "name": "Aisling Fishy Cave",
+      "weight": 40,
+      "image": "AislingF.png"
+    },
+    {
+      "name": "Aisling Belly",
+      "weight": 25,
+      "image": "AislingB.png"
+    },
+    {
+      "name": "Aisling's Squeaky Mouse",
+      "weight": 5,
+      "image": "AislingM.png"
+    },
+    {
+      "name": "Camouflaged",
+      "weight": 40,
+      "image": "Camo.jpg"
+    },
+    {
+      "name": "Crepuscule with Angie",
+      "weight": 40,
+      "image": "AngieC.jpg"
+    },
+    {
+      "name": "Nananananananana",
+      "weight": 25,
+      "image": "Nanana.jpg"
+    },
+    {
+      "name": "Cutter",
+      "weight": 40,
+      "image": "Cutter.jpg"
+    },
+    {
+      "name": "Cutter??",
+      "weight": 30,
+      "image": "CutterB.jpg"
+    },
+    {
+      "name": "Rascal",
+      "weight": 40,
+      "image": "Rascal.jpg"
+    },
+    {
+      "name": "Metal Gear Rascal",
+      "weight": 25,
+      "image": "RascalM.jpg"
+    },
+    {
+      "name": "YinYorang",
+      "weight": 5,
+      "image": "YinYong.jpg"
+    },
+    {
+      "name": "C-C-C-Combo Breaker!",
+      "weight": 5,
+      "image": "ComboBreaker.jpg"
+    },
+    {
+      "name": "Cutter Rascal Cuddle",
+      "weight": 25,
+      "image": "CutterRascal.jpg"
+    },
+    {
+      "name": "Bella & Erin",
+      "weight": 25,
+      "image": "BellaE.jpg"
+    },
+    {
+      "name": "Mizu Pounces Yumi",
+      "weight": 5,
+      "image": "MizuYumi.gif"
+    },
+    {
+      "name": "Spooky on a Spooky Skeleton",
+      "weight": 25,
+      "image": "SpookyS.jpg"
+    },
+    {
+      "name": "Spooky likes any lap",
+      "weight": 40,
+      "image": "SpookyF.jpg"
+    },
+    {
+      "name": "Concert Dwarf",
+      "weight": 5,
+      "image": "ConcertDwarf.jpg"
+    },
+    {
+      "name": "Happy Bisquick and Adam",
+      "weight": 5,
+      "image": "Bisquick.jpg"
+    },
+    {
+      "name": "Pet the Batta",
+      "weight": 40,
+      "image": "BattaP.jpg"
+    },
+    {
+      "name": "ɐʇʇɐq",
+      "weight": 25,
+      "image": "BattaU.jpg"
+    },
+    {
+      "name": "Batta Bunny Kick",
+      "weight": 25,
+      "image": "BattaT.jpg"
+    },
+    {
+      "name": "He Looks Like He Needs A Newspaper",
+      "weight": 5,
+      "image": "OreoNews.jpg"
+    },
+    {
+      "name": "Where's My Churu",
+      "weight": 25,
+      "image": "OreoChuru.jpg"
+    },
+    {
+      "name": "Contemplating Existence",
+      "weight": 25,
+      "image": "IvanThink.jpg"
+    },
+    {
+      "name": "Mal-letstation",
+      "weight": 40,
+      "image": "Mallet.jpg"
+    },
+    {
+      "name": "Food Confusion",
+      "weight": 40,
+      "image": "FlashFood.jpg"
+    },
+    {
+      "name": "Real Life Gacha Victory",
+      "weight": 5,
+      "image": "GachaWin.jpg"
+    },
+    {
+      "name": "Awkward Teenage Nova",
+      "weight": 25,
+      "image": "NovaTeen.jpg"
+    },
+    {
+      "name": "Husky, Elkhound, German Shepherd",
+      "weight": 40,
+      "image": "BreedComparison1.jpg"
+    },
+    {
+      "name": "Lego Polly",
+      "weight": 40,
+      "image": "PollyL.jpg"
+    },
+    {
+      "name": "Squishy Cheeks",
+      "weight": 5,
+      "image": "PollyC.gif"
+    },
+    {
+      "name": "Lying ~~in~~ on the Mediterranean",
+      "weight": 5,
+      "image": "zdMedit.jpg"
+    },
+    {
+      "name": "Begging Betty Waggles",
+      "weight": 5,
+      "image": "BettyWay.gif"
     }
   ],
   "achievements": {
