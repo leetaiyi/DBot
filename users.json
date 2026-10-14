@@ -2107,7 +2107,7 @@
         "Moogle": 1,
         "Gustave": 1,
         "Pet the Batta": 2,
-        "Guardian Sphinx": 1,
+        "Guardian Sphinx": 2,
         "Spooky on a Spooky Skeleton": 1,
         "Spooky likes any lap": 1,
         "\u0250\u0287\u0287\u0250q": 1,
@@ -2121,8 +2121,8 @@
         "Nananananananana": 1,
         "Lego Polly": 1
       },
-      "last_daily": "2026-10-13",
-      "pity": 0,
+      "last_daily": "2026-10-14",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
