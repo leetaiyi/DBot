@@ -101,7 +101,7 @@
         "Maru Merak Miss Ma'am Morden": 5,
         "Leia (apples)": 6,
         "Amadeus": 2,
-        "Carbon": 1,
+        "Carbon": 2,
         "Bratty Ryuu": 1,
         "Cerberus": 4,
         "Ebi": 2,
@@ -168,8 +168,8 @@
         "Food Confusion": 1
       },
       "coins": 0,
-      "last_daily": "2026-10-14",
-      "pity": 0,
+      "last_daily": "2026-10-15",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
