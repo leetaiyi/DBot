@@ -2624,16 +2624,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-13",
+        "date": "2026-10-15",
         "type": "mode_accidental",
-        "question": "How many flats are in C Dorian?",
-        "answer": "2",
+        "question": "How many sharps are in D# Dorian?",
+        "answer": "7",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 2,
+          "key_index": 14,
           "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 48,
