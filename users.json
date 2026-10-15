@@ -2193,7 +2193,7 @@
         "Nova Fangly": 1,
         "Cerberus": 2,
         "Leia (apples)": 3,
-        "Percy": 1,
+        "Percy": 2,
         "Achelois": 1,
         "Bynx": 4,
         "Coconut!": 1,
@@ -2227,8 +2227,8 @@
         "Leia hates dry food": 1,
         "C-C-C-Combo Breaker!": 1
       },
-      "last_daily": "2026-10-13",
-      "pity": 0,
+      "last_daily": "2026-10-15",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
