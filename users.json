@@ -925,7 +925,7 @@
       "impatience": 1
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -981,7 +981,7 @@
         "Santa Murphy": 4,
         "Snow Kiss": 1,
         "YO!": 4,
-        "Sake+Ebi": 3,
+        "Sake+Ebi": 4,
         "Sake": 5,
         "Bigger litterbox pls": 1,
         "Keyboard Carbon": 2,
@@ -1031,7 +1031,7 @@
         "Lego Polly": 1
       },
       "last_daily": "2026-10-15",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
