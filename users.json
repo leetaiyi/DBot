@@ -1546,16 +1546,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-15",
-        "type": "accidental_mode",
-        "question": "Which Locrian scale has 4 flats?",
-        "answer": "G",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-16",
+        "type": "mode_accidental",
+        "question": "How many flats are in C Mixolydian?",
+        "answer": "1",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 6
+          "key_index": 1,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 65,
