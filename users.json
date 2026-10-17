@@ -2137,16 +2137,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-10-12",
+        "date": "2026-10-17",
         "type": "accidental_mode",
-        "question": "Which Aeolian scale has 0 flats?",
-        "answer": "A",
+        "question": "Which Dorian scale has 0 flats?",
+        "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
           "key_index": 0,
-          "mode_index": 5
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 24,
