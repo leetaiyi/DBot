@@ -1694,7 +1694,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 13,
+      "coins": 14,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1759,11 +1759,11 @@
           "index": 21,
           "attachment": "sev22.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 28,
-        "correct": 27
+        "attempts": 29,
+        "correct": 28
       }
     },
     "339576678902923274": {
