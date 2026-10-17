@@ -2633,16 +2633,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-16",
+        "date": "2026-10-17",
         "type": "accidental_mode",
-        "question": "Which Aeolian scale has 6 flats?",
-        "answer": "Eb",
+        "question": "Which Mixolydian scale has 1 sharps?",
+        "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 6,
-          "mode_index": 5
+          "key_index": 8,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 50,
