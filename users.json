@@ -1045,16 +1045,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-16",
+        "date": "2026-10-17",
         "type": "mode_accidental",
-        "question": "How many flats are in F Aeolian?",
+        "question": "How many sharps are in C# Aeolian?",
         "answer": "4",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 4,
+          "key_index": 11,
           "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 70,
