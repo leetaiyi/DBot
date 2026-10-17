@@ -2022,7 +2022,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 3,
+      "coins": 2,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 6,
@@ -2113,7 +2113,7 @@
         "Guardian Sphinx": 2,
         "Spooky on a Spooky Skeleton": 1,
         "Spooky likes any lap": 1,
-        "\u0250\u0287\u0287\u0250q": 1,
+        "\u0250\u0287\u0287\u0250q": 2,
         "Baby brother bother": 1,
         "Crepuscule with Angie": 4,
         "Awkward Teenage Nova": 1,
@@ -2127,7 +2127,7 @@
         "Mizu Pounces Yumi": 1
       },
       "last_daily": "2026-10-17",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
