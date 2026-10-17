@@ -2911,7 +2911,7 @@
       "blessed": false,
       "impatience": 2,
       "quiz_stats": {
-        "attempts": 5,
+        "attempts": 6,
         "correct": 5
       },
       "daily_quiz": {
@@ -2924,7 +2924,7 @@
           "key_index": 14,
           "mode_index": 6
         },
-        "completed": false
+        "completed": true
       }
     },
     "321852031889309708": {
