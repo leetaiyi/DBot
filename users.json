@@ -1548,16 +1548,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-16",
-        "type": "mode_accidental",
-        "question": "How many flats are in C Mixolydian?",
-        "answer": "1",
-        "example": "!answer 5",
+        "date": "2026-10-17",
+        "type": "accidental_mode",
+        "question": "Which Mixolydian scale has 3 sharps?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 1,
+          "key_index": 10,
           "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 66,
