@@ -926,7 +926,7 @@
       "impatience": 1
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -1030,10 +1030,11 @@
         "Where's My Churu": 1,
         "Guardian Sphinx": 1,
         "Lego Polly": 1,
-        "Awkward Teenage Nova": 1
+        "Awkward Teenage Nova": 1,
+        "Moogle": 1
       },
       "last_daily": "2026-10-17",
-      "pity": 1,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
