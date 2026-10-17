@@ -2915,15 +2915,16 @@
         "correct": 5
       },
       "daily_quiz": {
-        "date": "2026-09-28",
-        "type": "accidental_major",
-        "question": "What major key has 5 sharps?",
-        "answer": "B",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-17",
+        "type": "mode_accidental",
+        "question": "How many sharps are in B# Locrian?",
+        "answer": "7",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 12
+          "key_index": 14,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       }
     },
     "321852031889309708": {
