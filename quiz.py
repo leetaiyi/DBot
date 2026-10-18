@@ -206,10 +206,6 @@ TRANSPOSE_QUESTIONS = [
         "answer": "G7"
     },
     {
-        "image": "sev28.jpg",
-        "answer": "G7"
-    },
-    {
         "image": "sev29.jpg",
         "answer": "Cmaj7"
     },
@@ -239,7 +235,7 @@ TRANSPOSE_QUESTIONS = [
     }
 ]
 
-REP_QUESTIONS = [
+REPERTOIRE_QUESTIONS = [
     {
         "image": "rep1.jpg",
         "hint": "|| F26 ||",
@@ -268,16 +264,25 @@ REP_QUESTIONS = [
 ]
 
 def record_answered_question(user, question_type, question_id):
-    if question_type not in TRACKED_QUESTION_TYPES:
+    if question_type not in TRACKED_QUESTION_TYPES or not question_id:
         return
 
-    history = user.setdefault("question_history", [])
+    history = get_question_history(user)
+    user["question_history"] = history
 
     if question_id in history:
         history.remove(question_id)
 
     history.append(question_id)
     del history[:-QUESTION_HISTORY_LIMIT]
+
+
+def get_question_history(user):
+    """Return valid recent question IDs, initializing old/missing data safely."""
+    history = user.get("question_history", [])
+    if not isinstance(history, list):
+        history = []
+    return [item for item in history if isinstance(item, str)]
 
 
 def choose_question(user, candidates):
@@ -292,8 +297,9 @@ def choose_question(user, candidates):
         if question["id"] not in history
     ]
 
+    # Once every candidate has appeared within the limit, start another cycle.
     if not available:
-        return None
+        available = candidates
 
     return random.choice(available)
 
@@ -331,7 +337,7 @@ def get_question_type(user):
 
     return random.choice(question_types)
 
-def generate_question(question_type):
+def generate_question(question_type, user=None):
     """
     Generate a random quiz question.
 
@@ -343,6 +349,7 @@ def generate_question(question_type):
     """
 
     key_index = random.randrange(len(KEYS))
+    user = user if user is not None else {}
     key = KEYS[key_index]
     question_data = {
         "key_index": key_index
@@ -489,19 +496,13 @@ def generate_question(question_type):
     # Transpose questions
     # -------------------------   
     elif question_type in ["transpose"]:
-        history = user.setdefault("question_history", [])
-
-        available_questions = [
-            (i, q)
+        candidates = [
+            {"id": f"transpose:{q['image']}", "index": i, "question": q}
             for i, q in enumerate(TRANSPOSE_QUESTIONS)
-            if f"transpose:{q['image']}" not in history
         ]
-
-        if not available_questions:
-            await ctx.send("No transpose questions available outside your recent history.")
-            return
-
-        question_index, transpose_question = random.choice(available_questions)
+        selected = choose_question(user, candidates)
+        question_index = selected["index"]
+        transpose_question = selected["question"]
 
         question = "In concert pitch, what chord is this? (See examples for syntax)"
         answer = transpose_question["answer"]
@@ -509,6 +510,7 @@ def generate_question(question_type):
 
         question_data = {
             "type": "transpose",
+            "question_id": selected["id"],
             "index": question_index,
             "attachment": transpose_question["image"]
         }
@@ -517,19 +519,13 @@ def generate_question(question_type):
     # Repertoire questions
     # -------------------------   
     elif question_type in ["repertoire"]:
-        history = user.setdefault("question_history", [])
-
-        available_questions = [
-            (i, q)
-            for i, q in enumerate(REPERTOIRE_QUESTIONS)
-            if f"repertoire:{q['image']}" not in history
+        candidates = [
+            {"id": f"repertoire:{q['image']}", "index": i, "question": q}
+            for i, q in enumerate(REP_QUESTIONS)
         ]
-
-        if not available_questions:
-            await ctx.send("No transpose questions available outside your recent history.")
-            return
-
-        question_index, repertoire_question = random.choice(available_questions)
+        selected = choose_question(user, candidates)
+        question_index = selected["index"]
+        repertoire_question = selected["question"]
 
         question = "What WMGSO piece is this?"
         hint = repertoire_question["hint"]
@@ -538,6 +534,7 @@ def generate_question(question_type):
 
         question_data = {
             "type": "repertoire",
+            "question_id": selected["id"],
             "index": question_index,
             "hint": hint,
             "attachment": repertoire_question["image"]
@@ -613,7 +610,7 @@ def setup_quiz(bot):
 
         # Generate the question
         question, answer, example, question_data = generate_question(
-            question_type
+            question_type, user
         )
 
         # Store the quiz
@@ -697,6 +694,11 @@ def setup_quiz(bot):
         # Check answer
         quiz_stats["attempts"] += 1
         quiz["completed"] = True
+        record_answered_question(
+            user,
+            quiz.get("type"),
+            quiz.get("question_data", {}).get("question_id"),
+        )
         if user_answer in correct_answers:
             quiz_stats["correct"] += 1
             user["coins"] = user.get("coins", 0) + 1
