@@ -1047,16 +1047,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-17",
-        "type": "mode_accidental",
-        "question": "How many sharps are in C# Aeolian?",
-        "answer": "4",
-        "example": "!answer 5",
+        "date": "2026-10-18",
+        "type": "accidental_mode",
+        "question": "Which Lydian scale has 7 sharps?",
+        "answer": "F#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 5
+          "key_index": 14,
+          "mode_index": 3
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 71,
