@@ -9,6 +9,9 @@ from utils import today_string
 from difflib import SequenceMatcher
 import re
 
+QUESTION_HISTORY_LIMIT = 20
+TRACKED_QUESTION_TYPES = {"transpose", "repertoire"}
+
 """ 
 def normalize_answer(answer):
     answer = answer.casefold().strip()
@@ -201,6 +204,37 @@ TRANSPOSE_QUESTIONS = [
     
 ]
 
+def record_answered_question(user, question_type, question_id):
+    if question_type not in TRACKED_QUESTION_TYPES:
+        return
+
+    history = user.setdefault("question_history", [])
+
+    if question_id in history:
+        history.remove(question_id)
+
+    history.append(question_id)
+    del history[:-QUESTION_HISTORY_LIMIT]
+
+
+def choose_question(user, candidates):
+    """
+    candidates: list of dictionaries, each containing a unique 'id'.
+    Returns a question not in the recent history, or None if exhausted.
+    """
+    history = set(get_question_history(user))
+
+    available = [
+        question for question in candidates
+        if question["id"] not in history
+    ]
+
+    if not available:
+        return None
+
+    return random.choice(available)
+
+
 def get_mode(key, mode_index):
     notes = key[3]
 
@@ -392,8 +426,19 @@ def generate_question(question_type):
     # Transpose questions
     # -------------------------   
     elif question_type in ["transpose"]:
-        question_index = random.randrange(len(TRANSPOSE_QUESTIONS))
-        transpose_question = TRANSPOSE_QUESTIONS[question_index]
+        history = user.setdefault("question_history", [])
+
+        available_questions = [
+            (i, q)
+            for i, q in enumerate(TRANSPOSE_QUESTIONS)
+            if f"transpose:{q['image']}" not in history
+        ]
+
+        if not available_questions:
+            await ctx.send("No transpose questions available outside your recent history.")
+            return
+
+        question_index, transpose_question = random.choice(available_questions)
 
         question = "In concert pitch, what chord is this? (See examples for syntax)"
         answer = transpose_question["answer"]
@@ -404,6 +449,37 @@ def generate_question(question_type):
             "index": question_index,
             "attachment": transpose_question["image"]
         }
+
+    # -------------------------
+    # Repertoire questions
+    # -------------------------   
+    elif question_type in ["repertoire"]:
+        history = user.setdefault("question_history", [])
+
+        available_questions = [
+            (i, q)
+            for i, q in enumerate(REPERTOIRE_QUESTIONS)
+            if f"repertoire:{q['image']}" not in history
+        ]
+
+        if not available_questions:
+            await ctx.send("No transpose questions available outside your recent history.")
+            return
+
+        question_index, repertoire_question = random.choice(available_questions)
+
+        question = "What WMGSO piece is this?"
+        hint = repertoire_question["hint"]
+        answer = repertoire_question["answer"]
+        example = "G7, Dmaj7, Bbmin7, Fdim7, AminM7"
+
+        question_data = {
+            "type": "repertoire",
+            "index": question_index,
+            "hint": hint,
+            "attachment": repertoire_question["image"]
+        }
+
 
     else:
         raise ValueError(f"Unknown question type: {question_type}")
