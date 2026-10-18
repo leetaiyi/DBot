@@ -2139,16 +2139,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-10-17",
-        "type": "accidental_mode",
-        "question": "Which Dorian scale has 0 flats?",
-        "answer": "D",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-18",
+        "type": "mode_accidental",
+        "question": "How many sharps are in B Mixolydian?",
+        "answer": "4",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 0,
-          "mode_index": 1
+          "key_index": 11,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 25,
