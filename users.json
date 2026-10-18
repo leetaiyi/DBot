@@ -2668,7 +2668,7 @@
         "Live Gloriously!": 3,
         "Artemis Dee": 4,
         "Noodle plays Pok\u00e9mon": 2,
-        "Noodle": 5,
+        "Noodle": 6,
         "Nova Fangly": 3,
         "Bella": 2,
         "Rose": 3,
@@ -2746,8 +2746,8 @@
         "Guardian Sphinx": 1
       },
       "coins": 10,
-      "last_daily": "2026-10-15",
-      "pity": 3,
+      "last_daily": "2026-10-18",
+      "pity": 4,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
