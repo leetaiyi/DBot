@@ -200,8 +200,71 @@ TRANSPOSE_QUESTIONS = [
     {
         "image": "sev27.jpg",
         "answer": "Ebmaj7"
+    },
+    {
+        "image": "sev28.jpg",
+        "answer": "G7"
+    },
+    {
+        "image": "sev28.jpg",
+        "answer": "G7"
+    },
+    {
+        "image": "sev29.jpg",
+        "answer": "Cmaj7"
+    },
+    {
+        "image": "sev30.jpg",
+        "answer": "Bmin7"
+    },
+    {
+        "image": "sev31.jpg",
+        "answer": ["Emin7","Emin7/B"]
+    },
+    {
+        "image": "sev32.jpg",
+        "answer": ["C#min7","C#min7/G#"]
+    },
+    {
+        "image": "sev33.jpg",
+        "answer": "Dmaj7"
+    },
+    {
+        "image": "sev34.jpg",
+        "answer": "Ebmin7"
+    },
+    {
+        "image": "sev35.jpg",
+        "answer": "A#dim7"
     }
-    
+]
+
+REP_QUESTIONS = [
+    {
+        "image": "rep1.jpg",
+        "hint": "|| F26 ||",
+        "answer": "Gerudo Valley"
+    },
+    {
+        "image": "rep2.jpg",
+        "hint": "|| S26 ||",
+        "answer": "Gilded Runner"
+    },
+    {
+        "image": "rep3.jpg",
+        "hint": "|| S26 ||",
+        "answer": "Court is Now in Session"
+    },
+    {
+        "image": "rep4.jpg",
+        "hint": "|| F25 ||",
+        "answer": "Live Gloriously"
+    },
+    {
+        "image": "rep5.jpg",
+        "hint": "|| F25 ||",
+        "answer": "Dummy!"
+    }
 ]
 
 def record_answered_question(user, question_type, question_id):
