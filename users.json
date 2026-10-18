@@ -2929,16 +2929,16 @@
         "correct": 5
       },
       "daily_quiz": {
-        "date": "2026-10-17",
-        "type": "mode_accidental",
-        "question": "How many sharps are in B# Locrian?",
-        "answer": "7",
-        "example": "!answer 5",
+        "date": "2026-10-18",
+        "type": "accidental_mode",
+        "question": "Which Phrygian scale has 7 flats?",
+        "answer": "Eb",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 14,
-          "mode_index": 6
+          "key_index": 7,
+          "mode_index": 2
         },
-        "completed": true
+        "completed": false
       }
     },
     "321852031889309708": {
