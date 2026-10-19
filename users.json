@@ -1781,12 +1781,15 @@
           "index": 23,
           "attachment": "sev24.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 29,
+        "attempts": 30,
         "correct": 28
-      }
+      },
+      "question_history": [
+        "transpose:sev24.jpg"
+      ]
     },
     "339576678902923274": {
       "coins": 0,
