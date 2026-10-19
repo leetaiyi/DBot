@@ -2649,16 +2649,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-17",
+        "date": "2026-10-19",
         "type": "accidental_mode",
-        "question": "Which Mixolydian scale has 1 sharps?",
-        "answer": "D",
+        "question": "Which Ionian scale has 5 sharps?",
+        "answer": "B",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 8,
-          "mode_index": 4
+          "key_index": 12,
+          "mode_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 51,
