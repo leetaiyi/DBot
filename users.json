@@ -931,7 +931,7 @@
       "impatience": 1
     },
     "292070419341639681": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -1060,11 +1060,11 @@
           "key_index": 13,
           "mode_index": 4
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 72,
-        "correct": 63
+        "attempts": 73,
+        "correct": 64
       }
     },
     "201094207857754112": {
