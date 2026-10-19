@@ -1456,15 +1456,16 @@
           "index": 10,
           "attachment": "sev11.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 25,
+        "attempts": 26,
         "correct": 24
       },
       "impatience": 1,
       "question_history": [
-        "transpose:sev7.jpg"
+        "transpose:sev7.jpg",
+        "transpose:sev11.jpg"
       ]
     },
     "954136279296118885": {
