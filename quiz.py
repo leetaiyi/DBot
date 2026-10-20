@@ -14,7 +14,8 @@ TRACKED_QUESTION_TYPES = {"transpose", "repertoire"}
 
 REP_QUESTION_IDS = [
     "96408456294064128", #ctl
-    "484481393632608276" #jamin
+    "484481393632608276", #jamin
+    "702306861654999141" #el
 ]
 
 """ 
