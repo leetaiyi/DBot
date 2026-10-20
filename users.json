@@ -1469,12 +1469,12 @@
       ]
     },
     "954136279296118885": {
-      "coins": 70,
+      "coins": 69,
       "inventory": {
         "Bynx": 7,
         "LaCat: Wassup": 3,
         "LaCat: Hypnosis": 6,
-        "Ollidammara": 2,
+        "Ollidammara": 3,
         "Nova Fangly": 4,
         "Cerberus": 8,
         "Tomyris": 3,
@@ -1559,7 +1559,7 @@
         "Moogle": 1
       },
       "last_daily": "2026-10-20",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
