@@ -41,7 +41,7 @@
         "Objection!": 1,
         "Metal Gear Rascal": 1
       },
-      "coins": 974,
+      "coins": 975,
       "last_daily": "2026-10-01",
       "pity": 0,
       "blessed": false,
@@ -61,14 +61,15 @@
           "hint": "|| F25 ||",
           "attachment": "rep5.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 29,
-        "correct": 28
+        "attempts": 30,
+        "correct": 29
       },
       "question_history": [
-        "transpose:sev16.jpg"
+        "transpose:sev16.jpg",
+        "repertoire:rep5.jpg"
       ]
     },
     "418102912221184001": {
