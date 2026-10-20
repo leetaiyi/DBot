@@ -1514,7 +1514,7 @@
         "Furiosa blesses you with wealth": 2,
         "Benjamin (bandana)": 3,
         "Leia (apples)": 4,
-        "Kitchen Cat": 2,
+        "Kitchen Cat": 3,
         "Noodle": 4,
         "Willow Belly": 1,
         "Morpheus": 3,
@@ -1558,8 +1558,8 @@
         "Lego Polly": 1,
         "Moogle": 1
       },
-      "last_daily": "2026-10-19",
-      "pity": 0,
+      "last_daily": "2026-10-20",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
