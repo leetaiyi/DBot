@@ -1718,7 +1718,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 13,
+      "coins": 12,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1766,12 +1766,12 @@
         "Sake+Ebi": 1,
         "He Looks Like He Needs A Newspaper": 1,
         "Noodle": 1,
-        "Gustave": 1,
+        "Gustave": 2,
         "Amadeus": 1,
         "Concert Dwarf": 1
       },
       "last_daily": "2026-10-20",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
