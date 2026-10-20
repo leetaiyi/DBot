@@ -12,6 +12,11 @@ import re
 QUESTION_HISTORY_LIMIT = 20
 TRACKED_QUESTION_TYPES = {"transpose", "repertoire"}
 
+REP_QUESTION_IDS = [
+    "96408456294064128", #ctl
+    "484481393632608276" #jamin
+]
+
 """ 
 def normalize_answer(answer):
     answer = answer.casefold().strip()
@@ -315,7 +320,7 @@ def get_mode(key, mode_index):
     }
 
 
-def get_question_type(user):
+def get_question_type(user, user_id=None):
     quiz_stats = user.setdefault("quiz_stats", {})
 
     attempts = quiz_stats.setdefault("attempts", 0)
@@ -327,8 +332,22 @@ def get_question_type(user):
     # Unlock mode questions after:
     #   - at least 5 major/minor questions
     #   - at least 80% correct
-    if attempts >= 5:
-        accuracy = correct / attempts
+
+    if user_id in REP_QUESTION_IDS:
+        answered_repertoire = set(get_question_history(user))
+        repertoire_ids = {
+            f"repertoire:{question['image']}"
+            for question in REPERTOIRE_QUESTIONS
+        }
+        if not repertoire_ids.issubset(answered_repertoire):
+            return "repertoire"
+
+    accuracy = correct / attempts if attempts else 0
+    if accuracy == 1 and attempts >= 4:
+        question_types = QUESTION_TYPES[2].copy()
+    elif accuracy == 1 and attempts >= 2:
+        question_types = QUESTION_TYPES[1].copy()
+    elif attempts >= 5:
 
         if attempts >= 20 and accuracy >= 0.90:
             question_types = QUESTION_TYPES[2].copy()
@@ -521,16 +540,19 @@ def generate_question(question_type, user=None):
     elif question_type in ["repertoire"]:
         candidates = [
             {"id": f"repertoire:{q['image']}", "index": i, "question": q}
-            for i, q in enumerate(REP_QUESTIONS)
+            for i, q in enumerate(REPERTOIRE_QUESTIONS)
         ]
         selected = choose_question(user, candidates)
         question_index = selected["index"]
         repertoire_question = selected["question"]
 
-        question = "What WMGSO piece is this?"
         hint = repertoire_question["hint"]
+        question = (
+            "What WMGSO piece is this? Include movement name if applicable.\n"
+            f"Hint: ||{hint}||"
+        )
         answer = repertoire_question["answer"]
-        example = "G7, Dmaj7, Bbmin7, Fdim7, AminM7"
+        example = "Dummy!, A Suite in Time: Train Rush"
 
         question_data = {
             "type": "repertoire",
@@ -589,24 +611,17 @@ def setup_quiz(bot):
                 )
             )
 
-            # Add image for transpose questions
-            if question_type == "transpose":
-                transpose_question = TRANSPOSE_QUESTIONS[
-                    quiz["question_data"]["index"]
-                ]
-
-                image_path = transpose_question["image"]
+            # Add the question image when one is attached.
+            image_path = quiz.get("question_data", {}).get("attachment")
+            if image_path:
                 image_url = QUIZ_MEDIA_URL + image_path
-
-                print(image_url)
-
                 embed.set_image(url=image_url)
 
             await ctx.send(embed=embed)
             return
 
         # Determine which type of question the user is eligible for
-        question_type = get_question_type(user)
+        question_type = get_question_type(user, user_id)
 
         # Generate the question
         question, answer, example, question_data = generate_question(
@@ -635,15 +650,10 @@ def setup_quiz(bot):
             )
         )
 
-        # Add image for transpose questions
-        if question_type == "transpose":
-            transpose_question = TRANSPOSE_QUESTIONS[
-                question_data["index"]
-            ]
-
-            image_path = transpose_question["image"]
+        # Add the question image when one is attached.
+        image_path = question_data.get("attachment")
+        if image_path:
             image_url = QUIZ_MEDIA_URL + image_path
-
             embed.set_image(url=image_url)
 
         await ctx.send(embed=embed)
@@ -713,8 +723,12 @@ def setup_quiz(bot):
 
         else:
             update_file(USERS_URL, user_data, user_sha)
+            displayed_answer = (
+                "[redacted]" if quiz.get("type") == "repertoire"
+                else answer_string
+            )
             await ctx.send(
                 f"Incorrect.\n"
-                f"The correct answer was **{answer_string}**."
+                f"The correct answer was **{displayed_answer}**."
             )
 
