@@ -2166,16 +2166,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-10-18",
-        "type": "mode_accidental",
-        "question": "How many sharps are in B Mixolydian?",
-        "answer": "4",
-        "example": "!answer 5",
+        "date": "2026-10-20",
+        "type": "accidental_mode",
+        "question": "Which Dorian scale has 5 sharps?",
+        "answer": "C#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 4
+          "key_index": 12,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 26,
