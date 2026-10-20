@@ -266,6 +266,36 @@ REPERTOIRE_QUESTIONS = [
         "image": "rep5.jpg",
         "hint": "F25",
         "answer": "Dummy!"
+    },
+    {
+        "image": "rep6.jpg",
+        "hint": "F24",
+        "answer": "Diggy Diggy Hole"
+    },
+    {
+        "image": "rep7.jpg",
+        "hint": "F24",
+        "answer": "Arni Village"
+    },
+    {
+        "image": "rep8.jpg",
+        "hint": "F19",
+        "answer": ["Dragonsong", "Tales from the Dragonsong War: Dragonsong"]
+    },
+    {
+        "image": "rep9.jpg",
+        "hint": "S24",
+        "answer": ["Star Wolf", "Venom/Star Wolf", "The Planets: Star Wolf"]
+    },
+    {
+        "image": "rep10.jpg",
+        "hint": "F25",
+        "answer": "Impeded"
+    },
+    {
+        "image": "rep11.jpg",
+        "hint": "F23",
+        "answer": ["Tyrian 2000", "Tyrian 2000: The Mega SoundChair Medley"]
     }
 ]
 
