@@ -1718,7 +1718,7 @@
       }
     },
     "370310581716254723": {
-      "coins": 11,
+      "coins": 10,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
@@ -1769,7 +1769,8 @@
         "Gustave": 2,
         "Amadeus": 1,
         "Concert Dwarf": 1,
-        "Leia hates dry food": 1
+        "Leia hates dry food": 1,
+        "Bella": 1
       },
       "last_daily": "2026-10-20",
       "pity": 0,
