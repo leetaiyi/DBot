@@ -9,6 +9,14 @@ from utils import today_string
 from difflib import SequenceMatcher
 import re
 
+QUESTION_HISTORY_LIMIT = 20
+TRACKED_QUESTION_TYPES = {"transpose", "repertoire"}
+
+REP_QUESTION_IDS = [
+    "96408456294064128", #ctl
+    "484481393632608276" #jamin
+]
+
 """ 
 def normalize_answer(answer):
     answer = answer.casefold().strip()
@@ -203,10 +211,6 @@ TRANSPOSE_QUESTIONS = [
         "answer": "G7"
     },
     {
-        "image": "sev28.jpg",
-        "answer": "G7"
-    },
-    {
         "image": "sev29.jpg",
         "answer": "Cmaj7"
     },
@@ -236,33 +240,74 @@ TRANSPOSE_QUESTIONS = [
     }
 ]
 
-REP_QUESTIONS = [
+REPERTOIRE_QUESTIONS = [
     {
         "image": "rep1.jpg",
-        "hint": "|| F26 ||",
+        "hint": "F14",
         "answer": "Gerudo Valley"
     },
     {
         "image": "rep2.jpg",
-        "hint": "|| S26 ||",
+        "hint": "S26",
         "answer": "Gilded Runner"
     },
     {
         "image": "rep3.jpg",
-        "hint": "|| S26 ||",
+        "hint": "S26",
         "answer": "Court is Now in Session"
     },
     {
         "image": "rep4.jpg",
-        "hint": "|| F25 ||",
+        "hint": "F25",
         "answer": "Live Gloriously"
     },
     {
         "image": "rep5.jpg",
-        "hint": "|| F25 ||",
+        "hint": "F25",
         "answer": "Dummy!"
     }
 ]
+
+def record_answered_question(user, question_type, question_id):
+    if question_type not in TRACKED_QUESTION_TYPES or not question_id:
+        return
+
+    history = get_question_history(user)
+    user["question_history"] = history
+
+    if question_id in history:
+        history.remove(question_id)
+
+    history.append(question_id)
+    del history[:-QUESTION_HISTORY_LIMIT]
+
+
+def get_question_history(user):
+    """Return valid recent question IDs, initializing old/missing data safely."""
+    history = user.get("question_history", [])
+    if not isinstance(history, list):
+        history = []
+    return [item for item in history if isinstance(item, str)]
+
+
+def choose_question(user, candidates):
+    """
+    candidates: list of dictionaries, each containing a unique 'id'.
+    Returns a question not in the recent history, or None if exhausted.
+    """
+    history = set(get_question_history(user))
+
+    available = [
+        question for question in candidates
+        if question["id"] not in history
+    ]
+
+    # Once every candidate has appeared within the limit, start another cycle.
+    if not available:
+        available = candidates
+
+    return random.choice(available)
+
 
 def get_mode(key, mode_index):
     notes = key[3]
@@ -275,7 +320,7 @@ def get_mode(key, mode_index):
     }
 
 
-def get_question_type(user):
+def get_question_type(user, user_id=None):
     quiz_stats = user.setdefault("quiz_stats", {})
 
     attempts = quiz_stats.setdefault("attempts", 0)
@@ -287,8 +332,22 @@ def get_question_type(user):
     # Unlock mode questions after:
     #   - at least 5 major/minor questions
     #   - at least 80% correct
-    if attempts >= 5:
-        accuracy = correct / attempts
+
+    if user_id in REP_QUESTION_IDS:
+        answered_repertoire = set(get_question_history(user))
+        repertoire_ids = {
+            f"repertoire:{question['image']}"
+            for question in REPERTOIRE_QUESTIONS
+        }
+        if not repertoire_ids.issubset(answered_repertoire):
+            return "repertoire"
+
+    accuracy = correct / attempts if attempts else 0
+    if accuracy == 1 and attempts >= 4:
+        question_types = QUESTION_TYPES[2].copy()
+    elif accuracy == 1 and attempts >= 2:
+        question_types = QUESTION_TYPES[1].copy()
+    elif attempts >= 5:
 
         if attempts >= 20 and accuracy >= 0.90:
             question_types = QUESTION_TYPES[2].copy()
@@ -297,7 +356,7 @@ def get_question_type(user):
 
     return random.choice(question_types)
 
-def generate_question(question_type):
+def generate_question(question_type, user=None):
     """
     Generate a random quiz question.
 
@@ -309,6 +368,7 @@ def generate_question(question_type):
     """
 
     key_index = random.randrange(len(KEYS))
+    user = user if user is not None else {}
     key = KEYS[key_index]
     question_data = {
         "key_index": key_index
@@ -455,8 +515,13 @@ def generate_question(question_type):
     # Transpose questions
     # -------------------------   
     elif question_type in ["transpose"]:
-        question_index = random.randrange(len(TRANSPOSE_QUESTIONS))
-        transpose_question = TRANSPOSE_QUESTIONS[question_index]
+        candidates = [
+            {"id": f"transpose:{q['image']}", "index": i, "question": q}
+            for i, q in enumerate(TRANSPOSE_QUESTIONS)
+        ]
+        selected = choose_question(user, candidates)
+        question_index = selected["index"]
+        transpose_question = selected["question"]
 
         question = "In concert pitch, what chord is this? (See examples for syntax)"
         answer = transpose_question["answer"]
@@ -464,9 +529,40 @@ def generate_question(question_type):
 
         question_data = {
             "type": "transpose",
+            "question_id": selected["id"],
             "index": question_index,
             "attachment": transpose_question["image"]
         }
+
+    # -------------------------
+    # Repertoire questions
+    # -------------------------   
+    elif question_type in ["repertoire"]:
+        candidates = [
+            {"id": f"repertoire:{q['image']}", "index": i, "question": q}
+            for i, q in enumerate(REPERTOIRE_QUESTIONS)
+        ]
+        selected = choose_question(user, candidates)
+        question_index = selected["index"]
+        repertoire_question = selected["question"]
+
+        hint = repertoire_question["hint"]
+        hint_text = hint.strip().strip("|").strip()
+        question = (
+            "What WMGSO piece is this? Include movement name if applicable.\n"
+            f"Hint: ||{hint_text}||"
+        )
+        answer = repertoire_question["answer"]
+        example = "Dummy!, A Suite in Time: Train Rush"
+
+        question_data = {
+            "type": "repertoire",
+            "question_id": selected["id"],
+            "index": question_index,
+            "hint": hint,
+            "attachment": repertoire_question["image"]
+        }
+
 
     else:
         raise ValueError(f"Unknown question type: {question_type}")
@@ -516,28 +612,21 @@ def setup_quiz(bot):
                 )
             )
 
-            # Add image for transpose questions
-            if question_type == "transpose":
-                transpose_question = TRANSPOSE_QUESTIONS[
-                    quiz["question_data"]["index"]
-                ]
-
-                image_path = transpose_question["image"]
+            # Add the question image when one is attached.
+            image_path = quiz.get("question_data", {}).get("attachment")
+            if image_path:
                 image_url = QUIZ_MEDIA_URL + image_path
-
-                print(image_url)
-
                 embed.set_image(url=image_url)
 
             await ctx.send(embed=embed)
             return
 
         # Determine which type of question the user is eligible for
-        question_type = get_question_type(user)
+        question_type = get_question_type(user, user_id)
 
         # Generate the question
         question, answer, example, question_data = generate_question(
-            question_type
+            question_type, user
         )
 
         # Store the quiz
@@ -562,15 +651,10 @@ def setup_quiz(bot):
             )
         )
 
-        # Add image for transpose questions
-        if question_type == "transpose":
-            transpose_question = TRANSPOSE_QUESTIONS[
-                question_data["index"]
-            ]
-
-            image_path = transpose_question["image"]
+        # Add the question image when one is attached.
+        image_path = question_data.get("attachment")
+        if image_path:
             image_url = QUIZ_MEDIA_URL + image_path
-
             embed.set_image(url=image_url)
 
         await ctx.send(embed=embed)
@@ -621,6 +705,11 @@ def setup_quiz(bot):
         # Check answer
         quiz_stats["attempts"] += 1
         quiz["completed"] = True
+        record_answered_question(
+            user,
+            quiz.get("type"),
+            quiz.get("question_data", {}).get("question_id"),
+        )
         if user_answer in correct_answers:
             quiz_stats["correct"] += 1
             user["coins"] = user.get("coins", 0) + 1
@@ -635,8 +724,12 @@ def setup_quiz(bot):
 
         else:
             update_file(USERS_URL, user_data, user_sha)
+            displayed_answer = (
+                "[redacted]" if quiz.get("type") == "repertoire"
+                else answer_string
+            )
             await ctx.send(
                 f"Incorrect.\n"
-                f"The correct answer was **{answer_string}**."
+                f"The correct answer was **{displayed_answer}**."
             )
 

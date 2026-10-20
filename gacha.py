@@ -126,7 +126,7 @@ def is_complete(inventory, items):
 
 
 @bot.command()
-@commands.cooldown(rate=1, per=10.0, type=commands.BucketType.default)
+@commands.cooldown(rate=1, per=5.0, type=commands.BucketType.default)
 async def pull(ctx):
     prize_data, _ = get_file(PRIZES_URL)
     user_data, user_sha = get_file(USERS_URL)
