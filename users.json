@@ -1718,14 +1718,14 @@
       }
     },
     "370310581716254723": {
-      "coins": 14,
+      "coins": 13,
       "inventory": {
         "Bynx": 4,
         "Ben": 1,
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
         "Willow": 2,
-        "Live Gloriously!": 3,
+        "Live Gloriously!": 4,
         "LaCat: Wassup": 3,
         "Artemis Dee": 2,
         "Betty": 3,
@@ -1771,7 +1771,7 @@
         "Concert Dwarf": 1
       },
       "last_daily": "2026-10-20",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
