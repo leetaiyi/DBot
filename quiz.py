@@ -243,27 +243,27 @@ TRANSPOSE_QUESTIONS = [
 REPERTOIRE_QUESTIONS = [
     {
         "image": "rep1.jpg",
-        "hint": "|| F26 ||",
+        "hint": "F14",
         "answer": "Gerudo Valley"
     },
     {
         "image": "rep2.jpg",
-        "hint": "|| S26 ||",
+        "hint": "S26",
         "answer": "Gilded Runner"
     },
     {
         "image": "rep3.jpg",
-        "hint": "|| S26 ||",
+        "hint": "S26",
         "answer": "Court is Now in Session"
     },
     {
         "image": "rep4.jpg",
-        "hint": "|| F25 ||",
+        "hint": "F25",
         "answer": "Live Gloriously"
     },
     {
         "image": "rep5.jpg",
-        "hint": "|| F25 ||",
+        "hint": "F25",
         "answer": "Dummy!"
     }
 ]
@@ -547,9 +547,10 @@ def generate_question(question_type, user=None):
         repertoire_question = selected["question"]
 
         hint = repertoire_question["hint"]
+        hint_text = hint.strip().strip("|").strip()
         question = (
             "What WMGSO piece is this? Include movement name if applicable.\n"
-            f"Hint: ||{hint}||"
+            f"Hint: ||{hint_text}||"
         )
         answer = repertoire_question["answer"]
         example = "Dummy!, A Suite in Time: Train Rush"
