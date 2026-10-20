@@ -2175,10 +2175,10 @@
           "key_index": 12,
           "mode_index": 1
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 26,
+        "attempts": 27,
         "correct": 23
       }
     },
