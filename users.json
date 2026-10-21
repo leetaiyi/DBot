@@ -1736,7 +1736,7 @@
         "A Wild Artemis": 2,
         "Objection!": 2,
         "Ollidammara": 1,
-        "Sake": 4,
+        "Sake": 5,
         "Leia (apples)": 2,
         "Percy": 1,
         "Sawyer": 1,
@@ -1772,8 +1772,8 @@
         "Leia hates dry food": 1,
         "Bella": 1
       },
-      "last_daily": "2026-10-20",
-      "pity": 0,
+      "last_daily": "2026-10-21",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
