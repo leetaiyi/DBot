@@ -1583,12 +1583,15 @@
           "index": 15,
           "attachment": "sev16.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 70,
+        "attempts": 71,
         "correct": 63
-      }
+      },
+      "question_history": [
+        "transpose:sev16.jpg"
+      ]
     },
     "418107361786331138": {
       "coins": 0,
