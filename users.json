@@ -937,7 +937,7 @@
       "impatience": 1
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -1043,10 +1043,10 @@
         "Lego Polly": 1,
         "Awkward Teenage Nova": 1,
         "Moogle": 1,
-        "Leia hates dry food": 1
+        "Leia hates dry food": 2
       },
       "last_daily": "2026-10-21",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
