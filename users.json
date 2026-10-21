@@ -2688,10 +2688,10 @@
           "key_index": 6,
           "mode_index": 1
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 53,
+        "attempts": 54,
         "correct": 42
       }
     },
