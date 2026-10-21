@@ -2988,15 +2988,16 @@
         "correct": 2
       },
       "daily_quiz": {
-        "date": "2026-10-02",
-        "type": "accidental_minor",
-        "question": "What minor key has 5 sharps?",
-        "answer": "G#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-21",
+        "type": "mode_accidental",
+        "question": "How many sharps are in C# Dorian?",
+        "answer": "5",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 12
+          "key_index": 12,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       }
     },
     "148190213045354497": {
