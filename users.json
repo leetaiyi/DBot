@@ -2977,9 +2977,10 @@
     "321852031889309708": {
       "coins": 7,
       "inventory": {
-        "Pet the Batta": 1
+        "Pet the Batta": 1,
+        "Mizu": 1
       },
-      "last_daily": "2026-09-24",
+      "last_daily": "2026-10-21",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
