@@ -2173,16 +2173,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-10-20",
+        "date": "2026-10-21",
         "type": "accidental_mode",
-        "question": "Which Dorian scale has 5 sharps?",
-        "answer": "C#",
+        "question": "Which Dorian scale has 1 sharps?",
+        "answer": "A",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 12,
+          "key_index": 8,
           "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 27,
