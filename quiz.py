@@ -264,7 +264,7 @@ REPERTOIRE_QUESTIONS = [
     },
     {
         "image": "rep5.jpg",
-        "hint": "F25",
+        "hint": "S16",
         "answer": "Dummy!"
     },
     {
@@ -296,6 +296,16 @@ REPERTOIRE_QUESTIONS = [
         "image": "rep11.jpg",
         "hint": "F23",
         "answer": ["Tyrian 2000", "Tyrian 2000: The Mega SoundChair Medley"]
+    },
+    {
+        "image": "rep12.jpg",
+        "hint": "S17",
+        "answer": "Sogno Di Volare"
+    },
+    {
+        "image": "rep13.jpg",
+        "hint": "F17",
+        "answer": "Witchyworld and Mr. Patch"
     }
 ]
 
