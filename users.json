@@ -2712,7 +2712,7 @@
         "Zelda": 3,
         "Bratty Ryuu": 1,
         "Kazoo David": 1,
-        "Ollidammara": 2,
+        "Ollidammara": 3,
         "Oreo": 3,
         "Batta": 2,
         "Masabone": 1,
@@ -2783,8 +2783,8 @@
         "Pet the Batta": 1
       },
       "coins": 10,
-      "last_daily": "2026-10-20",
-      "pity": 0,
+      "last_daily": "2026-10-21",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
