@@ -1574,18 +1574,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-21",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "G#min7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-10-22",
+        "type": "mode_accidental",
+        "question": "How many flats are in Cb Lydian?",
+        "answer": "6",
+        "example": "!answer 5",
         "question_data": {
-          "type": "transpose",
-          "question_id": "transpose:sev16.jpg",
-          "index": 15,
-          "attachment": "sev16.jpg"
+          "key_index": 6,
+          "mode_index": 3
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 71,
