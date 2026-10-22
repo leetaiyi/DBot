@@ -2789,11 +2789,12 @@
         "Cutter Rascal Cuddle": 1,
         "Gustave Dodge": 1,
         "Guardian Sphinx": 1,
-        "Pet the Batta": 1
+        "Pet the Batta": 1,
+        "Aisling Fishy Cave": 1
       },
       "coins": 10,
-      "last_daily": "2026-10-21",
-      "pity": 1,
+      "last_daily": "2026-10-22",
+      "pity": 0,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
