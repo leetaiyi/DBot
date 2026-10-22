@@ -2180,16 +2180,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-10-21",
-        "type": "accidental_mode",
-        "question": "Which Dorian scale has 1 sharps?",
-        "answer": "A",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-22",
+        "type": "mode_accidental",
+        "question": "How many flats are in Bb Aeolian?",
+        "answer": "5",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 8,
-          "mode_index": 1
+          "key_index": 5,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 28,
