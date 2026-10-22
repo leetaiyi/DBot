@@ -380,7 +380,7 @@ def get_question_type(user, user_id=None):
         question_types = QUESTION_TYPES[1].copy()
     elif attempts >= 5:
 
-        if attempts >= 20 and accuracy >= 0.90:
+        if attempts >= 20 and accuracy * math.log(attempts, 20) >= 0.90:
             question_types = QUESTION_TYPES[2].copy()
         elif accuracy * math.log(attempts, 5) >= 0.90:
             question_types = QUESTION_TYPES[1].copy()
