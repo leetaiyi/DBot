@@ -1583,10 +1583,10 @@
           "key_index": 6,
           "mode_index": 3
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 71,
+        "attempts": 72,
         "correct": 63
       },
       "question_history": [
