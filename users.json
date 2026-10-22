@@ -2942,7 +2942,7 @@
       "blessed": false
     },
     "124148748615024640": {
-      "coins": 0,
+      "coins": 1,
       "inventory": {
         "Ben": 1,
         "Mizu Pounces Yumi": 1,
@@ -2968,8 +2968,8 @@
       "blessed": false,
       "impatience": 2,
       "quiz_stats": {
-        "attempts": 7,
-        "correct": 5
+        "attempts": 8,
+        "correct": 6
       },
       "daily_quiz": {
         "date": "2026-10-22",
@@ -2980,7 +2980,7 @@
         "question_data": {
           "key_index": 9
         },
-        "completed": false
+        "completed": true
       }
     },
     "321852031889309708": {
