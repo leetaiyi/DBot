@@ -1059,16 +1059,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-21",
+        "date": "2026-10-22",
         "type": "mode_accidental",
-        "question": "How many flats are in Eb Mixolydian?",
-        "answer": "4",
+        "question": "How many sharps are in B Phrygian?",
+        "answer": "1",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 4
+          "key_index": 8,
+          "mode_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 75,
