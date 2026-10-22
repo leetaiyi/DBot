@@ -2972,16 +2972,15 @@
         "correct": 5
       },
       "daily_quiz": {
-        "date": "2026-10-18",
-        "type": "accidental_mode",
-        "question": "Which Phrygian scale has 7 flats?",
-        "answer": "Eb",
+        "date": "2026-10-22",
+        "type": "minor_major",
+        "question": "What is the relative major of B minor?",
+        "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7,
-          "mode_index": 2
+          "key_index": 9
         },
-        "completed": true
+        "completed": false
       }
     },
     "321852031889309708": {
