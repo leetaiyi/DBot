@@ -2942,7 +2942,7 @@
       "blessed": false
     },
     "124148748615024640": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Ben": 1,
         "Mizu Pounces Yumi": 1,
@@ -2951,7 +2951,7 @@
         "Ollidammara": 2,
         "Maleficent": 1,
         "Sake": 1,
-        "Gabbro": 1,
+        "Gabbro": 2,
         "Cerberus": 1,
         "Nova Fangly": 1,
         "Zelda": 1,
@@ -2963,7 +2963,7 @@
         "Metal Gear Rascal": 1
       },
       "last_daily": "2026-10-22",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "impatience": 2,
