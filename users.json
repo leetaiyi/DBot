@@ -64,15 +64,16 @@
           "hint": "F19",
           "attachment": "rep8.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 30,
+        "attempts": 31,
         "correct": 29
       },
       "question_history": [
         "transpose:sev16.jpg",
-        "repertoire:rep5.jpg"
+        "repertoire:rep5.jpg",
+        "repertoire:rep8.jpg"
       ]
     },
     "418102912221184001": {
