@@ -49,19 +49,22 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-10-20",
+        "date": "2026-10-22",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: |||| F25 ||||",
-        "answer": "Dummy!",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F19||",
+        "answer": [
+          "Dragonsong",
+          "Tales from the Dragonsong War: Dragonsong"
+        ],
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep5.jpg",
-          "index": 4,
-          "hint": "|| F25 ||",
-          "attachment": "rep5.jpg"
+          "question_id": "repertoire:rep8.jpg",
+          "index": 7,
+          "hint": "F19",
+          "attachment": "rep8.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 30,
