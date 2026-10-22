@@ -2695,10 +2695,10 @@
           "key_index": 2,
           "mode_index": 0
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 54,
+        "attempts": 55,
         "correct": 42
       }
     },
