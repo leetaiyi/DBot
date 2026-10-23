@@ -2304,17 +2304,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-13",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "C7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-10-23",
+        "type": "mode_accidental",
+        "question": "How many flats are in Db Dorian?",
+        "answer": "7",
+        "example": "!answer 5",
         "question_data": {
-          "type": "transpose",
-          "index": 25,
-          "attachment": "sev26.jpg"
+          "key_index": 7,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 21,
