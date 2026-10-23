@@ -2724,7 +2724,7 @@
         "Noodle": 6,
         "Nova Fangly": 3,
         "Bella": 2,
-        "Rose": 3,
+        "Rose": 4,
         "Polly": 4,
         "Zelda": 3,
         "Bratty Ryuu": 1,
@@ -2801,8 +2801,8 @@
         "Aisling Fishy Cave": 1
       },
       "coins": 10,
-      "last_daily": "2026-10-22",
-      "pity": 0,
+      "last_daily": "2026-10-23",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
