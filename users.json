@@ -1457,19 +1457,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-22",
+        "date": "2026-10-23",
         "type": "repertoire",
         "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F25||",
-        "answer": "Impeded",
+        "answer": "Live Gloriously",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep10.jpg",
-          "index": 9,
+          "question_id": "repertoire:rep4.jpg",
+          "index": 3,
           "hint": "F25",
-          "attachment": "rep10.jpg"
+          "attachment": "rep4.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 28,
