@@ -3032,7 +3032,7 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 5,
+        "attempts": 6,
         "correct": 5
       },
       "daily_quiz": {
@@ -3047,8 +3047,11 @@
           "index": 25,
           "attachment": "sev26.jpg"
         },
-        "completed": false
-      }
+        "completed": true
+      },
+      "question_history": [
+        "transpose:sev26.jpg"
+      ]
     }
   }
 }
