@@ -1065,16 +1065,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-22",
+        "date": "2026-10-23",
         "type": "mode_accidental",
-        "question": "How many sharps are in B Phrygian?",
-        "answer": "1",
+        "question": "How many sharps are in A Mixolydian?",
+        "answer": "2",
         "example": "!answer 5",
         "question_data": {
-          "key_index": 8,
-          "mode_index": 2
+          "key_index": 9,
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 76,
