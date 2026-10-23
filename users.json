@@ -2190,16 +2190,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-10-22",
-        "type": "mode_accidental",
-        "question": "How many flats are in Bb Aeolian?",
-        "answer": "5",
-        "example": "!answer 5",
+        "date": "2026-10-23",
+        "type": "accidental_mode",
+        "question": "Which Locrian scale has 5 sharps?",
+        "answer": "A#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 5,
-          "mode_index": 5
+          "key_index": 12,
+          "mode_index": 6
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 29,
