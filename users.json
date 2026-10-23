@@ -670,15 +670,15 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-10-07",
-        "type": "major_minor",
-        "question": "What is the relative minor of B major?",
-        "answer": "G#",
+        "date": "2026-10-23",
+        "type": "minor_major",
+        "question": "What is the relative major of A# minor?",
+        "answer": "C#",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 12
+          "key_index": 14
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 3,
