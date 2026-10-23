@@ -3036,15 +3036,18 @@
         "correct": 5
       },
       "daily_quiz": {
-        "date": "2026-10-12",
-        "type": "major_minor",
-        "question": "What is the relative minor of C major?",
-        "answer": "A",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-23",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "C7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 0
+          "type": "transpose",
+          "question_id": "transpose:sev26.jpg",
+          "index": 25,
+          "attachment": "sev26.jpg"
         },
-        "completed": true
+        "completed": false
       }
     }
   }
