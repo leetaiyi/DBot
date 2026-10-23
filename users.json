@@ -1785,10 +1785,11 @@
         "Amadeus": 1,
         "Concert Dwarf": 1,
         "Leia hates dry food": 1,
-        "Bella": 1
+        "Bella": 1,
+        "Flash": 1
       },
-      "last_daily": "2026-10-21",
-      "pity": 1,
+      "last_daily": "2026-10-23",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
