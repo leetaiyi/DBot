@@ -1462,19 +1462,23 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-23",
+        "date": "2026-10-24",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F25||",
-        "answer": "Live Gloriously",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S24||",
+        "answer": [
+          "Star Wolf",
+          "Venom/Star Wolf",
+          "The Planets: Star Wolf"
+        ],
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep4.jpg",
-          "index": 3,
-          "hint": "F25",
-          "attachment": "rep4.jpg"
+          "question_id": "repertoire:rep9.jpg",
+          "index": 8,
+          "hint": "S24",
+          "attachment": "rep9.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 29,
