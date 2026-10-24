@@ -2747,7 +2747,7 @@
         "Maleficent": 6,
         "Leia (apples)": 2,
         "Sawyer": 6,
-        "YO!": 2,
+        "YO!": 3,
         "A Wild Artemis": 3,
         "Willow Snuggle": 1,
         "Benjamin (bandana)": 3,
@@ -2812,8 +2812,8 @@
         "Aisling Fishy Cave": 1
       },
       "coins": 10,
-      "last_daily": "2026-10-23",
-      "pity": 1,
+      "last_daily": "2026-10-24",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
