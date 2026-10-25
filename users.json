@@ -1699,7 +1699,7 @@
         "AdaMario": 1,
         "Mizu": 2,
         "Rascal": 1,
-        "Pet the Batta": 2,
+        "Pet the Batta": 3,
         "Guardian Sphinx": 1,
         "Moogle": 2,
         "Camouflaged": 1,
@@ -1715,8 +1715,8 @@
         "Bella & Erin": 1,
         "Aisling Fishy Cave": 1
       },
-      "last_daily": "2026-10-24",
-      "pity": 2,
+      "last_daily": "2026-10-25",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
