@@ -1594,16 +1594,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-24",
-        "type": "mode_accidental",
-        "question": "How many sharps are in F# Aeolian?",
-        "answer": "3",
-        "example": "!answer 5",
+        "date": "2026-10-25",
+        "type": "accidental_mode",
+        "question": "Which Ionian scale has 2 flats?",
+        "answer": "Bb",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 10,
-          "mode_index": 5
+          "key_index": 2,
+          "mode_index": 0
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 74,
