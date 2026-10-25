@@ -1070,16 +1070,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-24",
+        "date": "2026-10-25",
         "type": "accidental_mode",
-        "question": "Which Locrian scale has 4 flats?",
-        "answer": "G",
+        "question": "Which Phrygian scale has 1 flats?",
+        "answer": "A",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 4,
-          "mode_index": 6
+          "key_index": 1,
+          "mode_index": 2
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 78,
