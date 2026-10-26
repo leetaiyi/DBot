@@ -945,7 +945,7 @@
       "impatience": 1
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -982,7 +982,7 @@
         "Morpheus": 2,
         "Polly": 3,
         "Coconut!": 7,
-        "Capt Ben": 1,
+        "Capt Ben": 2,
         "Live Gloriously!": 4,
         "Maru Merak Miss Ma'am Morden": 4,
         "Benjamin (bandana)": 6,
@@ -1058,7 +1058,7 @@
         "Contemplating Existence": 1
       },
       "last_daily": "2026-10-26",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
