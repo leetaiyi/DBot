@@ -1807,18 +1807,21 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-25",
+        "date": "2026-10-26",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "Fbmaj7",
+        "answer": [
+          "F#mM7",
+          "F#minM7"
+        ],
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "question_id": "transpose:sev15.jpg",
-          "index": 14,
-          "attachment": "sev15.jpg"
+          "question_id": "transpose:sev17.jpg",
+          "index": 16,
+          "attachment": "sev17.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 34,
