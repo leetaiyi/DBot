@@ -1438,7 +1438,7 @@
         "Sawyer": 1,
         "Kitchen Cat": 4,
         "Cerberus": 1,
-        "Noodle": 1,
+        "Noodle": 2,
         "Capt Ben": 1,
         "A Wild Artemis": 1,
         "Noodle plays Pok\u00e9mon": 1,
@@ -1458,8 +1458,8 @@
         "Ellie": 1,
         "Live Gloriously!": 1
       },
-      "last_daily": "2026-10-24",
-      "pity": 0,
+      "last_daily": "2026-10-26",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
