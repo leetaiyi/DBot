@@ -1496,7 +1496,7 @@
       ]
     },
     "954136279296118885": {
-      "coins": 72,
+      "coins": 73,
       "inventory": {
         "Bynx": 7,
         "LaCat: Wassup": 3,
@@ -1605,11 +1605,11 @@
           "key_index": 4,
           "mode_index": 3
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 75,
-        "correct": 66
+        "attempts": 76,
+        "correct": 67
       },
       "question_history": [
         "transpose:sev16.jpg"
