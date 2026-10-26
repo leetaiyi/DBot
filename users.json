@@ -2788,7 +2788,7 @@
         "LaCat: Wassup": 5,
         "Objection!": 3,
         "Betty": 3,
-        "Bilbo Bee": 1,
+        "Bilbo Bee": 2,
         "Capt Ben": 2,
         "Bigger litterbox pls": 1,
         "Ellie as Moonmoon": 1,
@@ -2824,8 +2824,8 @@
         "Mizu": 1
       },
       "coins": 10,
-      "last_daily": "2026-10-25",
-      "pity": 0,
+      "last_daily": "2026-10-26",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
