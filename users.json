@@ -1463,23 +1463,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S24||",
-        "answer": [
-          "Star Wolf",
-          "Venom/Star Wolf",
-          "The Planets: Star Wolf"
-        ],
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F24||",
+        "answer": "Arni Village",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep9.jpg",
-          "index": 8,
-          "hint": "S24",
-          "attachment": "rep9.jpg"
+          "question_id": "repertoire:rep7.jpg",
+          "index": 6,
+          "hint": "F24",
+          "attachment": "rep7.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 30,
