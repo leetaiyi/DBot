@@ -2215,16 +2215,16 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-10-23",
-        "type": "accidental_mode",
-        "question": "Which Locrian scale has 5 sharps?",
-        "answer": "A#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-27",
+        "type": "mode_accidental",
+        "question": "How many sharps are in F# Mixolydian?",
+        "answer": "5",
+        "example": "!answer 5",
         "question_data": {
           "key_index": 12,
-          "mode_index": 6
+          "mode_index": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 30,
