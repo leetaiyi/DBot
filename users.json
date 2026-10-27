@@ -946,7 +946,7 @@
       "impatience": 1
     },
     "292070419341639681": {
-      "coins": 1,
+      "coins": 0,
       "inventory": {
         "Bynx": 4,
         "Sad Jamin": 3,
@@ -969,7 +969,7 @@
         "Flash": 5,
         "Korok Couple": 1,
         "Kazoo David": 5,
-        "David": 6,
+        "David": 7,
         "Sadge Ryuu": 3,
         "Amadeus": 6,
         "Bilbo Bee": 4,
@@ -1060,7 +1060,7 @@
         "Husky, Elkhound, German Shepherd": 1
       },
       "last_daily": "2026-10-27",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
