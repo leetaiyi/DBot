@@ -2096,7 +2096,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 6,
+      "coins": 5,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 6,
@@ -2127,7 +2127,7 @@
         "Keyboard Carbon": 4,
         "Ebi": 4,
         "Cerberus": 4,
-        "Willow": 4,
+        "Willow": 5,
         "Sake": 10,
         "Sad Jamin": 2,
         "Morpheus": 3,
@@ -2204,7 +2204,7 @@
         "Camouflaged": 1
       },
       "last_daily": "2026-10-27",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
