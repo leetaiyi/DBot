@@ -697,7 +697,7 @@
         "LaCat: Hypnosis": 4,
         "Amanda": 2,
         "Oreo": 4,
-        "Howl": 4,
+        "Howl": 5,
         "LaCat: Wassup": 7,
         "Willow": 2,
         "Willow Snuggle": 4,
@@ -794,8 +794,8 @@
         "Food Confusion": 1,
         "Pet the Batta": 1
       },
-      "last_daily": "2026-10-26",
-      "pity": 0,
+      "last_daily": "2026-10-28",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
