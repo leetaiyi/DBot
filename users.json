@@ -872,7 +872,7 @@
         "IDDOG": 2,
         "Amadeus2": 2,
         "John and Albino water monitor lizard": 1,
-        "Sawyer": 2,
+        "Sawyer": 3,
         "Willow": 5,
         "Leia (apples)": 4,
         "Keyboard Carbon": 2,
@@ -922,8 +922,8 @@
         "Mizu": 1,
         "Gustave": 1
       },
-      "last_daily": "2026-10-27",
-      "pity": 0,
+      "last_daily": "2026-10-28",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
