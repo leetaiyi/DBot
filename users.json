@@ -2098,7 +2098,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 6,
+      "coins": 5,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 6,
@@ -2203,10 +2203,11 @@
         "Mizu Pounces Yumi": 1,
         "Aisling Belly": 2,
         "Rascal": 2,
-        "Camouflaged": 1
+        "Camouflaged": 1,
+        "Metal Gear Rascal": 1
       },
       "last_daily": "2026-10-28",
-      "pity": 2,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
