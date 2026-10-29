@@ -1483,10 +1483,10 @@
           "hint": "F17",
           "attachment": "rep13.jpg"
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 32,
+        "attempts": 33,
         "correct": 30
       },
       "impatience": 1,
@@ -1498,7 +1498,8 @@
         "repertoire:rep4.jpg",
         "repertoire:rep9.jpg",
         "repertoire:rep7.jpg",
-        "repertoire:rep11.jpg"
+        "repertoire:rep11.jpg",
+        "repertoire:rep13.jpg"
       ]
     },
     "954136279296118885": {
