@@ -1471,22 +1471,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F23||",
-        "answer": [
-          "Tyrian 2000",
-          "Tyrian 2000: The Mega SoundChair Medley"
-        ],
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F17||",
+        "answer": "Witchyworld and Mr. Patch",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep11.jpg",
-          "index": 10,
-          "hint": "F23",
-          "attachment": "rep11.jpg"
+          "question_id": "repertoire:rep13.jpg",
+          "index": 12,
+          "hint": "F17",
+          "attachment": "rep13.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 32,
