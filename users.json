@@ -1442,7 +1442,7 @@
         "Maleficent": 1,
         "Mishka": 1,
         "Rose": 1,
-        "Ivan": 2,
+        "Ivan": 3,
         "Sawyer": 1,
         "Kitchen Cat": 4,
         "Cerberus": 1,
@@ -1466,8 +1466,8 @@
         "Ellie": 1,
         "Live Gloriously!": 1
       },
-      "last_daily": "2026-10-27",
-      "pity": 2,
+      "last_daily": "2026-10-29",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
