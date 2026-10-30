@@ -1759,10 +1759,10 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 14,
+      "coins": 13,
       "inventory": {
         "Bynx": 4,
-        "Ben": 1,
+        "Ben": 2,
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
         "Willow": 2,
@@ -1816,7 +1816,7 @@
         "Nova: The Absurd Beast": 1
       },
       "last_daily": "2026-10-30",
-      "pity": 2,
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
