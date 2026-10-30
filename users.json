@@ -2227,16 +2227,16 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-10-28",
-        "type": "mode_accidental",
-        "question": "How many sharps are in G# Phrygian?",
-        "answer": "4",
-        "example": "!answer 5",
+        "date": "2026-10-30",
+        "type": "accidental_mode",
+        "question": "Which Aeolian scale has 1 sharps?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 2
+          "key_index": 8,
+          "mode_index": 5
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 32,
