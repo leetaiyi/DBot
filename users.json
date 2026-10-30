@@ -1420,7 +1420,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 11,
+      "coins": 10,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1466,10 +1466,11 @@
         "Gustave Dodge": 1,
         "Moogle": 1,
         "Ellie": 1,
-        "Live Gloriously!": 1
+        "Live Gloriously!": 1,
+        "GengArtemis": 1
       },
       "last_daily": "2026-10-30",
-      "pity": 4,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
