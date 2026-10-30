@@ -1762,7 +1762,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 13,
+      "coins": 12,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1772,7 +1772,7 @@
         "Live Gloriously!": 4,
         "LaCat: Wassup": 4,
         "Artemis Dee": 2,
-        "Betty": 3,
+        "Betty": 4,
         "Mishka": 4,
         "Coconut!": 1,
         "Rose": 1,
@@ -1819,7 +1819,7 @@
         "Nova: The Absurd Beast": 1
       },
       "last_daily": "2026-10-30",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
