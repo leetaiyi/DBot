@@ -2107,7 +2107,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 4,
+      "coins": 5,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 6,
@@ -2236,11 +2236,11 @@
           "key_index": 8,
           "mode_index": 5
         },
-        "completed": false
+        "completed": true
       },
       "quiz_stats": {
-        "attempts": 32,
-        "correct": 28
+        "attempts": 33,
+        "correct": 29
       }
     },
     "247912247496540160": {
