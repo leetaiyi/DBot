@@ -2775,7 +2775,7 @@
         "Batta": 2,
         "Masabone": 1,
         "Maleficent": 6,
-        "Leia (apples)": 2,
+        "Leia (apples)": 3,
         "Sawyer": 6,
         "YO!": 3,
         "A Wild Artemis": 3,
@@ -2844,8 +2844,8 @@
         "Nananananananana": 1
       },
       "coins": 10,
-      "last_daily": "2026-10-28",
-      "pity": 1,
+      "last_daily": "2026-10-30",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-10-08",
