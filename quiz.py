@@ -311,6 +311,12 @@ REPERTOIRE_QUESTIONS = [
         "image": "rep14.jpg",
         "hint": "S24",
         "answer": "Super Mario Kart Medley"
+    },
+    {
+        "image": "rep15.jpg",
+        "hint": "S25",
+        "answer": ["To Good Friends, and the Future We Make Together",
+                    "Chrono Trigger Symphonic Suite: To Good Friends, and the Future We Make Together"]
     }
 ]
 
