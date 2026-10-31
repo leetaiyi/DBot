@@ -49,22 +49,19 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-10-22",
+        "date": "2026-10-31",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F19||",
-        "answer": [
-          "Dragonsong",
-          "Tales from the Dragonsong War: Dragonsong"
-        ],
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F17||",
+        "answer": "Witchyworld and Mr. Patch",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep8.jpg",
-          "index": 7,
-          "hint": "F19",
-          "attachment": "rep8.jpg"
+          "question_id": "repertoire:rep13.jpg",
+          "index": 12,
+          "hint": "F17",
+          "attachment": "rep13.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 31,
