@@ -61,16 +61,18 @@
           "hint": "F17",
           "attachment": "rep13.jpg"
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 31,
+        "attempts": 32,
         "correct": 29
       },
       "question_history": [
         "transpose:sev16.jpg",
         "repertoire:rep5.jpg",
-        "repertoire:rep8.jpg"
+        "repertoire:rep8.jpg",
+        "repertoire:rep13.jpg"
       ]
     },
     "418102912221184001": {
