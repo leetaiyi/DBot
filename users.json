@@ -1773,7 +1773,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 12,
+      "coins": 13,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1846,11 +1846,12 @@
           "index": 4,
           "attachment": "sev5.jpg"
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 37,
-        "correct": 34
+        "attempts": 38,
+        "correct": 35
       },
       "question_history": [
         "transpose:sev24.jpg",
@@ -1860,7 +1861,8 @@
         "transpose:sev15.jpg",
         "transpose:sev17.jpg",
         "transpose:sev16.jpg",
-        "transpose:sev26.jpg"
+        "transpose:sev26.jpg",
+        "transpose:sev5.jpg"
       ]
     },
     "339576678902923274": {
