@@ -1094,12 +1094,16 @@
           "index": 12,
           "attachment": "sev13.jpg"
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 84,
+        "attempts": 85,
         "correct": 75
-      }
+      },
+      "question_history": [
+        "transpose:sev13.jpg"
+      ]
     },
     "201094207857754112": {
       "coins": 0,
