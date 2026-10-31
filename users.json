@@ -1175,7 +1175,7 @@
       "coins": 0,
       "inventory": {
         "Willow Snuggle": 1,
-        "LaCat: Wassup": 5,
+        "LaCat: Wassup": 6,
         "Ollidammara": 5,
         "Artemis Dee": 4,
         "Sadge Ryuu": 3,
@@ -1250,8 +1250,8 @@
         " Benjamin (hidden)": 1,
         "Camouflaged": 1
       },
-      "last_daily": "2026-10-26",
-      "pity": 0,
+      "last_daily": "2026-10-31",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
