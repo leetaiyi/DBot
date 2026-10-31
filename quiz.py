@@ -395,7 +395,7 @@ def get_question_type(user, user_id=None):
         question_types = QUESTION_TYPES[1].copy()
     elif attempts >= 5:
 
-        if attempts >= 20 and accuracy >= 0.90:
+        if attempts >= 20 and accuracy * math.log(attempts, 20) >= 0.90:
             question_types = QUESTION_TYPES[2].copy()
         elif accuracy * math.log(attempts, 5) >= 0.90:
             question_types = QUESTION_TYPES[1].copy()
@@ -759,6 +759,7 @@ def setup_quiz(bot):
         if user_answer in correct_answers:
             quiz_stats["correct"] += 1
             user["coins"] = user.get("coins", 0) + 1
+            quiz["result"] = "correct"
 
             update_file(USERS_URL, user_data, user_sha)
 
@@ -769,6 +770,7 @@ def setup_quiz(bot):
             )
 
         else:
+            quiz["result"] = "incorrect"
             update_file(USERS_URL, user_data, user_sha)
             displayed_answer = (
                 "[redacted]" if quiz.get("type") == "repertoire"
@@ -778,4 +780,50 @@ def setup_quiz(bot):
                 f"Incorrect.\n"
                 f"The correct answer was **{displayed_answer}**."
             )
+
+    @bot.command()
+    async def correct(ctx, member: discord.Member):
+        """Mark a user's latest incorrect daily quiz as correct and award a coin."""
+        if ctx.author.id not in ADMIN_IDS:
+            await ctx.send("❌ You don't have the red pen")
+            return
+
+        async with github_lock:
+            user_data, user_sha = get_file(USERS_URL)
+            users = user_data.setdefault("users", {})
+            target_id = str(member.id)
+            user = users.get(target_id)
+
+            if user is None:
+                await ctx.send(f"{member.mention} doesn't have an account yet.")
+                return
+
+            quiz = user.get("daily_quiz")
+            if not quiz or not quiz.get("completed"):
+                await ctx.send(f"{member.mention} has no completed quiz to correct.")
+                return
+
+            if quiz.get("result") != "incorrect":
+                await ctx.send(
+                    f"{member.mention}'s latest quiz isn't recorded as incorrect "
+                    "or has already been corrected."
+                )
+                return
+
+            quiz["result"] = "correct"
+            quiz["corrected_by"] = str(ctx.author.id)
+            record_answered_question(
+                user,
+                quiz.get("type"),
+                quiz.get("question_data", {}).get("question_id"),
+            )
+            quiz_stats = user.setdefault("quiz_stats", {})
+            quiz_stats["correct"] = quiz_stats.get("correct", 0) + 1
+            user["coins"] = user.get("coins", 0) + 1
+            update_file(USERS_URL, user_data, user_sha)
+
+        await ctx.send(
+            f"Marked {member.mention}'s latest quiz attempt correct and awarded "
+            f"1 WMGpeSO. They now have {user['coins']}."
+        )
 
