@@ -2863,7 +2863,7 @@
         "Mizu": 1,
         "Nananananananana": 1
       },
-      "coins": 10,
+      "coins": 11,
       "last_daily": "2026-10-30",
       "pity": 2,
       "blessed": false,
@@ -2877,11 +2877,12 @@
           "key_index": 9,
           "mode_index": 1
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 40,
-        "correct": 29
+        "attempts": 41,
+        "correct": 30
       },
       "achievement_claims": {
         "The B's": 1,
