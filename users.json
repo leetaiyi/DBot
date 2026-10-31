@@ -1080,16 +1080,21 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-30",
-        "type": "accidental_mode",
-        "question": "Which Phrygian scale has 4 sharps?",
-        "answer": "G#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-31",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": [
+          "Db7",
+          "C#7"
+        ],
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 2
+          "type": "transpose",
+          "question_id": "transpose:sev13.jpg",
+          "index": 12,
+          "attachment": "sev13.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 84,
