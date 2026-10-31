@@ -306,6 +306,11 @@ REPERTOIRE_QUESTIONS = [
         "image": "rep13.jpg",
         "hint": "F17",
         "answer": "Witchyworld and Mr. Patch"
+    },
+    {
+        "image": "rep14.jpg",
+        "hint": "S24",
+        "answer": "Super Mario Kart Medley"
     }
 ]
 
