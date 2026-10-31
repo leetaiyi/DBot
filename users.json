@@ -2868,16 +2868,16 @@
       "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-08",
-        "type": "accidental_mode",
-        "question": "Which Aeolian scale has 3 sharps?",
-        "answer": "F#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-31",
+        "type": "mode_accidental",
+        "question": "How many sharps are in E Dorian?",
+        "answer": "2",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 10,
-          "mode_index": 5
+          "key_index": 9,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 40,
