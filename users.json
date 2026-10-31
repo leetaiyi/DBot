@@ -141,7 +141,7 @@
         "Carbon Eyes": 1,
         "HONK!!": 1,
         "Ben": 3,
-        "YO!": 3,
+        "YO!": 4,
         "Nova: The Absurd Beast": 1,
         "Belly Flash": 2,
         "Live Gloriously!": 2,
@@ -182,8 +182,8 @@
         "Where's My Churu": 1
       },
       "coins": 0,
-      "last_daily": "2026-10-30",
-      "pity": 0,
+      "last_daily": "2026-10-31",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
