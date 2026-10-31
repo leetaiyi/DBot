@@ -1434,7 +1434,7 @@
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
-        "David": 1,
+        "David": 2,
         "Bynx": 3,
         "Coconut!": 1,
         "IDDOG": 1,
@@ -1480,8 +1480,8 @@
         "GengArtemis": 1,
         "Artemis Dee": 1
       },
-      "last_daily": "2026-10-30",
-      "pity": 0,
+      "last_daily": "2026-10-31",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
