@@ -1430,7 +1430,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 11,
+      "coins": 10,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1479,7 +1479,8 @@
         "Live Gloriously!": 1,
         "GengArtemis": 1,
         "Artemis Dee": 1,
-        "LARGE Moogle": 1
+        "LARGE Moogle": 1,
+        "Spooky on a Spooky Skeleton": 1
       },
       "last_daily": "2026-11-01",
       "pity": 0,
