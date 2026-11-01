@@ -84,7 +84,7 @@
         "Bynx": 1,
         "Sad Jamin": 2,
         "Ivan": 4,
-        "Oreo": 4,
+        "Oreo": 5,
         "Artemis Dee": 4,
         "Batta": 4,
         "Maleficent": 7,
@@ -182,8 +182,8 @@
         "Where's My Churu": 1
       },
       "coins": 0,
-      "last_daily": "2026-10-31",
-      "pity": 1,
+      "last_daily": "2026-11-01",
+      "pity": 2,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
