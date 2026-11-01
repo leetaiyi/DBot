@@ -1485,19 +1485,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-30",
+        "date": "2026-11-01",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F24||",
-        "answer": "Diggy Diggy Hole",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F14||",
+        "answer": "Gerudo Valley",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep6.jpg",
-          "index": 5,
-          "hint": "F24",
-          "attachment": "rep6.jpg"
+          "question_id": "repertoire:rep1.jpg",
+          "index": 0,
+          "hint": "F14",
+          "attachment": "rep1.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 34,
