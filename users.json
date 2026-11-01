@@ -516,7 +516,7 @@
         "Furiosa blesses you with wealth": 1,
         "Benjamin (bandana)": 4,
         "King Baker": 4,
-        "Capt Ben": 3,
+        "Capt Ben": 4,
         "Kitchen Cat": 3,
         "Amadeus": 3,
         "Korok Couple": 1,
@@ -577,8 +577,8 @@
         "Ellie": 1,
         "Gustave": 1
       },
-      "last_daily": "2026-10-31",
-      "pity": 2,
+      "last_daily": "2026-11-01",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
