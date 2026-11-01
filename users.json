@@ -1650,7 +1650,7 @@
         "Sad Jamin": 1,
         "LaCat: Wassup": 3,
         "Howl": 5,
-        "Batta": 4,
+        "Batta": 5,
         "Cerberus": 4,
         "Ivan": 3,
         "Willow": 3,
@@ -1745,8 +1745,8 @@
         "Aisling's Squeaky Mouse": 1,
         "Spooky on a Spooky Skeleton": 1
       },
-      "last_daily": "2026-10-31",
-      "pity": 0,
+      "last_daily": "2026-11-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
