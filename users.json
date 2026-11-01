@@ -41,7 +41,7 @@
         "Objection!": 1,
         "Metal Gear Rascal": 1
       },
-      "coins": 974,
+      "coins": 976,
       "last_daily": "2026-10-01",
       "pity": 0,
       "blessed": false,
@@ -49,25 +49,31 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-10-18",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "G#min7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-10-31",
+        "type": "repertoire",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F17||",
+        "answer": "Witchyworld and Mr. Patch",
+        "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
-          "type": "transpose",
-          "question_id": "transpose:sev16.jpg",
-          "index": 15,
-          "attachment": "sev16.jpg"
+          "type": "repertoire",
+          "question_id": "repertoire:rep13.jpg",
+          "index": 12,
+          "hint": "F17",
+          "attachment": "rep13.jpg"
         },
-        "completed": true
+        "completed": true,
+        "result": "correct",
+        "corrected_by": "96408456294064128"
       },
       "quiz_stats": {
-        "attempts": 29,
-        "correct": 28
+        "attempts": 32,
+        "correct": 30
       },
       "question_history": [
-        "transpose:sev16.jpg"
+        "transpose:sev16.jpg",
+        "repertoire:rep5.jpg",
+        "repertoire:rep8.jpg",
+        "repertoire:rep13.jpg"
       ]
     },
     "418102912221184001": {
@@ -78,7 +84,7 @@
         "Bynx": 1,
         "Sad Jamin": 2,
         "Ivan": 4,
-        "Oreo": 4,
+        "Oreo": 5,
         "Artemis Dee": 4,
         "Batta": 4,
         "Maleficent": 7,
@@ -89,7 +95,7 @@
         "David": 5,
         "Sadge Ryuu": 3,
         "Bella": 4,
-        "Tomyris": 4,
+        "Tomyris": 5,
         "Masabone": 2,
         "Sake+Ebi": 1,
         "Zelda": 6,
@@ -100,10 +106,10 @@
         "Capt Ben": 3,
         "IDDOG": 3,
         "Gabbro": 3,
-        "Sake": 3,
+        "Sake": 4,
         "Barely Legal John": 1,
         "Maru Merak Miss Ma'am Morden": 5,
-        "Leia (apples)": 6,
+        "Leia (apples)": 7,
         "Amadeus": 2,
         "Carbon": 2,
         "Bratty Ryuu": 1,
@@ -129,16 +135,16 @@
         "Noodle plays Pok\u00e9mon": 1,
         "Rose": 3,
         "Snow Kiss": 1,
-        "Amadeus2": 3,
+        "Amadeus2": 4,
         "Benjamin (bandana)": 3,
         "King Baker": 1,
         "Carbon Eyes": 1,
         "HONK!!": 1,
-        "Ben": 2,
-        "YO!": 3,
+        "Ben": 3,
+        "YO!": 4,
         "Nova: The Absurd Beast": 1,
         "Belly Flash": 2,
-        "Live Gloriously!": 1,
+        "Live Gloriously!": 2,
         "Listening to Rehearsal Recordings": 1,
         "Santa Murphy": 2,
         "Ollidammara": 3,
@@ -158,7 +164,7 @@
         "Cutter Rascal Cuddle": 1,
         "\u0250\u0287\u0287\u0250q": 1,
         "Metal Gear Rascal": 2,
-        "Moogle": 1,
+        "Moogle": 2,
         "Camouflaged": 1,
         "Nananananananana": 1,
         "Leia hates dry food": 1,
@@ -170,11 +176,14 @@
         "Cookie Strife": 1,
         "Bella & Erin": 1,
         "Food Confusion": 1,
-        "Spooky on a Spooky Skeleton": 1
+        "Spooky on a Spooky Skeleton": 1,
+        "Cutter??": 1,
+        "Husky, Elkhound, German Shepherd": 1,
+        "Where's My Churu": 1
       },
       "coins": 0,
-      "last_daily": "2026-10-20",
-      "pity": 1,
+      "last_daily": "2026-11-01",
+      "pity": 2,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
@@ -466,21 +475,21 @@
       "inventory": {
         "Artemis Dee": 3,
         "LaCat: Wassup": 4,
-        "Zelda": 4,
+        "Zelda": 5,
         "A Wild Artemis": 3,
         "Gabbro": 4,
-        "Howl": 3,
+        "Howl": 5,
         "Betty": 1,
         "Amanda": 2,
         "Flash": 5,
         "IDDOG": 2,
         "Ollidammara": 3,
         "Cerberus": 2,
-        "David": 1,
+        "David": 2,
         "Oreo": 1,
         "Live Gloriously!": 4,
         "Bella": 7,
-        "Sake": 4,
+        "Sake": 5,
         "Willow": 3,
         "Kazoo David": 2,
         "Maleficent": 4,
@@ -497,7 +506,7 @@
         "Ivan": 5,
         "Willow Snuggle": 7,
         "LaCat: Hypnosis": 5,
-        "Nova Fangly": 4,
+        "Nova Fangly": 5,
         "Carbon Eyes": 1,
         "Leia (apples)": 1,
         "John and Albino water monitor lizard": 3,
@@ -507,12 +516,12 @@
         "Furiosa blesses you with wealth": 1,
         "Benjamin (bandana)": 4,
         "King Baker": 4,
-        "Capt Ben": 3,
+        "Capt Ben": 4,
         "Kitchen Cat": 3,
         "Amadeus": 3,
         "Korok Couple": 1,
         "Duet of the Fates": 1,
-        "Loki Loodelally": 3,
+        "Loki Loodelally": 4,
         "Ellie as Moonmoon": 1,
         "Legendary Amanda": 1,
         "Coconut!": 2,
@@ -543,11 +552,11 @@
         "Listening to Rehearsal Recordings": 2,
         "Masabone": 1,
         "Are You Dragon Tales?": 1,
-        "Barely Legal John": 1,
+        "Barely Legal John": 2,
         "?? Ben": 1,
         "Mizu": 1,
         "Aisling Belly": 3,
-        "Moogle": 1,
+        "Moogle": 2,
         "Leia hates dry food": 1,
         "Rainbow Hairless": 1,
         "Concert Dwarf": 2,
@@ -564,10 +573,12 @@
         "Mal-letstation": 1,
         "Lego Polly": 2,
         "Nananananananana": 1,
-        "Pet the Batta": 1
+        "Pet the Batta": 1,
+        "Ellie": 1,
+        "Gustave": 1
       },
-      "last_daily": "2026-10-20",
-      "pity": 1,
+      "last_daily": "2026-11-01",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -601,7 +612,7 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 0,
+      "coins": 2,
       "inventory": {
         "Zelda": 3,
         "Ben": 3,
@@ -634,7 +645,7 @@
         "Ebi": 3,
         "Oreo": 2,
         "HONK!!": 1,
-        "Benjamin (bandana)": 3,
+        "Benjamin (bandana)": 4,
         "Keyboard Carbon": 1,
         "Polly": 1,
         "Kitchen Cat": 2,
@@ -654,9 +665,10 @@
         "Rainbow Hairless": 1,
         "Gustave Dodge": 1,
         "Husky, Elkhound, German Shepherd": 1,
-        "Masabone": 1
+        "Masabone": 1,
+        "Artemis Dee": 1
       },
-      "last_daily": "2026-10-19",
+      "last_daily": "2026-10-29",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
@@ -664,19 +676,19 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-10-07",
-        "type": "major_minor",
-        "question": "What is the relative minor of B major?",
-        "answer": "G#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-29",
+        "type": "minor_accidental",
+        "question": "How many sharps does C# minor have?",
+        "answer": "4",
+        "example": "!answer 4",
         "question_data": {
-          "key_index": 12
+          "key_index": 11
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 3,
-        "correct": 2
+        "attempts": 5,
+        "correct": 4
       }
     },
     "400744536239898625": {
@@ -689,12 +701,12 @@
         "LaCat: Hypnosis": 4,
         "Amanda": 2,
         "Oreo": 4,
-        "Howl": 4,
+        "Howl": 5,
         "LaCat: Wassup": 7,
         "Willow": 2,
         "Willow Snuggle": 4,
         "Flash": 3,
-        "Batta": 7,
+        "Batta": 8,
         "Bella": 8,
         "Percy": 5,
         "A Wild Artemis": 5,
@@ -703,7 +715,7 @@
         "Rose": 8,
         "Nova: The Absurd Beast": 2,
         "Sake": 3,
-        "Amadeus2": 4,
+        "Amadeus2": 5,
         "Gabbro": 7,
         "Bilbo Bee": 4,
         "Ivan": 2,
@@ -717,7 +729,7 @@
         "Amadeus": 3,
         "Ebi": 4,
         "Coconut!": 5,
-        "Carbon": 3,
+        "Carbon": 4,
         "Betty": 1,
         "Objection!": 1,
         "Sadge Ryuu": 2,
@@ -745,7 +757,7 @@
         "YO!": 2,
         "HONK!!": 1,
         "Benjamin (bandana)": 2,
-        "Kazoo David": 4,
+        "Kazoo David": 5,
         "Santa Murphy": 3,
         "Snow Kiss": 3,
         "IDDOG": 1,
@@ -762,7 +774,7 @@
         "Listening to Rehearsal Recordings": 2,
         "LaCat: Belleh": 1,
         "Legendary Amanda": 1,
-        "Ellie": 1,
+        "Ellie": 2,
         "LARGE Moogle": 1,
         "Guardian Sphinx": 4,
         "Bella & Erin": 2,
@@ -775,17 +787,20 @@
         "Mizu": 1,
         "Nananananananana": 1,
         "Gustave Dodge": 1,
-        "Cutter Rascal Cuddle": 1,
+        "Cutter Rascal Cuddle": 2,
         "Where's My Churu": 1,
         "\u0250\u0287\u0287\u0250q": 2,
         "Camouflaged": 1,
         "Mizu Pounces Yumi": 1,
         "Ben & Leia tart runneth over": 1,
         "Aisling Belly": 1,
-        "Mal-letstation": 1
+        "Mal-letstation": 1,
+        "Food Confusion": 1,
+        "Pet the Batta": 1,
+        "Batta Bunny Kick": 1
       },
-      "last_daily": "2026-10-20",
-      "pity": 2,
+      "last_daily": "2026-11-01",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -835,7 +850,7 @@
         "Bella": 1,
         "Sake+Ebi": 3,
         "Bynx": 5,
-        "Maru Merak Miss Ma'am Morden": 2,
+        "Maru Merak Miss Ma'am Morden": 3,
         "Amanda": 2,
         "Rose": 3,
         "Nova Fangly": 1,
@@ -851,18 +866,18 @@
         "Amadeus": 1,
         "Ivan": 2,
         "Sake": 1,
-        "Ebi": 2,
+        "Ebi": 3,
         "Polly": 4,
         "Belly Flash": 1,
         "Willow Belly": 1,
-        "A Wild Artemis": 2,
+        "A Wild Artemis": 3,
         "Kitchen Cat": 5,
         "Morpheus": 4,
         "King Baker": 1,
         "IDDOG": 2,
         "Amadeus2": 2,
         "John and Albino water monitor lizard": 1,
-        "Sawyer": 2,
+        "Sawyer": 3,
         "Willow": 5,
         "Leia (apples)": 4,
         "Keyboard Carbon": 2,
@@ -878,7 +893,7 @@
         "YO!": 2,
         "Achelois": 1,
         "Furiosa blesses you with wealth": 2,
-        "LaCat: Belleh": 1,
+        "LaCat: Belleh": 2,
         "Oreo": 1,
         "Bigger litterbox pls": 1,
         "Destruction and the Birds": 1,
@@ -904,13 +919,18 @@
         "Nananananananana": 1,
         "Guardian Sphinx": 1,
         "Leia hates dry food": 1,
-        "Husky, Elkhound, German Shepherd": 2,
+        "Husky, Elkhound, German Shepherd": 3,
         "Spooky on a Spooky Skeleton": 1,
         "Batta Bunny Kick": 1,
-        "Bella & Erin": 1
+        "Bella & Erin": 1,
+        "Lying ~~in~~ on the Mediterranean": 1,
+        "Mizu": 1,
+        "Gustave": 1,
+        "Lego Polly": 1,
+        "Rascal": 1
       },
-      "last_daily": "2026-10-18",
-      "pity": 2,
+      "last_daily": "2026-10-31",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -950,14 +970,14 @@
         "Rose": 7,
         "Carbon": 6,
         "Ivan": 8,
-        "Maleficent": 3,
+        "Maleficent": 4,
         "Batta": 2,
         "Ebi": 7,
         "Gabbro": 5,
-        "Flash": 4,
+        "Flash": 5,
         "Korok Couple": 1,
         "Kazoo David": 5,
-        "David": 6,
+        "David": 7,
         "Sadge Ryuu": 3,
         "Amadeus": 6,
         "Bilbo Bee": 4,
@@ -967,25 +987,25 @@
         "HONK!!": 2,
         "Willow": 4,
         "Ellie as Moonmoon": 3,
-        "Bella": 8,
+        "Bella": 9,
         "Morpheus": 2,
-        "Polly": 2,
+        "Polly": 3,
         "Coconut!": 7,
-        "Capt Ben": 1,
+        "Capt Ben": 2,
         "Live Gloriously!": 4,
         "Maru Merak Miss Ma'am Morden": 4,
-        "Benjamin (bandana)": 5,
+        "Benjamin (bandana)": 6,
         "Oreo": 3,
         "Ben": 2,
-        "Leia (apples)": 2,
+        "Leia (apples)": 3,
         "Kitchen Cat": 5,
         "Bratty Ryuu": 1,
-        "Amadeus2": 4,
+        "Amadeus2": 5,
         "Achelois": 5,
         "Loki Loodelally": 1,
         "Noodle": 4,
         "Tomyris": 3,
-        "Artemis Dee": 1,
+        "Artemis Dee": 2,
         "Noodle plays Pok\u00e9mon": 3,
         "Santa Murphy": 4,
         "Snow Kiss": 1,
@@ -1011,22 +1031,22 @@
         "GengArtemis": 1,
         "Barely Legal John": 1,
         "Furiosa blesses you with wealth": 2,
-        "Listening to Rehearsal Recordings": 1,
+        "Listening to Rehearsal Recordings": 2,
         "?? Ben": 1,
         "Carbon Eyes": 2,
         "Masabone": 2,
         "Duet of the Fates": 1,
-        "Rainbow Hairless": 5,
+        "Rainbow Hairless": 6,
         "Mizu": 1,
         "LARGE Moogle": 1,
         "Crepuscule with Angie": 1,
         "Nananananananana": 3,
         "Bella & Erin": 1,
         "Metal Gear Rascal": 1,
-        "Cutter??": 4,
+        "Cutter??": 5,
         "C-C-C-Combo Breaker!": 1,
         "Spooky likes any lap": 1,
-        "Ellie": 1,
+        "Ellie": 2,
         "Pet the Batta": 2,
         "Cutter": 1,
         "Rascal": 1,
@@ -1039,10 +1059,19 @@
         "Guardian Sphinx": 1,
         "Lego Polly": 1,
         "Awkward Teenage Nova": 1,
-        "Moogle": 1
+        "Moogle": 1,
+        "Leia hates dry food": 2,
+        "Real Life Gacha Victory": 1,
+        "Camouflaged": 1,
+        "Aisling Fishy Cave": 1,
+        "Contemplating Existence": 1,
+        "Husky, Elkhound, German Shepherd": 1,
+        "Cutter Rascal Cuddle": 1,
+        "Mizu Pounces Yumi": 1,
+        "Food Confusion": 1
       },
-      "last_daily": "2026-10-19",
-      "pity": 3,
+      "last_daily": "2026-11-01",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1054,21 +1083,28 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-19",
-        "type": "mode_accidental",
-        "question": "How many sharps are in C# Mixolydian?",
-        "answer": "6",
-        "example": "!answer 5",
+        "date": "2026-11-01",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "Fbmaj7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 13,
-          "mode_index": 4
+          "type": "transpose",
+          "question_id": "transpose:sev15.jpg",
+          "index": 14,
+          "attachment": "sev15.jpg"
         },
-        "completed": true
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 73,
-        "correct": 64
-      }
+        "attempts": 86,
+        "correct": 75
+      },
+      "question_history": [
+        "transpose:sev13.jpg",
+        "transpose:sev15.jpg"
+      ]
     },
     "201094207857754112": {
       "coins": 0,
@@ -1139,7 +1175,7 @@
       "coins": 0,
       "inventory": {
         "Willow Snuggle": 1,
-        "LaCat: Wassup": 5,
+        "LaCat: Wassup": 6,
         "Ollidammara": 5,
         "Artemis Dee": 4,
         "Sadge Ryuu": 3,
@@ -1210,10 +1246,12 @@
         "Cutter??": 1,
         "Rainbow Hairless": 1,
         "\u0250\u0287\u0287\u0250q": 1,
-        "Mizu": 1
+        "Mizu": 1,
+        " Benjamin (hidden)": 1,
+        "Camouflaged": 1
       },
-      "last_daily": "2026-10-18",
-      "pity": 4,
+      "last_daily": "2026-10-31",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1392,11 +1430,11 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 6,
+      "coins": 11,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
-        "David": 1,
+        "David": 2,
         "Bynx": 3,
         "Coconut!": 1,
         "IDDOG": 1,
@@ -1416,60 +1454,74 @@
         "Maleficent": 1,
         "Mishka": 1,
         "Rose": 1,
-        "Ivan": 2,
+        "Ivan": 3,
         "Sawyer": 1,
         "Kitchen Cat": 4,
         "Cerberus": 1,
-        "Noodle": 1,
+        "Noodle": 2,
         "Capt Ben": 1,
         "A Wild Artemis": 1,
         "Noodle plays Pok\u00e9mon": 1,
         "Loki Loodelally": 1,
         "Guardian Sphinx": 1,
         "Bigger litterbox pls": 1,
-        "Metal Gear Rascal": 1,
+        "Metal Gear Rascal": 2,
         "Mal-letstation": 1,
-        "Betty": 2,
+        "Betty": 3,
         "Cutter Rascal Cuddle": 1,
         "Aisling Belly": 1,
         "Benjamin (bandana)": 1,
         "Batta Bunny Kick": 1,
         "Rainbow Hairless": 1,
-        "Gustave Dodge": 1
+        "Gustave Dodge": 1,
+        "Moogle": 1,
+        "Ellie": 1,
+        "Live Gloriously!": 1,
+        "GengArtemis": 1,
+        "Artemis Dee": 1,
+        "LARGE Moogle": 1
       },
-      "last_daily": "2026-10-19",
+      "last_daily": "2026-11-01",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-19",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": [
-          "A#dim7",
-          "Bbdim7"
-        ],
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-11-01",
+        "type": "repertoire",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F14||",
+        "answer": "Gerudo Valley",
+        "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
-          "type": "transpose",
-          "question_id": "transpose:sev11.jpg",
-          "index": 10,
-          "attachment": "sev11.jpg"
+          "type": "repertoire",
+          "question_id": "repertoire:rep1.jpg",
+          "index": 0,
+          "hint": "F14",
+          "attachment": "rep1.jpg"
         },
-        "completed": true
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 26,
-        "correct": 25
+        "attempts": 35,
+        "correct": 32
       },
       "impatience": 1,
       "question_history": [
         "transpose:sev7.jpg",
-        "transpose:sev11.jpg"
+        "transpose:sev11.jpg",
+        "repertoire:rep5.jpg",
+        "repertoire:rep10.jpg",
+        "repertoire:rep4.jpg",
+        "repertoire:rep9.jpg",
+        "repertoire:rep7.jpg",
+        "repertoire:rep11.jpg",
+        "repertoire:rep13.jpg",
+        "repertoire:rep6.jpg",
+        "repertoire:rep1.jpg"
       ]
     },
     "954136279296118885": {
-      "coins": 69,
+      "coins": 75,
       "inventory": {
         "Bynx": 7,
         "LaCat: Wassup": 3,
@@ -1477,7 +1529,7 @@
         "Ollidammara": 3,
         "Nova Fangly": 4,
         "Cerberus": 8,
-        "Tomyris": 3,
+        "Tomyris": 4,
         "Betty": 3,
         "Willow Snuggle": 5,
         "Keyboard Carbon": 5,
@@ -1543,7 +1595,7 @@
         "Gustave Dodge": 3,
         "Gustave": 2,
         "Aisling Belly": 1,
-        "Batta Bunny Kick": 1,
+        "Batta Bunny Kick": 2,
         "Nova: The Absurd Beast": 1,
         "Pet the Batta": 1,
         "C-C-C-Combo Breaker!": 1,
@@ -1556,10 +1608,14 @@
         "Metal Gear Rascal": 1,
         "Ellie": 1,
         "Lego Polly": 1,
-        "Moogle": 1
+        "Moogle": 1,
+        "Rascal": 1,
+        "Carbon Eyes": 1,
+        "Cutter Rascal Cuddle": 1,
+        "Nananananananana": 1
       },
-      "last_daily": "2026-10-20",
-      "pity": 2,
+      "last_daily": "2026-10-30",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1568,21 +1624,24 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-10-20",
-        "type": "accidental_mode",
-        "question": "Which Ionian scale has 3 sharps?",
-        "answer": "A",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-30",
+        "type": "mode_accidental",
+        "question": "How many flats are in Eb Lydian?",
+        "answer": "2",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 10,
-          "mode_index": 0
+          "key_index": 2,
+          "mode_index": 3
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 70,
-        "correct": 63
-      }
+        "attempts": 78,
+        "correct": 69
+      },
+      "question_history": [
+        "transpose:sev16.jpg"
+      ]
     },
     "418107361786331138": {
       "coins": 0,
@@ -1592,7 +1651,7 @@
         "Sad Jamin": 1,
         "LaCat: Wassup": 3,
         "Howl": 5,
-        "Batta": 4,
+        "Batta": 5,
         "Cerberus": 4,
         "Ivan": 3,
         "Willow": 3,
@@ -1621,7 +1680,7 @@
         "Ebi": 2,
         "Objection!": 2,
         "Mishka": 3,
-        "Oreo": 1,
+        "Oreo": 2,
         "Nova Fangly": 1,
         "Bilbo Bee": 2,
         "Bella": 4,
@@ -1640,7 +1699,7 @@
         "Maru Merak Miss Ma'am Morden": 5,
         "Ben": 2,
         "Santa Murphy": 2,
-        "Ollidammara": 1,
+        "Ollidammara": 2,
         "Ellie as Moonmoon": 3,
         "YO!": 2,
         "Capt Ben": 1,
@@ -1669,9 +1728,9 @@
         "AdaMario": 1,
         "Mizu": 2,
         "Rascal": 1,
-        "Pet the Batta": 2,
+        "Pet the Batta": 3,
         "Guardian Sphinx": 1,
-        "Moogle": 1,
+        "Moogle": 2,
         "Camouflaged": 1,
         "Contemplating Existence": 2,
         "Metal Gear Rascal": 2,
@@ -1683,10 +1742,12 @@
         "Cutter Rascal Cuddle": 1,
         "Mal-letstation": 1,
         "Bella & Erin": 1,
-        "Aisling Fishy Cave": 1
+        "Aisling Fishy Cave": 1,
+        "Aisling's Squeaky Mouse": 1,
+        "Spooky on a Spooky Skeleton": 1
       },
-      "last_daily": "2026-10-07",
-      "pity": 0,
+      "last_daily": "2026-11-01",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1711,20 +1772,21 @@
       "quiz_stats": {
         "attempts": 37,
         "correct": 33
-      }
+      },
+      "impatience": 1
     },
     "370310581716254723": {
-      "coins": 14,
+      "coins": 13,
       "inventory": {
         "Bynx": 4,
-        "Ben": 1,
+        "Ben": 2,
         "LaCat: Hypnosis": 1,
         "Amanda": 1,
         "Willow": 2,
-        "Live Gloriously!": 3,
-        "LaCat: Wassup": 3,
+        "Live Gloriously!": 4,
+        "LaCat: Wassup": 4,
         "Artemis Dee": 2,
-        "Betty": 3,
+        "Betty": 4,
         "Mishka": 4,
         "Coconut!": 1,
         "Rose": 1,
@@ -1732,8 +1794,8 @@
         "A Wild Artemis": 2,
         "Objection!": 2,
         "Ollidammara": 1,
-        "Sake": 4,
-        "Leia (apples)": 2,
+        "Sake": 5,
+        "Leia (apples)": 3,
         "Percy": 1,
         "Sawyer": 1,
         "David": 3,
@@ -1741,9 +1803,9 @@
         "Ebi": 1,
         "Sad Jamin": 1,
         "Tomyris": 2,
-        "Morpheus": 1,
+        "Morpheus": 2,
         "Amadeus2": 2,
-        "Benjamin (bandana)": 1,
+        "Benjamin (bandana)": 2,
         "Kazoo David": 1,
         "Santa Murphy": 1,
         "Maleficent": 1,
@@ -1762,33 +1824,48 @@
         "Sake+Ebi": 1,
         "He Looks Like He Needs A Newspaper": 1,
         "Noodle": 1,
-        "Gustave": 1,
-        "Amadeus": 1
+        "Gustave": 2,
+        "Amadeus": 1,
+        "Concert Dwarf": 1,
+        "Leia hates dry food": 1,
+        "Bella": 2,
+        "Flash": 1,
+        "Nova: The Absurd Beast": 1,
+        "Carbon": 1
       },
-      "last_daily": "2026-10-19",
+      "last_daily": "2026-10-31",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-19",
+        "date": "2026-10-31",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "F#min7",
+        "answer": "Eb7",
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "question_id": "transpose:sev24.jpg",
-          "index": 23,
-          "attachment": "sev24.jpg"
+          "question_id": "transpose:sev5.jpg",
+          "index": 4,
+          "attachment": "sev5.jpg"
         },
-        "completed": true
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 30,
-        "correct": 28
+        "attempts": 38,
+        "correct": 35
       },
       "question_history": [
-        "transpose:sev24.jpg"
+        "transpose:sev24.jpg",
+        "transpose:sev20.jpg",
+        "transpose:sev2.jpg",
+        "transpose:sev13.jpg",
+        "transpose:sev15.jpg",
+        "transpose:sev17.jpg",
+        "transpose:sev16.jpg",
+        "transpose:sev26.jpg",
+        "transpose:sev5.jpg"
       ]
     },
     "339576678902923274": {
@@ -1824,9 +1901,9 @@
         "Kazoo David": 1,
         "Kitchen Cat": 2,
         "LaCat: Wassup": 1,
-        "Sad Jamin": 1,
+        "Sad Jamin": 2,
         "Oreo": 1,
-        "Cerberus": 2,
+        "Cerberus": 3,
         "Percy": 1,
         "Achelois": 2,
         "Listening to Rehearsal Recordings": 1,
@@ -1837,9 +1914,13 @@
         "Noodle plays Pok\u00e9mon": 1,
         "Metal Gear Rascal": 1,
         "Food Confusion": 1,
-        "Keyboard Carbon": 1
+        "Keyboard Carbon": 1,
+        "Lego Polly": 1,
+        "Masabone": 1,
+        "Rose": 1,
+        " Benjamin (hidden)": 1
       },
-      "last_daily": "2026-10-19",
+      "last_daily": "2026-10-30",
       "pity": 1,
       "pulls": 0,
       "blessed": false,
@@ -2049,7 +2130,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 3,
+      "coins": 6,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 6,
@@ -2059,12 +2140,12 @@
         "Gabbro": 4,
         "Howl": 2,
         "Sadge Ryuu": 4,
-        "Flash": 4,
+        "Flash": 5,
         "Mishka": 4,
         "Bilbo Bee": 2,
         "Coconut!": 4,
         "Tomyris": 4,
-        "Batta": 3,
+        "Batta": 4,
         "Nova Fangly": 4,
         "Amadeus": 4,
         "Betty": 4,
@@ -2074,14 +2155,14 @@
         "Willow Snuggle": 2,
         "LaCat: Hypnosis": 3,
         "Korok Couple": 1,
-        "Bella": 3,
+        "Bella": 4,
         "Amadeus2": 4,
         "Live Gloriously!": 8,
         "Keyboard Carbon": 4,
-        "Ebi": 4,
+        "Ebi": 5,
         "Cerberus": 4,
-        "Willow": 4,
-        "Sake": 10,
+        "Willow": 5,
+        "Sake": 11,
         "Sad Jamin": 2,
         "Morpheus": 3,
         "Percy": 2,
@@ -2100,13 +2181,13 @@
         "Rose": 1,
         "King Baker": 2,
         "Achelois": 4,
-        "David": 4,
+        "David": 5,
         "Ollidammara": 1,
         "HONK!!": 1,
         "Legendary Amanda": 1,
         "John and Albino water monitor lizard": 4,
-        "Kazoo David": 4,
-        "Zelda": 1,
+        "Kazoo David": 5,
+        "Zelda": 2,
         "YO!": 2,
         "Snow Kiss": 2,
         "Benjamin (bandana)": 1,
@@ -2131,7 +2212,7 @@
         "LaCat: Belleh": 2,
         "Are You Dragon Tales?": 1,
         "Carbon Eyes": 1,
-        "Rainbow Hairless": 4,
+        "Rainbow Hairless": 5,
         "Aisling Fishy Cave": 1,
         "Bella & Erin": 1,
         "Moogle": 1,
@@ -2151,37 +2232,49 @@
         "Nananananananana": 1,
         "Lego Polly": 1,
         "Where's My Churu": 1,
-        "Mizu Pounces Yumi": 1
+        "Mizu Pounces Yumi": 1,
+        "Aisling Belly": 2,
+        "Rascal": 2,
+        "Camouflaged": 1,
+        "Metal Gear Rascal": 1,
+        "Cutter Rascal Cuddle": 1
       },
-      "last_daily": "2026-10-19",
-      "pity": 3,
+      "last_daily": "2026-11-01",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
         "Catbus Family": 1,
         "The LuxenBieles": 2,
         "Forever Vacuuming": 1,
-        "Nova The Goon": 1
+        "Nova The Goon": 1,
+        "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-10-18",
-        "type": "mode_accidental",
-        "question": "How many sharps are in B Mixolydian?",
-        "answer": "4",
-        "example": "!answer 5",
+        "date": "2026-11-01",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "F#min7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 11,
-          "mode_index": 4
+          "type": "transpose",
+          "question_id": "transpose:sev24.jpg",
+          "index": 23,
+          "attachment": "sev24.jpg"
         },
-        "completed": true
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 26,
-        "correct": 23
-      }
+        "attempts": 34,
+        "correct": 30
+      },
+      "question_history": [
+        "transpose:sev24.jpg"
+      ]
     },
     "247912247496540160": {
-      "coins": 13,
+      "coins": 15,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -2209,8 +2302,8 @@
         "Howl": 4,
         "Masabone": 3,
         "Keyboard Carbon": 1,
-        "Maleficent": 3,
-        "Kitchen Cat": 2,
+        "Maleficent": 4,
+        "Kitchen Cat": 3,
         "Oreo": 2,
         "LaCat: Wassup": 2,
         "Batta": 2,
@@ -2221,7 +2314,7 @@
         "Capt Ben": 1,
         "Bilbo Bee": 4,
         "Sake": 2,
-        "Carbon": 2,
+        "Carbon": 3,
         "Bella": 1,
         "Willow": 2,
         "Nova Fangly": 1,
@@ -2242,7 +2335,7 @@
         "Bigger litterbox pls": 2,
         "Loki Loodelally": 1,
         "Amadeus2": 1,
-        "Destruction and the Birds": 1,
+        "Destruction and the Birds": 2,
         "LaCat: Belleh": 1,
         "David": 2,
         "Noodle plays Pok\u00e9mon": 1,
@@ -2251,7 +2344,7 @@
         "?? Ben": 1,
         "Nova: The Absurd Beast": 1,
         "Mizu": 2,
-        "Nananananananana": 1,
+        "Nananananananana": 2,
         "Pet the Batta": 1,
         "Aisling Fishy Cave": 2,
         "Cutter": 1,
@@ -2259,10 +2352,11 @@
         "Gustave Dodge": 1,
         "Contemplating Existence": 1,
         "Leia hates dry food": 1,
-        "C-C-C-Combo Breaker!": 1
+        "C-C-C-Combo Breaker!": 1,
+        "Crepuscule with Angie": 1
       },
-      "last_daily": "2026-10-15",
-      "pity": 1,
+      "last_daily": "2026-10-30",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2271,21 +2365,20 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-13",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "C7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-10-26",
+        "type": "accidental_mode",
+        "question": "Which Mixolydian scale has 6 sharps?",
+        "answer": "C#",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "type": "transpose",
-          "index": 25,
-          "attachment": "sev26.jpg"
+          "key_index": 13,
+          "mode_index": 4
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 21,
-        "correct": 18
+        "attempts": 23,
+        "correct": 20
       }
     },
     "743276168316190795": {
@@ -2325,7 +2418,7 @@
       "coins": 0,
       "inventory": {
         "Capt Ben": 2,
-        "Willow": 3,
+        "Willow": 4,
         "Carbon": 3,
         "Ebi": 5,
         "Tomyris": 3,
@@ -2337,7 +2430,7 @@
         "Ollidammara": 2,
         "Howl": 3,
         "IDDOG": 3,
-        "Sake+Ebi": 5,
+        "Sake+Ebi": 6,
         "Ben": 6,
         "A Wild Artemis": 4,
         "Bynx": 2,
@@ -2345,7 +2438,7 @@
         "Sake": 3,
         "Sad Jamin": 1,
         "Amanda": 1,
-        "Sawyer": 4,
+        "Sawyer": 5,
         "Oreo": 5,
         "Bilbo Bee": 1,
         "Gabbro": 3,
@@ -2358,7 +2451,7 @@
         "Mishka": 1,
         "Achelois": 3,
         "King Baker": 1,
-        "Rose": 2,
+        "Rose": 3,
         "Maru Merak Miss Ma'am Morden": 2,
         "Cookie Strife": 2,
         "Noodle": 3,
@@ -2369,7 +2462,7 @@
         "Leia (apples)": 2,
         "Benjamin (bandana)": 3,
         "Loki Loodelally": 1,
-        "Betty": 2,
+        "Betty": 3,
         "Noodle plays Pok\u00e9mon": 3,
         "AdaMario": 1,
         "LaCat: Wassup": 1,
@@ -2386,7 +2479,7 @@
         "Snow Kiss": 2,
         "John and Albino water monitor lizard": 2,
         "Cerberus": 4,
-        "YO!": 2,
+        "YO!": 4,
         "GengArtemis": 2,
         "Coconut!": 3,
         "Masabone": 1,
@@ -2400,7 +2493,7 @@
         "Camouflaged": 1,
         "Aisling Fishy Cave": 2,
         "Spooky likes any lap": 1,
-        "Spooky on a Spooky Skeleton": 1,
+        "Spooky on a Spooky Skeleton": 2,
         "Aisling Belly": 1,
         "Ellie": 1,
         "Metal Gear Rascal": 1,
@@ -2412,10 +2505,13 @@
         "Cutter??": 1,
         "Cutter": 1,
         "Contemplating Existence": 1,
-        "Gustave Dodge": 1
+        "Gustave Dodge": 1,
+        "Mal-letstation": 1,
+        "Mizu": 1,
+        "Happy Bisquick and Adam": 1
       },
-      "last_daily": "2026-10-19",
-      "pity": 4,
+      "last_daily": "2026-11-01",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2425,7 +2521,7 @@
         "The B's": 1,
         "Nova The Goon": 1
       },
-      "impatience": 4,
+      "impatience": 5,
       "quiz_stats": {
         "attempts": 21,
         "correct": 21
@@ -2552,7 +2648,7 @@
       "blessed": false
     },
     "217089341913038848": {
-      "coins": 11,
+      "coins": 12,
       "inventory": {
         "Maru Merak Miss Ma'am Morden": 4,
         "Kazoo David": 2,
@@ -2645,12 +2741,14 @@
         "Spooky likes any lap": 1,
         "Gustave": 1,
         "Awkward Teenage Nova": 1,
-        "Pet the Batta": 2,
+        "Pet the Batta": 3,
         "Aisling Fishy Cave": 1,
-        "Nananananananana": 1
+        "Nananananananana": 1,
+        "Mal-letstation": 1,
+        "Rascal": 1
       },
-      "last_daily": "2026-10-19",
-      "pity": 2,
+      "last_daily": "2026-10-22",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2661,28 +2759,29 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-10-19",
+        "date": "2026-10-22",
         "type": "accidental_mode",
-        "question": "Which Ionian scale has 5 sharps?",
-        "answer": "B",
+        "question": "Which Ionian scale has 2 flats?",
+        "answer": "Bb",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 12,
+          "key_index": 2,
           "mode_index": 0
         },
         "completed": true
       },
       "quiz_stats": {
-        "attempts": 52,
-        "correct": 41
+        "attempts": 55,
+        "correct": 42
       }
     },
     "181899217919279104": {
       "coins": 4,
       "inventory": {
-        "Loki Loodelally": 1
+        "Loki Loodelally": 1,
+        "Artemis Dee": 1
       },
-      "last_daily": "2026-05-03",
+      "last_daily": "2026-10-22",
       "pity": 0,
       "pulls": 0,
       "blessed": false
@@ -2697,22 +2796,22 @@
         "Noodle": 6,
         "Nova Fangly": 3,
         "Bella": 2,
-        "Rose": 3,
+        "Rose": 4,
         "Polly": 4,
         "Zelda": 3,
         "Bratty Ryuu": 1,
         "Kazoo David": 1,
-        "Ollidammara": 2,
+        "Ollidammara": 3,
         "Oreo": 3,
         "Batta": 2,
         "Masabone": 1,
         "Maleficent": 6,
-        "Leia (apples)": 2,
+        "Leia (apples)": 3,
         "Sawyer": 6,
-        "YO!": 2,
+        "YO!": 3,
         "A Wild Artemis": 3,
         "Willow Snuggle": 1,
-        "Benjamin (bandana)": 3,
+        "Benjamin (bandana)": 4,
         "Maru Merak Miss Ma'am Morden": 4,
         "Flash": 5,
         "GMRA Winner!": 1,
@@ -2739,7 +2838,7 @@
         "LaCat: Wassup": 5,
         "Objection!": 3,
         "Betty": 3,
-        "Bilbo Bee": 1,
+        "Bilbo Bee": 2,
         "Capt Ben": 2,
         "Bigger litterbox pls": 1,
         "Ellie as Moonmoon": 1,
@@ -2769,27 +2868,32 @@
         "Ben & Leia tart runneth over": 1,
         "Cutter Rascal Cuddle": 1,
         "Gustave Dodge": 1,
-        "Guardian Sphinx": 1
+        "Guardian Sphinx": 1,
+        "Pet the Batta": 1,
+        "Aisling Fishy Cave": 1,
+        "Mizu": 1,
+        "Nananananananana": 1
       },
-      "coins": 10,
-      "last_daily": "2026-10-18",
-      "pity": 4,
+      "coins": 11,
+      "last_daily": "2026-10-30",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-08",
-        "type": "accidental_mode",
-        "question": "Which Aeolian scale has 3 sharps?",
-        "answer": "F#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-31",
+        "type": "mode_accidental",
+        "question": "How many sharps are in E Dorian?",
+        "answer": "2",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 10,
-          "mode_index": 5
+          "key_index": 9,
+          "mode_index": 1
         },
-        "completed": true
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 40,
-        "correct": 29
+        "attempts": 41,
+        "correct": 30
       },
       "achievement_claims": {
         "The B's": 1,
@@ -2847,8 +2951,8 @@
         "Noodle plays Pok\u00e9mon": 1,
         "Legendary Amanda": 1,
         "Morpheus": 1,
-        "Polly": 1,
-        "Cerberus": 3,
+        "Polly": 2,
+        "Cerberus": 4,
         "Sad Jamin": 1,
         "Guardian Sphinx": 1,
         "Santa Murphy": 1,
@@ -2863,7 +2967,7 @@
         "Metal Gear Rascal": 1,
         "Noodle": 1,
         "Spooky likes any lap": 1,
-        "Rascal": 1,
+        "Rascal": 2,
         "Moogle": 3,
         "Spooky on a Spooky Skeleton": 1,
         "Batta Bunny Kick": 1,
@@ -2877,11 +2981,13 @@
         "Food Confusion": 1,
         "Rainbow Hairless": 1,
         "Percy": 1,
-        "Husky, Elkhound, German Shepherd": 1,
-        "Rose": 1
+        "Husky, Elkhound, German Shepherd": 2,
+        "Rose": 2,
+        "Live Gloriously!": 1,
+        "Kazoo David": 1
       },
-      "last_daily": "2026-10-19",
-      "pity": 2,
+      "last_daily": "2026-10-31",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "impatience": 9,
@@ -2923,7 +3029,7 @@
         "Ollidammara": 2,
         "Maleficent": 1,
         "Sake": 1,
-        "Gabbro": 1,
+        "Gabbro": 2,
         "Cerberus": 1,
         "Nova Fangly": 1,
         "Zelda": 1,
@@ -2931,51 +3037,53 @@
         "Santa Murphy": 1,
         "Benjamin (bandana)": 1,
         "Loki Loodelally": 1,
-        "Bella & Erin": 1
+        "Bella & Erin": 1,
+        "Metal Gear Rascal": 1
       },
-      "last_daily": "2026-10-18",
-      "pity": 0,
+      "last_daily": "2026-10-22",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "impatience": 2,
       "quiz_stats": {
-        "attempts": 7,
-        "correct": 5
+        "attempts": 8,
+        "correct": 6
       },
       "daily_quiz": {
-        "date": "2026-10-18",
-        "type": "accidental_mode",
-        "question": "Which Phrygian scale has 7 flats?",
-        "answer": "Eb",
+        "date": "2026-10-22",
+        "type": "minor_major",
+        "question": "What is the relative major of B minor?",
+        "answer": "D",
         "example": "!answer Ab or !answer c#",
         "question_data": {
-          "key_index": 7,
-          "mode_index": 2
+          "key_index": 9
         },
         "completed": true
       }
     },
     "321852031889309708": {
-      "coins": 6,
+      "coins": 7,
       "inventory": {
-        "Pet the Batta": 1
+        "Pet the Batta": 1,
+        "Mizu": 1
       },
-      "last_daily": "2026-09-24",
+      "last_daily": "2026-10-21",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 2,
-        "correct": 2
+        "attempts": 3,
+        "correct": 3
       },
       "daily_quiz": {
-        "date": "2026-10-02",
-        "type": "accidental_minor",
-        "question": "What minor key has 5 sharps?",
-        "answer": "G#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-21",
+        "type": "mode_accidental",
+        "question": "How many sharps are in C# Dorian?",
+        "answer": "5",
+        "example": "!answer 5",
         "question_data": {
-          "key_index": 12
+          "key_index": 12,
+          "mode_index": 1
         },
         "completed": true
       }
@@ -2991,20 +3099,26 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 5,
+        "attempts": 6,
         "correct": 5
       },
       "daily_quiz": {
-        "date": "2026-10-12",
-        "type": "major_minor",
-        "question": "What is the relative minor of C major?",
-        "answer": "A",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-10-23",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "C7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 0
+          "type": "transpose",
+          "question_id": "transpose:sev26.jpg",
+          "index": 25,
+          "attachment": "sev26.jpg"
         },
         "completed": true
-      }
+      },
+      "question_history": [
+        "transpose:sev26.jpg"
+      ]
     }
   }
 }
