@@ -711,12 +711,14 @@
     },
     "Bellies": {
       "items": [
+        "Aisling Belly",
         "Belly Flash",
         "LaCat: Belleh",
         "Nova: The Absurd Beast",
         "Willow Belly"
       ],
-    "rarity": "common"
+    "rarity": "common",
+    "reward": "LintBite.jpg"
     },
     "The B's": {
       "items": [
@@ -754,7 +756,8 @@
       "items": [
         "Coconut!",
         "John and Albino water monitor lizard",
-        "Duet of the Fates"
+        "Duet of the Fates",
+        "Lying ~~in~~ on the Mediterranean"
       ],
     "rarity": "rare"
     },
