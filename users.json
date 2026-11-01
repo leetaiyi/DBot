@@ -2251,16 +2251,18 @@
         "The B's": 1
       },
       "daily_quiz": {
-        "date": "2026-10-30",
-        "type": "accidental_mode",
-        "question": "Which Aeolian scale has 1 sharps?",
-        "answer": "E",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-11-01",
+        "type": "transpose",
+        "question": "In concert pitch, what chord is this? (See examples for syntax)",
+        "answer": "F#min7",
+        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
-          "key_index": 8,
-          "mode_index": 5
+          "type": "transpose",
+          "question_id": "transpose:sev24.jpg",
+          "index": 23,
+          "attachment": "sev24.jpg"
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 33,
