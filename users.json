@@ -1432,7 +1432,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 10,
+      "coins": 9,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1441,7 +1441,7 @@
         "Coconut!": 1,
         "IDDOG": 1,
         "Morpheus": 2,
-        "Kazoo David": 1,
+        "Kazoo David": 2,
         "Gabbro": 2,
         "Batta": 1,
         "Ellie as Moonmoon": 3,
@@ -1486,7 +1486,7 @@
         "Amanda": 1
       },
       "last_daily": "2026-11-02",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
