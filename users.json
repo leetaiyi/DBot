@@ -758,7 +758,7 @@
         "YO!": 2,
         "HONK!!": 1,
         "Benjamin (bandana)": 2,
-        "Kazoo David": 5,
+        "Kazoo David": 6,
         "Santa Murphy": 3,
         "Snow Kiss": 3,
         "IDDOG": 1,
@@ -800,8 +800,8 @@
         "Pet the Batta": 1,
         "Batta Bunny Kick": 1
       },
-      "last_daily": "2026-11-01",
-      "pity": 0,
+      "last_daily": "2026-11-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
