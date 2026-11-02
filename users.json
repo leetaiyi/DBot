@@ -2907,10 +2907,11 @@
           "index": 10,
           "attachment": "sev11.jpg"
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 41,
+        "attempts": 42,
         "correct": 30
       },
       "achievement_claims": {
@@ -2918,7 +2919,10 @@
         "Forever Vacuuming": 1,
         "The LuxenBieles": 1,
         "Catbus Family": 1
-      }
+      },
+      "question_history": [
+        "transpose:sev11.jpg"
+      ]
     },
     "346044943795617792": {
       "coins": 0,
