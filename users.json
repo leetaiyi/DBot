@@ -1432,7 +1432,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 9,
+      "coins": 8,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1483,10 +1483,11 @@
         "Artemis Dee": 1,
         "LARGE Moogle": 1,
         "Spooky on a Spooky Skeleton": 2,
-        "Amanda": 1
+        "Amanda": 1,
+        "Husky, Elkhound, German Shepherd": 1
       },
       "last_daily": "2026-11-02",
-      "pity": 2,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
