@@ -2163,7 +2163,7 @@
         "Batta": 4,
         "Nova Fangly": 4,
         "Amadeus": 4,
-        "Betty": 4,
+        "Betty": 5,
         "LaCat: Wassup": 2,
         "Sawyer": 2,
         "Objection!": 3,
@@ -2254,8 +2254,8 @@
         "Metal Gear Rascal": 1,
         "Cutter Rascal Cuddle": 1
       },
-      "last_daily": "2026-11-01",
-      "pity": 0,
+      "last_daily": "2026-11-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
