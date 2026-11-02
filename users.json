@@ -2869,7 +2869,7 @@
         "Camouflaged": 1,
         "Percy": 2,
         "Bynx": 2,
-        "Leia hates dry food": 1,
+        "Leia hates dry food": 2,
         "Ellie": 1,
         "Sake": 2,
         "Rascal": 1,
@@ -2892,9 +2892,9 @@
         "Nananananananana": 1,
         "Are You Dragon Tales?": 1
       },
-      "coins": 11,
+      "coins": 10,
       "last_daily": "2026-11-02",
-      "pity": 0,
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-11-02",
