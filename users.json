@@ -2439,7 +2439,7 @@
         "Carbon": 3,
         "Ebi": 5,
         "Tomyris": 3,
-        "Percy": 1,
+        "Percy": 2,
         "David": 4,
         "Batta": 5,
         "Flash": 1,
@@ -2527,8 +2527,8 @@
         "Mizu": 1,
         "Happy Bisquick and Adam": 1
       },
-      "last_daily": "2026-11-01",
-      "pity": 0,
+      "last_daily": "2026-11-02",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
