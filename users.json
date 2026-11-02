@@ -1722,7 +1722,7 @@
         "Furiosa blesses you with wealth": 1,
         "Nova: The Absurd Beast": 1,
         "Barely Legal John": 1,
-        "Noodle": 2,
+        "Noodle": 3,
         "Masabone": 1,
         "Destruction and the Birds": 1,
         "Duet of the Fates": 2,
@@ -1749,8 +1749,8 @@
         "Aisling's Squeaky Mouse": 1,
         "Spooky on a Spooky Skeleton": 1
       },
-      "last_daily": "2026-11-01",
-      "pity": 1,
+      "last_daily": "2026-11-02",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
