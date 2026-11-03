@@ -1438,12 +1438,12 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 9,
+      "coins": 8,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
         "David": 2,
-        "Bynx": 3,
+        "Bynx": 4,
         "Coconut!": 1,
         "IDDOG": 1,
         "Morpheus": 2,
@@ -1494,7 +1494,7 @@
         " Benjamin (hidden)": 1
       },
       "last_daily": "2026-11-03",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
