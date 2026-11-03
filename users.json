@@ -2828,7 +2828,7 @@
         "YO!": 3,
         "A Wild Artemis": 3,
         "Willow Snuggle": 1,
-        "Benjamin (bandana)": 4,
+        "Benjamin (bandana)": 5,
         "Maru Merak Miss Ma'am Morden": 4,
         "Flash": 5,
         "GMRA Winner!": 1,
@@ -2893,8 +2893,8 @@
         "Are You Dragon Tales?": 1
       },
       "coins": 10,
-      "last_daily": "2026-11-02",
-      "pity": 1,
+      "last_daily": "2026-11-03",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-11-02",
