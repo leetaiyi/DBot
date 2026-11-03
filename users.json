@@ -1492,23 +1492,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F19||",
-        "answer": [
-          "Dragonsong",
-          "Tales from the Dragonsong War: Dragonsong"
-        ],
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S26||",
+        "answer": "Gilded Runner",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep8.jpg",
-          "index": 7,
-          "hint": "F19",
-          "attachment": "rep8.jpg"
+          "question_id": "repertoire:rep2.jpg",
+          "index": 1,
+          "hint": "S26",
+          "attachment": "rep2.jpg"
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 36,
