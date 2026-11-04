@@ -49,20 +49,20 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-11-02",
+        "date": "2026-11-04",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "minor seventh",
+        "answer": "major ninth",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 68,
-          "semitones": 10
+          "start_midi": 55,
+          "semitones": 14
         },
         "completed": true,
         "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 34,
+        "attempts": 35,
         "correct": 30
       },
       "question_history": [
