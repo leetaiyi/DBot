@@ -116,11 +116,7 @@ INTERVALS = [
     (9, "major sixth"),
     (10, "minor seventh"),
     (11, "major seventh"),
-    (12, "octave"),
-    (13, "minor ninth"),
-    (14, "major ninth"),
-    (15, "minor tenth"),
-    (16, "major tenth"),
+    (12, "octave")
 ]
 
 CHROMATIC_NOTES = ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B")
