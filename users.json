@@ -1097,17 +1097,19 @@
           "index": 2,
           "attachment": "sev3.jpg"
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 88,
+        "attempts": 89,
         "correct": 75
       },
       "question_history": [
         "transpose:sev13.jpg",
         "transpose:sev15.jpg",
         "transpose:sev18.jpg",
-        "transpose:sev10.jpg"
+        "transpose:sev10.jpg",
+        "transpose:sev3.jpg"
       ]
     },
     "201094207857754112": {
