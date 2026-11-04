@@ -58,10 +58,11 @@
           "start_midi": 48,
           "semitones": 15
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 32,
+        "attempts": 33,
         "correct": 30
       },
       "question_history": [
