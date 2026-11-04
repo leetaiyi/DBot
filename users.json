@@ -757,7 +757,7 @@
         "Leia (apples)": 3,
         "Polly": 5,
         "YO!": 2,
-        "HONK!!": 1,
+        "HONK!!": 2,
         "Benjamin (bandana)": 2,
         "Kazoo David": 6,
         "Santa Murphy": 3,
@@ -802,8 +802,8 @@
         "Batta Bunny Kick": 1,
         "Husky, Elkhound, German Shepherd": 1
       },
-      "last_daily": "2026-11-03",
-      "pity": 0,
+      "last_daily": "2026-11-04",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
