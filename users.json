@@ -2901,22 +2901,16 @@
       "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-02",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": [
-          "A#dim7",
-          "Bbdim7"
-        ],
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-11-04",
+        "type": "accidental_mode",
+        "question": "Which Phrygian scale has 0 flats?",
+        "answer": "E",
+        "example": "!answer Ab or !answer c#",
         "question_data": {
-          "type": "transpose",
-          "question_id": "transpose:sev11.jpg",
-          "index": 10,
-          "attachment": "sev11.jpg"
+          "key_index": 0,
+          "mode_index": 2
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 42,
