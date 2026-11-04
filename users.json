@@ -2896,7 +2896,7 @@
         "Nananananananana": 1,
         "Are You Dragon Tales?": 1
       },
-      "coins": 10,
+      "coins": 11,
       "last_daily": "2026-11-03",
       "pity": 2,
       "blessed": false,
@@ -2910,11 +2910,12 @@
           "key_index": 0,
           "mode_index": 2
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 42,
-        "correct": 30
+        "attempts": 43,
+        "correct": 31
       },
       "achievement_claims": {
         "The B's": 1,
