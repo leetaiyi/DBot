@@ -1492,20 +1492,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-03",
+        "date": "2026-11-04",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S26||",
-        "answer": "Gilded Runner",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S24||",
+        "answer": "Super Mario Kart Medley",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep2.jpg",
-          "index": 1,
-          "hint": "S26",
-          "attachment": "rep2.jpg"
+          "question_id": "repertoire:rep14.jpg",
+          "index": 13,
+          "hint": "S24",
+          "attachment": "rep14.jpg"
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 37,
