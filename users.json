@@ -1504,10 +1504,11 @@
           "hint": "S24",
           "attachment": "rep14.jpg"
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 37,
+        "attempts": 38,
         "correct": 34
       },
       "impatience": 1,
@@ -1524,7 +1525,8 @@
         "repertoire:rep6.jpg",
         "repertoire:rep1.jpg",
         "repertoire:rep8.jpg",
-        "repertoire:rep2.jpg"
+        "repertoire:rep2.jpg",
+        "repertoire:rep14.jpg"
       ]
     },
     "954136279296118885": {
