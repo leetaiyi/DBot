@@ -1432,7 +1432,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 9,
+      "coins": 8,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1486,7 +1486,8 @@
         "Amanda": 1,
         "Husky, Elkhound, German Shepherd": 1,
         " Benjamin (hidden)": 1,
-        "Rascal": 1
+        "Rascal": 1,
+        "Carbon": 1
       },
       "last_daily": "2026-11-04",
       "pity": 0,
