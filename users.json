@@ -1086,22 +1086,18 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-11-03",
+        "date": "2026-11-04",
         "type": "transpose",
         "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": [
-          "G#min7",
-          "Abmin7"
-        ],
+        "answer": "Fmaj7",
         "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
         "question_data": {
           "type": "transpose",
-          "question_id": "transpose:sev10.jpg",
-          "index": 9,
-          "attachment": "sev10.jpg"
+          "question_id": "transpose:sev3.jpg",
+          "index": 2,
+          "attachment": "sev3.jpg"
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 88,
