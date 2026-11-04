@@ -492,7 +492,7 @@
         "Bella": 7,
         "Sake": 5,
         "Willow": 3,
-        "Kazoo David": 2,
+        "Kazoo David": 3,
         "Maleficent": 5,
         "Rose": 7,
         "Morpheus": 5,
@@ -579,8 +579,8 @@
         "Gustave": 1,
         "Husky, Elkhound, German Shepherd": 1
       },
-      "last_daily": "2026-11-03",
-      "pity": 0,
+      "last_daily": "2026-11-04",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
