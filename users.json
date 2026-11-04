@@ -49,17 +49,14 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-11-02",
-        "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F14||",
-        "answer": "Gerudo Valley",
-        "example": "Dummy!, A Suite in Time: Train Rush",
+        "date": "2026-11-04",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "minor tenth",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "type": "repertoire",
-          "question_id": "repertoire:rep1.jpg",
-          "index": 0,
-          "hint": "F14",
-          "attachment": "rep1.jpg"
+          "start_midi": 48,
+          "semitones": 15
         },
         "completed": false
       },
