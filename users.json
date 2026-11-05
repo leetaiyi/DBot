@@ -2897,17 +2897,16 @@
       "pity": 3,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-04",
-        "type": "accidental_mode",
-        "question": "Which Phrygian scale has 0 flats?",
-        "answer": "E",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-11-05",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "augmented fourth",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "key_index": 0,
-          "mode_index": 2
+          "start_midi": 55,
+          "semitones": 6
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 43,
