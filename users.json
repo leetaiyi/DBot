@@ -2144,7 +2144,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 7,
+      "coins": 6,
       "inventory": {
         "Maleficent": 3,
         "Capt Ben": 6,
@@ -2251,10 +2251,11 @@
         "Rascal": 2,
         "Camouflaged": 1,
         "Metal Gear Rascal": 1,
-        "Cutter Rascal Cuddle": 1
+        "Cutter Rascal Cuddle": 1,
+        " Benjamin (hidden)": 1
       },
       "last_daily": "2026-11-05",
-      "pity": 4,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
