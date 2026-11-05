@@ -911,7 +911,7 @@
         "C-C-C-Combo Breaker!": 1,
         "Camouflaged": 1,
         "Moogle": 1,
-        "Ellie": 1,
+        "Ellie": 2,
         "Rainbow Hairless": 1,
         "Mal-letstation": 2,
         "LARGE Moogle": 2,
@@ -929,8 +929,8 @@
         "Lego Polly": 1,
         "Rascal": 1
       },
-      "last_daily": "2026-11-04",
-      "pity": 3,
+      "last_daily": "2026-11-05",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
