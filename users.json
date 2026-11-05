@@ -49,20 +49,20 @@
         "Catbus Family": 1
       },
       "daily_quiz": {
-        "date": "2026-11-02",
+        "date": "2026-11-04",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "major ninth",
+        "answer": "major sixth",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 55,
-          "semitones": 14
+          "start_midi": 59,
+          "semitones": 9
         },
         "completed": true,
         "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 35,
+        "attempts": 36,
         "correct": 30
       },
       "question_history": [
@@ -170,7 +170,7 @@
         "Batta Bunny Kick": 2,
         "Guardian Sphinx": 1,
         "Cookie Strife": 1,
-        "Bella & Erin": 1,
+        "Bella & Erin": 2,
         "Food Confusion": 1,
         "Spooky on a Spooky Skeleton": 1,
         "Cutter??": 1,
@@ -179,8 +179,8 @@
         "Crepuscule with Angie": 1
       },
       "coins": 0,
-      "last_daily": "2026-11-04",
-      "pity": 2,
+      "last_daily": "2026-11-05",
+      "pity": 3,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
@@ -900,7 +900,7 @@
         "AdaMario": 1,
         "Are You Dragon Tales?": 1,
         "Capt Ben": 1,
-        "Nova: The Absurd Beast": 1,
+        "Nova: The Absurd Beast": 2,
         "Korok Couple": 1,
         "Listening to Rehearsal Recordings": 1,
         "Masabone": 1,
@@ -928,8 +928,8 @@
         "Lego Polly": 1,
         "Rascal": 1
       },
-      "last_daily": "2026-11-03",
-      "pity": 2,
+      "last_daily": "2026-11-04",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -961,7 +961,7 @@
         "Objection!": 3,
         "Ollidammara": 6,
         "Betty": 6,
-        "John and Albino water monitor lizard": 4,
+        "John and Albino water monitor lizard": 5,
         "A Wild Artemis": 4,
         "Mishka": 6,
         "Percy": 2,
@@ -1069,8 +1069,8 @@
         "Mizu Pounces Yumi": 1,
         "Food Confusion": 1
       },
-      "last_daily": "2026-11-04",
-      "pity": 3,
+      "last_daily": "2026-11-05",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1082,22 +1082,20 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-11-04",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "Fmaj7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-11-05",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "major sixth",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "type": "transpose",
-          "question_id": "transpose:sev3.jpg",
-          "index": 2,
-          "attachment": "sev3.jpg"
+          "start_midi": 51,
+          "semitones": 9
         },
         "completed": true,
         "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 89,
+        "attempts": 90,
         "correct": 75
       },
       "question_history": [
@@ -1485,31 +1483,34 @@
         "Spooky on a Spooky Skeleton": 2,
         "Amanda": 1,
         "Husky, Elkhound, German Shepherd": 1,
-        " Benjamin (hidden)": 1
+        " Benjamin (hidden)": 1,
+        "Rascal": 1,
+        "Carbon": 1
       },
-      "last_daily": "2026-11-03",
-      "pity": 1,
+      "last_daily": "2026-11-04",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-03",
+        "date": "2026-11-04",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S26||",
-        "answer": "Gilded Runner",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S24||",
+        "answer": "Super Mario Kart Medley",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep2.jpg",
-          "index": 1,
-          "hint": "S26",
-          "attachment": "rep2.jpg"
+          "question_id": "repertoire:rep14.jpg",
+          "index": 13,
+          "hint": "S24",
+          "attachment": "rep14.jpg"
         },
         "completed": true,
-        "result": "correct"
+        "result": "correct",
+        "corrected_by": "96408456294064128"
       },
       "quiz_stats": {
-        "attempts": 37,
-        "correct": 34
+        "attempts": 38,
+        "correct": 35
       },
       "impatience": 1,
       "question_history": [
@@ -1525,7 +1526,8 @@
         "repertoire:rep6.jpg",
         "repertoire:rep1.jpg",
         "repertoire:rep8.jpg",
-        "repertoire:rep2.jpg"
+        "repertoire:rep2.jpg",
+        "repertoire:rep14.jpg"
       ]
     },
     "954136279296118885": {
@@ -1632,22 +1634,20 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-11-03",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "Fmin7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-11-04",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "major sixth",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "type": "transpose",
-          "question_id": "transpose:sev19.jpg",
-          "index": 18,
-          "attachment": "sev19.jpg"
+          "start_midi": 66,
+          "semitones": 9
         },
         "completed": true,
-        "result": "correct"
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 80,
+        "attempts": 81,
         "correct": 71
       },
       "question_history": [
@@ -1790,7 +1790,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 13,
+      "coins": 14,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1845,30 +1845,29 @@
         "Bella": 2,
         "Flash": 1,
         "Nova: The Absurd Beast": 1,
-        "Carbon": 1
+        "Carbon": 1,
+        "Mal-letstation": 1
       },
-      "last_daily": "2026-10-31",
+      "last_daily": "2026-11-05",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-10-31",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "Eb7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-11-05",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "octave",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "type": "transpose",
-          "question_id": "transpose:sev5.jpg",
-          "index": 4,
-          "attachment": "sev5.jpg"
+          "start_midi": 58,
+          "semitones": 12
         },
         "completed": true,
         "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 38,
-        "correct": 35
+        "attempts": 39,
+        "correct": 36
       },
       "question_history": [
         "transpose:sev24.jpg",
@@ -2231,7 +2230,7 @@
         "Bella & Erin": 1,
         "Moogle": 1,
         "Gustave": 1,
-        "Pet the Batta": 2,
+        "Pet the Batta": 3,
         "Guardian Sphinx": 2,
         "Spooky on a Spooky Skeleton": 1,
         "Spooky likes any lap": 1,
@@ -2253,8 +2252,8 @@
         "Metal Gear Rascal": 1,
         "Cutter Rascal Cuddle": 1
       },
-      "last_daily": "2026-11-03",
-      "pity": 2,
+      "last_daily": "2026-11-04",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2266,22 +2265,20 @@
         "Bellies": 1
       },
       "daily_quiz": {
-        "date": "2026-11-01",
-        "type": "transpose",
-        "question": "In concert pitch, what chord is this? (See examples for syntax)",
-        "answer": "F#min7",
-        "example": "G7, Dmaj7, Bbmin7, Fdim7, AminM7",
+        "date": "2026-11-05",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "minor sixth",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "type": "transpose",
-          "question_id": "transpose:sev24.jpg",
-          "index": 23,
-          "attachment": "sev24.jpg"
+          "start_midi": 66,
+          "semitones": 8
         },
         "completed": true,
-        "result": "correct"
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 34,
+        "attempts": 35,
         "correct": 30
       },
       "question_history": [
@@ -2340,7 +2337,7 @@
         "Bynx": 4,
         "Coconut!": 1,
         "A Wild Artemis": 2,
-        "Betty": 2,
+        "Betty": 3,
         "Sake+Ebi": 1,
         "Ellie as Moonmoon": 1,
         "Noodle": 3,
@@ -2372,8 +2369,8 @@
         "\u0250\u0287\u0287\u0250q": 1,
         "LARGE Moogle": 1
       },
-      "last_daily": "2026-11-03",
-      "pity": 0,
+      "last_daily": "2026-11-04",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2525,11 +2522,11 @@
         "Contemplating Existence": 1,
         "Gustave Dodge": 1,
         "Mal-letstation": 1,
-        "Mizu": 1,
+        "Mizu": 2,
         "Happy Bisquick and Adam": 1
       },
-      "last_daily": "2026-11-03",
-      "pity": 2,
+      "last_daily": "2026-11-04",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2898,20 +2895,20 @@
       "pity": 3,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-04",
-        "type": "accidental_mode",
-        "question": "Which Phrygian scale has 0 flats?",
-        "answer": "E",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-11-05",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "augmented fourth",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "key_index": 0,
-          "mode_index": 2
+          "start_midi": 55,
+          "semitones": 6
         },
         "completed": true,
-        "result": "correct"
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 43,
+        "attempts": 44,
         "correct": 31
       },
       "achievement_claims": {
