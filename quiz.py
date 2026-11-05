@@ -96,7 +96,7 @@ QUESTION_TYPES = [
     "accidental_major",
     "accidental_minor"],
     ["interval_audio"],
-    ["interval_audio"],
+    ["interval_chord_audio"],
 #    ["mode_accidental",
 #    "accidental_mode"],
 #    ["interval_audio", 
@@ -121,6 +121,7 @@ INTERVALS = [
 
 CHROMATIC_NOTES = ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B")
 SAMPLE_RATE = 44100
+LOWER_NOTE_GAIN = 1.5
 
 
 def make_interval_audio(question_data):
@@ -132,13 +133,14 @@ def make_interval_audio(question_data):
     amplitude = 11000
 
     samples = bytearray()
-    for midi_note in (start_midi, end_midi):
+    for note_index, midi_note in enumerate((start_midi, end_midi)):
         frequency = 440.0 * (2 ** ((midi_note - 69) / 12))
         count = int(SAMPLE_RATE * duration)
+        note_gain = LOWER_NOTE_GAIN if note_index == 0 else 1.0
         for i in range(count):
             # A brief fade at each end avoids clicks in each synthesized tone.
             fade = min(1.0, i / 500, (count - i - 1) / 500)
-            value = int(amplitude * max(0.0, fade) * math.sin(2 * math.pi * frequency * i / SAMPLE_RATE))
+            value = int(amplitude * note_gain * max(0.0, fade) * math.sin(2 * math.pi * frequency * i / SAMPLE_RATE))
             samples.extend(struct.pack("<h", value))
         samples.extend(b"\x00\x00" * int(SAMPLE_RATE * gap))
 
@@ -167,10 +169,9 @@ def make_interval_chord_audio(question_data):
     for i in range(count):
         # A brief fade at each end avoids clicks in the synthesized chord.
         fade = min(1.0, i / 500, (count - i - 1) / 500)
-        chord = sum(
-            math.sin(2 * math.pi * frequency * i / SAMPLE_RATE)
-            for frequency in frequencies
-        ) / len(frequencies)
+        lower_note = LOWER_NOTE_GAIN * math.sin(2 * math.pi * frequencies[0] * i / SAMPLE_RATE)
+        upper_note = math.sin(2 * math.pi * frequencies[1] * i / SAMPLE_RATE)
+        chord = (lower_note + upper_note) / len(frequencies)
         value = int(amplitude * max(0.0, fade) * chord)
         samples.extend(struct.pack("<h", value))
 
