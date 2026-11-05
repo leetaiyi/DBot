@@ -1634,17 +1634,16 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-11-03",
-        "type": "interval_audio",
+        "date": "2026-11-05",
+        "type": "interval_chord_audio",
         "question": "What interval is this?",
-        "answer": "major sixth",
+        "answer": "octave",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 66,
-          "semitones": 9
+          "start_midi": 78,
+          "semitones": 12
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 80,
