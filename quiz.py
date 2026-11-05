@@ -672,7 +672,7 @@ def generate_question(question_type, user=None):
         }
 
     elif question_type == "interval_audio":
-        start_midi = random.randint(48, 72)  # C3 through C5, inclusive
+        start_midi = random.randint(72, 84)  # C5 through C6, one octave higher
         semitones, answer = random.choice(INTERVALS)
         start_note = CHROMATIC_NOTES[start_midi % 12]
         start_octave = start_midi // 12 - 1
