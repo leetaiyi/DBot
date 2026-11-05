@@ -2906,10 +2906,11 @@
           "start_midi": 55,
           "semitones": 6
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 43,
+        "attempts": 44,
         "correct": 31
       },
       "achievement_claims": {
