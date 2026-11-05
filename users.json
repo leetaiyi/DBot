@@ -1791,7 +1791,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 14,
+      "coins": 13,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1811,7 +1811,7 @@
         "Ollidammara": 1,
         "Sake": 5,
         "Leia (apples)": 3,
-        "Percy": 1,
+        "Percy": 2,
         "Sawyer": 1,
         "David": 3,
         "Capt Ben": 2,
@@ -1850,7 +1850,7 @@
         "Mal-letstation": 1
       },
       "last_daily": "2026-11-05",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
