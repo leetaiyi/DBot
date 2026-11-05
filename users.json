@@ -2276,10 +2276,11 @@
           "start_midi": 66,
           "semitones": 8
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 34,
+        "attempts": 35,
         "correct": 30
       },
       "question_history": [
