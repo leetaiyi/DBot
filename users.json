@@ -2383,16 +2383,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-10-26",
-        "type": "accidental_mode",
-        "question": "Which Mixolydian scale has 6 sharps?",
-        "answer": "C#",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-11-05",
+        "type": "interval_chord_audio",
+        "question": "What interval is this?",
+        "answer": "major third",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "key_index": 13,
-          "mode_index": 4
+          "start_midi": 79,
+          "semitones": 4
         },
-        "completed": true
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 23,
