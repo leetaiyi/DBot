@@ -2905,10 +2905,11 @@
           "start_midi": 76,
           "semitones": 7
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 43,
+        "attempts": 44,
         "correct": 31
       },
       "achievement_claims": {
