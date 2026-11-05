@@ -96,7 +96,7 @@ QUESTION_TYPES = [
     "accidental_major",
     "accidental_minor"],
     ["interval_audio"],
-    ["interval_chord_audio"],
+    ["interval_audio"],
 #    ["mode_accidental",
 #    "accidental_mode"],
 #    ["interval_audio", 
