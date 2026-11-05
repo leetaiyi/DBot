@@ -2266,17 +2266,16 @@
         "Bellies": 1
       },
       "daily_quiz": {
-        "date": "2026-11-04",
+        "date": "2026-11-05",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "minor sixth",
+        "answer": "major seventh",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 66,
-          "semitones": 8
+          "start_midi": 72,
+          "semitones": 11
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 34,
