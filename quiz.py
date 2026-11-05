@@ -96,7 +96,7 @@ QUESTION_TYPES = [
     "accidental_major",
     "accidental_minor"],
     ["interval_audio"],
-    ["interval_audio"],
+    ["interval_chord_audio"],
 #    ["mode_accidental",
 #    "accidental_mode"],
 #    ["interval_audio", 
@@ -124,6 +124,35 @@ SAMPLE_RATE = 44100
 
 
 def make_interval_audio(question_data):
+    """Create two ascending notes as a short in-memory WAV file."""
+    start_midi = question_data["start_midi"]
+    end_midi = start_midi + question_data["semitones"]
+    duration = 0.55
+    gap = 0.12
+    amplitude = 11000
+
+    samples = bytearray()
+    for midi_note in (start_midi, end_midi):
+        frequency = 440.0 * (2 ** ((midi_note - 69) / 12))
+        count = int(SAMPLE_RATE * duration)
+        for i in range(count):
+            # A brief fade at each end avoids clicks in each synthesized tone.
+            fade = min(1.0, i / 500, (count - i - 1) / 500)
+            value = int(amplitude * max(0.0, fade) * math.sin(2 * math.pi * frequency * i / SAMPLE_RATE))
+            samples.extend(struct.pack("<h", value))
+        samples.extend(b"\x00\x00" * int(SAMPLE_RATE * gap))
+
+    audio = io.BytesIO()
+    with wave.open(audio, "wb") as wav_file:
+        wav_file.setnchannels(1)
+        wav_file.setsampwidth(2)
+        wav_file.setframerate(SAMPLE_RATE)
+        wav_file.writeframes(samples)
+    audio.seek(0)
+    return discord.File(audio, filename="quiz_interval.wav")
+
+
+def make_interval_chord_audio(question_data):
     """Create a short chord from the starting note and its interval."""
     start_midi = question_data["start_midi"]
     end_midi = start_midi + question_data["semitones"]
@@ -152,7 +181,7 @@ def make_interval_audio(question_data):
         wav_file.setframerate(SAMPLE_RATE)
         wav_file.writeframes(samples)
     audio.seek(0)
-    return discord.File(audio, filename="quiz_interval.wav")
+    return discord.File(audio, filename="quiz_interval_chord.wav")
 
 TRANSPOSE_QUESTIONS = [
     {
@@ -671,7 +700,7 @@ def generate_question(question_type, user=None):
             "attachment": repertoire_question["image"]
         }
 
-    elif question_type == "interval_audio":
+    elif question_type in ("interval_audio", "interval_chord_audio"):
         start_midi = random.randint(72, 84)  # C5 through C6, one octave higher
         semitones, answer = random.choice(INTERVALS)
         start_note = CHROMATIC_NOTES[start_midi % 12]
@@ -741,8 +770,13 @@ def setup_quiz(bot):
                 embed.set_image(url=image_url)
 
             question_data = quiz.get("question_data", {})
-            if quiz.get("type") == "interval_audio":
-                await ctx.send(embed=embed, file=make_interval_audio(question_data))
+            if quiz.get("type") in ("interval_audio", "interval_chord_audio"):
+                make_audio = (
+                    make_interval_chord_audio
+                    if quiz.get("type") == "interval_chord_audio"
+                    else make_interval_audio
+                )
+                await ctx.send(embed=embed, file=make_audio(question_data))
             else:
                 await ctx.send(embed=embed)
             return
@@ -783,8 +817,13 @@ def setup_quiz(bot):
             image_url = QUIZ_MEDIA_URL + image_path
             embed.set_image(url=image_url)
 
-        if question_type == "interval_audio":
-            await ctx.send(embed=embed, file=make_interval_audio(question_data))
+        if question_type in ("interval_audio", "interval_chord_audio"):
+            make_audio = (
+                make_interval_chord_audio
+                if question_type == "interval_chord_audio"
+                else make_interval_audio
+            )
+            await ctx.send(embed=embed, file=make_audio(question_data))
         else:
             await ctx.send(embed=embed)
 
