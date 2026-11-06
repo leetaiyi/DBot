@@ -105,12 +105,12 @@ QUESTION_TYPES = [
 ]
 
 INTERVALS = [
-    (1, "minor second"),
-    (2, "major second"),
+    (1, ["minor second", "half step"]),
+    (2, ["major second", "whole step"]),
     (3, "minor third"),
     (4, "major third"),
     (5, "perfect fourth"),
-    (6, "augmented fourth"),
+    (6, ["augmented fourth", "diminished fifth", "tritone"]),
     (7, "perfect fifth"),
     (8, "minor sixth"),
     (9, "major sixth"),
