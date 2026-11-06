@@ -1509,10 +1509,11 @@
           "hint": "S25",
           "attachment": "rep15.jpg"
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 38,
+        "attempts": 39,
         "correct": 35
       },
       "impatience": 1,
@@ -1530,7 +1531,8 @@
         "repertoire:rep1.jpg",
         "repertoire:rep8.jpg",
         "repertoire:rep2.jpg",
-        "repertoire:rep14.jpg"
+        "repertoire:rep14.jpg",
+        "repertoire:rep15.jpg"
       ]
     },
     "954136279296118885": {
