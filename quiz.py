@@ -317,6 +317,26 @@ REPERTOIRE_QUESTIONS = [
         "hint": "S25",
         "answer": ["To Good Friends, and the Future We Make Together",
                     "Chrono Trigger Symphonic Suite: To Good Friends, and the Future We Make Together"]
+    },
+    {
+        "image": "rep16.jpg",
+        "hint": "F22",
+        "answer": "Hoedown de Chocobo"
+    },
+    {
+        "image": "rep17.jpg",
+        "hint": "F25",
+        "answer": "Traveler's Theme"
+    },
+    {
+        "image": "rep18.jpg",
+        "hint": "F21",
+        "answer": "MindMaze"
+    },
+    {
+        "image": "rep19.jpg",
+        "hint": "F26",
+        "answer": "Herald of Darkness"
     }
 ]
 
