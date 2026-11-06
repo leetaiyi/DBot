@@ -1093,10 +1093,11 @@
           "start_midi": 81,
           "semitones": 7
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 90,
+        "attempts": 91,
         "correct": 75
       },
       "question_history": [
