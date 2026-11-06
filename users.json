@@ -2706,7 +2706,7 @@
         "Amadeus": 3,
         "Batta": 5,
         "A Wild Artemis": 2,
-        "Cerberus": 1,
+        "Cerberus": 2,
         "Benjamin (bandana)": 5,
         "IDDOG": 3,
         "Noodle plays Pok\u00e9mon": 4,
@@ -2773,8 +2773,8 @@
         "Mal-letstation": 1,
         "Rascal": 1
       },
-      "last_daily": "2026-10-22",
-      "pity": 0,
+      "last_daily": "2026-11-06",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
