@@ -1654,10 +1654,11 @@
           "start_midi": 83,
           "semitones": 2
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 82,
+        "attempts": 83,
         "correct": 72
       },
       "question_history": [
