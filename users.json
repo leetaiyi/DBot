@@ -1693,7 +1693,7 @@
         "Amadeus": 2,
         "Rose": 8,
         "Artemis Dee": 2,
-        "Sake": 4,
+        "Sake": 5,
         "Flash": 5,
         "Willow Belly": 1,
         "IDDOG": 4,
@@ -1780,8 +1780,8 @@
         "Where's My Churu": 1,
         "Batta Bunny Kick": 1
       },
-      "last_daily": "2026-11-05",
-      "pity": 0,
+      "last_daily": "2026-11-07",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
