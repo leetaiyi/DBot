@@ -1499,24 +1499,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-06",
+        "date": "2026-11-07",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S25||",
-        "answer": [
-          "To Good Friends, and the Future We Make Together",
-          "Chrono Trigger Symphonic Suite: To Good Friends, and the Future We Make Together"
-        ],
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S26||",
+        "answer": "Court is Now in Session",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep15.jpg",
-          "index": 14,
-          "hint": "S25",
-          "attachment": "rep15.jpg"
+          "question_id": "repertoire:rep3.jpg",
+          "index": 2,
+          "hint": "S26",
+          "attachment": "rep3.jpg"
         },
-        "completed": true,
-        "result": "correct",
-        "corrected_by": "96408456294064128"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 39,
