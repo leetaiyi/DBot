@@ -1802,10 +1802,11 @@
           "start_midi": 80,
           "semitones": 1
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 37,
+        "attempts": 38,
         "correct": 33
       },
       "impatience": 1
