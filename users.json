@@ -2835,7 +2835,7 @@
         "Amadeus": 3,
         "LaCat: Hypnosis": 2,
         "Live Gloriously!": 3,
-        "Artemis Dee": 4,
+        "Artemis Dee": 5,
         "Noodle plays Pok\u00e9mon": 2,
         "Noodle": 6,
         "Nova Fangly": 3,
@@ -2921,8 +2921,8 @@
         "Baby brother bother": 1
       },
       "coins": 12,
-      "last_daily": "2026-11-07",
-      "pity": 0,
+      "last_daily": "2026-11-08",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-11-07",
