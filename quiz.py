@@ -124,6 +124,11 @@ SAMPLE_RATE = 44100
 LOWER_NOTE_GAIN = 1.5
 
 
+def triangle_wave(frequency, sample_index):
+    phase = 2 * math.pi * frequency * sample_index / SAMPLE_RATE
+    return (2 / math.pi) * math.asin(math.sin(phase))
+
+
 def make_interval_audio(question_data):
     """Create two ascending notes as a short in-memory WAV file."""
     start_midi = question_data["start_midi"]
@@ -140,7 +145,7 @@ def make_interval_audio(question_data):
         for i in range(count):
             # A brief fade at each end avoids clicks in each synthesized tone.
             fade = min(1.0, i / 500, (count - i - 1) / 500)
-            value = int(amplitude * note_gain * max(0.0, fade) * math.sin(2 * math.pi * frequency * i / SAMPLE_RATE))
+            value = int(amplitude * note_gain * max(0.0, fade) * triangle_wave(frequency, i))
             samples.extend(struct.pack("<h", value))
         samples.extend(b"\x00\x00" * int(SAMPLE_RATE * gap))
 
@@ -169,8 +174,8 @@ def make_interval_chord_audio(question_data):
     for i in range(count):
         # A brief fade at each end avoids clicks in the synthesized chord.
         fade = min(1.0, i / 500, (count - i - 1) / 500)
-        lower_note = LOWER_NOTE_GAIN * math.sin(2 * math.pi * frequencies[0] * i / SAMPLE_RATE)
-        upper_note = math.sin(2 * math.pi * frequencies[1] * i / SAMPLE_RATE)
+        lower_note = LOWER_NOTE_GAIN * triangle_wave(frequencies[0], i)
+        upper_note = triangle_wave(frequencies[1], i)
         chord = (lower_note + upper_note) / len(frequencies)
         value = int(amplitude * max(0.0, fade) * chord)
         samples.extend(struct.pack("<h", value))
