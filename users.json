@@ -1091,21 +1091,16 @@
         "Bellies": 1
       },
       "daily_quiz": {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "interval_chord_audio",
         "question": "What interval is this?",
-        "answer": [
-          "augmented fourth",
-          "diminished fifth",
-          "tritone"
-        ],
+        "answer": "major seventh",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 84,
-          "semitones": 6
+          "start_midi": 77,
+          "semitones": 11
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 92,
