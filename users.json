@@ -1507,20 +1507,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-08",
+        "date": "2026-11-09",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F26||",
-        "answer": "Herald of Darkness",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F25||",
+        "answer": "Traveler's Theme",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep19.jpg",
-          "index": 18,
-          "hint": "F26",
-          "attachment": "rep19.jpg"
+          "question_id": "repertoire:rep17.jpg",
+          "index": 16,
+          "hint": "F25",
+          "attachment": "rep17.jpg"
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 41,
