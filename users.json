@@ -2901,7 +2901,7 @@
         "Leia hates dry food": 2,
         "Ellie": 1,
         "Sake": 2,
-        "Rascal": 1,
+        "Rascal": 2,
         "Morpheus": 1,
         "Listening to Rehearsal Recordings": 1,
         "Cutter": 2,
@@ -2923,8 +2923,8 @@
         "Baby brother bother": 1
       },
       "coins": 12,
-      "last_daily": "2026-11-08",
-      "pity": 1,
+      "last_daily": "2026-11-09",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-11-08",
