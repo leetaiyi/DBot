@@ -1138,7 +1138,22 @@
       "last_daily": "2026-03-11",
       "pity": 0,
       "pulls": 0,
-      "blessed": false
+      "blessed": false,
+      "quiz_stats": {
+        "attempts": 0,
+        "correct": 0
+      },
+      "daily_quiz": {
+        "date": "2026-11-09",
+        "type": "major_accidental",
+        "question": "How many flats does Ab major have?",
+        "answer": "4",
+        "example": "!answer 4",
+        "question_data": {
+          "key_index": 4
+        },
+        "completed": false
+      }
     },
     "234795442221744130": {
       "coins": 0,
