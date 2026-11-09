@@ -2925,17 +2925,19 @@
       "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-08",
+        "date": "2026-11-09",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "major seventh",
+        "answer": [
+          "minor second",
+          "half step"
+        ],
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 81,
-          "semitones": 11
+          "start_midi": 77,
+          "semitones": 1
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 47,
