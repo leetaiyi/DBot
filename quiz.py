@@ -97,6 +97,7 @@ QUESTION_TYPES = [
     "accidental_minor"],
     ["interval_audio"],
     ["interval_chord_audio"],
+    ["triads"],
 #    ["mode_accidental",
 #    "accidental_mode"],
 #    ["interval_audio", 
@@ -120,6 +121,7 @@ INTERVALS = [
 ]
 
 CHROMATIC_NOTES = ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B")
+NOTE_NATURAL_PITCH_CLASSES = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
 SAMPLE_RATE = 44100
 LOWER_NOTE_GAIN = 1.5
 
@@ -188,6 +190,53 @@ def make_interval_chord_audio(question_data):
         wav_file.writeframes(samples)
     audio.seek(0)
     return discord.File(audio, filename="quiz_interval_chord.wav")
+
+
+def make_triad_audio(question_data):
+    """Create a three-note triad chord as an in-memory WAV file."""
+    midi_notes = question_data["midi_notes"]
+    frequencies = [440.0 * (2 ** ((note - 69) / 12)) for note in midi_notes]
+    duration = 1.3
+    count = int(SAMPLE_RATE * duration)
+    samples = bytearray()
+    for i in range(count):
+        fade = min(1.0, i / 500, (count - i - 1) / 500)
+        chord = (
+            LOWER_NOTE_GAIN * triangle_wave(frequencies[0], i)
+            + triangle_wave(frequencies[1], i)
+            + triangle_wave(frequencies[2], i)
+        ) / len(frequencies)
+        value = int(11000 * max(0.0, fade) * chord)
+        samples.extend(struct.pack("<h", value))
+
+    audio = io.BytesIO()
+    with wave.open(audio, "wb") as wav_file:
+        wav_file.setnchannels(1)
+        wav_file.setsampwidth(2)
+        wav_file.setframerate(SAMPLE_RATE)
+        wav_file.writeframes(samples)
+    audio.seek(0)
+    return discord.File(audio, filename="quiz_triad.wav")
+
+
+def normalize_triad_answer(response):
+    """Return two note pitch classes in answer order, or None if malformed."""
+    note_pattern = r"[A-Ga-g][#b]?(?:-?\d+)?"
+    if not re.fullmatch(rf"\s*{note_pattern}(?:[\s,]+{note_pattern})\s*", response):
+        return None
+
+    notes = re.findall(note_pattern, response)
+    pitch_classes = []
+    for note in notes:
+        letter = note[0].upper()
+        accidental = note[1] if len(note) > 1 and note[1] in "#b" else ""
+        pitch_class = NOTE_NATURAL_PITCH_CLASSES[letter]
+        if accidental == "#":
+            pitch_class += 1
+        elif accidental == "b":
+            pitch_class -= 1
+        pitch_classes.append(pitch_class % 12)
+    return tuple(pitch_classes)
 
 TRANSPOSE_QUESTIONS = [
     {
@@ -506,13 +555,16 @@ def get_question_type(user, user_id=None):
             return "repertoire"
 
     accuracy = correct / attempts if attempts else 0
-    if accuracy == 1 and attempts >= 4:
+    if accuracy == 1 and attempts >= 6:
+        question_types = QUESTION_TYPES[3].copy()
+    elif accuracy == 1 and attempts >= 4:
         question_types = QUESTION_TYPES[2].copy()
     elif accuracy == 1 and attempts >= 2:
         question_types = QUESTION_TYPES[1].copy()
     elif attempts >= 5:
-
-        if attempts >= 20 and accuracy * math.log(attempts, 20) >= 0.90:
+        if attempts >= 30 and accuracy >= 0.80:
+            question_types = QUESTION_TYPES[3].copy()
+        elif attempts >= 20 and accuracy * math.log(attempts, 20) >= 0.90:
             question_types = QUESTION_TYPES[2].copy()
         elif accuracy * math.log(attempts, 5) >= 0.90:
             question_types = QUESTION_TYPES[1].copy()
@@ -726,6 +778,36 @@ def generate_question(question_type, user=None):
             "attachment": repertoire_question["image"]
         }
 
+    elif question_type == "triads":
+        triad_qualities = {
+            "major": (0, 4, 7),
+            "minor": (0, 3, 7),
+            "diminished": (0, 3, 6),
+            "augmented": (0, 4, 8),
+        }
+        root_midi = random.randint(60, 71)  # C4 through B4
+        quality = random.choice(tuple(triad_qualities))
+        chord_tones = [root_midi + offset for offset in triad_qualities[quality]]
+        inversion = random.randrange(3)
+        voiced_notes = chord_tones[inversion:] + [
+            note + 12 for note in chord_tones[:inversion]
+        ]
+
+        note_names = [CHROMATIC_NOTES[note % 12] for note in voiced_notes]
+        bottom_note = voiced_notes[0]
+        bottom_name = f"{CHROMATIC_NOTES[bottom_note % 12]}{bottom_note // 12 - 1}"
+        question = (
+            "Listen to this triad. The bottom note is "
+            f"**{bottom_name}**. What are the other two notes, in ascending order?"
+        )
+        answer = f"{note_names[1]} {note_names[2]}"
+        example = "!answer E G [separate notes with a space]"
+        question_data = {
+            "midi_notes": voiced_notes,
+            "quality": quality,
+            "inversion": inversion,
+        }
+
     elif question_type in ("interval_audio", "interval_chord_audio"):
         start_midi = random.randint(55, 79)  # G3 through G5
         semitones, answer = random.choice(INTERVALS)
@@ -796,7 +878,9 @@ def setup_quiz(bot):
                 embed.set_image(url=image_url)
 
             question_data = quiz.get("question_data", {})
-            if quiz.get("type") in ("interval_audio", "interval_chord_audio"):
+            if quiz.get("type") == "triads":
+                await ctx.send(embed=embed, file=make_triad_audio(question_data))
+            elif quiz.get("type") in ("interval_audio", "interval_chord_audio"):
                 make_audio = (
                     make_interval_chord_audio
                     if quiz.get("type") == "interval_chord_audio"
@@ -843,7 +927,9 @@ def setup_quiz(bot):
             image_url = QUIZ_MEDIA_URL + image_path
             embed.set_image(url=image_url)
 
-        if question_type in ("interval_audio", "interval_chord_audio"):
+        if question_type == "triads":
+            await ctx.send(embed=embed, file=make_triad_audio(question_data))
+        elif question_type in ("interval_audio", "interval_chord_audio"):
             make_audio = (
                 make_interval_chord_audio
                 if question_type == "interval_chord_audio"
@@ -895,6 +981,10 @@ def setup_quiz(bot):
             answer_string = correct_answer
 
         user_answer = response.strip().lower()
+        if quiz.get("type") == "triads":
+            is_correct = normalize_triad_answer(response) == normalize_triad_answer(correct_answer)
+        else:
+            is_correct = user_answer in correct_answers
 
         # Check answer
         quiz_stats["attempts"] += 1
@@ -904,7 +994,7 @@ def setup_quiz(bot):
             quiz.get("type"),
             quiz.get("question_data", {}).get("question_id"),
         )
-        if user_answer in correct_answers:
+        if is_correct:
             quiz_stats["correct"] += 1
             user["coins"] = user.get("coins", 0) + 1
             quiz["result"] = "correct"
