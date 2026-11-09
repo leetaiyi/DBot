@@ -1876,20 +1876,16 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-08",
+        "date": "2026-11-09",
         "type": "interval_chord_audio",
         "question": "What interval is this?",
-        "answer": [
-          "minor second",
-          "half step"
-        ],
+        "answer": "perfect fourth",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 79,
-          "semitones": 1
+          "start_midi": 72,
+          "semitones": 5
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 41,
