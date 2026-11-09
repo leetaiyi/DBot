@@ -2307,17 +2307,16 @@
         "Bellies": 1
       },
       "daily_quiz": {
-        "date": "2026-11-08",
+        "date": "2026-11-09",
         "type": "interval_chord_audio",
         "question": "What interval is this?",
         "answer": "perfect fifth",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 72,
+          "start_midi": 59,
           "semitones": 7
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 37,
