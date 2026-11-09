@@ -795,7 +795,7 @@ def generate_question(question_type, user=None):
 
         note_names = [CHROMATIC_NOTES[note % 12] for note in voiced_notes]
         bottom_note = voiced_notes[0]
-        bottom_name = f"{CHROMATIC_NOTES[bottom_note % 12]}{bottom_note // 12 - 1}"
+        bottom_name = CHROMATIC_NOTES[bottom_note % 12]
         question = (
             "Listen to this triad. The bottom note is "
             f"**{bottom_name}**. What are the other two notes, in ascending order?"
