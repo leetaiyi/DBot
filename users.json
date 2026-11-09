@@ -1442,7 +1442,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 9,
+      "coins": 10,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 1,
@@ -1519,11 +1519,12 @@
           "hint": "F25",
           "attachment": "rep17.jpg"
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 41,
-        "correct": 37
+        "attempts": 42,
+        "correct": 38
       },
       "impatience": 1,
       "question_history": [
@@ -1543,7 +1544,8 @@
         "repertoire:rep14.jpg",
         "repertoire:rep15.jpg",
         "repertoire:rep3.jpg",
-        "repertoire:rep19.jpg"
+        "repertoire:rep19.jpg",
+        "repertoire:rep17.jpg"
       ]
     },
     "954136279296118885": {
