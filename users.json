@@ -1688,10 +1688,11 @@
           "quality": "minor",
           "inversion": 0
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 85,
+        "attempts": 86,
         "correct": 73
       },
       "question_history": [
