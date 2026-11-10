@@ -1830,10 +1830,11 @@
           "quality": "minor",
           "inversion": 1
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 39,
+        "attempts": 40,
         "correct": 33
       },
       "impatience": 1
