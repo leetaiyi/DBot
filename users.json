@@ -2845,17 +2845,16 @@
         "Willow the Sand Guardian": 1
       },
       "daily_quiz": {
-        "date": "2026-11-06",
+        "date": "2026-11-10",
         "type": "interval_chord_audio",
         "question": "What interval is this?",
-        "answer": "major third",
+        "answer": "perfect fourth",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 72,
-          "semitones": 4
+          "start_midi": 71,
+          "semitones": 5
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 56,
