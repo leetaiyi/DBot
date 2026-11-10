@@ -124,6 +124,8 @@ CHROMATIC_NOTES = ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "
 NOTE_NATURAL_PITCH_CLASSES = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
 SAMPLE_RATE = 44100
 LOWER_NOTE_GAIN = 1.5
+TRIAD_BOTTOM_NOTE_GAIN = 2.0
+TRIAD_MIDDLE_NOTE_GAIN = 1.5
 
 
 def triangle_wave(frequency, sample_index):
@@ -202,8 +204,8 @@ def make_triad_audio(question_data):
     for i in range(count):
         fade = min(1.0, i / 500, (count - i - 1) / 500)
         chord = (
-            LOWER_NOTE_GAIN * triangle_wave(frequencies[0], i)
-            + triangle_wave(frequencies[1], i)
+            TRIAD_BOTTOM_NOTE_GAIN * triangle_wave(frequencies[0], i)
+            + TRIAD_MIDDLE_NOTE_GAIN * triangle_wave(frequencies[1], i)
             + triangle_wave(frequencies[2], i)
         ) / len(frequencies)
         value = int(11000 * max(0.0, fade) * chord)
