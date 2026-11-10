@@ -2350,7 +2350,7 @@
       ]
     },
     "247912247496540160": {
-      "coins": 17,
+      "coins": 16,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -2375,7 +2375,7 @@
         "Benjamin (bandana)": 3,
         "Ollidammara": 2,
         "Amadeus": 3,
-        "Howl": 4,
+        "Howl": 5,
         "Masabone": 3,
         "Keyboard Carbon": 1,
         "Maleficent": 4,
@@ -2436,7 +2436,7 @@
         "Husky, Elkhound, German Shepherd": 1
       },
       "last_daily": "2026-11-10",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
