@@ -1529,20 +1529,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-09",
+        "date": "2026-11-10",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F25||",
-        "answer": "Traveler's Theme",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||S17||",
+        "answer": "Sogno Di Volare",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep17.jpg",
-          "index": 16,
-          "hint": "F25",
-          "attachment": "rep17.jpg"
+          "question_id": "repertoire:rep12.jpg",
+          "index": 11,
+          "hint": "S17",
+          "attachment": "rep12.jpg"
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 42,
