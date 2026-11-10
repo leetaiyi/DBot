@@ -1913,10 +1913,11 @@
           "quality": "augmented",
           "inversion": 0
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 42,
+        "attempts": 43,
         "correct": 38
       },
       "question_history": [
