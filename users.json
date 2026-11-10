@@ -1674,20 +1674,21 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-11-09",
-        "type": "interval_chord_audio",
-        "question": "What interval is this?",
-        "answer": [
-          "major second",
-          "whole step"
-        ],
-        "example": "major third, minor seventh, perfect fifth",
+        "date": "2026-11-10",
+        "type": "triads",
+        "question": "Listen to this triad. The bottom note is **A**. What are the other two notes, in ascending order?",
+        "answer": "C E",
+        "example": "!answer E G [separate notes with a space]",
         "question_data": {
-          "start_midi": 77,
-          "semitones": 2
+          "midi_notes": [
+            69,
+            72,
+            76
+          ],
+          "quality": "minor",
+          "inversion": 0
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 85,
