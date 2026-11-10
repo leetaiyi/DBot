@@ -2960,7 +2960,7 @@
         "Are You Dragon Tales?": 1,
         "Baby brother bother": 1
       },
-      "coins": 12,
+      "coins": 13,
       "last_daily": "2026-11-10",
       "pity": 3,
       "blessed": false,
@@ -2977,11 +2977,12 @@
           "start_midi": 68,
           "semitones": 2
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 48,
-        "correct": 32
+        "attempts": 49,
+        "correct": 33
       },
       "achievement_claims": {
         "The B's": 1,
