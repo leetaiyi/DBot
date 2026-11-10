@@ -1816,17 +1816,21 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-11-09",
-        "type": "interval_chord_audio",
-        "question": "What interval is this?",
-        "answer": "perfect fifth",
-        "example": "major third, minor seventh, perfect fifth",
+        "date": "2026-11-10",
+        "type": "triads",
+        "question": "Listen to this triad. The bottom note is **C**. What are the other two notes, in ascending order?",
+        "answer": "E A",
+        "example": "!answer E G [separate notes with a space]",
         "question_data": {
-          "start_midi": 84,
-          "semitones": 7
+          "midi_notes": [
+            72,
+            76,
+            81
+          ],
+          "quality": "minor",
+          "inversion": 1
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 39,
