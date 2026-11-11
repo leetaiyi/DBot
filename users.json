@@ -1099,17 +1099,20 @@
         "Bellies": 1
       },
       "daily_quiz": {
-        "date": "2026-11-10",
+        "date": "2026-11-11",
         "type": "interval_chord_audio",
         "question": "What interval is this?",
-        "answer": "perfect fourth",
+        "answer": [
+          "augmented fourth",
+          "diminished fifth",
+          "tritone"
+        ],
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 68,
-          "semitones": 5
+          "start_midi": 64,
+          "semitones": 6
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 95,
