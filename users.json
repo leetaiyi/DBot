@@ -1920,22 +1920,21 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-10",
+        "date": "2026-11-11",
         "type": "triads",
-        "question": "Listen to this triad. The bottom note is **C**. What are the other two notes, in ascending order?",
-        "answer": "E G#",
+        "question": "Listen to this triad. The bottom note is **C#**. What are the other two notes, in ascending order?",
+        "answer": "F G#",
         "example": "!answer E G [separate notes with a space]",
         "question_data": {
           "midi_notes": [
-            60,
-            64,
+            61,
+            65,
             68
           ],
-          "quality": "augmented",
+          "quality": "major",
           "inversion": 0
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 43,
