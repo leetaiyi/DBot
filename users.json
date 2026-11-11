@@ -2330,17 +2330,21 @@
         "Bellies": 1
       },
       "daily_quiz": {
-        "date": "2026-11-09",
-        "type": "interval_chord_audio",
-        "question": "What interval is this?",
-        "answer": "perfect fifth",
-        "example": "major third, minor seventh, perfect fifth",
+        "date": "2026-11-11",
+        "type": "triads",
+        "question": "Listen to this triad. The bottom note is **D**. What are the other two notes, in ascending order?",
+        "answer": "G# B",
+        "example": "!answer E G [separate notes with a space]",
         "question_data": {
-          "start_midi": 59,
-          "semitones": 7
+          "midi_notes": [
+            74,
+            80,
+            83
+          ],
+          "quality": "diminished",
+          "inversion": 2
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 38,
