@@ -659,7 +659,13 @@
       "name": "Begging Betty Waggles",
       "weight": 5,
       "image": "BettyWay.gif"
+    },
+    {
+      "name": "We're really in it now. - Horatio",
+      "weight": 25,
+      "image": "Horatio.jpg"
     }
+    
   ],
   "achievements": {
     "Catbus Family": {
