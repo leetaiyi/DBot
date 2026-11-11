@@ -496,7 +496,7 @@
         "Willow": 3,
         "Kazoo David": 3,
         "Maleficent": 5,
-        "Rose": 7,
+        "Rose": 8,
         "Morpheus": 5,
         "Amadeus2": 3,
         "Tomyris": 5,
@@ -584,8 +584,8 @@
         "Camouflaged": 1,
         "Food Confusion": 1
       },
-      "last_daily": "2026-11-10",
-      "pity": 0,
+      "last_daily": "2026-11-11",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
