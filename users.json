@@ -2266,7 +2266,7 @@
         "Ivan": 5,
         "Ben": 2,
         "Rose": 1,
-        "King Baker": 2,
+        "King Baker": 3,
         "Achelois": 4,
         "David": 5,
         "Ollidammara": 1,
@@ -2328,8 +2328,8 @@
         " Benjamin (hidden)": 1,
         "Leia hates dry food": 1
       },
-      "last_daily": "2026-11-10",
-      "pity": 0,
+      "last_daily": "2026-11-11",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
