@@ -1855,7 +1855,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 14,
+      "coins": 15,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1934,11 +1934,12 @@
           "quality": "major",
           "inversion": 0
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 43,
-        "correct": 38
+        "attempts": 44,
+        "correct": 39
       },
       "question_history": [
         "transpose:sev24.jpg",
