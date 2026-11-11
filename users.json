@@ -1151,16 +1151,16 @@
         "correct": 2
       },
       "daily_quiz": {
-        "date": "2026-11-10",
-        "type": "major_minor",
-        "question": "What is the relative minor of F major?",
-        "answer": "D",
-        "example": "!answer Ab or !answer c#",
+        "date": "2026-11-11",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "major seventh",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "key_index": 1
+          "start_midi": 68,
+          "semitones": 11
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       }
     },
     "234795442221744130": {
