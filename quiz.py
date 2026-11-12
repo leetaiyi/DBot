@@ -790,10 +790,14 @@ def generate_question(question_type, user=None):
         root_midi = random.randint(60, 71)  # C4 through B4
         quality = random.choice(tuple(triad_qualities))
         chord_tones = [root_midi + offset for offset in triad_qualities[quality]]
-        inversion = random.randrange(3)
-        voiced_notes = chord_tones[inversion:] + [
-            note + 12 for note in chord_tones[:inversion]
-        ]
+        inversion = 0
+        voiced_notes = chord_tones
+
+        # Temporarily disabled: randomly select root position or an inversion.
+        # inversion = random.randrange(3)
+        # voiced_notes = chord_tones[inversion:] + [
+        #     note + 12 for note in chord_tones[:inversion]
+        # ]
 
         note_names = [CHROMATIC_NOTES[note % 12] for note in voiced_notes]
         bottom_note = voiced_notes[0]
