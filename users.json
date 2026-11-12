@@ -1542,20 +1542,19 @@
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-11",
+        "date": "2026-11-12",
         "type": "repertoire",
-        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F22||",
-        "answer": "Hoedown de Chocobo",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F21||",
+        "answer": "MindMaze",
         "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
           "type": "repertoire",
-          "question_id": "repertoire:rep16.jpg",
-          "index": 15,
-          "hint": "F22",
-          "attachment": "rep16.jpg"
+          "question_id": "repertoire:rep18.jpg",
+          "index": 17,
+          "hint": "F21",
+          "attachment": "rep18.jpg"
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 44,
