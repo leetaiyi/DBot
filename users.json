@@ -1476,10 +1476,10 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 13,
+      "coins": 12,
       "inventory": {
         "Zelda": 2,
-        "LaCat: Hypnosis": 1,
+        "LaCat: Hypnosis": 2,
         "David": 3,
         "Bynx": 4,
         "Coconut!": 1,
@@ -1538,7 +1538,7 @@
         "Cutter": 1
       },
       "last_daily": "2026-11-12",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
