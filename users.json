@@ -1686,22 +1686,21 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-11-12",
+        "date": "2026-11-13",
         "type": "triads",
-        "question": "Listen to this triad. The bottom note is **G#**. What are the other two notes, in ascending order?",
-        "answer": "B E",
+        "question": "Listen to this triad. The bottom note is **F#**. What are the other two notes, in ascending order?",
+        "answer": "A C",
         "example": "!answer E G [separate notes with a space]",
         "question_data": {
           "midi_notes": [
-            68,
-            71,
-            76
+            66,
+            69,
+            72
           ],
-          "quality": "major",
-          "inversion": 1
+          "quality": "diminished",
+          "inversion": 0
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 88,
