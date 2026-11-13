@@ -2994,10 +2994,11 @@
           "start_midi": 77,
           "semitones": 7
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 51,
+        "attempts": 52,
         "correct": 35
       },
       "achievement_claims": {
