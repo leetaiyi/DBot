@@ -87,7 +87,7 @@
         "Ivan": 4,
         "Oreo": 6,
         "Artemis Dee": 4,
-        "Batta": 4,
+        "Batta": 5,
         "Maleficent": 7,
         "A Wild Artemis": 3,
         "Mishka": 6,
@@ -186,8 +186,8 @@
         "Gustave Dodge": 1
       },
       "coins": 0,
-      "last_daily": "2026-11-12",
-      "pity": 0,
+      "last_daily": "2026-11-13",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
