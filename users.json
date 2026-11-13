@@ -1856,7 +1856,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 10,
+      "coins": 9,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1903,7 +1903,7 @@
         "Lego Polly": 2,
         "Sake+Ebi": 1,
         "He Looks Like He Needs A Newspaper": 1,
-        "Noodle": 1,
+        "Noodle": 2,
         "Gustave": 2,
         "Amadeus": 2,
         "Concert Dwarf": 1,
@@ -1921,7 +1921,7 @@
         "Begging Betty Waggles": 1
       },
       "last_daily": "2026-11-13",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
