@@ -1161,7 +1161,7 @@
         "correct": 3
       },
       "daily_quiz": {
-        "date": "2026-11-12",
+        "date": "2026-11-13",
         "type": "minor_accidental",
         "question": "How many flats does A minor have?",
         "answer": "0",
@@ -1169,8 +1169,7 @@
         "question_data": {
           "key_index": 0
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       }
     },
     "234795442221744130": {
