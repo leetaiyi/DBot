@@ -2900,7 +2900,7 @@
         "Nova Fangly": 3,
         "Bella": 2,
         "Rose": 4,
-        "Polly": 4,
+        "Polly": 5,
         "Zelda": 3,
         "Bratty Ryuu": 1,
         "Kazoo David": 1,
@@ -2981,8 +2981,8 @@
         "Spooky likes any lap": 1
       },
       "coins": 14,
-      "last_daily": "2026-11-12",
-      "pity": 1,
+      "last_daily": "2026-11-13",
+      "pity": 2,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-11-12",
