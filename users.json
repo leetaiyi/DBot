@@ -1856,7 +1856,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 15,
+      "coins": 14,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1866,7 +1866,7 @@
         "Live Gloriously!": 4,
         "LaCat: Wassup": 4,
         "Artemis Dee": 2,
-        "Betty": 4,
+        "Betty": 5,
         "Mishka": 4,
         "Coconut!": 1,
         "Rose": 2,
@@ -1918,7 +1918,7 @@
         "Zelda": 1
       },
       "last_daily": "2026-11-13",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
