@@ -1472,7 +1472,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 13,
+      "coins": 12,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 2,
@@ -1532,7 +1532,8 @@
         "Bella & Erin": 1,
         "Sake": 1,
         "Cutter": 1,
-        "Cutter??": 1
+        "Cutter??": 1,
+        "Ollidammara": 1
       },
       "last_daily": "2026-11-13",
       "pity": 0,
