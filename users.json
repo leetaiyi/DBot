@@ -1856,7 +1856,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 12,
+      "coins": 11,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1916,10 +1916,11 @@
         "Cutter": 1,
         "Maru Merak Miss Ma'am Morden": 1,
         "Zelda": 1,
-        "Oreo": 1
+        "Oreo": 1,
+        "Loki Loodelally": 1
       },
       "last_daily": "2026-11-13",
-      "pity": 1,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
