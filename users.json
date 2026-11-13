@@ -1585,7 +1585,7 @@
       "coins": 81,
       "inventory": {
         "Bynx": 7,
-        "LaCat: Wassup": 3,
+        "LaCat: Wassup": 4,
         "LaCat: Hypnosis": 6,
         "Ollidammara": 3,
         "Nova Fangly": 4,
@@ -1676,8 +1676,8 @@
         "Nananananananana": 1,
         "Aisling's Squeaky Mouse": 1
       },
-      "last_daily": "2026-11-12",
-      "pity": 2,
+      "last_daily": "2026-11-13",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
