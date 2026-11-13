@@ -1856,7 +1856,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 16,
+      "coins": 15,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1914,10 +1914,11 @@
         "Carbon": 1,
         "Mal-letstation": 1,
         "Cutter": 1,
-        "Maru Merak Miss Ma'am Morden": 1
+        "Maru Merak Miss Ma'am Morden": 1,
+        "Zelda": 1
       },
       "last_daily": "2026-11-13",
-      "pity": 1,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
