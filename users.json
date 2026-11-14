@@ -1833,22 +1833,21 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-11-10",
+        "date": "2026-11-14",
         "type": "triads",
-        "question": "Listen to this triad. The bottom note is **C**. What are the other two notes, in ascending order?",
-        "answer": "E A",
+        "question": "Listen to this triad. The bottom note is **D**. What are the other two notes, in ascending order?",
+        "answer": "F# A#",
         "example": "!answer E G [separate notes with a space]",
         "question_data": {
           "midi_notes": [
-            72,
-            76,
-            81
+            62,
+            66,
+            70
           ],
-          "quality": "minor",
-          "inversion": 1
+          "quality": "augmented",
+          "inversion": 0
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 40,
