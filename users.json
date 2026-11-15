@@ -488,7 +488,7 @@
         "Flash": 5,
         "IDDOG": 2,
         "Ollidammara": 3,
-        "Cerberus": 2,
+        "Cerberus": 3,
         "David": 3,
         "Oreo": 1,
         "Live Gloriously!": 4,
@@ -585,8 +585,8 @@
         "Camouflaged": 1,
         "Food Confusion": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 3,
+      "last_daily": "2026-11-15",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
