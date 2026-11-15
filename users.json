@@ -1129,7 +1129,7 @@
       ]
     },
     "201094207857754112": {
-      "coins": 5,
+      "coins": 6,
       "inventory": {
         "LaCat: Wassup": 1,
         "Amanda": 1,
@@ -1153,8 +1153,8 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 6,
-        "correct": 5
+        "attempts": 7,
+        "correct": 6
       },
       "daily_quiz": {
         "date": "2026-11-15",
@@ -1170,7 +1170,8 @@
           "start_midi": 62,
           "semitones": 6
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       }
     },
     "234795442221744130": {
