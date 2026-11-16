@@ -2378,7 +2378,7 @@
       ]
     },
     "247912247496540160": {
-      "coins": 17,
+      "coins": 18,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -2488,11 +2488,12 @@
           "start_midi": 62,
           "semitones": 6
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 27,
-        "correct": 23
+        "attempts": 28,
+        "correct": 24
       }
     },
     "743276168316190795": {
