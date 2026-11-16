@@ -2990,17 +2990,16 @@
       "pity": 2,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-14",
+        "date": "2026-11-16",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "minor third",
+        "answer": "major third",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 64,
-          "semitones": 3
+          "start_midi": 72,
+          "semitones": 4
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 53,
