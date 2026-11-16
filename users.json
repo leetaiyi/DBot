@@ -2999,10 +2999,11 @@
           "start_midi": 72,
           "semitones": 4
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 53,
+        "attempts": 54,
         "correct": 35
       },
       "achievement_claims": {
