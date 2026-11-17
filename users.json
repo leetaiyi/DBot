@@ -2996,7 +2996,7 @@
         "Baby brother bother": 1,
         "Spooky likes any lap": 1
       },
-      "coins": 14,
+      "coins": 15,
       "last_daily": "2026-11-13",
       "pity": 2,
       "blessed": false,
@@ -3013,11 +3013,12 @@
           "start_midi": 66,
           "semitones": 2
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 54,
-        "correct": 35
+        "attempts": 55,
+        "correct": 36
       },
       "achievement_claims": {
         "The B's": 1,
