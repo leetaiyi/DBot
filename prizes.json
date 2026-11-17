@@ -664,6 +664,16 @@
       "name": "We're really in it now. - Horatio",
       "weight": 25,
       "image": "Horatio.jpg"
+    },
+    {
+      "name": "Lederhosen Jamin",
+      "weight": 5,
+      "image": "JaminL.jpg"
+    },
+    {
+      "name": "Contemplative Jamin",
+      "weight": 5,
+      "image": "JaminC.jpg"
     }
     
   ],
