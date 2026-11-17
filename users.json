@@ -170,7 +170,7 @@
         "Nananananananana": 1,
         "Leia hates dry food": 1,
         "Mal-letstation": 1,
-        "Rainbow Hairless": 1,
+        "Rainbow Hairless": 2,
         "Pet the Batta": 1,
         "Batta Bunny Kick": 2,
         "Guardian Sphinx": 1,
@@ -187,8 +187,8 @@
         "Gustave": 1
       },
       "coins": 0,
-      "last_daily": "2026-11-16",
-      "pity": 0,
+      "last_daily": "2026-11-17",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
