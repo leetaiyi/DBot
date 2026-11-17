@@ -479,7 +479,7 @@
       "coins": 12,
       "inventory": {
         "Artemis Dee": 3,
-        "LaCat: Wassup": 4,
+        "LaCat: Wassup": 5,
         "Zelda": 5,
         "A Wild Artemis": 3,
         "Gabbro": 4,
@@ -587,8 +587,8 @@
         "Food Confusion": 1,
         "\u0250\u0287\u0287\u0250q": 1
       },
-      "last_daily": "2026-11-16",
-      "pity": 0,
+      "last_daily": "2026-11-17",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
