@@ -144,7 +144,7 @@
         "Ben": 3,
         "YO!": 4,
         "Nova: The Absurd Beast": 1,
-        "Belly Flash": 2,
+        "Belly Flash": 3,
         "Live Gloriously!": 2,
         "Listening to Rehearsal Recordings": 1,
         "Santa Murphy": 3,
@@ -170,7 +170,7 @@
         "Nananananananana": 1,
         "Leia hates dry food": 1,
         "Mal-letstation": 1,
-        "Rainbow Hairless": 1,
+        "Rainbow Hairless": 2,
         "Pet the Batta": 1,
         "Batta Bunny Kick": 2,
         "Guardian Sphinx": 1,
@@ -179,14 +179,15 @@
         "Food Confusion": 2,
         "Spooky on a Spooky Skeleton": 1,
         "Cutter??": 1,
-        "Husky, Elkhound, German Shepherd": 1,
+        "Husky, Elkhound, German Shepherd": 2,
         "Where's My Churu": 1,
         "Crepuscule with Angie": 1,
         " Benjamin (hidden)": 1,
-        "Gustave Dodge": 1
+        "Gustave Dodge": 1,
+        "Gustave": 1
       },
       "coins": 0,
-      "last_daily": "2026-11-13",
+      "last_daily": "2026-11-17",
       "pity": 1,
       "blessed": false,
       "achievement_claims": {
@@ -488,7 +489,7 @@
         "Flash": 5,
         "IDDOG": 2,
         "Ollidammara": 3,
-        "Cerberus": 2,
+        "Cerberus": 3,
         "David": 3,
         "Oreo": 1,
         "Live Gloriously!": 4,
@@ -583,10 +584,11 @@
         "Husky, Elkhound, German Shepherd": 1,
         " Benjamin (hidden)": 1,
         "Camouflaged": 1,
-        "Food Confusion": 1
+        "Food Confusion": 1,
+        "\u0250\u0287\u0287\u0250q": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 3,
+      "last_daily": "2026-11-16",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -621,9 +623,9 @@
       "pulls": 0
     },
     "1091788251775369256": {
-      "coins": 4,
+      "coins": 5,
       "inventory": {
-        "Zelda": 3,
+        "Zelda": 4,
         "Ben": 3,
         "Maru Merak Miss Ma'am Morden": 2,
         "Willow Snuggle": 2,
@@ -678,29 +680,29 @@
         "Artemis Dee": 1,
         "Nananananananana": 1
       },
-      "last_daily": "2026-11-11",
-      "pity": 1,
+      "last_daily": "2026-11-13",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-11-11",
+        "date": "2026-11-13",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "minor third",
+        "answer": "perfect fifth",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 64,
-          "semitones": 3
+          "start_midi": 61,
+          "semitones": 7
         },
         "completed": true,
         "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 7,
-        "correct": 6
+        "attempts": 8,
+        "correct": 7
       }
     },
     "400744536239898625": {
@@ -715,7 +717,7 @@
         "Oreo": 4,
         "Howl": 5,
         "LaCat: Wassup": 7,
-        "Willow": 3,
+        "Willow": 4,
         "Willow Snuggle": 4,
         "Flash": 3,
         "Batta": 9,
@@ -765,7 +767,7 @@
         "Noodle plays Pok\u00e9mon": 2,
         "Carbon Eyes": 1,
         "Leia (apples)": 3,
-        "Polly": 5,
+        "Polly": 6,
         "YO!": 2,
         "HONK!!": 2,
         "Benjamin (bandana)": 2,
@@ -814,8 +816,8 @@
         "Rainbow Hairless": 1,
         "Moogle": 1
       },
-      "last_daily": "2026-11-12",
-      "pity": 1,
+      "last_daily": "2026-11-16",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -853,7 +855,7 @@
         "Ollidammara": 3,
         "Ellie as Moonmoon": 6,
         "Cerberus": 7,
-        "Flash": 4,
+        "Flash": 5,
         "David": 6,
         "LaCat: Hypnosis": 3,
         "Gabbro": 2,
@@ -932,7 +934,7 @@
         "LARGE Moogle": 2,
         " Benjamin (hidden)": 1,
         "Nananananananana": 1,
-        "Guardian Sphinx": 1,
+        "Guardian Sphinx": 2,
         "Leia hates dry food": 1,
         "Husky, Elkhound, German Shepherd": 3,
         "Spooky on a Spooky Skeleton": 1,
@@ -946,8 +948,8 @@
         "Crepuscule with Angie": 1,
         "Spooky likes any lap": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 2,
+      "last_daily": "2026-11-16",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -990,7 +992,7 @@
         "Maleficent": 4,
         "Batta": 2,
         "Ebi": 7,
-        "Gabbro": 5,
+        "Gabbro": 6,
         "Flash": 5,
         "Korok Couple": 1,
         "Kazoo David": 5,
@@ -1000,7 +1002,7 @@
         "Bilbo Bee": 4,
         "Nova Fangly": 2,
         "Sawyer": 5,
-        "LaCat: Wassup": 8,
+        "LaCat: Wassup": 9,
         "HONK!!": 2,
         "Willow": 4,
         "Ellie as Moonmoon": 3,
@@ -1010,7 +1012,7 @@
         "Coconut!": 8,
         "Capt Ben": 2,
         "Live Gloriously!": 5,
-        "Maru Merak Miss Ma'am Morden": 4,
+        "Maru Merak Miss Ma'am Morden": 5,
         "Benjamin (bandana)": 6,
         "Oreo": 3,
         "Ben": 2,
@@ -1088,10 +1090,11 @@
         "Food Confusion": 1,
         "Batta Bunny Kick": 1,
         "Aisling Belly": 1,
-        " Benjamin (hidden)": 1
+        " Benjamin (hidden)": 1,
+        "Happy Bisquick and Adam": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 1,
+      "last_daily": "2026-11-17",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1104,20 +1107,20 @@
         "Bellies": 1
       },
       "daily_quiz": {
-        "date": "2026-11-13",
+        "date": "2026-11-17",
         "type": "interval_chord_audio",
         "question": "What interval is this?",
-        "answer": "major third",
+        "answer": "major seventh",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 56,
-          "semitones": 4
+          "start_midi": 67,
+          "semitones": 11
         },
         "completed": true,
         "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 98,
+        "attempts": 102,
         "correct": 75
       },
       "question_history": [
@@ -1129,7 +1132,7 @@
       ]
     },
     "201094207857754112": {
-      "coins": 4,
+      "coins": 6,
       "inventory": {
         "LaCat: Wassup": 1,
         "Amanda": 1,
@@ -1153,20 +1156,21 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 5,
-        "correct": 4
+        "attempts": 8,
+        "correct": 6
       },
       "daily_quiz": {
-        "date": "2026-11-13",
-        "type": "minor_accidental",
-        "question": "How many flats does A minor have?",
-        "answer": "0",
-        "example": "!answer 4",
+        "date": "2026-11-16",
+        "type": "interval_audio",
+        "question": "What interval is this?",
+        "answer": "minor sixth",
+        "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "key_index": 0
+          "start_midi": 64,
+          "semitones": 8
         },
         "completed": true,
-        "result": "correct"
+        "result": "incorrect"
       }
     },
     "234795442221744130": {
@@ -1217,7 +1221,7 @@
         "Willow Snuggle": 1,
         "LaCat: Wassup": 6,
         "Ollidammara": 5,
-        "Artemis Dee": 4,
+        "Artemis Dee": 5,
         "Sadge Ryuu": 3,
         "Maleficent": 7,
         "Mishka": 4,
@@ -1292,8 +1296,8 @@
         "Nananananananana": 1,
         "YO!": 1
       },
-      "last_daily": "2026-11-12",
-      "pity": 1,
+      "last_daily": "2026-11-16",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1472,7 +1476,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 12,
+      "coins": 15,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 2,
@@ -1533,33 +1537,33 @@
         "Sake": 1,
         "Cutter": 1,
         "Cutter??": 1,
-        "Ollidammara": 1
+        "Ollidammara": 1,
+        "Where's My Churu": 1
       },
-      "last_daily": "2026-11-13",
+      "last_daily": "2026-11-16",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-13",
-        "type": "triads",
-        "question": "Listen to this triad. The bottom note is **F#**. What are the other two notes, in ascending order?",
-        "answer": "A C#",
-        "example": "!answer E G [separate notes with a space]",
+        "date": "2026-11-16",
+        "type": "repertoire",
+        "question": "What WMGSO piece is this? Include movement name if applicable.\nHint: ||F17||",
+        "answer": "Witchyworld and Mr. Patch",
+        "example": "Dummy!, A Suite in Time: Train Rush",
         "question_data": {
-          "midi_notes": [
-            66,
-            69,
-            73
-          ],
-          "quality": "minor",
-          "inversion": 0
+          "type": "repertoire",
+          "question_id": "repertoire:rep13.jpg",
+          "index": 12,
+          "hint": "F17",
+          "attachment": "rep13.jpg"
         },
         "completed": true,
-        "result": "correct"
+        "result": "correct",
+        "corrected_by": "96408456294064128"
       },
       "quiz_stats": {
-        "attempts": 46,
-        "correct": 42
+        "attempts": 49,
+        "correct": 45
       },
       "impatience": 1,
       "question_history": [
@@ -1579,11 +1583,14 @@
         "repertoire:rep17.jpg",
         "repertoire:rep12.jpg",
         "repertoire:rep16.jpg",
-        "repertoire:rep18.jpg"
+        "repertoire:rep18.jpg",
+        "repertoire:rep11.jpg",
+        "repertoire:rep3.jpg",
+        "repertoire:rep13.jpg"
       ]
     },
     "954136279296118885": {
-      "coins": 81,
+      "coins": 83,
       "inventory": {
         "Bynx": 7,
         "LaCat: Wassup": 4,
@@ -1615,7 +1622,7 @@
         "Polly": 2,
         "Amadeus2": 2,
         "Ivan": 2,
-        "Gabbro": 3,
+        "Gabbro": 4,
         "Carbon": 3,
         "Percy": 3,
         "Zelda": 2,
@@ -1675,10 +1682,11 @@
         "Carbon Eyes": 1,
         "Cutter Rascal Cuddle": 1,
         "Nananananananana": 1,
-        "Aisling's Squeaky Mouse": 1
+        "Aisling's Squeaky Mouse": 1,
+        "Aisling Fishy Cave": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 3,
+      "last_daily": "2026-11-17",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1687,26 +1695,26 @@
         "Forever Vacuuming": 1
       },
       "daily_quiz": {
-        "date": "2026-11-13",
+        "date": "2026-11-17",
         "type": "triads",
-        "question": "Listen to this triad. The bottom note is **F#**. What are the other two notes, in ascending order?",
-        "answer": "A C",
+        "question": "Listen to this triad. The bottom note is **C**. What are the other two notes, in ascending order?",
+        "answer": "E G",
         "example": "!answer E G [separate notes with a space]",
         "question_data": {
           "midi_notes": [
-            66,
-            69,
-            72
+            60,
+            64,
+            67
           ],
-          "quality": "diminished",
+          "quality": "major",
           "inversion": 0
         },
         "completed": true,
         "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 89,
-        "correct": 75
+        "attempts": 91,
+        "correct": 77
       },
       "question_history": [
         "transpose:sev16.jpg",
@@ -1770,7 +1778,7 @@
         "Maru Merak Miss Ma'am Morden": 5,
         "Ben": 2,
         "Santa Murphy": 2,
-        "Ollidammara": 2,
+        "Ollidammara": 3,
         "Ellie as Moonmoon": 3,
         "YO!": 2,
         "Capt Ben": 1,
@@ -1820,8 +1828,8 @@
         "Batta Bunny Kick": 1,
         "\u0250\u0287\u0287\u0250q": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 2,
+      "last_daily": "2026-11-14",
+      "pity": 3,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -1832,25 +1840,25 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-11-10",
+        "date": "2026-11-14",
         "type": "triads",
-        "question": "Listen to this triad. The bottom note is **C**. What are the other two notes, in ascending order?",
-        "answer": "E A",
+        "question": "Listen to this triad. The bottom note is **D**. What are the other two notes, in ascending order?",
+        "answer": "F# A#",
         "example": "!answer E G [separate notes with a space]",
         "question_data": {
           "midi_notes": [
-            72,
-            76,
-            81
+            62,
+            66,
+            70
           ],
-          "quality": "minor",
-          "inversion": 1
+          "quality": "augmented",
+          "inversion": 0
         },
         "completed": true,
         "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 40,
+        "attempts": 41,
         "correct": 33
       },
       "impatience": 1
@@ -1903,7 +1911,7 @@
         "Lego Polly": 2,
         "Sake+Ebi": 1,
         "He Looks Like He Needs A Newspaper": 1,
-        "Noodle": 1,
+        "Noodle": 2,
         "Gustave": 2,
         "Amadeus": 2,
         "Concert Dwarf": 1,
@@ -1918,23 +1926,25 @@
         "Zelda": 1,
         "Oreo": 1,
         "Loki Loodelally": 1,
-        "Begging Betty Waggles": 1
+        "Begging Betty Waggles": 1,
+        "Guardian Sphinx": 1,
+        "Food Confusion": 1
       },
-      "last_daily": "2026-11-13",
+      "last_daily": "2026-11-16",
       "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-13",
+        "date": "2026-11-16",
         "type": "triads",
-        "question": "Listen to this triad. The bottom note is **E**. What are the other two notes, in ascending order?",
-        "answer": "G A#",
+        "question": "Listen to this triad. The bottom note is **D**. What are the other two notes, in ascending order?",
+        "answer": "F G#",
         "example": "!answer E G [separate notes with a space]",
         "question_data": {
           "midi_notes": [
-            64,
-            67,
-            70
+            62,
+            65,
+            68
           ],
           "quality": "diminished",
           "inversion": 0
@@ -1943,8 +1953,8 @@
         "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 45,
-        "correct": 40
+        "attempts": 47,
+        "correct": 41
       },
       "question_history": [
         "transpose:sev24.jpg",
@@ -2280,7 +2290,7 @@
         "Zelda": 2,
         "YO!": 2,
         "Snow Kiss": 2,
-        "Benjamin (bandana)": 1,
+        "Benjamin (bandana)": 2,
         "Noodle": 2,
         "Oreo": 3,
         "Noodle plays Pok\u00e9mon": 2,
@@ -2303,7 +2313,7 @@
         "Are You Dragon Tales?": 1,
         "Carbon Eyes": 1,
         "Rainbow Hairless": 5,
-        "Aisling Fishy Cave": 1,
+        "Aisling Fishy Cave": 2,
         "Bella & Erin": 1,
         "Moogle": 1,
         "Gustave": 2,
@@ -2329,10 +2339,11 @@
         "Metal Gear Rascal": 1,
         "Cutter Rascal Cuddle": 1,
         " Benjamin (hidden)": 1,
-        "Leia hates dry food": 1
+        "Leia hates dry food": 1,
+        "Cutter": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 3,
+      "last_daily": "2026-11-16",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2370,7 +2381,7 @@
       ]
     },
     "247912247496540160": {
-      "coins": 16,
+      "coins": 18,
       "inventory": {
         "Artemis Dee": 3,
         "Kazoo David": 3,
@@ -2423,7 +2434,7 @@
         "A Wild Artemis": 2,
         "Betty": 3,
         "Sake+Ebi": 1,
-        "Ellie as Moonmoon": 1,
+        "Ellie as Moonmoon": 2,
         "Noodle": 3,
         "Willow Snuggle": 2,
         "HONK!!": 1,
@@ -2453,10 +2464,11 @@
         "\u0250\u0287\u0287\u0250q": 1,
         "LARGE Moogle": 1,
         "Awkward Teenage Nova": 1,
-        "Husky, Elkhound, German Shepherd": 1
+        "Husky, Elkhound, German Shepherd": 1,
+        "Spooky on a Spooky Skeleton": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 3,
+      "last_daily": "2026-11-16",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
@@ -2466,7 +2478,7 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-11-10",
+        "date": "2026-11-16",
         "type": "interval_chord_audio",
         "question": "What interval is this?",
         "answer": [
@@ -2476,15 +2488,15 @@
         ],
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 72,
+          "start_midi": 62,
           "semitones": 6
         },
         "completed": true,
         "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 26,
-        "correct": 22
+        "attempts": 28,
+        "correct": 24
       }
     },
     "743276168316190795": {
@@ -2946,7 +2958,7 @@
         "LaCat: Wassup": 5,
         "Objection!": 3,
         "Betty": 3,
-        "Bilbo Bee": 2,
+        "Bilbo Bee": 3,
         "Capt Ben": 2,
         "Bigger litterbox pls": 1,
         "Ellie as Moonmoon": 1,
@@ -2985,26 +2997,29 @@
         "Baby brother bother": 1,
         "Spooky likes any lap": 1
       },
-      "coins": 14,
-      "last_daily": "2026-11-13",
-      "pity": 2,
+      "coins": 15,
+      "last_daily": "2026-11-17",
+      "pity": 3,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-13",
-        "type": "interval_chord_audio",
+        "date": "2026-11-17",
+        "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "perfect fifth",
+        "answer": [
+          "major second",
+          "whole step"
+        ],
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 77,
-          "semitones": 7
+          "start_midi": 66,
+          "semitones": 2
         },
         "completed": true,
-        "result": "incorrect"
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 52,
-        "correct": 35
+        "attempts": 55,
+        "correct": 36
       },
       "achievement_claims": {
         "The B's": 1,
@@ -3047,7 +3062,7 @@
         "Loki Loodelally": 1,
         "Ben": 3,
         "Willow": 2,
-        "Artemis Dee": 3,
+        "Artemis Dee": 4,
         "David": 1,
         "Mishka": 1,
         "Howl": 2,
@@ -3107,8 +3122,8 @@
         "Leia hates dry food": 1,
         "Pet the Batta": 1
       },
-      "last_daily": "2026-11-13",
-      "pity": 1,
+      "last_daily": "2026-11-15",
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "impatience": 10,
