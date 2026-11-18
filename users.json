@@ -1959,10 +1959,11 @@
           "quality": "augmented",
           "inversion": 0
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 47,
+        "attempts": 48,
         "correct": 41
       },
       "question_history": [
