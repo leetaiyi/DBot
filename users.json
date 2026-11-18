@@ -698,10 +698,11 @@
           "start_midi": 58,
           "semitones": 8
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 8,
+        "attempts": 9,
         "correct": 7
       }
     },
