@@ -3018,10 +3018,11 @@
           "start_midi": 57,
           "semitones": 11
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 55,
+        "attempts": 56,
         "correct": 36
       },
       "achievement_claims": {
