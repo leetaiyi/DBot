@@ -2488,21 +2488,16 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-11-16",
+        "date": "2026-11-18",
         "type": "interval_chord_audio",
         "question": "What interval is this?",
-        "answer": [
-          "augmented fourth",
-          "diminished fifth",
-          "tritone"
-        ],
+        "answer": "octave",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 62,
-          "semitones": 6
+          "start_midi": 69,
+          "semitones": 12
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 28,
