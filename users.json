@@ -2361,22 +2361,21 @@
         "Bellies": 1
       },
       "daily_quiz": {
-        "date": "2026-11-12",
+        "date": "2026-11-18",
         "type": "triads",
-        "question": "Listen to this triad. The bottom note is **D#**. What are the other two notes, in ascending order?",
-        "answer": "G B",
+        "question": "Listen to this triad. The bottom note is **F**. What are the other two notes, in ascending order?",
+        "answer": "A C",
         "example": "!answer E G [separate notes with a space]",
         "question_data": {
           "midi_notes": [
-            63,
-            67,
-            71
+            65,
+            69,
+            72
           ],
-          "quality": "augmented",
+          "quality": "major",
           "inversion": 0
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 40,
