@@ -3006,7 +3006,7 @@
         "Spooky likes any lap": 1,
         "Awkward Teenage Nova": 1
       },
-      "coins": 15,
+      "coins": 16,
       "last_daily": "2026-11-19",
       "pity": 0,
       "blessed": false,
@@ -3020,11 +3020,12 @@
           "start_midi": 79,
           "semitones": 3
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 56,
-        "correct": 36
+        "attempts": 57,
+        "correct": 37
       },
       "achievement_claims": {
         "The B's": 1,
