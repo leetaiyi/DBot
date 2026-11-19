@@ -1741,7 +1741,7 @@
         "Howl": 5,
         "Batta": 5,
         "Cerberus": 4,
-        "Ivan": 3,
+        "Ivan": 4,
         "Willow": 3,
         "Keyboard Carbon": 2,
         "Bynx": 5,
@@ -1838,8 +1838,8 @@
         "\u0250\u0287\u0287\u0250q": 1,
         "We're really in it now. - Horatio": 1
       },
-      "last_daily": "2026-11-18",
-      "pity": 0,
+      "last_daily": "2026-11-19",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
