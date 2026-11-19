@@ -2243,7 +2243,7 @@
     "543627458583199764": {
       "coins": 10,
       "inventory": {
-        "Maleficent": 3,
+        "Maleficent": 4,
         "Capt Ben": 6,
         "Artemis Dee": 3,
         "A Wild Artemis": 3,
@@ -2353,8 +2353,8 @@
         "Leia hates dry food": 1,
         "Cutter": 1
       },
-      "last_daily": "2026-11-18",
-      "pity": 3,
+      "last_daily": "2026-11-19",
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
