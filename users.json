@@ -1484,7 +1484,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 17,
+      "coins": 18,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 2,
@@ -1567,11 +1567,12 @@
           "quality": "minor",
           "inversion": 0
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 51,
-        "correct": 47
+        "attempts": 52,
+        "correct": 48
       },
       "impatience": 1,
       "question_history": [
