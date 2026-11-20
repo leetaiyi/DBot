@@ -3012,17 +3012,20 @@
       "pity": 0,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-19",
+        "date": "2026-11-20",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "minor third",
+        "answer": [
+          "augmented fourth",
+          "diminished fifth",
+          "tritone"
+        ],
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 79,
-          "semitones": 3
+          "start_midi": 69,
+          "semitones": 6
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 57,
