@@ -3007,7 +3007,7 @@
         "Awkward Teenage Nova": 1,
         "He Looks Like He Needs A Newspaper": 1
       },
-      "coins": 16,
+      "coins": 17,
       "last_daily": "2026-11-20",
       "pity": 0,
       "blessed": false,
@@ -3025,11 +3025,12 @@
           "start_midi": 69,
           "semitones": 6
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 57,
-        "correct": 37
+        "attempts": 58,
+        "correct": 38
       },
       "achievement_claims": {
         "The B's": 1,
