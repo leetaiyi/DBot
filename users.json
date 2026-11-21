@@ -477,7 +477,7 @@
       "pity": 0
     },
     "125459449023299584": {
-      "coins": 12,
+      "coins": 11,
       "inventory": {
         "Artemis Dee": 3,
         "LaCat: Wassup": 5,
@@ -507,7 +507,7 @@
         "Sadge Ryuu": 2,
         "Bynx": 3,
         "Batta": 4,
-        "Sawyer": 2,
+        "Sawyer": 3,
         "Percy": 5,
         "Ivan": 5,
         "Willow Snuggle": 7,
@@ -590,7 +590,7 @@
         "Spooky on a Spooky Skeleton": 1
       },
       "last_daily": "2026-11-21",
-      "pity": 0,
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
