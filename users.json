@@ -1163,7 +1163,7 @@
       "pulls": 0,
       "blessed": false,
       "quiz_stats": {
-        "attempts": 12,
+        "attempts": 13,
         "correct": 9
       },
       "daily_quiz": {
@@ -1176,7 +1176,8 @@
           "start_midi": 74,
           "semitones": 10
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       }
     },
     "234795442221744130": {
