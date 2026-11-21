@@ -1167,17 +1167,16 @@
         "correct": 9
       },
       "daily_quiz": {
-        "date": "2026-11-20",
+        "date": "2026-11-21",
         "type": "interval_audio",
         "question": "What interval is this?",
         "answer": "minor seventh",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 55,
+          "start_midi": 74,
           "semitones": 10
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       }
     },
     "234795442221744130": {
