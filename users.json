@@ -2496,17 +2496,21 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-11-20",
-        "type": "interval_chord_audio",
-        "question": "What interval is this?",
-        "answer": "octave",
-        "example": "major third, minor seventh, perfect fifth",
+        "date": "2026-11-21",
+        "type": "triads",
+        "question": "Listen to this triad. The bottom note is **C**. What are the other two notes, in ascending order?",
+        "answer": "D# F#",
+        "example": "!answer E G [separate notes with a space]",
         "question_data": {
-          "start_midi": 65,
-          "semitones": 12
+          "midi_notes": [
+            60,
+            63,
+            66
+          ],
+          "quality": "diminished",
+          "inversion": 0
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 30,
