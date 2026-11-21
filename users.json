@@ -3002,7 +3002,7 @@
         "Gustave Dodge": 1,
         "Guardian Sphinx": 1,
         "Pet the Batta": 1,
-        "Aisling Fishy Cave": 2,
+        "Aisling Fishy Cave": 3,
         "Mizu": 1,
         "Nananananananana": 1,
         "Are You Dragon Tales?": 1,
@@ -3012,8 +3012,8 @@
         "He Looks Like He Needs A Newspaper": 1
       },
       "coins": 18,
-      "last_daily": "2026-11-20",
-      "pity": 0,
+      "last_daily": "2026-11-21",
+      "pity": 1,
       "blessed": false,
       "daily_quiz": {
         "date": "2026-11-21",
