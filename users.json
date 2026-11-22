@@ -3081,7 +3081,7 @@
       "inventory": {
         "Loki Loodelally": 1,
         "Ben": 3,
-        "Willow": 2,
+        "Willow": 3,
         "Artemis Dee": 4,
         "David": 1,
         "Mishka": 1,
@@ -3145,8 +3145,8 @@
         "Benjamin (bandana)": 1,
         "Mal-letstation": 1
       },
-      "last_daily": "2026-11-20",
-      "pity": 0,
+      "last_daily": "2026-11-22",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "impatience": 10,
