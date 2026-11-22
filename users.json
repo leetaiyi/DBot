@@ -1484,7 +1484,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 20,
+      "coins": 19,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 2,
@@ -1547,10 +1547,11 @@
         "Cutter??": 1,
         "Ollidammara": 1,
         "Where's My Churu": 1,
-        "Masabone": 1
+        "Masabone": 1,
+        "We're really in it now. - Horatio": 1
       },
       "last_daily": "2026-11-22",
-      "pity": 2,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
