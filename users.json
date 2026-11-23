@@ -2401,7 +2401,7 @@
       ]
     },
     "247912247496540160": {
-      "coins": 21,
+      "coins": 20,
       "inventory": {
         "Artemis Dee": 4,
         "Kazoo David": 3,
@@ -2460,7 +2460,7 @@
         "HONK!!": 1,
         "King Baker": 1,
         "Bigger litterbox pls": 2,
-        "Loki Loodelally": 1,
+        "Loki Loodelally": 2,
         "Amadeus2": 1,
         "Destruction and the Birds": 2,
         "LaCat: Belleh": 1,
@@ -2492,7 +2492,7 @@
         "We're really in it now. - Horatio": 1
       },
       "last_daily": "2026-11-23",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
