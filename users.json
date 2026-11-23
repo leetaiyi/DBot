@@ -1486,7 +1486,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 19,
+      "coins": 18,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 2,
@@ -1552,7 +1552,8 @@
         "Masabone": 1,
         "We're really in it now. - Horatio": 1,
         "Flash": 1,
-        "Mizu": 1
+        "Mizu": 1,
+        "Leia (apples)": 1
       },
       "last_daily": "2026-11-23",
       "pity": 0,
