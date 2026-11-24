@@ -691,17 +691,16 @@
         "The LuxenBieles": 1
       },
       "daily_quiz": {
-        "date": "2026-11-18",
+        "date": "2026-11-24",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "minor sixth",
+        "answer": "minor third",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 58,
-          "semitones": 8
+          "start_midi": 57,
+          "semitones": 3
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 9,
