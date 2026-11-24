@@ -2505,22 +2505,21 @@
         "Nova The Goon": 1
       },
       "daily_quiz": {
-        "date": "2026-11-23",
+        "date": "2026-11-24",
         "type": "triads",
-        "question": "Listen to this triad. The bottom note is **B**. What are the other two notes, in ascending order?",
-        "answer": "D# F#",
+        "question": "Listen to this triad. The bottom note is **D#**. What are the other two notes, in ascending order?",
+        "answer": "G A#",
         "example": "!answer E G [separate notes with a space]",
         "question_data": {
           "midi_notes": [
-            71,
-            75,
-            78
+            63,
+            67,
+            70
           ],
           "quality": "major",
           "inversion": 0
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 32,
