@@ -1486,7 +1486,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 19,
+      "coins": 18,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 2,
@@ -1554,7 +1554,8 @@
         "Flash": 1,
         "Mizu": 1,
         "Leia (apples)": 1,
-        "Aisling Fishy Cave": 1
+        "Aisling Fishy Cave": 1,
+        "Spooky likes any lap": 1
       },
       "last_daily": "2026-11-24",
       "pity": 0,
