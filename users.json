@@ -1124,10 +1124,11 @@
           "start_midi": 55,
           "semitones": 10
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 108,
+        "attempts": 109,
         "correct": 75
       },
       "question_history": [
