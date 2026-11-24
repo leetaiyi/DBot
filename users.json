@@ -645,7 +645,7 @@
         "Objection!": 2,
         "Betty": 1,
         "LaCat: Hypnosis": 2,
-        "Sawyer": 3,
+        "Sawyer": 4,
         "Percy": 1,
         "Sake+Ebi": 1,
         "Mishka": 3,
@@ -683,8 +683,8 @@
         "Nananananananana": 1,
         "David": 1
       },
-      "last_daily": "2026-11-18",
-      "pity": 0,
+      "last_daily": "2026-11-24",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
