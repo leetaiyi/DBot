@@ -588,10 +588,11 @@
         "Camouflaged": 1,
         "Food Confusion": 1,
         "\u0250\u0287\u0287\u0250q": 1,
-        "Spooky on a Spooky Skeleton": 1
+        "Spooky on a Spooky Skeleton": 1,
+        "Contemplating Existence": 1
       },
-      "last_daily": "2026-11-24",
-      "pity": 4,
+      "last_daily": "2026-11-25",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
