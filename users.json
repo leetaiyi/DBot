@@ -3090,7 +3090,7 @@
       "coins": 0,
       "inventory": {
         "Loki Loodelally": 1,
-        "Ben": 3,
+        "Ben": 4,
         "Willow": 3,
         "Artemis Dee": 4,
         "David": 1,
@@ -3156,8 +3156,8 @@
         "Mal-letstation": 1,
         "Amadeus2": 1
       },
-      "last_daily": "2026-11-24",
-      "pity": 0,
+      "last_daily": "2026-11-25",
+      "pity": 1,
       "pulls": 0,
       "blessed": false,
       "impatience": 10,
