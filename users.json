@@ -1171,17 +1171,16 @@
         "correct": 11
       },
       "daily_quiz": {
-        "date": "2026-11-24",
+        "date": "2026-11-25",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "major third",
+        "answer": "perfect fifth",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 79,
-          "semitones": 4
+          "start_midi": 64,
+          "semitones": 7
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       }
     },
     "234795442221744130": {
