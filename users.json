@@ -3036,17 +3036,16 @@
       "pity": 3,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-23",
+        "date": "2026-11-25",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "perfect fourth",
+        "answer": "octave",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 60,
-          "semitones": 5
+          "start_midi": 57,
+          "semitones": 12
         },
-        "completed": true,
-        "result": "incorrect"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 60,
