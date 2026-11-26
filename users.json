@@ -823,10 +823,11 @@
         "Husky, Elkhound, German Shepherd": 1,
         "Rainbow Hairless": 1,
         "Moogle": 1,
-        "Leia hates dry food": 1
+        "Leia hates dry food": 1,
+        " Benjamin (hidden)": 1
       },
-      "last_daily": "2026-11-23",
-      "pity": 2,
+      "last_daily": "2026-11-26",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "achievement_claims": {
