@@ -3056,10 +3056,11 @@
           "start_midi": 62,
           "semitones": 4
         },
-        "completed": false
+        "completed": true,
+        "result": "incorrect"
       },
       "quiz_stats": {
-        "attempts": 61,
+        "attempts": 62,
         "correct": 40
       },
       "achievement_claims": {
