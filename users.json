@@ -2265,7 +2265,7 @@
       }
     },
     "543627458583199764": {
-      "coins": 15,
+      "coins": 16,
       "inventory": {
         "Maleficent": 4,
         "Capt Ben": 6,
@@ -2406,11 +2406,12 @@
           "quality": "diminished",
           "inversion": 0
         },
-        "completed": false
+        "completed": true,
+        "result": "correct"
       },
       "quiz_stats": {
-        "attempts": 46,
-        "correct": 40
+        "attempts": 47,
+        "correct": 41
       },
       "question_history": [
         "transpose:sev24.jpg"
