@@ -3047,17 +3047,16 @@
       "pity": 3,
       "blessed": false,
       "daily_quiz": {
-        "date": "2026-11-25",
+        "date": "2026-11-27",
         "type": "interval_audio",
         "question": "What interval is this?",
-        "answer": "octave",
+        "answer": "major third",
         "example": "major third, minor seventh, perfect fifth",
         "question_data": {
-          "start_midi": 57,
-          "semitones": 12
+          "start_midi": 62,
+          "semitones": 4
         },
-        "completed": true,
-        "result": "correct"
+        "completed": false
       },
       "quiz_stats": {
         "attempts": 61,
