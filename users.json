@@ -1900,7 +1900,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 16,
+      "coins": 15,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1968,7 +1968,8 @@
         "Pet the Batta": 1,
         "Kitchen Cat": 1,
         "Cutter Rascal Cuddle": 1,
-        "Achelois": 1
+        "Achelois": 1,
+        "Where's My Churu": 1
       },
       "last_daily": "2026-11-28",
       "pity": 0,
