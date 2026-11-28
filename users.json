@@ -1497,7 +1497,7 @@
       "blessed": false
     },
     "484481393632608276": {
-      "coins": 20,
+      "coins": 19,
       "inventory": {
         "Zelda": 2,
         "LaCat: Hypnosis": 2,
@@ -1512,7 +1512,7 @@
         "Ellie as Moonmoon": 3,
         "Amadeus2": 2,
         "Maru Merak Miss Ma'am Morden": 3,
-        "YO!": 2,
+        "YO!": 3,
         "LaCat: Wassup": 4,
         "Tomyris": 2,
         "Ebi": 2,
@@ -1570,7 +1570,7 @@
         "Sake+Ebi": 1
       },
       "last_daily": "2026-11-28",
-      "pity": 1,
+      "pity": 2,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
