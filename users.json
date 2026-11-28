@@ -176,7 +176,7 @@
         "Guardian Sphinx": 1,
         "Cookie Strife": 1,
         "Bella & Erin": 2,
-        "Food Confusion": 2,
+        "Food Confusion": 3,
         "Spooky on a Spooky Skeleton": 1,
         "Cutter??": 1,
         "Husky, Elkhound, German Shepherd": 2,
@@ -190,8 +190,8 @@
         "Lego Polly": 1
       },
       "coins": 0,
-      "last_daily": "2026-11-27",
-      "pity": 0,
+      "last_daily": "2026-11-28",
+      "pity": 1,
       "blessed": false,
       "achievement_claims": {
         "The LuxenBieles": 1
