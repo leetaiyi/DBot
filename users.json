@@ -1900,7 +1900,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 12,
+      "coins": 11,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1922,7 +1922,7 @@
         "Leia (apples)": 3,
         "Percy": 2,
         "Sawyer": 2,
-        "David": 3,
+        "David": 4,
         "Capt Ben": 2,
         "Ebi": 1,
         "Sad Jamin": 1,
@@ -1972,7 +1972,7 @@
         "Where's My Churu": 1
       },
       "last_daily": "2026-11-28",
-      "pity": 3,
+      "pity": 4,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
