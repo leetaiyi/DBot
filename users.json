@@ -1900,7 +1900,7 @@
       "impatience": 1
     },
     "370310581716254723": {
-      "coins": 11,
+      "coins": 10,
       "inventory": {
         "Bynx": 4,
         "Ben": 2,
@@ -1969,10 +1969,11 @@
         "Kitchen Cat": 1,
         "Cutter Rascal Cuddle": 1,
         "Achelois": 1,
-        "Where's My Churu": 1
+        "Where's My Churu": 1,
+        "Cerberus": 1
       },
       "last_daily": "2026-11-28",
-      "pity": 4,
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
