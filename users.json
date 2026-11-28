@@ -1967,10 +1967,11 @@
         "Food Confusion": 1,
         "Pet the Batta": 1,
         "Kitchen Cat": 1,
-        "Cutter Rascal Cuddle": 1
+        "Cutter Rascal Cuddle": 1,
+        "Achelois": 1
       },
-      "last_daily": "2026-11-26",
-      "pity": 1,
+      "last_daily": "2026-11-28",
+      "pity": 0,
       "pulls": 0,
       "blessed": false,
       "daily_quiz": {
